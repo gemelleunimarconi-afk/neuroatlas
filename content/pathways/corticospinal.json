@@ -1,0 +1,92 @@
+{
+ "id": "corticospinal",
+ "names": {
+  "it": "Via piramidale (corticospinale)",
+  "la": "Tractus corticospinalis",
+  "en": "Corticospinal tract"
+ },
+ "summary": "Via motoria discendente del movimento volontario. Il primo neurone è nella corteccia (soprattutto giro precentrale); la maggior parte delle fibre incrocia nella decussazione delle piramidi e scende nel midollo come tratto corticospinale laterale, terminando sui motoneuroni del lato opposto alla corteccia di origine.",
+ "tracks": [
+  {
+   "label": "Dalla corteccia motoria sinistra",
+   "color": "#ff5a36",
+   "points": [
+    {
+     "ref": "precentral-gyrus",
+     "side": "L",
+     "label": "Corteccia motoria primaria",
+     "note": "Primo neurone: cellule piramidali dello strato V."
+    },
+    {
+     "ref": "internal-capsule",
+     "side": "L",
+     "label": "Capsula interna, braccio posteriore",
+     "note": "Le fibre convergono dalla corona radiata."
+    },
+    {
+     "ref": "peduncle-of-midbrain",
+     "side": "M",
+     "label": "Piede del peduncolo cerebrale",
+     "note": "Porzione intermedia del crus cerebri.",
+     "shift": [
+      13,
+      0,
+      2
+     ]
+    },
+    {
+     "ref": "pons",
+     "side": "M",
+     "label": "Base del ponte",
+     "note": "Le fibre si separano in fascetti tra i nuclei pontini.",
+     "shift": [
+      6,
+      0,
+      9
+     ]
+    },
+    {
+     "ref": "medulla-oblongata",
+     "side": "M",
+     "label": "Piramide bulbare",
+     "shift": [
+      4,
+      4,
+      6
+     ]
+    },
+    {
+     "ref": "medulla-oblongata",
+     "side": "M",
+     "label": "Decussazione delle piramidi",
+     "note": "Qui incrocia la maggior parte delle fibre.",
+     "at": "bottom",
+     "shift": [
+      0,
+      4,
+      3
+     ]
+    },
+    {
+     "ref": "medulla-oblongata",
+     "side": "M",
+     "label": "Tratto corticospinale laterale (midollo)",
+     "note": "Prosegue nel cordone laterale del lato opposto.",
+     "at": "bottom",
+     "shift": [
+      -6,
+      -14,
+      -2
+     ]
+    }
+   ]
+  }
+ ],
+ "kind": "schematic",
+ "review": "draft",
+ "sources": [
+  "kandel",
+  "blumenfeld",
+  "purves"
+ ]
+}

@@ -1,0 +1,89 @@
+{
+  "id": "substantia-nigra",
+  "names": {
+    "it": "Sostanza nera",
+    "la": "Substantia nigra",
+    "en": "Substantia nigra",
+    "synonyms": [
+      "sostanza nera di Sömmerring"
+    ]
+  },
+  "parent": "midbrain",
+  "layer": "brainstem",
+  "side": "bilateral",
+  "level": 1,
+  "location": "Mesencefalo, per tutta la sua estensione rostrocaudale. È una lamina di sostanza grigia interposta tra il tegmento, dorsalmente, e il piede del peduncolo cerebrale (*crus cerebri*), ventralmente. Comprende una parte compatta (*pars compacta*), dorsale, ricca di neuroni dopaminergici pigmentati di neuromelanina, e una parte reticolata (*pars reticulata*), ventrale, GABAergica.",
+  "relations": [
+    {
+      "direction": "ventrale",
+      "structureId": "peduncle-of-midbrain",
+      "text": "Piede del peduncolo cerebrale, con le fibre corticospinali, corticonucleari e corticopontine."
+    },
+    {
+      "direction": "dorsomediale",
+      "structureId": "red-nucleus",
+      "text": "Tegmento del mesencefalo e nucleo rosso."
+    },
+    {
+      "direction": "rostrale",
+      "structureId": "subthalamic-nucleus",
+      "text": "Nucleo subtalamico."
+    }
+  ],
+  "function": "La parte compatta modula lo striato con la dopamina: facilita la via diretta (recettori D1) e inibisce la via indiretta (recettori D2), con effetto netto di facilitazione del movimento. La parte reticolata è, con il globo pallido interno, un nucleo di uscita dei nuclei della base: inibisce tonicamente il talamo e il collicolo superiore, contribuendo al controllo dei movimenti saccadici.",
+  "connections": [
+    {
+      "type": "efferent",
+      "targetId": "putamen",
+      "via": "via nigrostriatale",
+      "text": "Dalla parte compatta allo striato (caudato e putamen): proiezione dopaminergica."
+    },
+    {
+      "type": "afferent",
+      "targetId": "caudate-nucleus",
+      "text": "Dallo striato alla parte reticolata (GABA, via diretta) e dal nucleo subtalamico (glutammato)."
+    },
+    {
+      "type": "efferent",
+      "targetId": "ventral-anterior-thalamic-nucleus",
+      "text": "Dalla parte reticolata ai nuclei ventrale anteriore e ventrale laterale del talamo (GABA)."
+    },
+    {
+      "type": "efferent",
+      "targetId": "superior-colliculus",
+      "text": "Dalla parte reticolata al collicolo superiore (GABA)."
+    }
+  ],
+  "bloodSupply": [
+    {
+      "arteryId": "posteromedial-central-branch-of-posterior-cerebral-artery",
+      "text": "Rami perforanti paramediani provenienti dall'apice dell'arteria basilare e dal tratto iniziale dell'arteria cerebrale posteriore."
+    }
+  ],
+  "clinical": [
+    {
+      "title": "Malattia di Parkinson",
+      "text": "Degenerazione dei neuroni dopaminergici della parte compatta, con corpi di Lewy; macroscopicamente la sostanza nera appare depigmentata. Clinicamente bradicinesia, rigidità, tremore a riposo e instabilità posturale."
+    },
+    {
+      "title": "Parkinsonismi",
+      "text": "Quadri simili possono derivare da farmaci antidopaminergici, da lesioni vascolari o da tossici che colpiscono i neuroni dopaminergici, come l'MPTP."
+    }
+  ],
+  "pathways": [
+    "basal-ganglia-direct",
+    "basal-ganglia-indirect"
+  ],
+  "brodmann": [],
+  "tags": [
+    "nuclei della base",
+    "mesencefalo",
+    "dopamina"
+  ],
+  "sources": [
+    "standring",
+    "kandel",
+    "purves"
+  ],
+  "review": "draft"
+}

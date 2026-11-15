@@ -1,0 +1,70 @@
+{
+ "id": "basal-ganglia-indirect",
+ "names": {
+  "it": "Nuclei della base: via indiretta",
+  "en": "Basal ganglia indirect pathway"
+ },
+ "summary": "Circuito che frena il movimento. Lo striato inibisce il globo pallido esterno, che smette di inibire il nucleo subtalamico; questo eccita il globo pallido interno, che aumenta l'inibizione sul talamo. La dopamina, sui recettori D2, inibisce questa via.",
+ "tracks": [
+  {
+   "label": "Via indiretta",
+   "color": "#ff9f1a",
+   "points": [
+    {
+     "ref": "precentral-gyrus",
+     "side": "L",
+     "label": "Corteccia",
+     "note": "Proiezione glutammatergica."
+    },
+    {
+     "ref": "putamen",
+     "side": "L",
+     "label": "Striato (putamen)",
+     "note": "Neuroni spinosi medi GABAergici, recettori D2."
+    },
+    {
+     "ref": "globus-pallidus-pars-externa",
+     "side": "L",
+     "label": "Globo pallido esterno",
+     "note": "Viene inibito."
+    },
+    {
+     "ref": "subthalamic-nucleus",
+     "side": "L",
+     "label": "Nucleo subtalamico",
+     "note": "Disinibito: è glutammatergico."
+    },
+    {
+     "ref": "globus-pallidus-pars-interna",
+     "side": "L",
+     "label": "Globo pallido interno",
+     "note": "Viene eccitato."
+    },
+    {
+     "ref": "ventral-lateral-thalamic-nucleus",
+     "side": "L",
+     "label": "Talamo ventrale laterale e ventrale anteriore",
+     "note": "Più inibito."
+    },
+    {
+     "ref": "precentral-gyrus",
+     "side": "L",
+     "label": "Corteccia motoria",
+     "note": "Minore attivazione.",
+     "shift": [
+      0,
+      -6,
+      6
+     ]
+    }
+   ]
+  }
+ ],
+ "kind": "schematic",
+ "review": "draft",
+ "sources": [
+  "kandel",
+  "blumenfeld",
+  "purves"
+ ]
+}

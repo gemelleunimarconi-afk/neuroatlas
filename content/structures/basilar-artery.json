@@ -1,0 +1,87 @@
+{
+  "id": "basilar-artery",
+  "names": {
+    "it": "Arteria basilare",
+    "la": "Arteria basilaris",
+    "en": "Basilar artery",
+    "synonyms": [
+      "tronco basilare"
+    ]
+  },
+  "parent": "vertebrobasilar-system",
+  "layer": "vessels",
+  "side": "midline",
+  "level": 1,
+  "location": "Si forma all'altezza del solco bulbopontino dalla confluenza delle due arterie vertebrali. Sale sulla linea mediana nel solco basilare del ponte, entro la cisterna prepontina, tra il ponte e il clivus. Termina al margine superiore del ponte biforcandosi nelle due arterie cerebrali posteriori.",
+  "relations": [
+    {
+      "direction": "dorsale",
+      "structureId": "pons",
+      "text": "Faccia ventrale del ponte."
+    },
+    {
+      "direction": "ventrale",
+      "text": "Clivus."
+    },
+    {
+      "direction": "caudale",
+      "structureId": "vertebral-artery",
+      "text": "Arterie vertebrali, che la formano."
+    },
+    {
+      "direction": "rostrale",
+      "structureId": "precommunicating-part-of-posterior-cerebral-artery",
+      "text": "Arterie cerebrali posteriori. Il nervo oculomotore (III) emerge passando tra l'arteria cerebrale posteriore e l'arteria cerebellare superiore."
+    }
+  ],
+  "function": "Tronco principale del circolo posteriore (vertebrobasilare). Con i suoi rami irrora ponte, parte del mesencefalo, cervelletto e orecchio interno e, attraverso le arterie cerebrali posteriori, talamo, lobo occipitale e parte inferomediale del lobo temporale. Tramite le arterie comunicanti posteriori partecipa al poligono di Willis (*circulus arteriosus cerebri*).",
+  "connections": [
+    {
+      "type": "efferent",
+      "targetId": "anterior-inferior-cerebellar-artery",
+      "text": "Arteria cerebellare inferiore anteriore (AICA); da questa origina di frequente l'arteria labirintica."
+    },
+    {
+      "type": "efferent",
+      "targetId": "medial-branch-of-pontine-artery",
+      "text": "Arterie pontine: rami paramediani e circonferenziali."
+    },
+    {
+      "type": "efferent",
+      "targetId": "superior-cerebellar-artery",
+      "text": "Arteria cerebellare superiore, subito prima della biforcazione."
+    },
+    {
+      "type": "efferent",
+      "targetId": "precommunicating-part-of-posterior-cerebral-artery",
+      "text": "Arterie cerebrali posteriori, rami terminali."
+    }
+  ],
+  "bloodSupply": [],
+  "clinical": [
+    {
+      "title": "Occlusione dell'arteria basilare",
+      "text": "Può causare coma, tetraparesi, deficit dei nervi cranici e disturbi oculomotori; se l'infarto interessa la base del ponte bilateralmente ne risulta la sindrome locked-in."
+    },
+    {
+      "title": "Sindrome dell'apice della basilare",
+      "text": "Un embolo fermo alla biforcazione causa ischemia di mesencefalo, talamo e lobi occipitali: alterazione della vigilanza, disturbi oculomotori e pupillari, deficit visivi."
+    },
+    {
+      "title": "Aneurisma dell'apice della basilare",
+      "text": "È la sede più frequente degli aneurismi del circolo posteriore; può comprimere il nervo oculomotore."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [],
+  "tags": [
+    "vascolarizzazione",
+    "circolo posteriore",
+    "poligono di Willis"
+  ],
+  "sources": [
+    "standring",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

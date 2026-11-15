@@ -1,0 +1,77 @@
+{
+ "id": "spinothalamic",
+ "names": {
+  "it": "Via spinotalamica",
+  "la": "Tractus spinothalamicus",
+  "en": "Spinothalamic tract"
+ },
+ "summary": "Via ascendente del dolore, della temperatura e del tatto grossolano. Il secondo neurone, nel corno dorsale, incrocia già nel midollo attraverso la commessura bianca anteriore e sale nel cordone anterolaterale del lato opposto fino al talamo.",
+ "tracks": [
+  {
+   "label": "Dalla metà destra del corpo",
+   "color": "#b25cff",
+   "points": [
+    {
+     "ref": "medulla-oblongata",
+     "side": "M",
+     "label": "Cordone anterolaterale (midollo)",
+     "note": "Le fibre hanno già incrociato nel midollo.",
+     "at": "bottom",
+     "shift": [
+      6,
+      -14,
+      2
+     ]
+    },
+    {
+     "ref": "medulla-oblongata",
+     "side": "M",
+     "label": "Bulbo laterale",
+     "shift": [
+      8,
+      0,
+      0
+     ]
+    },
+    {
+     "ref": "pons",
+     "side": "M",
+     "label": "Tegmento del ponte, laterale",
+     "shift": [
+      11,
+      0,
+      -4
+     ]
+    },
+    {
+     "ref": "part-of-midbrain",
+     "side": "M",
+     "label": "Mesencefalo laterale",
+     "shift": [
+      14,
+      0,
+      -5
+     ]
+    },
+    {
+     "ref": "ventral-posterolateral-thalamic-nucleus",
+     "side": "L",
+     "label": "Nucleo ventrale posterolaterale (VPL)",
+     "note": "Terzo neurone."
+    },
+    {
+     "ref": "postcentral-gyrus",
+     "side": "L",
+     "label": "Corteccia somatosensoriale primaria"
+    }
+   ]
+  }
+ ],
+ "kind": "schematic",
+ "review": "draft",
+ "sources": [
+  "kandel",
+  "blumenfeld",
+  "purves"
+ ]
+}

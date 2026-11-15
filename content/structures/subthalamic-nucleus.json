@@ -1,0 +1,92 @@
+{
+  "id": "subthalamic-nucleus",
+  "names": {
+    "it": "Nucleo subtalamico",
+    "la": "Nucleus subthalamicus",
+    "en": "Subthalamic nucleus",
+    "synonyms": [
+      "corpo di Luys",
+      "STN"
+    ]
+  },
+  "parent": "subthalamus",
+  "layer": "diencephalon",
+  "side": "bilateral",
+  "level": 2,
+  "location": "Piccolo nucleo a forma di lente biconvessa nel subtalamo. Si trova ventralmente al talamo, medialmente alla capsula interna nel punto in cui questa prosegue nel peduncolo cerebrale, e dorsalmente e rostralmente alla sostanza nera.",
+  "relations": [
+    {
+      "direction": "dorsale",
+      "text": "Zona incerta e fascicolo lenticolare, che lo separano dal talamo."
+    },
+    {
+      "direction": "ventrolaterale",
+      "structureId": "internal-capsule",
+      "text": "Capsula interna e sua continuazione nel peduncolo cerebrale."
+    },
+    {
+      "direction": "ventrale e caudale",
+      "structureId": "substantia-nigra",
+      "text": "Sostanza nera."
+    },
+    {
+      "direction": "mediale e caudale",
+      "structureId": "red-nucleus",
+      "text": "Nucleo rosso."
+    }
+  ],
+  "function": "È l'unico nucleo dei nuclei della base con neuroni di proiezione eccitatori (glutammatergici). Eccitando i nuclei di uscita (globo pallido interno e parte reticolata della sostanza nera) aumenta l'inibizione sul talamo e quindi frena il movimento. Fa parte della via indiretta e della via iperdiretta.",
+  "connections": [
+    {
+      "type": "afferent",
+      "targetId": "globus-pallidus-pars-externa",
+      "via": "via indiretta",
+      "text": "Afferenze GABAergiche inibitorie dal globo pallido esterno."
+    },
+    {
+      "type": "afferent",
+      "via": "via iperdiretta",
+      "text": "Afferenze glutammatergiche dirette dalla corteccia motoria e premotoria."
+    },
+    {
+      "type": "efferent",
+      "targetId": "globus-pallidus-pars-interna",
+      "text": "Proiezioni glutammatergiche al globo pallido interno e alla parte reticolata della sostanza nera."
+    },
+    {
+      "type": "reciprocal",
+      "targetId": "globus-pallidus-pars-externa",
+      "text": "Proiezione eccitatoria di ritorno al globo pallido esterno."
+    }
+  ],
+  "bloodSupply": [
+    {
+      "text": "Rami perforanti delle arterie corioidea anteriore, comunicante posteriore e cerebrale posteriore."
+    }
+  ],
+  "clinical": [
+    {
+      "title": "Emiballismo",
+      "text": "La lesione del nucleo, tipicamente un piccolo infarto, causa movimenti involontari ampi e violenti degli arti prossimali del lato opposto."
+    },
+    {
+      "title": "Stimolazione cerebrale profonda",
+      "text": "Il nucleo subtalamico è un bersaglio della stimolazione ad alta frequenza nella malattia di Parkinson in fase avanzata."
+    }
+  ],
+  "pathways": [
+    "basal-ganglia-indirect"
+  ],
+  "brodmann": [],
+  "tags": [
+    "nuclei della base",
+    "subtalamo",
+    "diencefalo"
+  ],
+  "sources": [
+    "kandel",
+    "nieuwenhuys",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

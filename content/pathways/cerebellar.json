@@ -1,0 +1,89 @@
+{
+ "id": "cerebellar",
+ "names": {
+  "it": "Circuito cortico-ponto-cerebellare",
+  "en": "Cortico-ponto-cerebellar loop"
+ },
+ "summary": "Anello tra corteccia cerebrale e cervelletto. Incrocia due volte, nel ponte e nella decussazione dei peduncoli cerebellari superiori: per questo ogni emisfero cerebellare controlla il lato omolaterale del corpo.",
+ "tracks": [
+  {
+   "label": "Dalla corteccia sinistra",
+   "color": "#ff8a3d",
+   "points": [
+    {
+     "ref": "precentral-gyrus",
+     "side": "L",
+     "label": "Corteccia cerebrale"
+    },
+    {
+     "ref": "internal-capsule",
+     "side": "L",
+     "label": "Capsula interna"
+    },
+    {
+     "ref": "pons",
+     "side": "M",
+     "label": "Nuclei basilari del ponte",
+     "shift": [
+      6,
+      2,
+      8
+     ]
+    },
+    {
+     "ref": "pons",
+     "side": "M",
+     "label": "Incrocio nel ponte",
+     "shift": [
+      -8,
+      0,
+      2
+     ]
+    },
+    {
+     "ref": "cerebellar-lobule-viia-crusi-l1",
+     "side": "R",
+     "label": "Corteccia dell'emisfero cerebellare destro",
+     "note": "Attraverso il peduncolo cerebellare medio."
+    },
+    {
+     "ref": "dentate-nucleus",
+     "side": "R",
+     "label": "Nucleo dentato"
+    },
+    {
+     "ref": "part-of-midbrain",
+     "side": "M",
+     "label": "Decussazione dei peduncoli cerebellari superiori",
+     "shift": [
+      0,
+      -4,
+      -2
+     ]
+    },
+    {
+     "ref": "ventral-lateral-thalamic-nucleus",
+     "side": "L",
+     "label": "Talamo ventrale laterale"
+    },
+    {
+     "ref": "precentral-gyrus",
+     "side": "L",
+     "label": "Corteccia motoria",
+     "shift": [
+      0,
+      -6,
+      6
+     ]
+    }
+   ]
+  }
+ ],
+ "kind": "schematic",
+ "review": "draft",
+ "sources": [
+  "kandel",
+  "blumenfeld",
+  "purves"
+ ]
+}

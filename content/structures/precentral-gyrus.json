@@ -1,0 +1,113 @@
+{
+  "id": "precentral-gyrus",
+  "names": {
+    "it": "Giro precentrale",
+    "la": "Gyrus precentralis",
+    "en": "Precentral gyrus",
+    "synonyms": [
+      "circonvoluzione frontale ascendente",
+      "corteccia motoria primaria",
+      "M1"
+    ]
+  },
+  "parent": "frontal-lobe",
+  "layer": "cortex",
+  "side": "bilateral",
+  "level": 1,
+  "location": "Lobo frontale, sulla faccia laterale dell'emisfero. È compreso tra il solco precentrale (*sulcus precentralis*), anteriormente, e il solco centrale (*sulcus centralis*), posteriormente. Sulla faccia mediale continua nella parte anteriore del lobulo paracentrale (*lobulus paracentralis*).",
+  "relations": [
+    {
+      "direction": "anteriore",
+      "structureId": "precentral-sulcus",
+      "text": "Solco precentrale, che lo separa dai giri frontali superiore e medio."
+    },
+    {
+      "direction": "posteriore",
+      "structureId": "central-sulcus",
+      "text": "Solco centrale, che lo separa dal giro postcentrale."
+    },
+    {
+      "direction": "mediale",
+      "structureId": "paracentral-lobule",
+      "text": "Lobulo paracentrale, sulla faccia mediale dell'emisfero."
+    },
+    {
+      "direction": "inferiore",
+      "text": "Opercolo frontoparietale e solco laterale (*sulcus lateralis*)."
+    }
+  ],
+  "function": "Sede della corteccia motoria primaria (M1, area 4 di Brodmann); la parte anteriore del giro appartiene alla corteccia premotoria (area 6). Controlla l'esecuzione dei movimenti volontari della metà controlaterale del corpo. L'organizzazione è somatotopica (*homunculus* motorio): arto inferiore e piede sulla faccia mediale (lobulo paracentrale), poi tronco, arto superiore, mano e, più in basso e lateralmente, faccia, lingua e laringe. Mano e faccia hanno una rappresentazione sproporzionatamente estesa.",
+  "connections": [
+    {
+      "type": "efferent",
+      "via": "tratto corticospinale",
+      "text": "Dallo strato V, attraverso corona radiata, braccio posteriore della capsula interna, piede del peduncolo cerebrale, base del ponte e piramide bulbare; la maggior parte delle fibre incrocia nella decussazione delle piramidi."
+    },
+    {
+      "type": "efferent",
+      "via": "tratto corticonucleare (corticobulbare)",
+      "text": "Ai nuclei motori dei nervi cranici, passando per il ginocchio della capsula interna."
+    },
+    {
+      "type": "efferent",
+      "targetId": "putamen",
+      "text": "Proiezioni corticostriatali al putamen e corticopontine ai nuclei basilari del ponte."
+    },
+    {
+      "type": "afferent",
+      "targetId": "ventral-lateral-thalamic-nucleus",
+      "text": "Dal nucleo ventrale laterale del talamo, che ritrasmette l'informazione del cervelletto e dei nuclei della base."
+    },
+    {
+      "type": "reciprocal",
+      "targetId": "postcentral-gyrus",
+      "text": "Con la corteccia somatosensoriale primaria, la corteccia premotoria e l'area motoria supplementare."
+    }
+  ],
+  "bloodSupply": [
+    {
+      "arteryId": "artery-of-central-sulcus",
+      "text": "Faccia laterale: rami dell'arteria cerebrale media (arterie del solco precentrale e del solco centrale)."
+    },
+    {
+      "arteryId": "anterior-cerebral-artery",
+      "text": "Parte mediale e lobulo paracentrale: arteria cerebrale anteriore (rami paracentrali)."
+    }
+  ],
+  "clinical": [
+    {
+      "title": "Ictus dell'arteria cerebrale media",
+      "text": "Emiparesi controlaterale a prevalenza facio-brachiale, perché il territorio laterale contiene la rappresentazione di faccia e arto superiore."
+    },
+    {
+      "title": "Ictus dell'arteria cerebrale anteriore",
+      "text": "Deficit motorio controlaterale prevalente all'arto inferiore, per interessamento del lobulo paracentrale."
+    },
+    {
+      "title": "Sindrome del motoneurone superiore",
+      "text": "La lesione della via corticospinale dà paresi con spasticità, iperreflessia e segno di Babinski, dopo una fase iniziale che può essere flaccida."
+    },
+    {
+      "title": "Crisi focali motorie",
+      "text": "Una scarica epilettica che si propaga lungo il giro produce clonie che 'marciano' secondo la somatotopia (marcia jacksoniana)."
+    }
+  ],
+  "pathways": [
+    "corticospinal"
+  ],
+  "brodmann": [
+    4,
+    6
+  ],
+  "tags": [
+    "motorio",
+    "telencefalo",
+    "lobo frontale"
+  ],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

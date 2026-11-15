@@ -1,0 +1,58 @@
+{
+ "id": "basal-ganglia-direct",
+ "names": {
+  "it": "Nuclei della base: via diretta",
+  "en": "Basal ganglia direct pathway"
+ },
+ "summary": "Circuito che facilita il movimento. La corteccia eccita lo striato, che inibisce il globo pallido interno; il talamo viene così liberato dall'inibizione tonica (disinibizione) e attiva la corteccia motoria. La dopamina nigrostriatale, sui recettori D1, favorisce questa via.",
+ "tracks": [
+  {
+   "label": "Via diretta",
+   "color": "#35c46a",
+   "points": [
+    {
+     "ref": "precentral-gyrus",
+     "side": "L",
+     "label": "Corteccia",
+     "note": "Proiezione glutammatergica (eccitatoria)."
+    },
+    {
+     "ref": "putamen",
+     "side": "L",
+     "label": "Striato (putamen)",
+     "note": "Neuroni spinosi medi GABAergici, recettori D1."
+    },
+    {
+     "ref": "globus-pallidus-pars-interna",
+     "side": "L",
+     "label": "Globo pallido interno",
+     "note": "Nucleo di uscita, GABAergico: viene inibito."
+    },
+    {
+     "ref": "ventral-lateral-thalamic-nucleus",
+     "side": "L",
+     "label": "Talamo ventrale laterale e ventrale anteriore",
+     "note": "Liberato dall'inibizione."
+    },
+    {
+     "ref": "precentral-gyrus",
+     "side": "L",
+     "label": "Corteccia motoria",
+     "note": "Proiezione talamocorticale eccitatoria.",
+     "shift": [
+      0,
+      -6,
+      6
+     ]
+    }
+   ]
+  }
+ ],
+ "kind": "schematic",
+ "review": "draft",
+ "sources": [
+  "kandel",
+  "blumenfeld",
+  "purves"
+ ]
+}

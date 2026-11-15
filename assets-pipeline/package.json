@@ -1,0 +1,18 @@
+{
+  "name": "neuroatlas-assets-pipeline",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "fetch": "./fetch_sources.sh",
+    "build": ".venv/bin/python build_models.py && node optimize.mjs"
+  },
+  "dependencies": {
+    "@gltf-transform/core": "^4.5.1",
+    "@gltf-transform/extensions": "^4.5.1",
+    "@gltf-transform/functions": "^4.5.1",
+    "meshoptimizer": "^1.3.0"
+  },
+  "devDependencies": {
+    "three": "^0.187.0"
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "id": "amygdala",
+  "names": {
+    "it": "Amigdala",
+    "la": "Corpus amygdaloideum",
+    "en": "Amygdala",
+    "synonyms": [
+      "corpo amigdaloideo",
+      "complesso amigdaloideo"
+    ]
+  },
+  "parent": "limbic-lobe",
+  "layer": "limbic",
+  "side": "bilateral",
+  "level": 1,
+  "location": "Parte anteromediale del lobo temporale, in profondità rispetto all'uncus, davanti alla testa dell'ippocampo e alla punta del corno temporale del ventricolo laterale. È un complesso di nuclei, raggruppati in basolaterale, centrale e corticomediale.",
+  "relations": [
+    {
+      "direction": "posteriore",
+      "structureId": "hippocampus",
+      "text": "Testa dell'ippocampo e punta del corno temporale."
+    },
+    {
+      "direction": "mediale",
+      "text": "Uncus e corteccia periamigdaloidea."
+    },
+    {
+      "direction": "superiore",
+      "text": "Sostanza innominata e parte ventrale del nucleo lenticolare."
+    },
+    {
+      "direction": "posteriore",
+      "structureId": "caudate-nucleus",
+      "text": "La coda del nucleo caudato termina in prossimità dell'amigdala."
+    }
+  ],
+  "function": "Attribuisce significato emotivo agli stimoli. È essenziale per l'apprendimento e l'espressione della paura condizionata, rafforza il consolidamento dei ricordi emotivamente rilevanti e coordina le risposte autonomiche, endocrine e comportamentali allo stimolo.",
+  "connections": [
+    {
+      "type": "afferent",
+      "text": "Il gruppo basolaterale riceve informazione sensoriale elaborata dalle cortecce associative e dal talamo. Il gruppo corticomediale riceve afferenze olfattive."
+    },
+    {
+      "type": "efferent",
+      "via": "stria terminale",
+      "text": "Verso l'ipotalamo e i nuclei del letto della stria terminale."
+    },
+    {
+      "type": "efferent",
+      "via": "via amigdalofugale ventrale",
+      "text": "Verso ipotalamo, nucleo dorsomediale del talamo e, dal nucleo centrale, verso i centri autonomici del tronco encefalico."
+    },
+    {
+      "type": "reciprocal",
+      "text": "Con la corteccia orbitofrontale e prefrontale mediale e con la formazione dell'ippocampo."
+    }
+  ],
+  "bloodSupply": [
+    {
+      "arteryId": "anterior-choroidal-artery",
+      "text": "Principalmente arteria corioidea anteriore, con contributi da rami temporali dell'arteria cerebrale media."
+    }
+  ],
+  "clinical": [
+    {
+      "title": "Sindrome di Klüver-Bucy",
+      "text": "Da lesione bilaterale dei lobi temporali anteriori, amigdala compresa: placidità e perdita della paura, iperoralità, ipersessualità, agnosia visiva."
+    },
+    {
+      "title": "Malattia di Urbach-Wiethe",
+      "text": "Rara malattia genetica che può causare calcificazione bilaterale dell'amigdala, con deficit selettivo nel riconoscere e provare paura."
+    },
+    {
+      "title": "Epilessia del lobo temporale",
+      "text": "Le crisi a partenza mesiale possono esordire con un'aura di paura o con una sensazione epigastrica ascendente."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [],
+  "tags": [
+    "emozioni",
+    "sistema limbico",
+    "lobo temporale"
+  ],
+  "sources": [
+    "kandel",
+    "purves",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

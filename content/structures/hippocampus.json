@@ -1,0 +1,105 @@
+{
+  "id": "hippocampus",
+  "names": {
+    "it": "Ippocampo",
+    "la": "Hippocampus",
+    "en": "Hippocampus",
+    "synonyms": [
+      "formazione dell'ippocampo",
+      "corno d'Ammone"
+    ]
+  },
+  "parent": "limbic-lobe",
+  "layer": "limbic",
+  "side": "bilateral",
+  "level": 1,
+  "location": "Parte mediale del lobo temporale. Sporge nel pavimento del corno temporale del ventricolo laterale e si estende dall'amigdala, anteriormente, fino allo splenio del corpo calloso. Si distinguono testa, corpo e coda. La formazione dell'ippocampo comprende giro dentato (*gyrus dentatus*), corno d'Ammone (*cornu ammonis*, campi CA1–CA3; alcune classificazioni aggiungono CA4) e subicolo (*subiculum*).",
+  "relations": [
+    {
+      "direction": "anteriore",
+      "structureId": "amygdala",
+      "text": "Amigdala, davanti e sopra la testa dell'ippocampo."
+    },
+    {
+      "direction": "laterale e superiore",
+      "structureId": "temporal-horn-of-lateral-ventricle",
+      "text": "Corno temporale del ventricolo laterale, in cui l'ippocampo sporge."
+    },
+    {
+      "direction": "inferomediale",
+      "structureId": "parahippocampal-gyrus",
+      "text": "Giro paraippocampale, con la corteccia entorinale."
+    },
+    {
+      "direction": "superomediale",
+      "structureId": "fornix-of-forebrain",
+      "text": "Fimbria, che prosegue nel fornice."
+    }
+  ],
+  "function": "Indispensabile per la formazione e il consolidamento della memoria dichiarativa (episodica e semantica) e per la memoria e la navigazione spaziale. Non è la sede del deposito definitivo dei ricordi a lungo termine, che dipende dalla neocorteccia.",
+  "connections": [
+    {
+      "type": "afferent",
+      "via": "via perforante",
+      "text": "Dalla corteccia entorinale al giro dentato: è l'ingresso principale. Segue il circuito trisinaptico: giro dentato → (fibre muscoidi) → CA3 → (collaterali di Schaffer) → CA1 → subicolo."
+    },
+    {
+      "type": "efferent",
+      "targetId": "mammillary-body",
+      "via": "fornice",
+      "text": "Dal subicolo, attraverso fimbria e fornice, ai corpi mammillari; altre fibre del fornice raggiungono i nuclei del setto e i nuclei anteriori del talamo."
+    },
+    {
+      "type": "reciprocal",
+      "targetId": "parahippocampal-gyrus",
+      "text": "Con la corteccia entorinale, attraverso cui l'ippocampo comunica con le cortecce associative."
+    },
+    {
+      "type": "afferent",
+      "text": "Afferenze colinergiche dai nuclei del setto, attraverso il fornice."
+    }
+  ],
+  "bloodSupply": [
+    {
+      "arteryId": "postcommunicating-part-of-posterior-cerebral-artery",
+      "text": "Rami ippocampali dell'arteria cerebrale posteriore: è l'apporto principale."
+    },
+    {
+      "arteryId": "anterior-choroidal-artery",
+      "text": "Arteria corioidea anteriore, per la parte anteriore (testa e uncus)."
+    }
+  ],
+  "clinical": [
+    {
+      "title": "Amnesia anterograda",
+      "text": "Le lesioni bilaterali impediscono di formare nuovi ricordi dichiarativi, con risparmio della memoria procedurale. Il caso classico è il paziente H.M., dopo resezione temporale mediale bilaterale."
+    },
+    {
+      "title": "Malattia di Alzheimer",
+      "text": "Corteccia entorinale e ippocampo sono tra le prime regioni colpite; l'atrofia ippocampale è visibile alla risonanza magnetica."
+    },
+    {
+      "title": "Sclerosi temporale mesiale",
+      "text": "Perdita neuronale e gliosi dell'ippocampo; è una causa frequente di epilessia del lobo temporale farmacoresistente."
+    },
+    {
+      "title": "Vulnerabilità all'ipossia",
+      "text": "I neuroni piramidali di CA1 (settore di Sommer) sono particolarmente sensibili all'ischemia globale, ad esempio dopo arresto cardiaco."
+    }
+  ],
+  "pathways": [
+    "papez"
+  ],
+  "brodmann": [],
+  "tags": [
+    "memoria",
+    "sistema limbico",
+    "lobo temporale"
+  ],
+  "sources": [
+    "standring",
+    "kandel",
+    "purves"
+  ],
+  "review": "draft"
+}

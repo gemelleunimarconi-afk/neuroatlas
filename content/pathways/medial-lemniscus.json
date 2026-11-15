@@ -1,0 +1,104 @@
+{
+ "id": "medial-lemniscus",
+ "names": {
+  "it": "Via delle colonne dorsali e lemnisco mediale",
+  "la": "Lemniscus medialis",
+  "en": "Dorsal column–medial lemniscus pathway"
+ },
+ "summary": "Via ascendente del tatto discriminativo, della vibrazione e della propriocezione cosciente. Il primo neurone (ganglio spinale) sale omolaterale nei cordoni posteriori fino ai nuclei gracile e cuneato; il secondo incrocia nel bulbo e sale come lemnisco mediale fino al talamo; il terzo proietta alla corteccia somatosensoriale.",
+ "tracks": [
+  {
+   "label": "Dalla metà destra del corpo",
+   "color": "#2f9bff",
+   "points": [
+    {
+     "ref": "medulla-oblongata",
+     "side": "M",
+     "label": "Cordone posteriore (midollo)",
+     "note": "Fibre del primo neurone, omolaterali.",
+     "at": "bottom",
+     "shift": [
+      -3,
+      -14,
+      -6
+     ]
+    },
+    {
+     "ref": "medulla-oblongata",
+     "side": "M",
+     "label": "Nuclei gracile e cuneato",
+     "note": "Secondo neurone.",
+     "shift": [
+      -4,
+      -8,
+      -7
+     ]
+    },
+    {
+     "ref": "medulla-oblongata",
+     "side": "M",
+     "label": "Decussazione sensitiva",
+     "note": "Le fibre arcuate interne incrociano la linea mediana.",
+     "shift": [
+      0,
+      -2,
+      -1
+     ]
+    },
+    {
+     "ref": "medulla-oblongata",
+     "side": "M",
+     "label": "Lemnisco mediale (bulbo)",
+     "shift": [
+      2,
+      6,
+      2
+     ]
+    },
+    {
+     "ref": "pons",
+     "side": "M",
+     "label": "Lemnisco mediale (ponte)",
+     "shift": [
+      5,
+      0,
+      -2
+     ]
+    },
+    {
+     "ref": "part-of-midbrain",
+     "side": "M",
+     "label": "Lemnisco mediale (mesencefalo)",
+     "shift": [
+      11,
+      0,
+      -3
+     ]
+    },
+    {
+     "ref": "ventral-posterolateral-thalamic-nucleus",
+     "side": "L",
+     "label": "Nucleo ventrale posterolaterale (VPL)",
+     "note": "Terzo neurone."
+    },
+    {
+     "ref": "internal-capsule",
+     "side": "L",
+     "label": "Capsula interna, braccio posteriore"
+    },
+    {
+     "ref": "postcentral-gyrus",
+     "side": "L",
+     "label": "Corteccia somatosensoriale primaria"
+    }
+   ]
+  }
+ ],
+ "kind": "schematic",
+ "review": "draft",
+ "sources": [
+  "kandel",
+  "blumenfeld",
+  "purves"
+ ]
+}

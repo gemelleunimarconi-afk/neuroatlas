@@ -1,0 +1,31 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --color-accent-500: #0e7490;
+  --color-accent-600: #155e75;
+  --color-accent-300: #67e8f9;
+  --font-sans: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+
+html, body, #root { height: 100%; }
+body { margin: 0; overscroll-behavior: none; -webkit-tap-highlight-color: transparent; }
+:focus-visible { outline: 2px solid var(--color-accent-500); outline-offset: 2px; }
+.dark :focus-visible { outline-color: var(--color-accent-300); }
+@media (prefers-reduced-motion: reduce) { * { transition-duration: 0.01ms !important; animation-duration: 0.01ms !important; } }
+
+/* Etichette sul modello: posizionate dal visualizzatore, una riga, puntino sull'ancora */
+.atlas-label {
+  position: absolute; pointer-events: auto; cursor: pointer;
+  padding: 0 7px; border-radius: 6px; border: 1px solid rgb(15 23 42 / 0.25);
+  background: rgb(255 255 255 / 0.9); color: #0f172a; font-weight: 600; line-height: 1;
+  white-space: nowrap; text-align: center;
+}
+.atlas-label::after {
+  content: ""; position: absolute; left: 50%; bottom: -7px; width: 5px; height: 5px; margin-left: -2.5px;
+  border-radius: 50%; background: #0f172a; outline: 1.5px solid #fff;
+}
+.atlas-label-selected { background: #ffb020; border-color: #7a4a00; }
+.dark .atlas-label { background: rgb(15 23 42 / 0.9); color: #f1f5f9; border-color: rgb(241 245 249 / 0.3); }
+.dark .atlas-label::after { background: #f1f5f9; outline-color: #0f172a; }
+.dark .atlas-label-selected { background: #ffb020; color: #0f172a; }

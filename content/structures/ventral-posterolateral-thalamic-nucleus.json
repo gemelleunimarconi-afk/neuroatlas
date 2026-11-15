@@ -1,0 +1,89 @@
+{
+  "id": "ventral-posterolateral-thalamic-nucleus",
+  "names": {
+    "it": "Nucleo ventrale posterolaterale del talamo",
+    "la": "Nucleus ventralis posterolateralis thalami",
+    "en": "Ventral posterolateral nucleus of thalamus",
+    "synonyms": [
+      "VPL"
+    ]
+  },
+  "parent": "thalamus",
+  "layer": "diencephalon",
+  "side": "bilateral",
+  "level": 2,
+  "location": "Parte posteriore del gruppo nucleare ventrale del talamo. Si trova lateralmente al nucleo ventrale posteromediale (VPM), dietro al nucleo ventrale laterale e medialmente al braccio posteriore della capsula interna. Insieme al VPM forma il complesso ventrobasale.",
+  "relations": [
+    {
+      "direction": "mediale",
+      "structureId": "ventral-posteromedial-thalamic-nucleus",
+      "text": "Nucleo ventrale posteromediale (VPM), che riceve la sensibilità del volto."
+    },
+    {
+      "direction": "anteriore",
+      "structureId": "ventral-lateral-thalamic-nucleus",
+      "text": "Nucleo ventrale laterale."
+    },
+    {
+      "direction": "laterale",
+      "structureId": "internal-capsule",
+      "text": "Braccio posteriore della capsula interna."
+    },
+    {
+      "direction": "posteriore",
+      "structureId": "pulvinar",
+      "text": "Pulvinar."
+    }
+  ],
+  "function": "Nucleo di relè specifico della sensibilità somatica di tronco e arti del lato opposto: tatto discriminativo, vibrazione e propriocezione cosciente, oltre a dolore e temperatura. L'organizzazione è somatotopica.",
+  "connections": [
+    {
+      "type": "afferent",
+      "via": "lemnisco mediale",
+      "text": "Dai nuclei gracile e cuneato controlaterali (via delle colonne dorsali): tatto discriminativo, vibrazione, propriocezione."
+    },
+    {
+      "type": "afferent",
+      "via": "tratto spinotalamico",
+      "text": "Dal corno dorsale controlaterale del midollo spinale (sistema anterolaterale): dolore, temperatura, tatto grossolano."
+    },
+    {
+      "type": "efferent",
+      "targetId": "postcentral-gyrus",
+      "via": "radiazione talamica",
+      "text": "Attraverso il braccio posteriore della capsula interna alla corteccia somatosensoriale primaria (aree 3, 1, 2)."
+    }
+  ],
+  "bloodSupply": [
+    {
+      "arteryId": "thalamogeniculate-artery",
+      "text": "Arterie talamogenicolate, rami dell'arteria cerebrale posteriore."
+    }
+  ],
+  "clinical": [
+    {
+      "title": "Ictus sensitivo puro",
+      "text": "Un infarto lacunare del talamo ventrale posteriore causa ipoestesia di tutto l'emicorpo controlaterale senza deficit motori."
+    },
+    {
+      "title": "Sindrome talamica (di Dejerine-Roussy)",
+      "text": "Dopo una lesione del talamo posterolaterale può comparire, a distanza di tempo, dolore centrale controlaterale con allodinia e iperpatia."
+    }
+  ],
+  "pathways": [
+    "medial-lemniscus",
+    "spinothalamic"
+  ],
+  "brodmann": [],
+  "tags": [
+    "talamo",
+    "somatosensoriale",
+    "diencefalo"
+  ],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

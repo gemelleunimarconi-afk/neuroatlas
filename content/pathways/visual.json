@@ -1,0 +1,105 @@
+{
+ "id": "visual",
+ "names": {
+  "it": "Via visiva",
+  "en": "Visual pathway"
+ },
+ "summary": "Dalla retina alla corteccia visiva primaria. Nel chiasma incrociano le fibre della metà nasale di ciascuna retina: dopo il chiasma il tratto ottico sinistro porta l'emicampo visivo destro di entrambi gli occhi.",
+ "tracks": [
+  {
+   "label": "Retina temporale sinistra (non incrocia)",
+   "color": "#39d0d8",
+   "points": [
+    {
+     "ref": "optic-nerve",
+     "side": "L",
+     "label": "Nervo ottico sinistro"
+    },
+    {
+     "ref": "optic-chiasm",
+     "side": "M",
+     "label": "Chiasma ottico",
+     "shift": [
+      3,
+      0,
+      0
+     ]
+    },
+    {
+     "ref": "optic-tract",
+     "side": "L",
+     "label": "Tratto ottico sinistro"
+    },
+    {
+     "ref": "lateral-geniculate-body",
+     "side": "L",
+     "label": "Corpo genicolato laterale"
+    },
+    {
+     "ref": "middle-temporal-gyrus",
+     "side": "L",
+     "label": "Radiazione ottica",
+     "note": "Le fibre inferiori formano l'ansa di Meyer nel lobo temporale.",
+     "shift": [
+      -18,
+      6,
+      -12
+     ]
+    },
+    {
+     "ref": "visual-cortex",
+     "side": "L",
+     "label": "Corteccia visiva primaria (area 17)"
+    }
+   ]
+  },
+  {
+   "label": "Retina nasale destra (incrocia)",
+   "color": "#ff6fb5",
+   "points": [
+    {
+     "ref": "optic-nerve",
+     "side": "R",
+     "label": "Nervo ottico destro"
+    },
+    {
+     "ref": "optic-chiasm",
+     "side": "M",
+     "label": "Chiasma ottico: incrocio",
+     "shift": [
+      -1,
+      0,
+      -1
+     ]
+    },
+    {
+     "ref": "optic-tract",
+     "side": "L",
+     "label": "Tratto ottico sinistro",
+     "shift": [
+      0,
+      1.5,
+      0
+     ]
+    },
+    {
+     "ref": "lateral-geniculate-body",
+     "side": "L",
+     "label": "Corpo genicolato laterale",
+     "shift": [
+      0,
+      1.5,
+      0
+     ]
+    }
+   ]
+  }
+ ],
+ "kind": "schematic",
+ "review": "draft",
+ "sources": [
+  "kandel",
+  "blumenfeld",
+  "purves"
+ ]
+}

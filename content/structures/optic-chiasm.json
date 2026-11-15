@@ -1,0 +1,91 @@
+{
+  "id": "optic-chiasm",
+  "names": {
+    "it": "Chiasma ottico",
+    "la": "Chiasma opticum",
+    "en": "Optic chiasm",
+    "synonyms": [
+      "chiasma"
+    ]
+  },
+  "parent": "visual-pathway",
+  "layer": "cranial-nerves",
+  "side": "midline",
+  "level": 1,
+  "location": "Lamina quadrangolare di sostanza bianca alla base dell'encefalo, nella parete anteroinferiore del terzo ventricolo. Si trova sopra il diaframma della sella e l'ipofisi, davanti all'infundibolo e al *tuber cinereum*. Vi convergono i due nervi ottici e ne originano i due tratti ottici.",
+  "relations": [
+    {
+      "direction": "inferiore",
+      "structureId": "adenohypophysis",
+      "text": "Diaframma della sella e ipofisi."
+    },
+    {
+      "direction": "posteriore",
+      "structureId": "infundibulum-of-neurohypophysis",
+      "text": "Infundibolo e *tuber cinereum*."
+    },
+    {
+      "direction": "laterale",
+      "structureId": "internal-carotid-artery",
+      "text": "Arteria carotide interna, nel suo tratto sopraclinoideo."
+    },
+    {
+      "direction": "anterosuperiore",
+      "structureId": "anterior-communicating-artery",
+      "text": "Arterie cerebrali anteriori e arteria comunicante anteriore; lamina terminale."
+    }
+  ],
+  "function": "Sede dell'incrocio parziale delle fibre visive. Le fibre provenienti dalla metà nasale di ciascuna retina, che vede il campo visivo temporale, incrociano la linea mediana; quelle dalla metà temporale restano omolaterali. Dopo il chiasma, ogni tratto ottico porta l'informazione dell'emicampo visivo controlaterale di entrambi gli occhi.",
+  "connections": [
+    {
+      "type": "afferent",
+      "targetId": "optic-nerve",
+      "text": "Nervi ottici: assoni delle cellule gangliari della retina."
+    },
+    {
+      "type": "efferent",
+      "targetId": "optic-tract",
+      "text": "Tratti ottici, diretti soprattutto al corpo genicolato laterale; altre fibre raggiungono il collicolo superiore e l'area pretettale (riflesso pupillare alla luce)."
+    },
+    {
+      "type": "efferent",
+      "via": "tratto retinoipotalamico",
+      "text": "Al nucleo soprachiasmatico dell'ipotalamo, per la sincronizzazione dei ritmi circadiani."
+    }
+  ],
+  "bloodSupply": [
+    {
+      "arteryId": "internal-carotid-artery",
+      "text": "Rami dell'arteria carotide interna, tra cui le arterie ipofisarie superiori, per la faccia inferiore."
+    },
+    {
+      "arteryId": "anterior-cerebral-artery",
+      "text": "Rami delle arterie cerebrale anteriore e comunicante anteriore, per la faccia superiore."
+    }
+  ],
+  "clinical": [
+    {
+      "title": "Emianopsia bitemporale",
+      "text": "La compressione delle fibre crociate sulla linea mediana, tipicamente da adenoma ipofisario o craniofaringioma, causa la perdita dei due emicampi temporali."
+    },
+    {
+      "title": "Localizzazione della lesione",
+      "text": "Un deficit monoculare indica una lesione prechiasmatica (retina o nervo ottico); un'emianopsia omonima indica una lesione retrochiasmatica (tratto, corpo genicolato, radiazione o corteccia)."
+    }
+  ],
+  "pathways": [
+    "visual"
+  ],
+  "brodmann": [],
+  "tags": [
+    "via visiva",
+    "diencefalo",
+    "nervo ottico"
+  ],
+  "sources": [
+    "standring",
+    "purves",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

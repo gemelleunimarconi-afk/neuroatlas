@@ -1,0 +1,12 @@
+{
+  "name": "NeuroAtlas",
+  "short_name": "NeuroAtlas",
+  "description": "Atlante 3D del corpo umano e dell'encefalo",
+  "lang": "it",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#0f172a",
+  "icons": [{ "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }]
+}

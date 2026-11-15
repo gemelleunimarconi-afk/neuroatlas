@@ -1,0 +1,104 @@
+{
+  "id": "caudate-nucleus",
+  "names": {
+    "it": "Nucleo caudato",
+    "la": "Nucleus caudatus",
+    "en": "Caudate nucleus",
+    "synonyms": [
+      "caudato"
+    ]
+  },
+  "parent": "striatum",
+  "layer": "basal-ganglia",
+  "side": "bilateral",
+  "level": 1,
+  "location": "Nucleo a forma di C che segue il ventricolo laterale. La testa (*caput*) sporge nella parete laterale del corno frontale; il corpo (*corpus*) decorre nel pavimento della parte centrale del ventricolo, dorsolateralmente al talamo; la coda (*cauda*) si incurva nel tetto del corno temporale fino in prossimità dell'amigdala. Con il putamen costituisce lo striato (*corpus striatum*, neostriato).",
+  "relations": [
+    {
+      "direction": "mediale",
+      "structureId": "lateral-ventricle",
+      "text": "Ventricolo laterale: la testa ne forma la parete laterale del corno frontale."
+    },
+    {
+      "direction": "laterale",
+      "structureId": "internal-capsule",
+      "text": "Braccio anteriore della capsula interna, che lo separa dal putamen."
+    },
+    {
+      "direction": "inferomediale",
+      "structureId": "anterior-thalamic-nucleus",
+      "text": "Talamo, da cui il corpo è separato dal solco talamostriato con la stria terminale e la vena talamostriata."
+    },
+    {
+      "direction": "ventrale",
+      "structureId": "nucleus-accumbens",
+      "text": "La testa si continua ventralmente con il nucleo accumbens e con il putamen."
+    }
+  ],
+  "function": "Componente di ingresso dei nuclei della base. Partecipa soprattutto ai circuiti associativo (con la corteccia prefrontale dorsolaterale) e oculomotore: funzioni esecutive, apprendimento guidato dall'obiettivo, controllo dei movimenti oculari saccadici.",
+  "connections": [
+    {
+      "type": "afferent",
+      "text": "Proiezioni glutammatergiche da ampie aree della corteccia, in particolare prefrontale (via corticostriatale)."
+    },
+    {
+      "type": "afferent",
+      "targetId": "substantia-nigra",
+      "via": "via nigrostriatale",
+      "text": "Afferenze dopaminergiche dalla parte compatta della sostanza nera."
+    },
+    {
+      "type": "afferent",
+      "targetId": "centromedian-thalamic-nucleus",
+      "text": "Dai nuclei intralaminari del talamo."
+    },
+    {
+      "type": "efferent",
+      "targetId": "globus-pallidus-pars-interna",
+      "via": "via diretta",
+      "text": "Neuroni GABAergici spinosi medi (recettori D1) al globo pallido interno e alla parte reticolata della sostanza nera."
+    },
+    {
+      "type": "efferent",
+      "targetId": "globus-pallidus-pars-externa",
+      "via": "via indiretta",
+      "text": "Neuroni GABAergici spinosi medi (recettori D2) al globo pallido esterno."
+    }
+  ],
+  "bloodSupply": [
+    {
+      "arteryId": "anterolateral-central-branch-of-middle-cerebral-artery",
+      "text": "Arterie centrali anterolaterali (lenticolostriate) dell'arteria cerebrale media."
+    },
+    {
+      "arteryId": "anterior-cerebral-artery",
+      "text": "Parte anteroinferiore della testa: arteria ricorrente di Heubner, ramo dell'arteria cerebrale anteriore."
+    }
+  ],
+  "clinical": [
+    {
+      "title": "Malattia di Huntington",
+      "text": "La degenerazione dei neuroni spinosi medi dello striato causa atrofia della testa del caudato, con allargamento dei corni frontali alle neuroimmagini; clinicamente corea, declino cognitivo e disturbi psichiatrici."
+    },
+    {
+      "title": "Infarto della testa del caudato",
+      "text": "Può dare abulia, rallentamento e deficit esecutivi più che deficit motori evidenti."
+    }
+  ],
+  "pathways": [
+    "basal-ganglia-direct",
+    "basal-ganglia-indirect"
+  ],
+  "brodmann": [],
+  "tags": [
+    "nuclei della base",
+    "striato",
+    "telencefalo"
+  ],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

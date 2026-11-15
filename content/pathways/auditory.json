@@ -1,0 +1,77 @@
+{
+ "id": "auditory",
+ "names": {
+  "it": "Via uditiva",
+  "en": "Auditory pathway"
+ },
+ "summary": "Dai nuclei cocleari alla corteccia uditiva primaria. Le fibre incrociano in parte nel corpo trapezoide e salgono nel lemnisco laterale: già dal ponte ogni lato riceve informazione da entrambe le orecchie, perciò una lesione centrale monolaterale non causa sordità di un orecchio.",
+ "tracks": [
+  {
+   "label": "Dall'orecchio destro (componente crociata)",
+   "color": "#7bd938",
+   "points": [
+    {
+     "ref": "pons",
+     "side": "M",
+     "label": "Nuclei cocleari",
+     "note": "Alla giunzione bulbopontina.",
+     "at": "bottom",
+     "shift": [
+      -13,
+      3,
+      -6
+     ]
+    },
+    {
+     "ref": "pons",
+     "side": "M",
+     "label": "Corpo trapezoide",
+     "note": "Incrocio; in parte sinapsi nel complesso olivare superiore.",
+     "at": "bottom",
+     "shift": [
+      0,
+      6,
+      0
+     ]
+    },
+    {
+     "ref": "pons",
+     "side": "M",
+     "label": "Lemnisco laterale",
+     "shift": [
+      11,
+      4,
+      -5
+     ]
+    },
+    {
+     "ref": "inferior-colliculus",
+     "side": "L",
+     "label": "Collicolo inferiore"
+    },
+    {
+     "ref": "brachia-of-inferior-colliculus",
+     "side": "L",
+     "label": "Braccio del collicolo inferiore"
+    },
+    {
+     "ref": "medial-geniculate-body",
+     "side": "L",
+     "label": "Corpo genicolato mediale"
+    },
+    {
+     "ref": "transverse-temporal-gyrus",
+     "side": "L",
+     "label": "Corteccia uditiva primaria (giri di Heschl)"
+    }
+   ]
+  }
+ ],
+ "kind": "schematic",
+ "review": "draft",
+ "sources": [
+  "kandel",
+  "blumenfeld",
+  "purves"
+ ]
+}

@@ -1,0 +1,31 @@
+<!doctype html><meta charset="utf-8"><title>NeuroAtlas pipeline preview</title>
+<style>body{margin:0;background:#111}canvas{display:block}</style>
+<script type="importmap">{"imports":{"three":"./node_modules/three/build/three.module.js","three/addons/":"./node_modules/three/examples/jsm/"}}</script>
+<script type="module">
+// Quick visual check of the pipeline output. ?view=lateral|medial|inferior|anterior &layers=a,b &lod=lod1 &alpha=cortex:0.3
+import * as THREE from 'three';
+import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
+import { MeshoptDecoder } from 'three/addons/libs/meshopt_decoder.module.js';
+const q = new URLSearchParams(location.search);
+const manifest = await (await fetch('build/manifest.json')).json();
+const layers = (q.get('layers') || Object.keys(manifest.layers).join(',')).split(',');
+const alpha = Object.fromEntries((q.get('alpha') || '').split(',').filter(Boolean).map((s) => s.split(':')));
+const renderer = new THREE.WebGLRenderer({ antialias: true, preserveDrawingBuffer: true });
+renderer.setSize(innerWidth, innerHeight); document.body.append(renderer.domElement);
+const scene = new THREE.Scene();
+scene.add(new THREE.HemisphereLight(0xffffff, 0x444444, 2.2));
+const sun = new THREE.DirectionalLight(0xffffff, 1.5); scene.add(sun);
+const loader = new GLTFLoader().setMeshoptDecoder(MeshoptDecoder);
+for (const l of layers) {
+  const g = await loader.loadAsync(`build/models/${l}.${q.get('lod') || 'lod1'}.glb`);
+  if (alpha[l]) g.scene.traverse((o) => { if (o.material) { o.material.transparent = true; o.material.opacity = +alpha[l]; o.material.depthWrite = false; } });
+  scene.add(g.scene);
+}
+const box = new THREE.Box3().setFromObject(scene), c = box.getCenter(new THREE.Vector3()), r = box.getSize(new THREE.Vector3()).length() * 0.5;
+const dir = { lateral: [1, 0.1, 0], medial: [-1, 0.1, 0], inferior: [0, -1, 0.01], anterior: [0, 0.1, 1], superior: [0, 1, 0.01], oblique: [0.7, 0.5, 0.7] }[q.get('view') || 'oblique'];
+const cam = new THREE.PerspectiveCamera(30, innerWidth / innerHeight, 0.001, 10);
+cam.position.copy(c).addScaledVector(new THREE.Vector3(...dir).normalize(), r * 3.2);
+if (q.get('view') === 'inferior') cam.up.set(0, 0, 1); if (q.get('view') === 'superior') cam.up.set(0, 0, 1);
+cam.lookAt(c); sun.position.copy(cam.position);
+renderer.render(scene, cam); document.title = 'ready';
+</script>

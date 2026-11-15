@@ -1,0 +1,104 @@
+{
+  "id": "pons",
+  "names": {
+    "it": "Ponte",
+    "la": "Pons",
+    "en": "Pons",
+    "synonyms": [
+      "ponte di Varolio",
+      "protuberanza anulare"
+    ]
+  },
+  "parent": "brainstem",
+  "layer": "brainstem",
+  "side": "midline",
+  "level": 1,
+  "location": "Parte intermedia del tronco encefalico, tra mesencefalo e bulbo, dal quale è separato dal solco bulbopontino. Si trova davanti al cervelletto, a cui è unito dai peduncoli cerebellari medi; la sua faccia dorsale forma la metà superiore del pavimento del quarto ventricolo. Comprende una parte basilare, ventrale, e un tegmento, dorsale.",
+  "relations": [
+    {
+      "direction": "rostrale",
+      "structureId": "part-of-midbrain",
+      "text": "Mesencefalo."
+    },
+    {
+      "direction": "caudale",
+      "structureId": "medulla-oblongata",
+      "text": "Bulbo, oltre il solco bulbopontino."
+    },
+    {
+      "direction": "dorsale",
+      "structureId": "fourth-ventricle",
+      "text": "Quarto ventricolo e, dietro a questo, il cervelletto."
+    },
+    {
+      "direction": "ventrale",
+      "structureId": "basilar-artery",
+      "text": "Arteria basilare, nel solco basilare, e clivus."
+    }
+  ],
+  "function": "La parte basilare contiene i nuclei basilari del ponte, stazione della via cortico-ponto-cerebellare, ed è attraversata dalle fibre corticospinali e corticonucleari. Il tegmento contiene i nuclei dei nervi cranici V, VI e VII e, al confine con il bulbo, i nuclei vestibolari e cocleari dell'VIII; contiene inoltre formazione reticolare, *locus caeruleus* e il centro pontino dello sguardo orizzontale. **Origini apparenti:** il nervo trigemino (V) emerge dalla faccia ventrolaterale del ponte; l'abducente (VI), il faciale (VII) e il vestibolococleare (VIII) emergono dal solco bulbopontino, in ordine da mediale a laterale.",
+  "connections": [
+    {
+      "type": "afferent",
+      "via": "fibre corticopontine",
+      "text": "Dalla corteccia cerebrale, attraverso capsula interna e piede del peduncolo cerebrale, ai nuclei basilari del ponte omolaterali."
+    },
+    {
+      "type": "efferent",
+      "via": "peduncolo cerebellare medio",
+      "text": "Dai nuclei basilari del ponte, fibre pontocerebellari in gran parte crociate dirette alla corteccia del cervelletto controlaterale."
+    },
+    {
+      "type": "reciprocal",
+      "text": "Vie di passaggio: tratto corticospinale nella base; lemnisco mediale, lemnisco laterale, tratto spinotalamico e fascicolo longitudinale mediale nel tegmento."
+    }
+  ],
+  "bloodSupply": [
+    {
+      "arteryId": "medial-branch-of-pontine-artery",
+      "text": "Rami paramediani dell'arteria basilare, per la base del ponte vicino alla linea mediana."
+    },
+    {
+      "arteryId": "lateral-branch-of-pontine-artery",
+      "text": "Rami circonferenziali brevi dell'arteria basilare, per la parte ventrolaterale."
+    },
+    {
+      "arteryId": "anterior-inferior-cerebellar-artery",
+      "text": "Rami circonferenziali lunghi: arteria cerebellare inferiore anteriore (ponte caudale laterale) e arteria cerebellare superiore (ponte rostrale laterale)."
+    }
+  ],
+  "clinical": [
+    {
+      "title": "Sindrome locked-in",
+      "text": "La lesione bilaterale della base del ponte, tipicamente per occlusione dell'arteria basilare, causa tetraplegia e anartria con coscienza conservata; restano di solito i movimenti oculari verticali e l'ammiccamento."
+    },
+    {
+      "title": "Sindrome di Millard-Gubler",
+      "text": "Lesione della parte ventrale del ponte caudale: paralisi omolaterale del faciale, spesso anche dell'abducente, con emiparesi controlaterale (sindrome alterna)."
+    },
+    {
+      "title": "Mielinolisi pontina centrale",
+      "text": "Demielinizzazione della base del ponte, classicamente dopo correzione troppo rapida di un'iponatriemia."
+    },
+    {
+      "title": "Oftalmoplegia internucleare",
+      "text": "La lesione del fascicolo longitudinale mediale nel tegmento impedisce l'adduzione dell'occhio omolaterale nello sguardo laterale, con nistagmo dell'occhio abdotto."
+    }
+  ],
+  "pathways": [
+    "corticospinal",
+    "medial-lemniscus",
+    "cerebellar"
+  ],
+  "brodmann": [],
+  "tags": [
+    "tronco encefalico",
+    "nervi cranici"
+  ],
+  "sources": [
+    "standring",
+    "blumenfeld",
+    "nieuwenhuys"
+  ],
+  "review": "draft"
+}

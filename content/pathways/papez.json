@@ -1,0 +1,76 @@
+{
+ "id": "papez",
+ "names": {
+  "it": "Circuito di Papez",
+  "en": "Papez circuit"
+ },
+ "summary": "Circuito limbico descritto da James Papez nel 1937 come substrato dell'emozione; oggi è considerato importante soprattutto per la memoria episodica.",
+ "tracks": [
+  {
+   "label": "Circuito",
+   "color": "#ffd23f",
+   "points": [
+    {
+     "ref": "hippocampus",
+     "side": "L",
+     "label": "Ippocampo (subicolo)"
+    },
+    {
+     "ref": "fornix-of-forebrain",
+     "side": "L",
+     "label": "Fornice"
+    },
+    {
+     "ref": "mammillary-body",
+     "side": "L",
+     "label": "Corpo mammillare"
+    },
+    {
+     "ref": "mammillothalamic-tract",
+     "side": "L",
+     "label": "Fascio mammillotalamico"
+    },
+    {
+     "ref": "anterior-thalamic-nucleus",
+     "side": "L",
+     "label": "Nuclei anteriori del talamo"
+    },
+    {
+     "ref": "caudal-part-of-anterior-cingulate-gyrus",
+     "side": "L",
+     "label": "Giro del cingolo",
+     "note": "Attraverso il braccio anteriore della capsula interna."
+    },
+    {
+     "ref": "isthmus-of-cingulate-gyrus",
+     "side": "L",
+     "label": "Cingolo",
+     "note": "Fascio di associazione nella sostanza bianca del giro."
+    },
+    {
+     "ref": "parahippocampal-gyrus",
+     "side": "L",
+     "label": "Giro paraippocampale (corteccia entorinale)"
+    },
+    {
+     "ref": "hippocampus",
+     "side": "L",
+     "label": "Ippocampo",
+     "note": "Attraverso la via perforante.",
+     "shift": [
+      0,
+      2,
+      -8
+     ]
+    }
+   ]
+  }
+ ],
+ "kind": "schematic",
+ "review": "draft",
+ "sources": [
+  "kandel",
+  "blumenfeld",
+  "purves"
+ ]
+}

@@ -1,0 +1,122 @@
+{
+ "_note": "Corrispondenza approssimata tra le parcelle girali dell'atlante e le aree di Brodmann. Non è una mappa citoarchitettonica: i confini delle aree non coincidono con quelli dei giri e variano tra individui. Stato: bozza.",
+ "areas": {
+  "precentral-gyrus": [
+   4,
+   6
+  ],
+  "postcentral-gyrus": [
+   3,
+   1,
+   2
+  ],
+  "paracentral-lobule": [
+   4,
+   3,
+   1,
+   2,
+   5
+  ],
+  "superior-frontal-gyrus": [
+   6,
+   8,
+   9
+  ],
+  "anterior-part-of-middle-frontal-gyrus": [
+   46,
+   10
+  ],
+  "posterior-part-of-middle-frontal-gyrus": [
+   8,
+   9,
+   6
+  ],
+  "opercular-part-of-inferior-frontal-gyrus": [
+   44
+  ],
+  "triangular-part-of-inferior-frontal-gyrus": [
+   45
+  ],
+  "orbital-part-of-inferior-frontal-gyrus": [
+   47
+  ],
+  "frontal-pole": [
+   10
+  ],
+  "lateral-orbital-gyrus": [
+   11,
+   47
+  ],
+  "straight-gyrus": [
+   11
+  ],
+  "superior-parietal-lobule": [
+   5,
+   7
+  ],
+  "inferior-parietal-lobule": [
+   39
+  ],
+  "supramarginal-gyrus": [
+   40
+  ],
+  "precuneus": [
+   7
+  ],
+  "visual-cortex": [
+   17
+  ],
+  "cuneus": [
+   18,
+   19
+  ],
+  "lingual-gyrus": [
+   18,
+   19
+  ],
+  "lateral-occipital-gyrus": [
+   18,
+   19
+  ],
+  "superior-temporal-gyrus": [
+   22
+  ],
+  "transverse-temporal-gyrus": [
+   41,
+   42
+  ],
+  "middle-temporal-gyrus": [
+   21
+  ],
+  "inferior-temporal-gyrus": [
+   20
+  ],
+  "fusiform-gyrus": [
+   37
+  ],
+  "temporal-pole": [
+   38
+  ],
+  "parahippocampal-gyrus": [
+   28,
+   34,
+   35,
+   36
+  ],
+  "rostral-part-of-anterior-cingulate-gyrus": [
+   24,
+   32
+  ],
+  "caudal-part-of-anterior-cingulate-gyrus": [
+   24
+  ],
+  "posterior-cingulate-gyrus": [
+   23,
+   31
+  ],
+  "isthmus-of-cingulate-gyrus": [
+   29,
+   30
+  ]
+ }
+}

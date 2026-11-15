@@ -1,0 +1,4919 @@
+{
+ "_note": "Nomi italiano/latino per le strutture con mesh. Chiave = id struttura nel manifest. Stato: bozza, da rivedere. Latino solo dove il termine di Terminologia Anatomica è consolidato.",
+ "ambiens-gyrus": [
+  "Giro ambiens",
+  "Gyrus ambiens"
+ ],
+ "anterior-part-of-middle-frontal-gyrus": [
+  "Giro frontale medio, parte anteriore",
+  "Gyrus frontalis medius"
+ ],
+ "posterior-part-of-middle-frontal-gyrus": [
+  "Giro frontale medio, parte posteriore",
+  "Gyrus frontalis medius"
+ ],
+ "caudal-part-of-anterior-cingulate-gyrus": [
+  "Giro del cingolo anteriore, parte caudale",
+  "Gyrus cinguli"
+ ],
+ "rostral-part-of-anterior-cingulate-gyrus": [
+  "Giro del cingolo anteriore, parte rostrale",
+  "Gyrus cinguli"
+ ],
+ "posterior-cingulate-gyrus": [
+  "Giro del cingolo posteriore",
+  "Gyrus cinguli"
+ ],
+ "isthmus-of-cingulate-gyrus": [
+  "Istmo del giro del cingolo",
+  "Isthmus gyri cinguli"
+ ],
+ "cuneus": [
+  "Cuneo",
+  "Cuneus"
+ ],
+ "frontal-pole": [
+  "Polo frontale",
+  "Polus frontalis"
+ ],
+ "fusiform-gyrus": [
+  "Giro fusiforme (occipitotemporale laterale)",
+  "Gyrus occipitotemporalis lateralis"
+ ],
+ "inferior-parietal-lobule": [
+  "Lobulo parietale inferiore",
+  "Lobulus parietalis inferior"
+ ],
+ "inferior-temporal-gyrus": [
+  "Giro temporale inferiore",
+  "Gyrus temporalis inferior"
+ ],
+ "insula": [
+  "Insula",
+  "Insula"
+ ],
+ "lateral-occipital-gyrus": [
+  "Giri occipitali laterali",
+  "Gyri occipitales laterales"
+ ],
+ "lateral-orbital-gyrus": [
+  "Giri orbitari",
+  "Gyri orbitales"
+ ],
+ "limen-insulae": [
+  "Limen dell'insula",
+  "Limen insulae"
+ ],
+ "lingual-gyrus": [
+  "Giro linguale (occipitotemporale mediale)",
+  "Gyrus lingualis"
+ ],
+ "middle-temporal-gyrus": [
+  "Giro temporale medio",
+  "Gyrus temporalis medius"
+ ],
+ "opercular-part-of-inferior-frontal-gyrus": [
+  "Giro frontale inferiore, parte opercolare",
+  "Pars opercularis gyri frontalis inferioris"
+ ],
+ "orbital-part-of-inferior-frontal-gyrus": [
+  "Giro frontale inferiore, parte orbitaria",
+  "Pars orbitalis gyri frontalis inferioris"
+ ],
+ "triangular-part-of-inferior-frontal-gyrus": [
+  "Giro frontale inferiore, parte triangolare",
+  "Pars triangularis gyri frontalis inferioris"
+ ],
+ "paracentral-lobule": [
+  "Lobulo paracentrale",
+  "Lobulus paracentralis"
+ ],
+ "parahippocampal-gyrus": [
+  "Giro paraippocampale",
+  "Gyrus parahippocampalis"
+ ],
+ "postcentral-gyrus": [
+  "Giro postcentrale",
+  "Gyrus postcentralis"
+ ],
+ "precentral-gyrus": [
+  "Giro precentrale",
+  "Gyrus precentralis"
+ ],
+ "precuneus": [
+  "Precuneo",
+  "Precuneus"
+ ],
+ "straight-gyrus": [
+  "Giro retto",
+  "Gyrus rectus"
+ ],
+ "superior-frontal-gyrus": [
+  "Giro frontale superiore",
+  "Gyrus frontalis superior"
+ ],
+ "superior-parietal-lobule": [
+  "Lobulo parietale superiore",
+  "Lobulus parietalis superior"
+ ],
+ "superior-temporal-gyrus": [
+  "Giro temporale superiore",
+  "Gyrus temporalis superior"
+ ],
+ "superior-temporal-gyrus-banks-of-superior-temporal-sulcus": [
+  "Giro temporale superiore, labbri del solco temporale superiore",
+  null
+ ],
+ "supramarginal-gyrus": [
+  "Giro sopramarginale",
+  "Gyrus supramarginalis"
+ ],
+ "temporal-pole": [
+  "Polo temporale",
+  "Polus temporalis"
+ ],
+ "transverse-temporal-gyrus": [
+  "Giri temporali trasversi (di Heschl)",
+  "Gyri temporales transversi"
+ ],
+ "visual-cortex": [
+  "Corteccia visiva (pericalcarina)",
+  "Area striata"
+ ],
+ "amygdala": [
+  "Amigdala",
+  "Corpus amygdaloideum"
+ ],
+ "fornix-of-forebrain": [
+  "Fornice",
+  "Fornix"
+ ],
+ "hippocampus": [
+  "Ippocampo",
+  "Hippocampus"
+ ],
+ "mammillothalamic-tract": [
+  "Fascio mammillotalamico",
+  "Fasciculus mammillothalamicus"
+ ],
+ "caudate-nucleus": [
+  "Nucleo caudato",
+  "Nucleus caudatus"
+ ],
+ "claustrum": [
+  "Claustro",
+  "Claustrum"
+ ],
+ "globus-pallidus-pars-externa": [
+  "Globo pallido esterno",
+  "Globus pallidus lateralis"
+ ],
+ "globus-pallidus-pars-interna": [
+  "Globo pallido interno",
+  "Globus pallidus medialis"
+ ],
+ "nucleus-accumbens": [
+  "Nucleo accumbens",
+  "Nucleus accumbens"
+ ],
+ "putamen": [
+  "Putamen",
+  "Putamen"
+ ],
+ "anterior-commissure": [
+  "Commessura anteriore",
+  "Commissura anterior"
+ ],
+ "corpus-callosum": [
+  "Corpo calloso",
+  "Corpus callosum"
+ ],
+ "habenula": [
+  "Abenula",
+  "Habenula"
+ ],
+ "internal-capsule": [
+  "Capsula interna",
+  "Capsula interna"
+ ],
+ "lamina-terminalis": [
+  "Lamina terminale",
+  "Lamina terminalis"
+ ],
+ "peduncle-of-midbrain": [
+  "Peduncolo cerebrale",
+  "Pedunculus cerebri"
+ ],
+ "pellucid-septum": [
+  "Setto pellucido",
+  "Septum pellucidum"
+ ],
+ "posterior-commissure": [
+  "Commessura posteriore",
+  "Commissura posterior"
+ ],
+ "white-matter-of-cerebral-hemisphere": [
+  "Sostanza bianca dell'emisfero cerebrale",
+  "Substantia alba hemispherii cerebri"
+ ],
+ "aqueduct": [
+  "Acquedotto mesencefalico (di Silvio)",
+  "Aqueductus mesencephali"
+ ],
+ "choroid-plexus-of-cerebral-hemisphere": [
+  "Plesso corioideo del ventricolo laterale",
+  "Plexus choroideus ventriculi lateralis"
+ ],
+ "fourth-ventricle": [
+  "Quarto ventricolo",
+  "Ventriculus quartus"
+ ],
+ "lateral-ventricle": [
+  "Ventricolo laterale",
+  "Ventriculus lateralis"
+ ],
+ "temporal-horn-of-lateral-ventricle": [
+  "Corno temporale (inferiore) del ventricolo laterale",
+  "Cornu temporale ventriculi lateralis"
+ ],
+ "third-ventricle": [
+  "Terzo ventricolo",
+  "Ventriculus tertius"
+ ],
+ "inferior-branch-of-oculomotor-nerve": [
+  "Nervo oculomotore (III), ramo inferiore",
+  "Ramus inferior nervi oculomotorii"
+ ],
+ "superior-branch-of-oculomotor-nerve": [
+  "Nervo oculomotore (III), ramo superiore",
+  "Ramus superior nervi oculomotorii"
+ ],
+ "ophthalmic-nerve": [
+  "Nervo oftalmico (V1)",
+  "Nervus ophthalmicus"
+ ],
+ "optic-chiasm": [
+  "Chiasma ottico",
+  "Chiasma opticum"
+ ],
+ "optic-nerve": [
+  "Nervo ottico (II)",
+  "Nervus opticus"
+ ],
+ "optic-tract": [
+  "Tratto ottico",
+  "Tractus opticus"
+ ],
+ "trochlear-nerve": [
+  "Nervo trocleare (IV)",
+  "Nervus trochlearis"
+ ],
+ "adenohypophysis": [
+  "Adenoipofisi",
+  "Adenohypophysis"
+ ],
+ "neurohypophysis": [
+  "Neuroipofisi",
+  "Neurohypophysis"
+ ],
+ "infundibulum-of-neurohypophysis": [
+  "Infundibolo",
+  "Infundibulum"
+ ],
+ "anterior-inferior-hypothalamus": [
+  "Ipotalamo anteriore inferiore",
+  null
+ ],
+ "anterior-superior-hypothalamus": [
+  "Ipotalamo anteriore superiore",
+  null
+ ],
+ "inferior-tuberal-hypothalamus": [
+  "Ipotalamo tuberale inferiore",
+  null
+ ],
+ "superior-tuberal-hypothalamus": [
+  "Ipotalamo tuberale superiore",
+  null
+ ],
+ "posterior-superior-hypothalamus": [
+  "Ipotalamo posteriore superiore",
+  null
+ ],
+ "anterior-thalamic-nucleus": [
+  "Nuclei anteriori del talamo",
+  "Nuclei anteriores thalami"
+ ],
+ "centromedian-thalamic-nucleus": [
+  "Nucleo centromediano del talamo",
+  "Nucleus centromedianus thalami"
+ ],
+ "dorsomedial-thalamic-nucleus": [
+  "Nucleo dorsomediale del talamo",
+  "Nucleus mediodorsalis thalami"
+ ],
+ "internal-medullary-lamina": [
+  "Lamina midollare interna del talamo",
+  "Lamina medullaris medialis thalami"
+ ],
+ "lateral-dorsal-thalamic-nucleus": [
+  "Nucleo laterale dorsale del talamo",
+  "Nucleus lateralis dorsalis thalami"
+ ],
+ "lateral-posterior-thalamic-nucleus": [
+  "Nucleo laterale posteriore del talamo",
+  "Nucleus lateralis posterior thalami"
+ ],
+ "lateral-geniculate-body": [
+  "Corpo genicolato laterale",
+  "Corpus geniculatum laterale"
+ ],
+ "medial-geniculate-body": [
+  "Corpo genicolato mediale",
+  "Corpus geniculatum mediale"
+ ],
+ "mammillary-body": [
+  "Corpo mammillare",
+  "Corpus mammillare"
+ ],
+ "pineal-body": [
+  "Ghiandola pineale (epifisi)",
+  "Glandula pinealis"
+ ],
+ "pulvinar": [
+  "Pulvinar",
+  "Pulvinar thalami"
+ ],
+ "subthalamic-nucleus": [
+  "Nucleo subtalamico",
+  "Nucleus subthalamicus"
+ ],
+ "ventral-anterior-thalamic-nucleus": [
+  "Nucleo ventrale anteriore del talamo",
+  "Nucleus ventralis anterior thalami"
+ ],
+ "ventral-lateral-thalamic-nucleus": [
+  "Nucleo ventrale laterale del talamo",
+  "Nucleus ventralis lateralis thalami"
+ ],
+ "ventral-posterolateral-thalamic-nucleus": [
+  "Nucleo ventrale posterolaterale del talamo",
+  "Nucleus ventralis posterolateralis thalami"
+ ],
+ "ventral-posteromedial-thalamic-nucleus": [
+  "Nucleo ventrale posteromediale del talamo",
+  "Nucleus ventralis posteromedialis thalami"
+ ],
+ "dentate-nucleus": [
+  "Nucleo dentato",
+  "Nucleus dentatus"
+ ],
+ "fage-nuclei": [
+  "Nuclei del fastigio, globoso ed emboliforme",
+  null
+ ],
+ "white-matter-of-hemisphere-of-cerebellum": [
+  "Sostanza bianca del cervelletto",
+  "Corpus medullare cerebelli"
+ ],
+ "brachia-of-inferior-colliculus": [
+  "Braccio del collicolo inferiore",
+  "Brachium colliculi inferioris"
+ ],
+ "brachia-of-superior-colliculus": [
+  "Braccio del collicolo superiore",
+  "Brachium colliculi superioris"
+ ],
+ "inferior-colliculus": [
+  "Collicolo inferiore",
+  "Colliculus inferior"
+ ],
+ "superior-colliculus": [
+  "Collicolo superiore",
+  "Colliculus superior"
+ ],
+ "medulla-oblongata": [
+  "Bulbo (midollo allungato)",
+  "Medulla oblongata"
+ ],
+ "part-of-midbrain": [
+  "Mesencefalo",
+  "Mesencephalon"
+ ],
+ "pons": [
+  "Ponte",
+  "Pons"
+ ],
+ "red-nucleus": [
+  "Nucleo rosso",
+  "Nucleus ruber"
+ ],
+ "substantia-nigra": [
+  "Sostanza nera",
+  "Substantia nigra"
+ ],
+ "calcarine-sulcus": [
+  "Solco calcarino",
+  "Sulcus calcarinus"
+ ],
+ "central-sulcus": [
+  "Solco centrale (di Rolando)",
+  "Sulcus centralis"
+ ],
+ "cingulate-sulcus": [
+  "Solco del cingolo",
+  "Sulcus cinguli"
+ ],
+ "collateral-sulcus": [
+  "Solco collaterale",
+  "Sulcus collateralis"
+ ],
+ "inferior-frontal-sulcus": [
+  "Solco frontale inferiore",
+  "Sulcus frontalis inferior"
+ ],
+ "intraparietal-sulcus": [
+  "Solco intraparietale",
+  "Sulcus intraparietalis"
+ ],
+ "parieto-occipital-sulcus": [
+  "Solco parieto-occipitale",
+  "Sulcus parietooccipitalis"
+ ],
+ "postcentral-sulcus": [
+  "Solco postcentrale",
+  "Sulcus postcentralis"
+ ],
+ "precentral-sulcus": [
+  "Solco precentrale",
+  "Sulcus precentralis"
+ ],
+ "superior-frontal-sulcus": [
+  "Solco frontale superiore",
+  "Sulcus frontalis superior"
+ ],
+ "superior-temporal-sulcus": [
+  "Solco temporale superiore",
+  "Sulcus temporalis superior"
+ ],
+ "tentorium-cerebelli": [
+  "Tentorio del cervelletto",
+  "Tentorium cerebelli"
+ ],
+ "anterior-cerebral-artery": [
+  "Arteria cerebrale anteriore",
+  "Arteria cerebri anterior"
+ ],
+ "anterior-choroidal-artery": [
+  "Arteria corioidea anteriore",
+  "Arteria choroidea anterior"
+ ],
+ "anterior-communicating-artery": [
+  "Arteria comunicante anteriore",
+  "Arteria communicans anterior"
+ ],
+ "anterior-inferior-cerebellar-artery": [
+  "Arteria cerebellare inferiore anteriore (AICA)",
+  "Arteria inferior anterior cerebelli"
+ ],
+ "anterior-parietal-artery": [
+  "Arteria parietale anteriore",
+  "Arteria parietalis anterior"
+ ],
+ "anterior-spinal-artery": [
+  "Arteria spinale anteriore",
+  "Arteria spinalis anterior"
+ ],
+ "anterior-temporal-artery": [
+  "Arteria temporale anteriore",
+  "Arteria temporalis anterior"
+ ],
+ "anterior-temporal-branch-of-lateral-occipital-artery": [
+  "Rami temporali anteriori dell'arteria occipitale laterale",
+  null
+ ],
+ "anterolateral-central-branch-of-middle-cerebral-artery": [
+  "Arterie centrali anterolaterali (lenticolostriate)",
+  "Arteriae centrales anterolaterales"
+ ],
+ "artery-of-central-sulcus": [
+  "Arteria del solco centrale",
+  "Arteria sulci centralis"
+ ],
+ "artery-of-postcentral-sulcus": [
+  "Arteria del solco postcentrale",
+  "Arteria sulci postcentralis"
+ ],
+ "artery-of-precentral-sulcus": [
+  "Arteria del solco precentrale",
+  "Arteria sulci precentralis"
+ ],
+ "basilar-artery": [
+  "Arteria basilare",
+  "Arteria basilaris"
+ ],
+ "branch-of-anterior-choroidal-artery-to-posterior-limb-of-internal-capsule": [
+  "Rami dell'arteria corioidea anteriore per il braccio posteriore della capsula interna",
+  null
+ ],
+ "branch-of-middle-cerebral-artery-to-angular-gyrus": [
+  "Arteria del giro angolare",
+  "Ramus gyri angularis"
+ ],
+ "callosomarginal-artery": [
+  "Arteria callosomarginale",
+  "Arteria callosomarginalis"
+ ],
+ "hypothalamic-branch-of-posterior-communicating-artery": [
+  "Ramo ipotalamico dell'arteria comunicante posteriore",
+  "Ramus hypothalamicus"
+ ],
+ "insular-part-of-middle-cerebral-artery": [
+  "Arteria cerebrale media, parte insulare (M2)",
+  "Pars insularis arteriae cerebri mediae"
+ ],
+ "intermediomedial-branch-of-callosomarginal-artery": [
+  "Ramo frontale intermediomediale",
+  "Ramus frontalis intermediomedialis"
+ ],
+ "internal-carotid-artery": [
+  "Arteria carotide interna",
+  "Arteria carotis interna"
+ ],
+ "lateral-branch-of-pontine-artery": [
+  "Arterie pontine, rami laterali",
+  "Arteriae pontis, rami laterales"
+ ],
+ "medial-branch-of-pontine-artery": [
+  "Arterie pontine, rami mediali",
+  "Arteriae pontis, rami mediales"
+ ],
+ "lateral-branch-of-superior-cerebellar-artery": [
+  "Arteria cerebellare superiore, ramo laterale",
+  "Ramus lateralis"
+ ],
+ "medial-branch-of-superior-cerebellar-artery": [
+  "Arteria cerebellare superiore, ramo mediale",
+  "Ramus medialis"
+ ],
+ "lateral-frontobasal-artery": [
+  "Arteria frontobasale laterale",
+  "Arteria frontobasalis lateralis"
+ ],
+ "medial-frontobasal-artery": [
+  "Arteria frontobasale mediale",
+  "Arteria frontobasalis medialis"
+ ],
+ "lateral-occipital-artery": [
+  "Arteria occipitale laterale (segmento P3)",
+  "Arteria occipitalis lateralis"
+ ],
+ "medial-occipital-artery": [
+  "Arteria occipitale mediale (segmento P4)",
+  "Arteria occipitalis medialis"
+ ],
+ "middle-temporal-branch-of-lateral-occipital-artery": [
+  "Rami temporali medi dell'arteria occipitale laterale",
+  null
+ ],
+ "set-of-posterior-temporal-branches-of-lateral-occipital-artery": [
+  "Rami temporali posteriori dell'arteria occipitale laterale",
+  null
+ ],
+ "middle-temporal-branch-of-middle-cerebral-artery": [
+  "Arteria temporale media",
+  "Arteria temporalis media"
+ ],
+ "ophthalmic-artery": [
+  "Arteria oftalmica",
+  "Arteria ophthalmica"
+ ],
+ "paracentral-branch-of-callosomarginal-artery": [
+  "Rami paracentrali",
+  "Rami paracentrales"
+ ],
+ "pericallosal-artery": [
+  "Arteria pericallosa",
+  "Arteria pericallosa"
+ ],
+ "polar-temporal-artery": [
+  "Arteria temporale polare",
+  "Arteria polaris temporalis"
+ ],
+ "postcommunicating-part-of-posterior-cerebral-artery": [
+  "Arteria cerebrale posteriore, parte postcomunicante (P2)",
+  "Pars postcommunicalis arteriae cerebri posterioris"
+ ],
+ "precommunicating-part-of-posterior-cerebral-artery": [
+  "Arteria cerebrale posteriore, parte precomunicante (P1)",
+  "Pars precommunicalis arteriae cerebri posterioris"
+ ],
+ "posterior-communicating-artery": [
+  "Arteria comunicante posteriore",
+  "Arteria communicans posterior"
+ ],
+ "posterior-inferior-cerebellar-artery": [
+  "Arteria cerebellare inferiore posteriore (PICA)",
+  "Arteria inferior posterior cerebelli"
+ ],
+ "posterior-medial-choroidal-artery": [
+  "Arteria corioidea posteriore mediale",
+  "Rami choroidei posteriores mediales"
+ ],
+ "posterior-parietal-artery": [
+  "Arteria parietale posteriore",
+  "Arteria parietalis posterior"
+ ],
+ "posterior-temporal-branch-of-middle-cerebral-artery": [
+  "Arteria temporale posteriore",
+  "Arteria temporalis posterior"
+ ],
+ "posteromedial-branch-of-callosomarginal-artery": [
+  "Ramo frontale posteromediale",
+  "Ramus frontalis posteromedialis"
+ ],
+ "posteromedial-central-branch-of-posterior-cerebral-artery": [
+  "Arterie centrali posteromediali",
+  "Arteriae centrales posteromediales"
+ ],
+ "precuneal-branch-of-pericallosal-artery": [
+  "Rami precuneali",
+  "Rami precuneales"
+ ],
+ "prefrontal-artery": [
+  "Arteria prefrontale",
+  "Arteria prefrontalis"
+ ],
+ "sphenoid-part-of-middle-cerebral-artery": [
+  "Arteria cerebrale media, parte sfenoidale (M1)",
+  "Pars sphenoidalis arteriae cerebri mediae"
+ ],
+ "splenial-artery": [
+  "Rami per lo splenio del corpo calloso",
+  "Ramus corporis callosi dorsalis"
+ ],
+ "superior-cerebellar-artery": [
+  "Arteria cerebellare superiore",
+  "Arteria superior cerebelli"
+ ],
+ "superior-vermian-branch-of-medial-branch-of-superior-cerebellar-artery": [
+  "Arteria vermiana superiore",
+  "Arteria vermis superior"
+ ],
+ "temporo-occipital-branch-of-middle-cerebral-artery": [
+  "Arteria temporo-occipitale",
+  "Ramus temporooccipitalis"
+ ],
+ "thalamogeniculate-artery": [
+  "Arterie talamogenicolate",
+  "Arteria thalamogeniculata"
+ ],
+ "thalamoperforating-artery": [
+  "Arterie talamoperforanti",
+  "Arteria thalami perforans"
+ ],
+ "trunk-of-inferior-terminal-branch-of-middle-cerebral-artery": [
+  "Arteria cerebrale media, tronco inferiore",
+  "Truncus inferior"
+ ],
+ "vertebral-artery": [
+  "Arteria vertebrale",
+  "Arteria vertebralis"
+ ],
+ "stomach": [
+  "Stomaco",
+  "Gaster"
+ ],
+ "liver": [
+  "Fegato",
+  "Hepar"
+ ],
+ "caudate-lobe-of-liver": [
+  "Lobo caudato del fegato",
+  "Lobus caudatus hepatis"
+ ],
+ "spleen": [
+  "Milza",
+  "Splen"
+ ],
+ "pancreas": [
+  "Pancreas",
+  "Pancreas"
+ ],
+ "gallbladder": [
+  "Cistifellea (colecisti)",
+  "Vesica biliaris"
+ ],
+ "esophagus": [
+  "Esofago",
+  "Oesophagus"
+ ],
+ "duodenum": [
+  "Duodeno",
+  "Duodenum"
+ ],
+ "ascending-colon": [
+  "Colon ascendente",
+  "Colon ascendens"
+ ],
+ "descending-colon": [
+  "Colon discendente",
+  "Colon descendens"
+ ],
+ "transverse-colon": [
+  "Colon trasverso",
+  "Colon transversum"
+ ],
+ "rectum": [
+  "Retto",
+  "Rectum"
+ ],
+ "appendix": [
+  "Appendice vermiforme",
+  "Appendix vermiformis"
+ ],
+ "tongue": [
+  "Lingua",
+  "Lingua"
+ ],
+ "epiglottis": [
+  "Epiglottide",
+  "Epiglottis"
+ ],
+ "kidney": [
+  "Rene",
+  "Ren"
+ ],
+ "ureter": [
+  "Uretere",
+  "Ureter"
+ ],
+ "urinary-bladder": [
+  "Vescica urinaria",
+  "Vesica urinaria"
+ ],
+ "urethra": [
+  "Uretra",
+  "Urethra"
+ ],
+ "prostate": [
+  "Prostata",
+  "Prostata"
+ ],
+ "testis": [
+  "Testicolo",
+  "Testis"
+ ],
+ "epididymis": [
+  "Epididimo",
+  "Epididymis"
+ ],
+ "seminal-vesicle": [
+  "Vescichetta seminale",
+  "Glandula vesiculosa"
+ ],
+ "deferent-duct": [
+  "Dotto deferente",
+  "Ductus deferens"
+ ],
+ "trachea": [
+  "Trachea",
+  "Trachea"
+ ],
+ "main-bronchus": [
+  "Bronco principale",
+  "Bronchus principalis"
+ ],
+ "upper-lobe-of-lung": [
+  "Lobo superiore del polmone",
+  "Lobus superior pulmonis"
+ ],
+ "middle-lobe-of-lung": [
+  "Lobo medio del polmone destro",
+  "Lobus medius pulmonis dextri"
+ ],
+ "lower-lobe-of-lung": [
+  "Lobo inferiore del polmone",
+  "Lobus inferior pulmonis"
+ ],
+ "diaphragm": [
+  "Diaframma",
+  "Diaphragma"
+ ],
+ "adrenal-gland": [
+  "Ghiandola surrenale",
+  "Glandula suprarenalis"
+ ],
+ "lobe-of-thymus": [
+  "Lobo del timo",
+  "Lobus thymi"
+ ],
+ "skin": [
+  "Cute",
+  "Cutis"
+ ],
+ "frontal-bone": [
+  "Osso frontale",
+  "Os frontale"
+ ],
+ "parietal-bone": [
+  "Osso parietale",
+  "Os parietale"
+ ],
+ "occipital-bone": [
+  "Osso occipitale",
+  "Os occipitale"
+ ],
+ "temporal-bone": [
+  "Osso temporale",
+  "Os temporale"
+ ],
+ "sphenoid-bone": [
+  "Osso sfenoide",
+  "Os sphenoidale"
+ ],
+ "ethmoid": [
+  "Osso etmoide",
+  "Os ethmoidale"
+ ],
+ "mandible": [
+  "Mandibola",
+  "Mandibula"
+ ],
+ "maxilla": [
+  "Osso mascellare",
+  "Maxilla"
+ ],
+ "zygomatic-bone": [
+  "Osso zigomatico",
+  "Os zygomaticum"
+ ],
+ "nasal-bone": [
+  "Osso nasale",
+  "Os nasale"
+ ],
+ "lacrimal-bone": [
+  "Osso lacrimale",
+  "Os lacrimale"
+ ],
+ "palatine-bone": [
+  "Osso palatino",
+  "Os palatinum"
+ ],
+ "vomer": [
+  "Vomere",
+  "Vomer"
+ ],
+ "hyoid-bone": [
+  "Osso ioide",
+  "Os hyoideum"
+ ],
+ "atlas": [
+  "Atlante (C1)",
+  "Atlas"
+ ],
+ "axis": [
+  "Epistrofeo (C2)",
+  "Axis"
+ ],
+ "sacrum": [
+  "Osso sacro",
+  "Os sacrum"
+ ],
+ "body-of-sternum": [
+  "Corpo dello sterno",
+  "Corpus sterni"
+ ],
+ "manubrium": [
+  "Manubrio dello sterno",
+  "Manubrium sterni"
+ ],
+ "xiphoid-process": [
+  "Processo xifoideo",
+  "Processus xiphoideus"
+ ],
+ "clavicle": [
+  "Clavicola",
+  "Clavicula"
+ ],
+ "scapula": [
+  "Scapola",
+  "Scapula"
+ ],
+ "humerus": [
+  "Omero",
+  "Humerus"
+ ],
+ "radius": [
+  "Radio",
+  "Radius"
+ ],
+ "ulna": [
+  "Ulna",
+  "Ulna"
+ ],
+ "hip-bone": [
+  "Osso dell'anca",
+  "Os coxae"
+ ],
+ "femur": [
+  "Femore",
+  "Femur"
+ ],
+ "patella": [
+  "Rotula",
+  "Patella"
+ ],
+ "tibia": [
+  "Tibia",
+  "Tibia"
+ ],
+ "fibula": [
+  "Perone (fibula)",
+  "Fibula"
+ ],
+ "talus": [
+  "Astragalo",
+  "Talus"
+ ],
+ "calcaneus": [
+  "Calcagno",
+  "Calcaneus"
+ ],
+ "ascending-aorta": [
+  "Aorta ascendente",
+  "Aorta ascendens"
+ ],
+ "arch-of-aorta": [
+  "Arco aortico",
+  "Arcus aortae"
+ ],
+ "abdominal-aorta": [
+  "Aorta addominale",
+  "Aorta abdominalis"
+ ],
+ "superior-vena-cava": [
+  "Vena cava superiore",
+  "Vena cava superior"
+ ],
+ "inferior-vena-cava": [
+  "Vena cava inferiore",
+  "Vena cava inferior"
+ ],
+ "pulmonary-trunk": [
+  "Tronco polmonare",
+  "Truncus pulmonalis"
+ ],
+ "thyroid-cartilage": [
+  "Cartilagine tiroidea",
+  "Cartilago thyroidea"
+ ],
+ "cricoid-cartilage": [
+  "Cartilagine cricoidea",
+  "Cartilago cricoidea"
+ ],
+ "gluteus-maximus": [
+  "Muscolo grande gluteo",
+  "Musculus gluteus maximus"
+ ],
+ "sartorius": [
+  "Muscolo sartorio",
+  "Musculus sartorius"
+ ],
+ "sternocleidomastoid": [
+  "Muscolo sternocleidomastoideo",
+  "Musculus sternocleidomastoideus"
+ ],
+ "lens": [
+  "Cristallino",
+  "Lens"
+ ],
+ "cornea": [
+  "Cornea",
+  "Cornea"
+ ],
+ "sclera": [
+  "Sclera",
+  "Sclera"
+ ],
+ "iris": [
+  "Iride",
+  "Iris"
+ ],
+ "vitreous-body": [
+  "Corpo vitreo",
+  "Corpus vitreum"
+ ],
+ "external-ear": [
+  "Orecchio esterno",
+  "Auris externa"
+ ],
+ "lacrimal-gland": [
+  "Ghiandola lacrimale",
+  "Glandula lacrimalis"
+ ],
+ "eleventh-thoracic-vertebra": [
+  "Undicesima vertebra toracica (T11)",
+  "Vertebra thoracica XI"
+ ],
+ "second-rib": [
+  "Seconda costa",
+  "Costa II"
+ ],
+ "tenth-thoracic-vertebra": [
+  "Decima vertebra toracica (T10)",
+  "Vertebra thoracica X"
+ ],
+ "sixth-rib": [
+  "Sesta costa",
+  "Costa VI"
+ ],
+ "ninth-thoracic-vertebra": [
+  "Nona vertebra toracica (T9)",
+  "Vertebra thoracica IX"
+ ],
+ "first-thoracic-vertebra": [
+  "Prima vertebra toracica (T1)",
+  "Vertebra thoracica I"
+ ],
+ "twelfth-rib": [
+  "Dodicesima costa",
+  "Costa XII"
+ ],
+ "third-lumbar-vertebra": [
+  "Terza vertebra lombare (L3)",
+  "Vertebra lumbalis III"
+ ],
+ "first-rib": [
+  "Prima costa",
+  "Costa I"
+ ],
+ "eighth-thoracic-vertebra": [
+  "Ottava vertebra toracica (T8)",
+  "Vertebra thoracica VIII"
+ ],
+ "sixth-cervical-vertebra": [
+  "Sesta vertebra cervicale (C6)",
+  "Vertebra cervicalis VI"
+ ],
+ "third-cervical-vertebra": [
+  "Terza vertebra cervicale (C3)",
+  "Vertebra cervicalis III"
+ ],
+ "first-lumbar-vertebra": [
+  "Prima vertebra lombare (L1)",
+  "Vertebra lumbalis I"
+ ],
+ "fourth-rib": [
+  "Quarta costa",
+  "Costa IV"
+ ],
+ "seventh-rib": [
+  "Settima costa",
+  "Costa VII"
+ ],
+ "fifth-rib": [
+  "Quinta costa",
+  "Costa V"
+ ],
+ "twelfth-thoracic-vertebra": [
+  "Dodicesima vertebra toracica (T12)",
+  "Vertebra thoracica XII"
+ ],
+ "second-lumbar-vertebra": [
+  "Seconda vertebra lombare (L2)",
+  "Vertebra lumbalis II"
+ ],
+ "fifth-thoracic-vertebra": [
+  "Quinta vertebra toracica (T5)",
+  "Vertebra thoracica V"
+ ],
+ "fifth-lumbar-vertebra": [
+  "Quinta vertebra lombare (L5)",
+  "Vertebra lumbalis V"
+ ],
+ "fourth-lumbar-vertebra": [
+  "Quarta vertebra lombare (L4)",
+  "Vertebra lumbalis IV"
+ ],
+ "seventh-cervical-vertebra": [
+  "Settima vertebra cervicale (C7)",
+  "Vertebra cervicalis VII"
+ ],
+ "sixth-thoracic-vertebra": [
+  "Sesta vertebra toracica (T6)",
+  "Vertebra thoracica VI"
+ ],
+ "eighth-rib": [
+  "Ottava costa",
+  "Costa VIII"
+ ],
+ "seventh-thoracic-vertebra": [
+  "Settima vertebra toracica (T7)",
+  "Vertebra thoracica VII"
+ ],
+ "tenth-rib": [
+  "Decima costa",
+  "Costa X"
+ ],
+ "fourth-thoracic-vertebra": [
+  "Quarta vertebra toracica (T4)",
+  "Vertebra thoracica IV"
+ ],
+ "eleventh-rib": [
+  "Undicesima costa",
+  "Costa XI"
+ ],
+ "ninth-rib": [
+  "Nona costa",
+  "Costa IX"
+ ],
+ "second-thoracic-vertebra": [
+  "Seconda vertebra toracica (T2)",
+  "Vertebra thoracica II"
+ ],
+ "fourth-cervical-vertebra": [
+  "Quarta vertebra cervicale (C4)",
+  "Vertebra cervicalis IV"
+ ],
+ "third-rib": [
+  "Terza costa",
+  "Costa III"
+ ],
+ "fifth-cervical-vertebra": [
+  "Quinta vertebra cervicale (C5)",
+  "Vertebra cervicalis V"
+ ],
+ "third-thoracic-vertebra": [
+  "Terza vertebra toracica (T3)",
+  "Vertebra thoracica III"
+ ],
+ "abdominal-part-of-pectoralis-major": [
+  "Muscolo grande pettorale, parte addominale",
+  null
+ ],
+ "abductor-digiti-minimi-of-foot": [
+  "Abduttore del quinto dito del piede",
+  "Abductor digiti minimi pedis"
+ ],
+ "abductor-digiti-minimi-of-hand": [
+  "Muscolo abduttore del mignolo della mano",
+  "Abductor digiti minimi manus"
+ ],
+ "accessory-hemiazygos-vein": [
+  "Vena emiazygos accessoria",
+  null
+ ],
+ "accessory-subsuperior-branch-of-posterior-basal-segmental-artery": [
+  "Ramo sottosuperiore accessorio dell'arteria segmentale basale posteriore",
+  null
+ ],
+ "acromial-branch-of-thoraco-acromial-artery": [
+  "Ramo acromiale dell'arteria toracoacromiale",
+  "Ramus acromialis arteriae thoracoacromialis"
+ ],
+ "acromial-part-of-deltoid": [
+  "Parte acromiale del muscolo deltoide",
+  "Pars acromialis musculi deltoidei"
+ ],
+ "anterior-branch-of-lateral-segmental-artery": [
+  "Ramo anteriore dell'arteria segmentale laterale",
+  null
+ ],
+ "anterior-branch-of-anterior-segmental-artery": [
+  "Ramo anteriore dell'arteria segmentale anteriore",
+  null
+ ],
+ "anterior-cardiac-vein": [
+  "Vene cardiache anteriori",
+  "Venae anteriores cordis"
+ ],
+ "anterior-cecal-artery": [
+  "Arteria cecale anteriore",
+  null
+ ],
+ "anterior-chamber-of-eyeball": [
+  "Camera anteriore del bulbo oculare",
+  "Camera anterior bulbi oculi"
+ ],
+ "anterior-cusp-of-aortic-valve": [
+  "Cuspide anteriore della valvola aortica",
+  null
+ ],
+ "anterior-division-of-renal-artery": [
+  "Divisione anteriore dell'arteria renale",
+  null
+ ],
+ "anterior-inferior-pancreaticoduodenal-artery": [
+  "Ramo anteriore dell'art. pancreaticoduodenale inf.",
+  "Arteria pancreaticoduodenalis inferior anterior"
+ ],
+ "anterior-inferior-segmental-branch-of-portal-vein": [
+  "Ramo segmentale inferiore anteriore della vena porta",
+  null
+ ],
+ "anterior-inferior-segmental-hepatic-artery": [
+  "Arteria epatica segmentale inferiore anteriore",
+  null
+ ],
+ "anterior-inferior-segmental-tributary-of-middle-hepatic-vein": [
+  "Affluente segmentale inferiore anteriore della vena epatica media",
+  null
+ ],
+ "anterior-inferior-tributary-of-hepatic-biliary-tree": [
+  "Affluente inferiore anteriore dell'albero biliare epatico",
+  null
+ ],
+ "anterior-interventricular-vein": [
+  "Vena interventricolare anteriore",
+  "Vena interventricularis anterior"
+ ],
+ "anterior-leaflet-of-mitral-valve": [
+  "Lembo anteriore della valvola mitrale",
+  null
+ ],
+ "anterior-leaflet-of-tricuspid-valve": [
+  "Lembo anteriore della valvola tricuspide",
+  null
+ ],
+ "anterior-papillary-muscle-of-ventricle": [
+  "Muscolo papillare anteriore del ventricolo",
+  null
+ ],
+ "anterior-part-of-lateral-segmental-vein": [
+  "Parte anteriore della vena segmentale laterale",
+  null
+ ],
+ "anterior-part-of-apical-segmental-artery": [
+  "Parte anteriore dell'arteria segmentale apicale",
+  null
+ ],
+ "anterior-part-of-apical-segmental-vein": [
+  "Parte anteriore della vena segmentale apicale",
+  null
+ ],
+ "anterior-superior-segmental-branch-of-portal-vein": [
+  "Ramo segmentale superiore anteriore della vena porta",
+  null
+ ],
+ "anterior-superior-segmental-hepatic-artery": [
+  "Arteria epatica segmentale superiore anteriore",
+  null
+ ],
+ "anterior-superior-segmental-tributary-of-hepatic-vein": [
+  "Affluente segmentale superiore anteriore della vena epatica",
+  null
+ ],
+ "anterior-superior-tributary-of-hepatic-biliary-tree": [
+  "Affluente superiore anteriore dell'albero biliare epatico",
+  null
+ ],
+ "apical-part-of-apical-segmental-artery": [
+  "Parte apicale dell'arteria segmentale apicale",
+  null
+ ],
+ "apical-part-of-apical-segmental-vein": [
+  "Parte apicale della vena segmentale apicale",
+  null
+ ],
+ "apical-part-of-posterior-segmental-artery": [
+  "Parte apicale dell'arteria segmentale posteriore",
+  null
+ ],
+ "appendicular-artery": [
+  "Arteria appendicolare",
+  "Arteria appendicularis"
+ ],
+ "ascending-branch-of-inferior-branch-of-ileocolic-artery": [
+  "Ramo ascendente del ramo inferiore dell'arteria ileocolica",
+  null
+ ],
+ "ascending-branch-of-colic-artery": [
+  "Ramo ascendente dell'arteria colica",
+  null
+ ],
+ "ascending-lumbar-vein": [
+  "Vena lombare ascendente",
+  null
+ ],
+ "ascending-part-of-trapezius": [
+  "Parte ascendente del muscolo trapezio",
+  "Pars ascendens musculi trapezii"
+ ],
+ "azygos-vein": [
+  "Vena azygos",
+  "Vena azyga"
+ ],
+ "basal-branch-of-anterior-basal-segmental-artery": [
+  "Ramo basale dell'arteria segmentale basale anteriore",
+  null
+ ],
+ "brachiocephalic-artery": [
+  "Tronco brachiocefalico",
+  null
+ ],
+ "bronchial-artery": [
+  "Arteria bronchiale",
+  null
+ ],
+ "bronchial-branch-of-arch-of-aorta": [
+  "Ramo bronchiale dell'arco aortico",
+  null
+ ],
+ "caudal-pancreatic-artery": [
+  "Arteria della coda del pancreas",
+  null
+ ],
+ "cavity-of-atrium": [
+  "Cavità dell'atrio",
+  null
+ ],
+ "cavity-of-ventricle": [
+  "Cavità del ventricolo",
+  null
+ ],
+ "celiac-artery": [
+  "Tronco celiaco",
+  null
+ ],
+ "celiac-trunk": [
+  "Tronco celiaco",
+  null
+ ],
+ "check-ligament-of-lateral-rectus": [
+  "Lacerto del muscolo retto laterale",
+  "Lacertus musculi recti lateralis"
+ ],
+ "check-ligament-of-medial-rectus": [
+  "Legamento di arresto del muscolo retto mediale",
+  null
+ ],
+ "circumflex-branch-of-coronary-artery": [
+  "Ramo circonflesso dell'arteria coronaria",
+  null
+ ],
+ "clavicular-part-of-deltoid": [
+  "Parte clavicolare del muscolo deltoide",
+  "Pars clavicularis musculi deltoidei"
+ ],
+ "clavicular-part-of-pectoralis-major": [
+  "Muscolo grande pettorale, parte clavicolare",
+  null
+ ],
+ "common-hepatic-artery": [
+  "Arteria epatica comune",
+  "Arteria hepatica communis"
+ ],
+ "common-hepatic-duct": [
+  "Dotto epatico comune",
+  "Ductus hepaticus communis"
+ ],
+ "common-palmar-digital-vein": [
+  "Vena digitale palmare comune",
+  null
+ ],
+ "communicating-branch-of-nasociliary-nerve-with-ciliary-ganglion": [
+  "Ramo comunicante del nervo nasociliare con il ganglio ciliare",
+  null
+ ],
+ "conus-branch-of-anterior-interventricular-branch-of-coronary-artery": [
+  "Ramo del cono del ramo interventricolare anteriore dell'arteria coronaria",
+  null
+ ],
+ "coronary-sinus": [
+  "Seno coronario",
+  "Sinus coronarius"
+ ],
+ "corpus-cavernosum-of-penis": [
+  "Corpo cavernoso del pene",
+  "Corpus cavernosum penis"
+ ],
+ "corpus-spongiosum-of-penis": [
+  "Corpo spongioso del pene",
+  "Corpus spongiosum penis"
+ ],
+ "cystic-duct": [
+  "Dotto cistico",
+  "Ductus cysticus"
+ ],
+ "deep-dorsal-vein-of-penis": [
+  "Vena dorsale profonda del pene",
+  "Vena dorsalis profunda penis"
+ ],
+ "deltoid-branch-of-thoraco-acromial-artery": [
+  "Ramo deltoideo dell'arteria toracoacromiale",
+  "Ramus deltoideus arteriae thoracoacromialis"
+ ],
+ "descending-aorta": [
+  "Aorta discendente",
+  "Aorta descendens"
+ ],
+ "descending-branch-of-colic-artery": [
+  "Ramo discendente dell'arteria colica",
+  null
+ ],
+ "descending-branch-of-lateral-circumflex-femoral-artery": [
+  "Ramo discendente",
+  "Ramus descendens arteriae circumflexae lateralis femoris"
+ ],
+ "descending-part-of-trapezius": [
+  "Parte discendente del muscolo trapezio",
+  "Pars descendens musculi trapezii"
+ ],
+ "descending-thoracic-aorta": [
+  "Aorta toracica discendente",
+  null
+ ],
+ "diagonal-branch-of-anterior-descending-branch-of-coronary-artery": [
+  "Ramo diagonale del ramo discendente anteriore dell'arteria coronaria",
+  null
+ ],
+ "distal-part-of-ileum": [
+  "Parte distale dell'ileo",
+  null
+ ],
+ "distal-part-of-jejunum": [
+  "Parte distale del digiuno",
+  null
+ ],
+ "distal-perforating-artery": [
+  "Arteria perforante distale",
+  null
+ ],
+ "distal-phalanx-of-big-toe": [
+  "Falange distale dell'alluce",
+  null
+ ],
+ "distal-phalanx-of-fourth-toe": [
+  "Falange distale del quarto dito del piede",
+  null
+ ],
+ "distal-phalanx-of-index-finger": [
+  "Falange distale dell'indice",
+  null
+ ],
+ "distal-phalanx-of-little-finger": [
+  "Falange distale del mignolo",
+  null
+ ],
+ "distal-phalanx-of-little-toe": [
+  "Falange distale del quinto dito del piede",
+  null
+ ],
+ "distal-phalanx-of-middle-finger": [
+  "Falange distale del medio",
+  null
+ ],
+ "distal-phalanx-of-ring-finger": [
+  "Falange distale dell'anulare",
+  null
+ ],
+ "distal-phalanx-of-second-toe": [
+  "Falange distale del secondo dito del piede",
+  null
+ ],
+ "distal-phalanx-of-third-toe": [
+  "Falange distale del terzo dito del piede",
+  null
+ ],
+ "distal-phalanx-of-thumb": [
+  "Falange distale del pollice",
+  null
+ ],
+ "dorsal-carpal-branch-of-radial-artery": [
+  "Ramo carpale dorsale dell'arteria radiale",
+  "Ramus carpeus dorsalis arteriae"
+ ],
+ "dorsal-digital-artery-of-foot": [
+  "Arteria digitale dorsale del piede",
+  null
+ ],
+ "dorsal-metacarpal-vein": [
+  "Vene metacarpali dorsali",
+  "Venae metacarpeae dorsales"
+ ],
+ "dorsal-pancreatic-artery": [
+  "Arteria pancreatica dorsale",
+  "Arteria pancreatica dorsalis"
+ ],
+ "dorsal-venous-arch-of-foot": [
+  "Arco venoso dorsale del piede",
+  "Arcus venosus dorsalis pedis"
+ ],
+ "dorsal-venous-network-of-hand": [
+  "Rete venosa dorsale della mano",
+  "Rete venosum dorsale manus"
+ ],
+ "esophageal-artery": [
+  "Arteria esofagea",
+  null
+ ],
+ "external-anal-sphincter": [
+  "Sfintere anale esterno",
+  "Sphincter externus ani"
+ ],
+ "external-intercostal-muscle": [
+  "Muscoli intercostali esterni",
+  "Musculi intercostales externi"
+ ],
+ "eyebrow": [
+  "Sopracciglio",
+  "Supercilium"
+ ],
+ "first-anterior-ventricular-branch-of-coronary-artery": [
+  "Primo ramo ventricolare anteriore dell'arteria coronaria",
+  null
+ ],
+ "first-lumbrical-of-foot": [
+  "Primo muscolo lombricale del piede",
+  null
+ ],
+ "first-plantar-interosseous-of-foot": [
+  "Primo muscolo interosseo plantare del piede",
+  null
+ ],
+ "first-posterior-ventricular-branch-of-coronary-artery": [
+  "Primo ramo ventricolare posteriore dell'arteria coronaria",
+  null
+ ],
+ "first-right-anterior-branch-of-anterior-interventricular-branch-of-coronary-artery": [
+  "Primo ramo anteriore del ramo interventricolare anteriore dell'arteria coronaria",
+  null
+ ],
+ "first-septal-branch-of-posterior-interventricular-artery": [
+  "Primo ramo settale dell'arteria interventricolare posteriore",
+  null
+ ],
+ "flexor-digiti-minimi-brevis-of-foot": [
+  "Muscolo flessore breve del quinto dito del piede",
+  null
+ ],
+ "flexor-digiti-minimi-brevis-of-hand": [
+  "Muscolo flessore breve del mignolo",
+  null
+ ],
+ "fourth-lumbrical-of-foot": [
+  "Quarto muscolo lombricale del piede",
+  null
+ ],
+ "gingiva-of-lower-jaw": [
+  "Gengiva dell'arcata dentale inferiore",
+  null
+ ],
+ "gingiva-of-upper-jaw": [
+  "Gengiva dell'arcata dentale superiore",
+  null
+ ],
+ "glans-penis": [
+  "Glande del pene",
+  "Glans penis"
+ ],
+ "great-cardiac-vein": [
+  "Vena cardiaca magna",
+  "Vena magna cordis"
+ ],
+ "great-pancreatic-artery": [
+  "Arteria grande pancreatica",
+  "Arteria pancreatica maqna"
+ ],
+ "hair-of-head": [
+  "Capelli",
+  null
+ ],
+ "hemiazygos-vein": [
+  "Vena emiazygos",
+  null
+ ],
+ "hepatic-artery-proper": [
+  "Arteria epatica propria",
+  null
+ ],
+ "hepatic-portal-vein": [
+  "Vena porta epatica",
+  "Vena portae hepatis"
+ ],
+ "hepatovenous-segment-ii": [
+  "Segmento epatico II (territorio venoso)",
+  null
+ ],
+ "hepatovenous-segment-iii": [
+  "Segmento epatico III (territorio venoso)",
+  null
+ ],
+ "hepatovenous-segment-iv": [
+  "Segmento epatico IV (territorio venoso)",
+  null
+ ],
+ "hepatovenous-segment-ix": [
+  "Segmento epatico IX (territorio venoso)",
+  null
+ ],
+ "hepatovenous-segment-v": [
+  "Segmento epatico V (territorio venoso)",
+  null
+ ],
+ "hepatovenous-segment-vi": [
+  "Segmento epatico VI (territorio venoso)",
+  null
+ ],
+ "hepatovenous-segment-vii": [
+  "Segmento epatico VII (territorio venoso)",
+  null
+ ],
+ "hepatovenous-segment-viii": [
+  "Segmento epatico VIII (territorio venoso)",
+  null
+ ],
+ "humeral-head-of-flexor-carpi-ulnaris": [
+  "Capo omerale del muscolo flessore ulnare del carpo",
+  "Caput humerale flexoris ulnaris carpi"
+ ],
+ "humeral-head-of-pronator-teres": [
+  "Muscolo pronatore rotondo, capo omerale",
+  null
+ ],
+ "hyo-epiglottic-ligament": [
+  "Legamento io-epiglottico",
+  "Ligamentum hyoepiglotticum"
+ ],
+ "ileal-artery": [
+  "Arterie ileali",
+  "Arteriae ileales"
+ ],
+ "ileal-branch-of-inferior-branch-of-ileocolic-artery": [
+  "Ramo ileale del ramo inferiore dell'arteria ileocolica",
+  null
+ ],
+ "ileal-vein": [
+  "Vene ileali",
+  "Venae ileales"
+ ],
+ "ileocecal-junction": [
+  "Giunzione ileocecale",
+  null
+ ],
+ "ileocolic-artery": [
+  "Arteria ileocolica",
+  "Arteria ileocolica"
+ ],
+ "ileocolic-vein": [
+  "Vena ileocolica",
+  null
+ ],
+ "inferior-branch-of-medial-segmental-artery": [
+  "Ramo inferiore dell'arteria segmentale mediale",
+  null
+ ],
+ "inferior-lingular-artery": [
+  "Arteria lingulare inferiore",
+  null
+ ],
+ "inferior-lingular-bronchial-tree": [
+  "Albero bronchiale lingulare inferiore",
+  null
+ ],
+ "inferior-lingular-vein": [
+  "Vena lingulare inferiore",
+  null
+ ],
+ "inferior-mesenteric-artery": [
+  "Arteria mesenterica inferiore",
+  "Arteria mesenterica inferior"
+ ],
+ "inferior-mesenteric-vein": [
+  "Vena mesenterica inferiore",
+  "Vena mesenterica inferior"
+ ],
+ "inferior-oblique-part-of-longus-colli": [
+  "Muscolo lungo del collo, parte obliqua inferiore",
+  null
+ ],
+ "inferior-pancreatic-artery": [
+  "Arteria pancreatica inferiore",
+  "Arteria pancreatica inferior"
+ ],
+ "inferior-pancreaticoduodenal-artery": [
+  "Arteria pancreaticoduodenale inferiore",
+  "Arteria pancreaticoduodenalis"
+ ],
+ "inferior-part-of-medial-segmental-vein": [
+  "Parte inferiore della vena segmentale mediale",
+  null
+ ],
+ "inferior-part-of-anterior-segmental-vein": [
+  "Parte inferiore della vena segmentale anteriore",
+  null
+ ],
+ "inferior-phrenic-vein": [
+  "Vene freniche inferiori",
+  "Venae phrenicae inferiores"
+ ],
+ "inferior-segmental-branch-of-renal-artery": [
+  "Ramo segmentale inferiore dell'arteria renale",
+  null
+ ],
+ "innermost-intercostal-muscle": [
+  "Muscoli intercostali intimi",
+  "Musculi intercostales intimi"
+ ],
+ "internal-intercostal-muscle": [
+  "Muscoli intercostali interni",
+  "Musculi intercostales interni"
+ ],
+ "interosseous-membrane-of-forearm": [
+  "Membrana interossea dell'avambraccio",
+  "Membrana interossea antebrachii"
+ ],
+ "interosseous-membrane-of-leg": [
+  "Membrana interossea della gamba",
+  "Membrana interossea cruris"
+ ],
+ "intervertebral-disk": [
+  "Dischi intervertebrali",
+  null
+ ],
+ "intervertebral-disk-of-axis": [
+  "Disco intervertebrale dell'epistrofeo",
+  null
+ ],
+ "intervertebral-disk-of-eighth-thoracic-vertebra": [
+  "Disco intervertebrale dell'ottava vertebra toracica",
+  null
+ ],
+ "intervertebral-disk-of-eleventh-thoracic-vertebra": [
+  "Disco intervertebrale dell'undicesima vertebra toracica",
+  null
+ ],
+ "intervertebral-disk-of-fifth-cervical-vertebra": [
+  "Disco intervertebrale della quinta vertebra cervicale",
+  null
+ ],
+ "intervertebral-disk-of-fifth-lumbar-vertebra": [
+  "Disco intervertebrale della quinta vertebra lombare",
+  null
+ ],
+ "intervertebral-disk-of-fifth-thoracic-vertebra": [
+  "Disco intervertebrale della quinta vertebra toracica",
+  null
+ ],
+ "intervertebral-disk-of-first-lumbar-vertebra": [
+  "Disco intervertebrale della prima vertebra lombare",
+  null
+ ],
+ "intervertebral-disk-of-first-thoracic-vertebra": [
+  "Disco intervertebrale della prima vertebra toracica",
+  null
+ ],
+ "intervertebral-disk-of-fourth-cervical-vertebra": [
+  "Disco intervertebrale della quarta vertebra cervicale",
+  null
+ ],
+ "intervertebral-disk-of-fourth-lumbar-vertebra": [
+  "Disco intervertebrale della quarta vertebra lombare",
+  null
+ ],
+ "intervertebral-disk-of-fourth-thoracic-vertebra": [
+  "Disco intervertebrale della quarta vertebra toracica",
+  null
+ ],
+ "intervertebral-disk-of-ninth-thoracic-vertebra": [
+  "Disco intervertebrale della nona vertebra toracica",
+  null
+ ],
+ "intervertebral-disk-of-second-lumbar-vertebra": [
+  "Disco intervertebrale della seconda vertebra lombare",
+  null
+ ],
+ "intervertebral-disk-of-second-thoracic-vertebra": [
+  "Disco intervertebrale della seconda vertebra toracica",
+  null
+ ],
+ "intervertebral-disk-of-seventh-cervical-vertebra": [
+  "Disco intervertebrale della settima vertebra cervicale",
+  null
+ ],
+ "intervertebral-disk-of-seventh-thoracic-vertebra": [
+  "Disco intervertebrale della settima vertebra toracica",
+  null
+ ],
+ "intervertebral-disk-of-sixth-cervical-vertebra": [
+  "Disco intervertebrale della sesta vertebra cervicale",
+  null
+ ],
+ "intervertebral-disk-of-sixth-thoracic-vertebra": [
+  "Disco intervertebrale della sesta vertebra toracica",
+  null
+ ],
+ "intervertebral-disk-of-tenth-thoracic-vertebra": [
+  "Disco intervertebrale della decima vertebra toracica",
+  null
+ ],
+ "intervertebral-disk-of-third-cervical-vertebra": [
+  "Disco intervertebrale della terza vertebra cervicale",
+  null
+ ],
+ "intervertebral-disk-of-third-lumbar-vertebra": [
+  "Disco intervertebrale della terza vertebra lombare",
+  null
+ ],
+ "intervertebral-disk-of-third-thoracic-vertebra": [
+  "Disco intervertebrale della terza vertebra toracica",
+  null
+ ],
+ "lateral-branch-of-anterior-basal-segmental-artery": [
+  "Ramo laterale dell'arteria segmentale basale anteriore",
+  null
+ ],
+ "lateral-branch-of-lateral-basal-segmental-artery": [
+  "Ramo laterale dell'arteria segmentale basale laterale",
+  null
+ ],
+ "lateral-branch-of-superior-segmental-artery": [
+  "Ramo laterale dell'arteria segmentale superiore",
+  null
+ ],
+ "lateral-head-of-flexor-hallucis-brevis": [
+  "Capo laterale del flessore breve dell'alluce",
+  "Caput laterale flexoris brevis hallucis"
+ ],
+ "lateral-head-of-gastrocnemius": [
+  "Capo laterale del gastrocnemio",
+  "Caput laterale musculi gastrocnemii"
+ ],
+ "lateral-head-of-triceps-brachii": [
+  "Capo laterale del muscolo tricipite brachiale",
+  "Caput laterale musculi tricipitis brachii"
+ ],
+ "lateral-inferior-segmental-branch-of-portal-vein": [
+  "Ramo segmentale inferiore laterale della vena porta",
+  null
+ ],
+ "lateral-inferior-segmental-hepatic-artery": [
+  "Arteria epatica segmentale inferiore laterale",
+  null
+ ],
+ "lateral-inferior-segmental-tributary-of-hepatic-vein": [
+  "Affluente segmentale inferiore laterale della vena epatica",
+  null
+ ],
+ "lateral-inferior-tributary-of-hepatic-biliary-tree": [
+  "Affluente inferiore laterale dell'albero biliare epatico",
+  null
+ ],
+ "lateral-lumbar-intertransversarius": [
+  "Muscoli intertrasversari laterali dei lombi",
+  null
+ ],
+ "lateral-papillary-muscle-of-ventricle": [
+  "Muscolo papillare laterale del ventricolo",
+  null
+ ],
+ "lateral-proper-palmar-digital-artery-of-little-finger": [
+  "Arteria digitale palmare propria laterale del mignolo",
+  null
+ ],
+ "lateral-proper-palmar-digital-artery-of-middle-finger": [
+  "Arteria digitale palmare propria laterale del medio",
+  null
+ ],
+ "lateral-proper-palmar-digital-artery-of-ring-finger": [
+  "Arteria digitale palmare propria laterale dell'anulare",
+  null
+ ],
+ "lateral-segmental-bronchial-tree": [
+  "Albero bronchiale segmentale laterale",
+  null
+ ],
+ "lateral-superior-segmental-branch-of-portal-vein": [
+  "Ramo segmentale superiore laterale della vena porta",
+  null
+ ],
+ "lateral-superior-segmental-hepatic-artery": [
+  "Arteria epatica segmentale superiore laterale",
+  null
+ ],
+ "lateral-superior-segmental-tributary-of-hepatic-vein": [
+  "Affluente segmentale superiore laterale della vena epatica",
+  null
+ ],
+ "lateral-superior-tributary-of-hepatic-biliary-tree": [
+  "Affluente superiore laterale dell'albero biliare epatico",
+  null
+ ],
+ "laterobasal-branch-of-posterior-basal-segmental-artery": [
+  "Ramo laterobasale dell'arteria segmentale basale posteriore",
+  null
+ ],
+ "abductor-hallucis": [
+  "Abduttore dell'alluce",
+  "Abductor hallucis"
+ ],
+ "abductor-pollicis-brevis": [
+  "Muscolo abduttore breve del pollice",
+  "Abductor brevis pollicis"
+ ],
+ "abductor-pollicis-longus": [
+  "Muscolo abduttore lungo del pollice",
+  "Abductor longus pollicis"
+ ],
+ "adductor-brevis": [
+  "Adduttore breve",
+  "Adductor brevis"
+ ],
+ "adductor-longus": [
+  "Adduttore lungo",
+  "Adductor longus"
+ ],
+ "adductor-magnus": [
+  "Grande adduttore",
+  "Adductor magnus"
+ ],
+ "adductor-minimus": [
+  "Muscolo adduttore minimo",
+  null
+ ],
+ "anconeus": [
+  "Muscolo anconeo",
+  "Musculus anconeus"
+ ],
+ "anterior-basal-segmental-artery": [
+  "Arteria segmentale basale anteriore",
+  null
+ ],
+ "anterior-basal-segmental-bronchial-tree": [
+  "Albero bronchiale segmentale basale anteriore",
+  null
+ ],
+ "anterior-basal-segmental-vein": [
+  "Vena segmentale basale anteriore",
+  null
+ ],
+ "anterior-circumflex-humeral-artery": [
+  "Arteria circonflessa anteriore dell'omero",
+  "Arteria circumflexa anterior humeri"
+ ],
+ "anterior-circumflex-humeral-vein": [
+  "Vena circonflessa anteriore dell'omero",
+  "Vena circumflexa anterior humeri"
+ ],
+ "anterior-cusp-of-pulmonary-valve": [
+  "Cuspide anteriore della valvola polmonare",
+  null
+ ],
+ "anterior-ethmoidal-nerve": [
+  "Nervo etmoidale anteriore",
+  "Nervus ethmoideus anterior"
+ ],
+ "anterior-interosseous-artery": [
+  "Arteria interossea anteriore",
+  "Arteria interossea anterior"
+ ],
+ "anterior-segmental-artery": [
+  "Arteria segmentale anteriore",
+  null
+ ],
+ "anterior-segmental-bronchial-tree": [
+  "Albero bronchiale segmentale anteriore",
+  null
+ ],
+ "anterior-segmental-vein": [
+  "Vena segmentale anteriore",
+  null
+ ],
+ "anterior-tibial-artery": [
+  "Arteria tibiale anteriore",
+  "Arteria tibialis anterior"
+ ],
+ "anterior-tibial-recurrent-artery": [
+  "Arteria ricorrente tibiale anteriore",
+  "Arteria recurrens tibialis anterior"
+ ],
+ "anterior-tibial-vein": [
+  "Vene tibiali anteriori",
+  "Venae tibiales anteriores"
+ ],
+ "anterior-ulnar-recurrent-artery": [
+  "Ramo anteriore dell'arteria ricorrente ulnare",
+  "Arteria recurrens ulnaris anterior"
+ ],
+ "apical-segmental-artery": [
+  "Arteria segmentale apicale",
+  null
+ ],
+ "apical-segmental-bronchial-tree": [
+  "Albero bronchiale segmentale apicale",
+  null
+ ],
+ "apical-segmental-vein": [
+  "Vena segmentale apicale",
+  null
+ ],
+ "arcuate-artery": [
+  "Arteria arcuata",
+  "Arteria arcuata"
+ ],
+ "arteria-princeps-pollicis": [
+  "Arteria principale del pollice",
+  null
+ ],
+ "arteria-radialis-indicis": [
+  "Arteria radiale dell'indice",
+  null
+ ],
+ "aryepiglotticus": [
+  "Muscolo ariepiglottico",
+  null
+ ],
+ "arytenoid-cartilage": [
+  "Cartilagine aritenoidea",
+  "Cartilago arytenoidea"
+ ],
+ "axillary-artery": [
+  "Arteria ascellare",
+  "Arteria axillaris"
+ ],
+ "axillary-vein": [
+  "Vena ascellare",
+  "Vena axillaris"
+ ],
+ "basilic-vein": [
+  "Vena basilica",
+  "Vena basilica"
+ ],
+ "brachial-artery": [
+  "Arteria brachiale",
+  "Arteria brachialis"
+ ],
+ "brachialis": [
+  "Muscolo brachiale",
+  "Musculus brachialis"
+ ],
+ "brachiocephalic-vein": [
+  "Vena brachiocefalica",
+  "Vena brachiocephalica"
+ ],
+ "brachioradialis": [
+  "Muscolo brachioradiale",
+  "Musculus brachioradialis"
+ ],
+ "calcaneal-tendon": [
+  "Tendine calcaneare",
+  "Tendo calcaneus"
+ ],
+ "capitate": [
+  "Osso capitato",
+  null
+ ],
+ "cephalic-vein": [
+  "Vena cefalica",
+  "Vena cephalica"
+ ],
+ "cervical-rotator": [
+  "Muscoli rotatori del collo",
+  null
+ ],
+ "choroid": [
+  "Coroide",
+  "Chorioidea"
+ ],
+ "ciliary-ganglion": [
+  "Ganglio ciliare",
+  "Ganglion ciliare"
+ ],
+ "circumflex-scapular-artery": [
+  "Arteria circonflessa della scapola",
+  "Arteria circumflexa scapulae"
+ ],
+ "circumflex-scapular-vein": [
+  "Vena circonflessa della scapola",
+  "Vena circumflexa scapulae"
+ ],
+ "coccygeus": [
+  "Muscolo coccigeo",
+  "Musculus coccygeus"
+ ],
+ "colic-artery": [
+  "Arteria colica",
+  null
+ ],
+ "colic-vein": [
+  "Vena colica",
+  null
+ ],
+ "common-carotid-artery": [
+  "Arteria carotide comune",
+  "Carotis communis"
+ ],
+ "common-iliac-artery": [
+  "Arteria iliaca comune",
+  "Arteria iliaca communis"
+ ],
+ "common-iliac-vein": [
+  "Vena iliaca comune",
+  "Vena iliaca communis"
+ ],
+ "common-interosseous-artery": [
+  "Arteria interossea comune",
+  "Arteria interossea communis"
+ ],
+ "common-tendinous-ring": [
+  "Anello tendineo comune",
+  "Anulus tendineus communis"
+ ],
+ "conus-elasticus": [
+  "Cono elastico",
+  "Conus elasticus"
+ ],
+ "coracobrachialis": [
+  "Muscolo coracobrachiale",
+  "Musculus coracobrachialis"
+ ],
+ "corniculate-cartilage": [
+  "Cartilagine corniculata",
+  "Cartilago corniculata"
+ ],
+ "corona-ciliaris": [
+  "Corona ciliare",
+  "Corona ciliaris"
+ ],
+ "costocervical-trunk": [
+  "Tronco costocervicale",
+  "Truncus costocervicalis"
+ ],
+ "cuboid-bone": [
+  "Osso cuboide",
+  "Os cuboideum"
+ ],
+ "cuneiform-cartilage": [
+  "Cartilagine cuneiforme",
+  "Cartilago cuneiformis"
+ ],
+ "deep-brachial-artery": [
+  "Arteria brachiale profonda",
+  "Arteria profunda brachii"
+ ],
+ "deep-cervical-artery": [
+  "Arteria cervicale profonda",
+  "Arteria cervicalis profunda"
+ ],
+ "deep-femoral-vein": [
+  "Vena femorale profonda",
+  "Vena profunda femoris"
+ ],
+ "deep-palmar-arch": [
+  "Arcata palmare profonda",
+  "Arcus palmaris profundus"
+ ],
+ "deep-palmar-venous-arch": [
+  "Arcata venosa palmare profonda",
+  null
+ ],
+ "deep-plantar-artery": [
+  "Arteria plantare profonda",
+  "Arteria plantaris profunda"
+ ],
+ "descending-genicular-artery": [
+  "Arteria discendente del ginocchio",
+  "Arteria descendens genus"
+ ],
+ "digastric": [
+  "Muscolo digastrico",
+  "Musculus digastricus"
+ ],
+ "dorsal-artery-of-penis": [
+  "Arteria dorsale del pene",
+  "Arteria dorsalis penis"
+ ],
+ "dorsal-carpal-branch-of-ulnar-artery": [
+  "Ramo carpale dorsale dell'arteria ulnare",
+  "Ramus carpeus dorsalis arteriae ulnaris"
+ ],
+ "dorsal-scapular-artery": [
+  "Arteria dorsale della scapola",
+  "Arteria dorsalis scapulae"
+ ],
+ "dorsalis-pedis-artery": [
+  "Arteria dorsale del piede",
+  "Arteria dorsalis pedis"
+ ],
+ "duct-of-caudate-lobe-of-liver": [
+  "Dotto del lobo caudato del fegato",
+  null
+ ],
+ "extensor-carpi-radialis-brevis": [
+  "Muscolo estensore radiale breve del carpo",
+  "Extensor radialis brevis carpi"
+ ],
+ "extensor-carpi-radialis-longus": [
+  "Muscolo estensore radiale lungo del carpo",
+  "Extensor radialis longus carpi"
+ ],
+ "extensor-carpi-ulnaris": [
+  "Muscolo estensore ulnare del carpo",
+  "Extensor ulnaris carpi"
+ ],
+ "extensor-digiti-minimi": [
+  "Muscolo estensore del mignolo",
+  "Extensor digiti minimi"
+ ],
+ "extensor-digitorum": [
+  "Muscolo estensore comune delle dita",
+  "Extensor digitorum"
+ ],
+ "extensor-digitorum-longus": [
+  "Estensore lungo delle dita",
+  "Extensor longus digitorum"
+ ],
+ "extensor-hallucis-brevis": [
+  "Estensore breve dell'alluce",
+  "Extensor brevis hallucis"
+ ],
+ "extensor-hallucis-longus": [
+  "Estensore lungo dell'alluce",
+  "Extensor longus hallucis"
+ ],
+ "extensor-indicis": [
+  "Muscolo estensore dell'indice",
+  "Extensor indicis"
+ ],
+ "extensor-pollicis-brevis": [
+  "Muscolo estensore breve del pollice",
+  "Extensor brevis pollicis"
+ ],
+ "extensor-pollicis-longus": [
+  "Muscolo estensore lungo del pollice",
+  "Extensor longus pollicis"
+ ],
+ "external-iliac-artery": [
+  "Arteria iliaca esterna",
+  "Arteria iliaca externa"
+ ],
+ "external-iliac-vein": [
+  "Vena iliaca esterna",
+  "Vena iliaca externa"
+ ],
+ "external-oblique": [
+  "Muscolo obliquo esterno dell'addome",
+  null
+ ],
+ "femoral-artery": [
+  "Arteria femorale",
+  "Arteria femoralis"
+ ],
+ "femoral-vein": [
+  "Vena femorale",
+  "Vena femoralis"
+ ],
+ "fibular-vein": [
+  "Vene peroneali",
+  "Venae fibulares"
+ ],
+ "fibularis-brevis": [
+  "Muscolo peroniero breve",
+  "Musculus fibularis brevis"
+ ],
+ "fibularis-longus": [
+  "Muscolo peroniero lungo",
+  "Musculus fibularis longus"
+ ],
+ "fibularis-tertius": [
+  "Muscolo peroniero anteriore",
+  "Musculus fibularis tertius"
+ ],
+ "fifth-costal-cartilage": [
+  "Quinta cartilagine costale",
+  null
+ ],
+ "fifth-metacarpal-bone": [
+  "Quinto osso metacarpale",
+  null
+ ],
+ "fifth-metatarsal-bone": [
+  "Quinto osso metatarsale",
+  "Os quintum metatarsi"
+ ],
+ "first-common-palmar-digital-artery": [
+  "Prima arteria digitale palmare comune",
+  null
+ ],
+ "first-costal-cartilage": [
+  "Prima cartilagine costale",
+  null
+ ],
+ "first-metacarpal-bone": [
+  "Primo osso metacarpale",
+  null
+ ],
+ "first-metatarsal-bone": [
+  "Primo osso metatarsale",
+  "Os primum metatarsi"
+ ],
+ "first-posterior-intercostal-artery": [
+  "Prima arteria intercostale posteriore",
+  "Arteria intercostalis posterior prima"
+ ],
+ "flexor-accessorius": [
+  "Muscolo quadrato della pianta",
+  null
+ ],
+ "flexor-carpi-radialis": [
+  "Muscolo flessore radiale del carpo",
+  "Flexor radialis carpi"
+ ],
+ "flexor-digitorum-brevis": [
+  "Flessore breve delle dita",
+  "Flexor brevis digitorum"
+ ],
+ "flexor-digitorum-longus": [
+  "Flessore lungo delle dita",
+  "Musculus flexor digitorum longus"
+ ],
+ "flexor-digitorum-profundus": [
+  "Muscolo flessore profondo delle dita",
+  "Flexor profundus digitorum"
+ ],
+ "flexor-digitorum-superficialis": [
+  "Muscolo flessore superficiale delle dita",
+  "Flexor superficialis digitorum superficialis"
+ ],
+ "flexor-hallucis-longus": [
+  "Flessore lungo dell'alluce",
+  "Flexor longus hallucis"
+ ],
+ "flexor-pollicis-brevis": [
+  "Muscolo flessore breve del pollice",
+  "Flexor brevis pollicis"
+ ],
+ "flexor-pollicis-longus": [
+  "Muscolo flessore lungo del pollice",
+  "Flexor longus pollicis"
+ ],
+ "fourth-common-palmar-digital-artery": [
+  "Quarta arteria digitale palmare comune",
+  null
+ ],
+ "fourth-costal-cartilage": [
+  "Quarta cartilagine costale",
+  null
+ ],
+ "fourth-metacarpal-bone": [
+  "Quarto osso metacarpale",
+  null
+ ],
+ "fourth-metatarsal-bone": [
+  "Quarto osso metatarsale",
+  null
+ ],
+ "frontal-nerve": [
+  "Nervo frontale",
+  "Nervus frontalis"
+ ],
+ "gastric-artery": [
+  "Arteria gastrica",
+  null
+ ],
+ "gastric-vein": [
+  "Vena gastrica",
+  null
+ ],
+ "gastro-epiploic-artery": [
+  "Arteria gastroepiploica",
+  null
+ ],
+ "gastroepiploic-vein": [
+  "Vena gastroepiploica",
+  null
+ ],
+ "gemellus-inferior": [
+  "Muscolo gemello inferiore",
+  null
+ ],
+ "gemellus-superior": [
+  "Muscolo gemello superiore",
+  null
+ ],
+ "genicular-vein": [
+  "Vene del ginocchio",
+  "Venae geniculares"
+ ],
+ "genioglossus": [
+  "Muscolo genioglosso",
+  "Musculus genioglossus"
+ ],
+ "geniohyoid": [
+  "Muscolo genioioideo",
+  "Musculus geniohyoideus"
+ ],
+ "gluteus-medius": [
+  "Muscolo medio gluteo",
+  "Musculus gluteus medius"
+ ],
+ "gluteus-minimus": [
+  "Muscolo piccolo gluteo",
+  "Musculus gluteus minimus"
+ ],
+ "gracilis": [
+  "Muscolo gracile",
+  "Musculus gracilis"
+ ],
+ "great-saphenous-vein": [
+  "Vena grande safena",
+  "Vena saphena magna"
+ ],
+ "hamate": [
+  "Osso uncinato",
+  null
+ ],
+ "hepatic-duct": [
+  "Dotto epatico",
+  null
+ ],
+ "hepatic-vein": [
+  "Vene epatiche",
+  "Venae hepaticae"
+ ],
+ "hyoglossus": [
+  "Muscolo ioglosso",
+  "Musculus hyoglossus"
+ ],
+ "iliacus": [
+  "Muscolo iliaco",
+  "Musculus iliacus"
+ ],
+ "iliococcygeus": [
+  "Muscolo iliococcigeo",
+  "Musculus iliococcygeus"
+ ],
+ "iliocostalis-cervicis": [
+  "Muscolo ileocostale del collo",
+  null
+ ],
+ "iliocostalis-lumborum": [
+  "Muscolo ileocostale dei lombi",
+  "Musculus iliocostalis lumborum"
+ ],
+ "iliocostalis-thoracis": [
+  "Parte toracica del muscolo ileocostale del torace",
+  "Musculus iliocostalis thoracis"
+ ],
+ "iliolumbar-vein": [
+  "Vena ileolombare",
+  "Vena iliolumbalis"
+ ],
+ "iliotibial-tract": [
+  "Tratto ileotibiale",
+  "Tractus iliotibialis"
+ ],
+ "inferior-epigastric-artery": [
+  "Arteria epigastrica inferiore",
+  "Arteria epigastrica inferior"
+ ],
+ "inferior-epigastric-vein": [
+  "Vena epigastrica inferiore",
+  "Vena epigastrica inferior"
+ ],
+ "inferior-gluteal-vein": [
+  "Vene glutee inferiori",
+  "Venae gluteae inferiores"
+ ],
+ "inferior-lateral-genicular-artery": [
+  "Arteria inferiore laterale del ginocchio",
+  "Arteria inferior lateralis genus"
+ ],
+ "inferior-medial-genicular-artery": [
+  "Arteria inferiore mediale del ginocchio",
+  "Arteria inferior medialis genus"
+ ],
+ "inferior-nasal-concha": [
+  "Conca nasale inferiore",
+  "Concha inferior nasi"
+ ],
+ "inferior-oblique": [
+  "Muscolo obliquo inferiore del bulbo oculare",
+  "Musculus obliquus inferior bulbi oculi"
+ ],
+ "inferior-pharyngeal-constrictor": [
+  "Muscolo costrittore inferiore della faringe",
+  "Constrictor inferior pharyngis"
+ ],
+ "inferior-phrenic-artery": [
+  "Arteria frenica inferiore",
+  "Arteria phrenica inferior"
+ ],
+ "inferior-pulmonary-vein": [
+  "Vena polmonare inferiore",
+  null
+ ],
+ "inferior-rectus": [
+  "Muscolo retto inferiore",
+  "Musculus rectus inferior"
+ ],
+ "inferior-suprarenal-artery": [
+  "Arteria surrenale inferiore",
+  "Arteria suprarenalis inferior"
+ ],
+ "inferior-thyroid-artery": [
+  "Arteria tiroidea inferiore",
+  "Arteria thyreoidea inferior arteria thyroidea inferior"
+ ],
+ "inferior-ulnar-collateral-artery": [
+  "Arteria collaterale ulnare inferiore",
+  "Arteria collateralis ulnaris inferior"
+ ],
+ "infraspinatus-muscle": [
+  "Muscolo infraspinato",
+  "Musculus infraspinatus"
+ ],
+ "infratrochlear-nerve": [
+  "Nervo infratrocleare",
+  "Nervus infratrochlearis"
+ ],
+ "intermediate-cuneiform-bone": [
+  "Osso cuneiforme intermedio",
+  "Os cuneiforme intermedium"
+ ],
+ "internal-iliac-artery": [
+  "Arteria iliaca interna",
+  "Arteria iliaca interna"
+ ],
+ "internal-iliac-vein": [
+  "Vena iliaca interna",
+  "Vena iliaca interna"
+ ],
+ "internal-jugular-vein": [
+  "Vena giugulare interna",
+  "Vena jugularis interna"
+ ],
+ "internal-pudendal-vein": [
+  "Vena pudenda interna",
+  "Vena pudendalis interna"
+ ],
+ "internal-thoracic-artery": [
+  "Arteria toracica interna",
+  "Arteria thoracica interna"
+ ],
+ "interspinalis-thoracis": [
+  "Muscoli interspinosi del torace",
+  null
+ ],
+ "lacrimal-canaliculus": [
+  "Canalicolo lacrimale",
+  "Canaliculus lacrimalis"
+ ],
+ "lacrimal-lake": [
+  "Lago lacrimale",
+  null
+ ],
+ "lacrimal-nerve": [
+  "Nervo lacrimale",
+  "Nervus lacrimalis"
+ ],
+ "lacrimal-sac": [
+  "Sacco lacrimale",
+  "Saccus lacrimalis"
+ ],
+ "lateral-basal-segmental-artery": [
+  "Arteria segmentale basale laterale",
+  null
+ ],
+ "lateral-basal-segmental-bronchial-tree": [
+  "Albero bronchiale segmentale basale laterale",
+  null
+ ],
+ "lateral-basal-segmental-vein": [
+  "Vena segmentale basale laterale",
+  null
+ ],
+ "lateral-circumflex-femoral-artery": [
+  "Arteria circonflessa laterale del femore",
+  "Arteria circumflexa lateralis femoris"
+ ],
+ "lateral-circumflex-femoral-vein": [
+  "Vene circonflesse laterali del femore",
+  "Venae circumflexae latérales"
+ ],
+ "lateral-crico-arytenoid": [
+  "Muscolo crico-aritenoideo laterale",
+  "Musculus cricoarytendoideus lateralis"
+ ],
+ "lateral-cuneiform-bone": [
+  "Osso cuneiforme laterale",
+  "Os cuneiforme laterale"
+ ],
+ "lateral-nasal-cartilage": [
+  "Cartilagine nasale laterale",
+  null
+ ],
+ "lateral-plantar-artery": [
+  "Arteria plantare laterale",
+  "Arteria plantaris lateralis"
+ ],
+ "lateral-rectus": [
+  "Muscolo retto laterale del bulbo oculare",
+  "Musculus rectus lateralis bulbi oculi"
+ ],
+ "lateral-sacral-vein": [
+  "Vene sacrali laterali",
+  "Venae sacrales latérales"
+ ],
+ "lateral-superior-genicular-artery": [
+  "Arteria genicolare superiore laterale",
+  null
+ ],
+ "lateral-tarsal-artery": [
+  "Arteria tarsale laterale",
+  "Arteria tarsea lateralis"
+ ],
+ "lateral-thoracic-artery": [
+  "Arteria toracica laterale",
+  "Arteria thoracica lateralis"
+ ],
+ "lateral-thoracic-vein": [
+  "Vena toracica laterale",
+  "Vena thoracica lateralis"
+ ],
+ "lateral-thyrohyoid-ligament": [
+  "Legamento tiro-ioideo laterale",
+  "Ligamentum thyreohyoideum laterale"
+ ],
+ "levator-palpebrae-superioris": [
+  "Elevatore della palpebra superiore",
+  "Levator palpebrae superioris"
+ ],
+ "levator-scapulae": [
+  "Muscolo elevatore delle scapole",
+  "Levator scapulae"
+ ],
+ "levator-veli-palatini": [
+  "Muscolo elevatore del velo palatino",
+  "Levator veli palatini"
+ ],
+ "lobe-branch-of-hepatic-artery": [
+  "Ramo lobare dell'arteria epatica",
+  null
+ ],
+ "long-ciliary-nerve": [
+  "Nervi ciliari lunghi",
+  "Nervi ciliares longi"
+ ],
+ "long-plantar-ligament": [
+  "Legamento plantare lungo",
+  "Ligamentum plantare longum"
+ ],
+ "longissimus-capitis": [
+  "Muscolo lunghissimo della testa",
+  "Musculus longissimus capitis"
+ ],
+ "longissimus-cervicis": [
+  "Muscolo lunghissimo del collo",
+  null
+ ],
+ "longissimus-thoracis": [
+  "Muscolo lunghissimo del dorso",
+  "Musculus longissimus thoracis"
+ ],
+ "longus-capitis": [
+  "Muscolo lungo della testa",
+  "Musculus longus capitis"
+ ],
+ "lower-central-secondary-incisor-tooth": [
+  "Incisivo centrale inferiore permanente",
+  null
+ ],
+ "lower-first-secondary-molar-tooth": [
+  "Primo molare inferiore permanente",
+  null
+ ],
+ "lower-first-secondary-premolar-tooth": [
+  "Primo premolare inferiore permanente",
+  null
+ ],
+ "lower-lateral-secondary-incisor-tooth": [
+  "Incisivo laterale inferiore permanente",
+  null
+ ],
+ "lower-second-secondary-molar-tooth": [
+  "Secondo molare inferiore permanente",
+  null
+ ],
+ "lower-second-secondary-premolar-tooth": [
+  "Secondo premolare inferiore permanente",
+  null
+ ],
+ "lower-secondary-canine-tooth": [
+  "Canino inferiore permanente",
+  null
+ ],
+ "lumbar-rotator": [
+  "Muscoli rotatori dei lombi",
+  null
+ ],
+ "lunate": [
+  "Osso semilunare",
+  null
+ ],
+ "major-alar-cartilage": [
+  "Cartilagine alare maggiore",
+  "Cartilago alaris major"
+ ],
+ "marginal-vein": [
+  "Vena marginale",
+  null
+ ],
+ "medial-basal-segmental-artery": [
+  "Arteria segmentale basale mediale",
+  null
+ ],
+ "medial-basal-segmental-bronchial-tree": [
+  "Albero bronchiale segmentale basale mediale",
+  null
+ ],
+ "medial-brachial-vein": [
+  "Vena brachiale mediale",
+  null
+ ],
+ "medial-circumflex-femoral-vein": [
+  "Vene circonflesse mediali del femore",
+  "Venae circumflexae mediales"
+ ],
+ "medial-cuneiform-bone": [
+  "Osso cuneiforme mediale",
+  "Os cuneiforme mediale"
+ ],
+ "medial-plantar-artery": [
+  "Arteria plantare mediale",
+  "Arteria plantaris medialis"
+ ],
+ "medial-rectus": [
+  "Muscolo retto mediale",
+  "Musculus rectus medialis"
+ ],
+ "medial-superior-genicular-artery": [
+  "Arteria genicolare superiore mediale",
+  null
+ ],
+ "median-antebrachial-vein": [
+  "Vena mediana dell'avambraccio",
+  "Vena mediana antebrachii"
+ ],
+ "median-cubital-vein": [
+  "Vena mediana del gomito",
+  "Vena mediana cubiti"
+ ],
+ "middle-genicular-artery": [
+  "Arteria media del ginocchio",
+  "Arteria media genus"
+ ],
+ "middle-pharyngeal-constrictor": [
+  "Muscolo costrittore medio della faringe",
+  "Constrictor medius pharyngis"
+ ],
+ "middle-suprarenal-artery": [
+  "Arteria surrenale media",
+  "Arteria suprarenalis media"
+ ],
+ "musculophrenic-artery": [
+  "Arteria muscolofrenica",
+  "Arteria musculoohrenica"
+ ],
+ "musculophrenic-vein": [
+  "Vene muscolofreniche",
+  "Venae musculophrenicae"
+ ],
+ "mylohyoid": [
+  "Muscolo miloioideo",
+  "Musculus mylohyoideus"
+ ],
+ "nasociliary-nerve": [
+  "Nervo nasociliare",
+  "Nervus nasociliaris"
+ ],
+ "nasolacrimal-duct": [
+  "Condotto nasolacrimale",
+  "Ductus nasolacrimalis"
+ ],
+ "oblique-arytenoid": [
+  "Muscolo aritenoideo obliquo",
+  "Musculus arytenoideus obliquus"
+ ],
+ "obliquus-capitis-inferior": [
+  "Muscolo obliquo inferiore della testa",
+  null
+ ],
+ "obliquus-capitis-superior": [
+  "Muscolo obliquo superiore della testa",
+  null
+ ],
+ "obturator-externus": [
+  "Otturatore esterno",
+  "Obturator externus"
+ ],
+ "obturator-internus": [
+  "Otturatore interno",
+  "Obturator internus"
+ ],
+ "obturator-vein": [
+  "Vene otturatorie",
+  "Venae obturatoriae"
+ ],
+ "omohyoid": [
+  "Muscolo omoioideo",
+  "Musculus omohyoideus"
+ ],
+ "opponens-pollicis": [
+  "Muscolo opponente del pollice",
+  "Musculus opponens pollicis"
+ ],
+ "palatopharyngeus": [
+  "Muscolo palatofaringeo",
+  "Musculus palatopharyngeus"
+ ],
+ "palmar-metacarpal-artery": [
+  "Arterie metacarpali palmari",
+  "Arteriae metacarpeae palmares"
+ ],
+ "palmar-metacarpal-vein": [
+  "Vene metacarpali palmari",
+  "Venae metacarpeae palmares"
+ ],
+ "palmaris-longus": [
+  "Muscolo palmare lungo",
+  "Musculus palmaris longus"
+ ],
+ "pectineus": [
+  "Muscolo pettineo",
+  "Musculus pectineus"
+ ],
+ "pectoralis-minor": [
+  "Muscolo piccolo pettorale",
+  "Musculus pectoralis minor"
+ ],
+ "piriformis": [
+  "Muscolo piriforme",
+  "Musculus piriformis"
+ ],
+ "pisiform": [
+  "Osso pisiforme",
+  null
+ ],
+ "plantar-arch": [
+  "Arcata plantare profonda",
+  "Arcus plantaris"
+ ],
+ "plantaris": [
+  "Muscolo plantare",
+  "Musculus plantaris"
+ ],
+ "platysma": [
+  "Platisma",
+  "Platysma"
+ ],
+ "popliteal-artery": [
+  "Arteria poplitea",
+  "Arteria poplitea"
+ ],
+ "popliteal-vein": [
+  "Vena poplitea",
+  "Vena poplitea"
+ ],
+ "popliteus": [
+  "Muscolo popliteo",
+  "Musculus popliteus"
+ ],
+ "portal-vein": [
+  "Vena porta",
+  null
+ ],
+ "posterior-basal-segmental-artery": [
+  "Arteria segmentale basale posteriore",
+  null
+ ],
+ "posterior-basal-segmental-bronchial-tree": [
+  "Albero bronchiale segmentale basale posteriore",
+  null
+ ],
+ "posterior-basal-segmental-vein": [
+  "Vena segmentale basale posteriore",
+  null
+ ],
+ "posterior-circumflex-humeral-artery": [
+  "Arteria circonflessa posteriore dell'omero",
+  "Arteria circumflexa posterior humeri"
+ ],
+ "posterior-crico-arytenoid": [
+  "Muscolo crico-aritenoideo posteriore",
+  "Musculus cricoarytenoideus posterior"
+ ],
+ "posterior-cusp-of-aortic-valve": [
+  "Cuspide posteriore della valvola aortica",
+  null
+ ],
+ "posterior-ethmoidal-nerve": [
+  "Nervo etmoidale posteriore",
+  "Nervus ethmoideus posterior"
+ ],
+ "posterior-segmental-artery": [
+  "Arteria segmentale posteriore",
+  null
+ ],
+ "posterior-segmental-bronchial-tree": [
+  "Albero bronchiale segmentale posteriore",
+  null
+ ],
+ "posterior-segmental-vein": [
+  "Vena segmentale posteriore",
+  null
+ ],
+ "posterior-tibial-artery": [
+  "Arteria tibiale posteriore",
+  "Arteria tibialis posterior"
+ ],
+ "posterior-tibial-vein": [
+  "Vene tibiali posteriori",
+  "Venae tibiales posteriores"
+ ],
+ "posterior-ulnar-recurrent-artery": [
+  "Ramo posteriore dell'arteria ricorrente ulnare",
+  "Arteria recurrens ulnaris posterior"
+ ],
+ "pronator-quadratus": [
+  "Muscolo pronatore quadrato",
+  "Pronator quadratus"
+ ],
+ "psoas-major": [
+  "Grande psoas",
+  "Psoas major"
+ ],
+ "pterygomandibular-raphe": [
+  "Rafe pterigomandibolare",
+  "Raphe pterygomandibularis"
+ ],
+ "pubococcygeus": [
+  "Muscolo pubococcigeo",
+  "Musculus pubococcygeus"
+ ],
+ "puborectalis": [
+  "Muscolo puborettale",
+  null
+ ],
+ "pulmonary-artery": [
+  "Arterie polmonari",
+  "Arteriae pulmonales"
+ ],
+ "quadratus-femoris": [
+  "Muscolo quadrato femorale",
+  "Musculus quadratus femoris"
+ ],
+ "radial-artery": [
+  "Arteria radiale",
+  "Arteria radialis"
+ ],
+ "radial-recurrent-artery": [
+  "Arteria ricorrente radiale",
+  "Arteria recurrens radialis"
+ ],
+ "radial-vein": [
+  "Vene radiali",
+  "Venae radiales"
+ ],
+ "rectus-capitis-anterior": [
+  "Muscolo retto anteriore della testa",
+  null
+ ],
+ "rectus-capitis-lateralis": [
+  "Muscolo retto laterale della testa",
+  null
+ ],
+ "rectus-capitis-posterior-major": [
+  "Muscolo grande retto posteriore della testa",
+  null
+ ],
+ "rectus-capitis-posterior-minor": [
+  "Muscolo piccolo retto posteriore della testa",
+  null
+ ],
+ "rectus-femoris": [
+  "Muscolo retto femorale",
+  "Musculus rectus femoris"
+ ],
+ "recurrent-interosseous-artery": [
+  "Arteria interossea ricorrente",
+  "Arteria interossea recurrens"
+ ],
+ "renal-artery": [
+  "Arteria renale",
+  "Arteria renalis"
+ ],
+ "renal-vein": [
+  "Vena renale",
+  null
+ ],
+ "rhomboid-major": [
+  "Muscolo grande romboide",
+  "Musculus rhomboideus major"
+ ],
+ "rhomboid-minor": [
+  "Muscolo piccolo romboide",
+  "Musculus rhomboideus minor"
+ ],
+ "salpingopharyngeus": [
+  "Muscolo salpingofaringeo",
+  "Musculus salpingopharyngeus"
+ ],
+ "scalenus-anterior": [
+  "Muscolo scaleno anteriore",
+  "Musculus scalenus anterior"
+ ],
+ "scalenus-medius": [
+  "Muscolo scaleno medio",
+  "Musculus scalenus medius"
+ ],
+ "scalenus-posterior": [
+  "Muscolo scaleno posteriore",
+  "Musculus scalenus posterior"
+ ],
+ "scaphoid": [
+  "Osso scafoide",
+  null
+ ],
+ "second-common-palmar-digital-artery": [
+  "Seconda arteria digitale palmare comune",
+  null
+ ],
+ "second-costal-cartilage": [
+  "Seconda cartilagine costale",
+  null
+ ],
+ "second-metacarpal-bone": [
+  "Secondo osso metacarpale",
+  null
+ ],
+ "second-metatarsal-bone": [
+  "Secondo osso metatarsale",
+  null
+ ],
+ "second-posterior-intercostal-artery": [
+  "Seconda arteria intercostale posteriore",
+  "Arteria intercostalis posterior secunda"
+ ],
+ "semimembranosus": [
+  "Muscolo semimembranoso",
+  "Musculus semimembranosus"
+ ],
+ "semispinalis-capitis": [
+  "Muscolo semispinale della testa",
+  "Musculus semispinalis capitis"
+ ],
+ "semispinalis-cervicis": [
+  "Muscolo semispinale del collo",
+  null
+ ],
+ "semispinalis-thoracis": [
+  "Muscolo semispinale del dorso",
+  "Musculus semispinalis thoracis"
+ ],
+ "semitendinosus": [
+  "Muscolo semitendinoso",
+  "Musculus semitendinosus"
+ ],
+ "serratus-anterior": [
+  "Muscolo dentato anteriore",
+  "Musculus serratus anterior"
+ ],
+ "serratus-posterior-inferior": [
+  "Muscolo dentato postero-inferiore",
+  "Musculus serratus posterior inferior"
+ ],
+ "serratus-posterior-superior": [
+  "Muscolo serrato postero-superiore",
+  "Musculus serratus posterior superior"
+ ],
+ "seventh-costal-cartilage": [
+  "Settima cartilagine costale",
+  null
+ ],
+ "sixth-costal-cartilage": [
+  "Sesta cartilagine costale",
+  null
+ ],
+ "small-saphenous-vein": [
+  "Vena piccola safena",
+  "Vena saphena parva"
+ ],
+ "soleus": [
+  "Muscolo soleo",
+  "Musculus soleus"
+ ],
+ "spinalis-thoracis": [
+  "Muscolo spinale del dorso",
+  "Musculus spinalis thoracis"
+ ],
+ "splenius-capitis": [
+  "Muscolo splenio della testa",
+  "Musculus splenius capitis"
+ ],
+ "splenius-cervicis": [
+  "Muscolo splenio del collo",
+  null
+ ],
+ "sternohyoid": [
+  "Muscolo sternoioideo",
+  "Musculus sternohyoideus"
+ ],
+ "sternothyroid": [
+  "Muscolo sternotiroideo",
+  "Musculus sternothyreoideus"
+ ],
+ "stylohyoid": [
+  "Muscolo stiloioideo",
+  "Musculus stylohyoideus"
+ ],
+ "stylohyoid-ligament": [
+  "Legamento stiloioideo",
+  "Ligamentum stylohyoideum"
+ ],
+ "stylopharyngeus": [
+  "Muscolo stilofaringeo",
+  "Musculus stylopharyngeus"
+ ],
+ "subclavian-artery": [
+  "Arteria succlavia",
+  "Arteria subclavia"
+ ],
+ "subclavian-vein": [
+  "Vena succlavia",
+  "Vena subclavia"
+ ],
+ "subclavius": [
+  "Muscolo succlavio",
+  "Musculus subclavius"
+ ],
+ "subcostal-artery": [
+  "Arteria sottocostale",
+  "Arteria subcostalis"
+ ],
+ "subcostal-vein": [
+  "Vena sottocostale",
+  null
+ ],
+ "sublingual-gland": [
+  "Ghiandola sottolinguale",
+  "Glandula sublingualis"
+ ],
+ "submandibular-gland": [
+  "Ghiandola sottomandibolare",
+  "Glandula submandibularis"
+ ],
+ "subscapular-artery": [
+  "Arteria sottoscapolare",
+  "Arteria subscapularis"
+ ],
+ "subscapular-vein": [
+  "Vena sottoscapolare",
+  "Vena subscapularis"
+ ],
+ "subscapularis": [
+  "Muscolo sottoscapolare",
+  "Musculus subscapularis"
+ ],
+ "superficial-cervical-artery": [
+  "Arteria cervicale superficiale",
+  null
+ ],
+ "superficial-dorsal-vein-of-penis": [
+  "Vena dorsale superficiale del pene",
+  null
+ ],
+ "superficial-epigastric-artery": [
+  "Arteria epigastrica superficiale",
+  "Arteria epigastrica superficialis"
+ ],
+ "superficial-epigastric-vein": [
+  "Vena epigastrica superficiale",
+  "Vena epigastrica superficialis"
+ ],
+ "superficial-medial-plantar-artery": [
+  "Arteria plantare mediale, ramo superficiale",
+  null
+ ],
+ "superficial-palmar-arterial-arch": [
+  "Arcata palmare superficiale",
+  null
+ ],
+ "superficial-palmar-venous-arch": [
+  "Arcata venosa palmare superficiale",
+  null
+ ],
+ "superior-epigastric-artery": [
+  "Arteria epigastrica superiore",
+  "Arteria epigastrica superior"
+ ],
+ "superior-epigastric-vein": [
+  "Vene epigastriche superiori",
+  "Venae epigastricae superiores"
+ ],
+ "superior-gluteal-vein": [
+  "Vene glutee superiori",
+  "Venae gluteae superiores"
+ ],
+ "superior-intercostal-artery": [
+  "Arteria intercostale superiore",
+  null
+ ],
+ "superior-intercostal-vein": [
+  "Vena intercostale superiore",
+  null
+ ],
+ "superior-oblique": [
+  "Muscolo obliquo superiore",
+  "Musculus obliquus superior bulbi oculi"
+ ],
+ "superior-pharyngeal-constrictor": [
+  "Muscolo costrittore superiore della faringe",
+  "Constrictor superior pharyngis"
+ ],
+ "superior-pulmonary-vein": [
+  "Vena polmonare superiore",
+  null
+ ],
+ "superior-rectus": [
+  "Muscolo retto superiore",
+  "Musculus rectus superior"
+ ],
+ "superior-segmental-artery": [
+  "Arteria segmentale superiore",
+  null
+ ],
+ "superior-segmental-bronchial-tree": [
+  "Albero bronchiale segmentale superiore",
+  null
+ ],
+ "superior-ulnar-collateral-artery": [
+  "Arteria collaterale ulnare superiore",
+  "Arteria collateralis ulnaris superior"
+ ],
+ "supinator": [
+  "Muscolo supinatore",
+  "Supinator"
+ ],
+ "supra-orbital-nerve": [
+  "Nervo sopraorbitale",
+  "Nervus supraorbitalis"
+ ],
+ "suprarenal-vein": [
+  "Vena surrenale",
+  null
+ ],
+ "suprascapular-artery": [
+  "Arteria soprascapolare",
+  "Arteria suprascapularis"
+ ],
+ "suprascapular-vein": [
+  "Vena trasversa della scapola",
+  "Vena suprascapularis"
+ ],
+ "supraspinatus": [
+  "Muscolo sovraspinato",
+  "Musculus supraspinatus"
+ ],
+ "supratrochlear-nerve": [
+  "Nervo sopratrocleare",
+  "Nervus supratrochlearis"
+ ],
+ "tensor-fasciae-latae": [
+  "Tensore della fascia lata",
+  "Tensor fasciae latae"
+ ],
+ "tensor-veli-palatini": [
+  "Muscolo tensore del velo palatino",
+  "Tensor veli palatini"
+ ],
+ "teres-major": [
+  "Muscolo grande rotondo",
+  "Musculus teres major"
+ ],
+ "teres-minor": [
+  "Muscolo piccolo rotondo",
+  "Musculus teres minor"
+ ],
+ "testicular-artery": [
+  "Arteria testicolare",
+  "Arteria testicularis"
+ ],
+ "testicular-vein": [
+  "Vena testicolare",
+  null
+ ],
+ "third-common-palmar-digital-artery": [
+  "Terza arteria digitale palmare comune",
+  null
+ ],
+ "third-costal-cartilage": [
+  "Terza cartilagine costale",
+  null
+ ],
+ "third-metacarpal-bone": [
+  "Terzo osso metacarpale",
+  "Os tertium metacarpi"
+ ],
+ "third-metatarsal-bone": [
+  "Terzo osso metatarsale",
+  null
+ ],
+ "thoracodorsal-artery": [
+  "Arteria toracodorsale",
+  "Arteria thoracodorsalis"
+ ],
+ "thoracodorsal-vein": [
+  "Vena toracodorsale",
+  "Vena thoracodorsalis"
+ ],
+ "thyro-arytenoid": [
+  "Muscolo tireo-aritenoideo",
+  "Musculus thyreoarytenoideus"
+ ],
+ "thyrocervical-trunk": [
+  "Tronco tireocervicale",
+  "Truncus thyreocervicalis"
+ ],
+ "thyrohyoid": [
+  "Muscolo tireoioideo",
+  "Musculus thyreohyoideus"
+ ],
+ "thyrohyoid-membrane": [
+  "Membrana tiro-ioidea",
+  "Membrana thyreohyoidea"
+ ],
+ "tibialis-anterior": [
+  "Muscolo tibiale anteriore",
+  "Musculus tibialis anterior"
+ ],
+ "tibialis-posterior": [
+  "Muscolo tibiale posteriore",
+  "Musculus tibialis posterior"
+ ],
+ "transverse-cervical-artery": [
+  "Arteria trasversa del collo",
+  "Arteria transversa colli arteria transversa cervicis"
+ ],
+ "transversus-thoracis": [
+  "Muscolo trasverso del torace",
+  "Musculus transversus thoracis"
+ ],
+ "trapezium": [
+  "Osso trapezio",
+  null
+ ],
+ "trapezoid": [
+  "Osso trapezoide",
+  null
+ ],
+ "triquetral": [
+  "Osso piramidale",
+  null
+ ],
+ "ulnar-artery": [
+  "Arteria ulnare",
+  "Arteria ulnaris"
+ ],
+ "ulnar-vein": [
+  "Vene ulnari",
+  "Venae ulnares"
+ ],
+ "upper-central-secondary-incisor-tooth": [
+  "Incisivo centrale superiore permanente",
+  null
+ ],
+ "upper-first-secondary-molar-tooth": [
+  "Primo molare superiore permanente",
+  null
+ ],
+ "upper-first-secondary-premolar-tooth": [
+  "Primo premolare superiore permanente",
+  null
+ ],
+ "upper-lateral-secondary-incisor-tooth": [
+  "Incisivo laterale superiore permanente",
+  null
+ ],
+ "upper-second-secondary-molar-tooth": [
+  "Secondo molare superiore permanente",
+  null
+ ],
+ "upper-second-secondary-premolar-tooth": [
+  "Secondo premolare superiore permanente",
+  null
+ ],
+ "upper-secondary-canine-tooth": [
+  "Canino superiore permanente",
+  null
+ ],
+ "vastus-intermedius": [
+  "Muscolo vasto intermedio",
+  "Musculus vastus intermedius"
+ ],
+ "vastus-lateralis": [
+  "Muscolo vasto laterale",
+  "Musculus vastus lateralis"
+ ],
+ "vastus-medialis": [
+  "Muscolo vasto mediale",
+  "Musculus vastus medialis"
+ ],
+ "vocal-ligament": [
+  "Legamento vocale",
+  "Ligamentum vocale"
+ ],
+ "vocalis": [
+  "Muscolo vocale",
+  "Musculus vocalis"
+ ],
+ "linea-alba": [
+  "Linea alba",
+  "Linea alba"
+ ],
+ "lip": [
+  "Labbra",
+  "Labia oris"
+ ],
+ "long-head-of-biceps-brachii": [
+  "Capo lungo del muscolo bicipite brachiale",
+  "Caput longum musculi bicipitis brachii"
+ ],
+ "long-head-of-biceps-femoris": [
+  "Capo lungo del bicipite femorale",
+  "Caput longum musculi bicipitis femoris"
+ ],
+ "long-head-of-triceps-brachii": [
+  "Capo lungo del muscolo tricipite brachiale",
+  "Caput longum musculi tricipitis brachii"
+ ],
+ "lumbar-artery": [
+  "Arterie lombari",
+  "Arteriae lumbales"
+ ],
+ "lumbar-vein": [
+  "Vene lombari",
+  "Venae lumbales"
+ ],
+ "marginal-artery-of-colon": [
+  "Arteria marginale del colon",
+  null
+ ],
+ "marginal-branch-of-coronary-artery": [
+  "Ramo marginale dell'arteria coronaria",
+  null
+ ],
+ "marginal-colic-artery": [
+  "Arteria marginale del colon",
+  null
+ ],
+ "medial-branch-of-superior-segmental-artery": [
+  "Ramo mediale dell'arteria segmentale superiore",
+  null
+ ],
+ "medial-head-of-flexor-hallucis-brevis": [
+  "Capo mediale del flessore breve dell'alluce",
+  "Caput mediale flexoris brevis hallucis"
+ ],
+ "medial-head-of-gastrocnemius": [
+  "Capo mediale del gastrocnemio",
+  "Caput mediale musculi gastrocnemii"
+ ],
+ "medial-head-of-triceps-brachii": [
+  "Capo mediale del muscolo tricipite brachiale",
+  "Caput mediale musculi tricipitis caput brachii"
+ ],
+ "medial-inferior-segmental-branch-of-portal-vein": [
+  "Ramo segmentale inferiore mediale della vena porta",
+  null
+ ],
+ "medial-inferior-segmental-hepatic-artery": [
+  "Arteria epatica segmentale inferiore mediale",
+  null
+ ],
+ "medial-inferior-segmental-tributary-of-middle-hepatic-vein": [
+  "Affluente segmentale inferiore mediale della vena epatica media",
+  null
+ ],
+ "medial-inferior-tributary-of-hepatic-biliary-tree": [
+  "Affluente inferiore mediale dell'albero biliare epatico",
+  null
+ ],
+ "medial-lumbar-intertransversarius": [
+  "Muscoli intertrasversari mediali dei lombi",
+  null
+ ],
+ "medial-proper-palmar-digital-artery-of-index-finger": [
+  "Arteria digitale palmare propria mediale dell'indice",
+  null
+ ],
+ "medial-proper-palmar-digital-artery-of-middle-finger": [
+  "Arteria digitale palmare propria mediale del medio",
+  null
+ ],
+ "medial-proper-palmar-digital-artery-of-ring-finger": [
+  "Arteria digitale palmare propria mediale dell'anulare",
+  null
+ ],
+ "medial-segmental-bronchial-tree": [
+  "Albero bronchiale segmentale mediale",
+  null
+ ],
+ "medial-superior-segmental-branch-of-portal-vein": [
+  "Ramo segmentale superiore mediale della vena porta",
+  null
+ ],
+ "medial-superior-segmental-hepatic-artery": [
+  "Arteria epatica segmentale superiore mediale",
+  null
+ ],
+ "medial-superior-segmental-tributary-of-hepatic-vein": [
+  "Affluente segmentale superiore mediale della vena epatica",
+  null
+ ],
+ "medial-superior-tributary-of-hepatic-biliary-tree": [
+  "Affluente superiore mediale dell'albero biliare epatico",
+  null
+ ],
+ "median-cricothyroid-ligament": [
+  "Legamento crico-tiroideo mediano",
+  "Ligamentum cricothyreoideum medianum"
+ ],
+ "median-sacral-vein": [
+  "Vena sacrale media",
+  "Vena sacralis mediana"
+ ],
+ "median-thyrohyoid-ligament": [
+  "Legamento tiro-ioideo mediano",
+  "Ligamentum thyreohyoideum medianum"
+ ],
+ "mediobasal-branch-of-posterior-basal-segmental-artery": [
+  "Ramo mediobasale dell'arteria segmentale basale posteriore",
+  null
+ ],
+ "mesentery-of-small-intestine": [
+  "Mesentere dell'intestino tenue",
+  null
+ ],
+ "mesoappendix": [
+  "Mesoappendice",
+  null
+ ],
+ "middle-cardiac-vein": [
+  "Vena cardiaca media",
+  "Vena media cordis interventricularis inferior"
+ ],
+ "middle-colic-artery": [
+  "Arteria colica media",
+  "Arteria colica media"
+ ],
+ "middle-colic-vein": [
+  "Vena colica media",
+  "Vena colica media"
+ ],
+ "middle-collateral-branch-of-deep-brachial-artery": [
+  "Ramo collaterale medio dell'arteria brachiale profonda",
+  null
+ ],
+ "middle-hepatic-vein": [
+  "Vena epatica media",
+  null
+ ],
+ "middle-part-of-ileum": [
+  "Parte media dell'ileo",
+  null
+ ],
+ "middle-part-of-jejunum": [
+  "Parte media del digiuno",
+  null
+ ],
+ "middle-phalanx-of-fourth-toe": [
+  "Falange media del quarto dito del piede",
+  null
+ ],
+ "middle-phalanx-of-index-finger": [
+  "Falange media dell'indice",
+  null
+ ],
+ "middle-phalanx-of-little-finger": [
+  "Falange media del mignolo",
+  null
+ ],
+ "middle-phalanx-of-little-toe": [
+  "Falange media del quinto dito del piede",
+  null
+ ],
+ "middle-phalanx-of-middle-finger": [
+  "Falange media del medio",
+  null
+ ],
+ "middle-phalanx-of-ring-finger": [
+  "Falange media dell'anulare",
+  null
+ ],
+ "middle-phalanx-of-second-toe": [
+  "Falange media del secondo dito del piede",
+  null
+ ],
+ "middle-phalanx-of-third-toe": [
+  "Falange media del terzo dito del piede",
+  null
+ ],
+ "navicular-bone-of-foot": [
+  "Osso navicolare del piede",
+  null
+ ],
+ "oblique-head-of-adductor-hallucis": [
+  "Capo obliquo dell'adduttore dell'alluce",
+  "Caput obliquum adductoris hallucis"
+ ],
+ "oblique-head-of-adductor-pollicis": [
+  "Capo obliquo del muscolo adduttore del pollice",
+  "Caput obliquum adductoris pollicis"
+ ],
+ "oblique-part-of-cricothyroid": [
+  "Parte obliqua del muscolo cricotiroideo",
+  "Pars obliqua musculi cricothyreoidei"
+ ],
+ "opponens-digiti-minimi-of-foot": [
+  "Muscolo opponente del quinto dito del piede",
+  null
+ ],
+ "opponens-digiti-minimi-of-hand": [
+  "Muscolo opponente del mignolo",
+  null
+ ],
+ "optic-part-of-retina": [
+  "Parte ottica della retina",
+  "Pars optica retinae"
+ ],
+ "pancreatic-duct": [
+  "Dotto pancreatico",
+  "Ductus pancreaticus"
+ ],
+ "pancreatic-duct-tree": [
+  "Albero dei dotti pancreatici",
+  null
+ ],
+ "pancreaticoduodenal-vein": [
+  "Vene pancreaticoduodenali",
+  "Venae pancreaticoduodenales"
+ ],
+ "parenchyma-of-pancreas": [
+  "Parenchima del pancreas",
+  null
+ ],
+ "pectoral-branch-of-thoraco-acromial-artery": [
+  "Rami pettorali dell'arteria toracoacromiale",
+  "Rami pectorales arteriae thoracoacromialis"
+ ],
+ "pharyngeal-raphe": [
+  "Rafe faringeo",
+  "Raphe pharyngis"
+ ],
+ "plantar-metatarsal-artery": [
+  "Arterie metatarsali plantari",
+  "Arteriae metatarseae plantares"
+ ],
+ "plantar-metatarsal-vein": [
+  "Vene metatarsali plantari",
+  "Venae metatarseae plantares"
+ ],
+ "plantar-venous-arch-of-foot": [
+  "Arcata venosa plantare",
+  null
+ ],
+ "posterior-branch-of-lateral-segmental-artery": [
+  "Ramo posteriore dell'arteria segmentale laterale",
+  null
+ ],
+ "posterior-branch-of-anterior-segmental-artery": [
+  "Ramo posteriore dell'arteria segmentale anteriore",
+  null
+ ],
+ "posterior-cecal-artery": [
+  "Arteria cecale posteriore",
+  null
+ ],
+ "posterior-cusp-of-pulmonary-valve": [
+  "Cuspide posteriore della valvola polmonare",
+  null
+ ],
+ "posterior-division-of-renal-artery": [
+  "Divisione posteriore dell'arteria renale",
+  null
+ ],
+ "posterior-inferior-pancreaticoduodenal-artery": [
+  "Ramo posteriore dell'art.pancreaticoduodenale inf.",
+  "Arteria pancreaticoduodenalis inferior posterior"
+ ],
+ "posterior-inferior-segmental-branch-of-portal-vein": [
+  "Ramo segmentale inferiore posteriore della vena porta",
+  null
+ ],
+ "posterior-inferior-segmental-hepatic-artery": [
+  "Arteria epatica segmentale inferiore posteriore",
+  null
+ ],
+ "posterior-inferior-segmental-tributary-of-hepatic-vein": [
+  "Affluente segmentale inferiore posteriore della vena epatica",
+  null
+ ],
+ "posterior-inferior-tributary-of-hepatic-biliary-tree": [
+  "Affluente inferiore posteriore dell'albero biliare epatico",
+  null
+ ],
+ "posterior-intercostal-arteries": [
+  "Arterie intercostali posteriori",
+  "Arteriae intercostales posteriores"
+ ],
+ "posterior-interventricular-branch-of-coronary-artery": [
+  "Ramo interventricolare posteriore dell'arteria coronaria",
+  null
+ ],
+ "posterior-leaflet-of-mitral-valve": [
+  "Lembo posteriore della valvola mitrale",
+  null
+ ],
+ "posterior-leaflet-of-tricuspid-valve": [
+  "Lembo posteriore della valvola tricuspide",
+  null
+ ],
+ "posterior-papillary-muscle-of-ventricle": [
+  "Muscolo papillare posteriore del ventricolo",
+  null
+ ],
+ "posterior-part-of-lateral-segmental-vein": [
+  "Parte posteriore della vena segmentale laterale",
+  null
+ ],
+ "posterior-part-of-posterior-segmental-artery": [
+  "Parte posteriore dell'arteria segmentale posteriore",
+  null
+ ],
+ "posterior-segmental-branch-of-renal-artery": [
+  "Ramo segmentale posteriore dell'arteria renale",
+  null
+ ],
+ "posterior-superior-pancreaticoduodenal-artery": [
+  "Arteria pancreaticoduodenale superiore posteriore",
+  "Arteria pancreaticoduodenalis superior posterior"
+ ],
+ "posterior-superior-segmental-branch-of-portal-vein": [
+  "Ramo segmentale superiore posteriore della vena porta",
+  null
+ ],
+ "posterior-superior-segmental-hepatic-artery": [
+  "Arteria epatica segmentale superiore posteriore",
+  null
+ ],
+ "posterior-superior-segmental-tributary-of-hepatic-vein": [
+  "Affluente segmentale superiore posteriore della vena epatica",
+  null
+ ],
+ "posterior-superior-tributary-of-hepatic-biliary-tree": [
+  "Affluente superiore posteriore dell'albero biliare epatico",
+  null
+ ],
+ "posterior-vein-of-ventricle": [
+  "Vena posteriore del ventricolo",
+  null
+ ],
+ "pre-hepatic-portal-vein": [
+  "Vena porta, tratto preepatico",
+  null
+ ],
+ "proper-palmar-digital-vein-of-index-finger": [
+  "Vena digitale palmare propria dell'indice",
+  null
+ ],
+ "proper-palmar-digital-vein-of-little-finger": [
+  "Vena digitale palmare propria del mignolo",
+  null
+ ],
+ "proper-palmar-digital-vein-of-middle-finger": [
+  "Vena digitale palmare propria del medio",
+  null
+ ],
+ "proper-palmar-digital-vein-of-ring-finger": [
+  "Vena digitale palmare propria dell'anulare",
+  null
+ ],
+ "proximal-phalanx-of-big-toe": [
+  "Falange prossimale dell'alluce",
+  null
+ ],
+ "proximal-phalanx-of-fourth-toe": [
+  "Falange prossimale del quarto dito del piede",
+  null
+ ],
+ "proximal-phalanx-of-index-finger": [
+  "Falange prossimale dell'indice",
+  null
+ ],
+ "proximal-phalanx-of-little-finger": [
+  "Falange prossimale del mignolo",
+  null
+ ],
+ "proximal-phalanx-of-little-toe": [
+  "Falange prossimale del quinto dito del piede",
+  null
+ ],
+ "proximal-phalanx-of-middle-finger": [
+  "Falange prossimale del medio",
+  null
+ ],
+ "proximal-phalanx-of-ring-finger": [
+  "Falange prossimale dell'anulare",
+  null
+ ],
+ "proximal-phalanx-of-second-toe": [
+  "Falange prossimale del secondo dito del piede",
+  null
+ ],
+ "proximal-phalanx-of-third-toe": [
+  "Falange prossimale del terzo dito del piede",
+  null
+ ],
+ "proximal-phalanx-of-thumb": [
+  "Falange prossimale del pollice",
+  null
+ ],
+ "pubic-hair": [
+  "Peli pubici",
+  "Pubes"
+ ],
+ "radial-collateral-branch-of-deep-brachial-artery": [
+  "Ramo collaterale radiale dell'arteria brachiale profonda",
+  null
+ ],
+ "conus-artery": [
+  "Arteria del cono",
+  null
+ ],
+ "intermediate-tendon": [
+  "Tendine intermedio",
+  "Tendo intermedius"
+ ],
+ "internal-thoracic-vein": [
+  "Vene toraciche interne",
+  "Venae thoracicae internae"
+ ],
+ "main-bronchus-proper": [
+  "Bronco principale",
+  "Bronchus principalis"
+ ],
+ "medial-basal-segmental-vein": [
+  "Vena segmentale basale mediale",
+  null
+ ],
+ "superior-segmental-vein": [
+  "Vena segmentale superiore",
+  null
+ ],
+ "upper-lobar-artery": [
+  "Arteria lobare superiore",
+  null
+ ],
+ "second-lumbrical-of-foot": [
+  "Secondo muscolo lombricale del piede",
+  null
+ ],
+ "second-plantar-interosseous-of-foot": [
+  "Secondo muscolo interosseo plantare del piede",
+  null
+ ],
+ "second-right-anterior-branch-of-anterior-interventricular-branch-of-coronary-artery": [
+  "Secondo ramo anteriore del ramo interventricolare anteriore dell'arteria coronaria",
+  null
+ ],
+ "second-septal-branch-of-posterior-interventricular-artery": [
+  "Secondo ramo settale dell'arteria interventricolare posteriore",
+  null
+ ],
+ "septal-branch-of-anterior-interventricular-artery": [
+  "Rami interventricolari settali",
+  "Rami sept. art. Intervent. ant. sept. arteriae coron. sinis."
+ ],
+ "septal-leaflet-of-tricuspid-valve": [
+  "Lembo settale della valvola tricuspide",
+  null
+ ],
+ "septal-nasal-cartilage": [
+  "Cartilagine del setto nasale",
+  null
+ ],
+ "septal-papillary-muscle-of-ventricle": [
+  "Muscolo papillare settale del ventricolo",
+  null
+ ],
+ "sesamoid-bone-of-foot": [
+  "Osso sesamoide del piede",
+  null
+ ],
+ "set-of-anterior-cervical-intertransversarii": [
+  "Muscoli intertrasversari anteriori del collo",
+  null
+ ],
+ "set-of-anterior-intercostal-veins": [
+  "Vene intercostali anteriori",
+  "Venae intercostales anteriores"
+ ],
+ "set-of-calcaneal-branches-of-posterior-tibial-artery": [
+  "Rami calcaneari dell'arteria tibiale posteriore",
+  "Rami calcanei arteriae tibialis posterioris"
+ ],
+ "set-of-common-plantar-digital-arteries": [
+  "Arterie digitali plantari comuni",
+  "Arteriae digitales plantares communes"
+ ],
+ "set-of-dorsal-digital-arteries": [
+  "Arterie digitali dorsali",
+  null
+ ],
+ "set-of-dorsal-digital-veins": [
+  "Vene digitali dorsali",
+  null
+ ],
+ "set-of-dorsal-interossei-of-hand": [
+  "Muscoli interossei dorsali della mano",
+  null
+ ],
+ "set-of-dorsal-metacarpal-arteries": [
+  "Arterie metacarpali dorsali",
+  "Arteriae metacarpeae dorsales"
+ ],
+ "set-of-interspinales-cervicis": [
+  "Muscoli interspinosi del collo",
+  null
+ ],
+ "set-of-interspinales-lumborum": [
+  "Muscoli interspinosi dei lombi",
+  null
+ ],
+ "set-of-levatores-costarum-breves": [
+  "Muscoli elevatori brevi delle coste",
+  null
+ ],
+ "set-of-levatores-costarum-longi": [
+  "Muscoli elevatori lunghi delle coste",
+  null
+ ],
+ "set-of-lumbricals-of-hand": [
+  "Muscoli lombricali della mano",
+  null
+ ],
+ "set-of-oesophageal-branches-of-thoracic-aorta": [
+  "Rami esofagei dell'aorta toracica",
+  null
+ ],
+ "set-of-palmar-interossei-of-hand": [
+  "Muscoli interossei palmari della mano",
+  null
+ ],
+ "set-of-perforating-arteries": [
+  "Arterie perforanti",
+  null
+ ],
+ "set-of-perforating-veins": [
+  "Vene perforanti",
+  "Venae perforantes"
+ ],
+ "set-of-plantar-digital-arteries-proper": [
+  "Arterie digitali plantari proprie",
+  null
+ ],
+ "set-of-plantar-digital-veins": [
+  "Vene digitali plantari",
+  "Venae digitales plantares"
+ ],
+ "set-of-posterior-cervical-intertransversarii": [
+  "Muscoli intertrasversari posteriori del collo",
+  null
+ ],
+ "short-ciliary-nerve": [
+  "Nervi ciliari corti",
+  "Nervi ciliares breves"
+ ],
+ "short-head-of-biceps-brachii": [
+  "Capo breve del muscolo bicipite brachiale",
+  "Caput breve musculi bicipitis brachii"
+ ],
+ "short-head-of-biceps-femoris": [
+  "Capo corto del bicipite femorale",
+  "Caput breve musculi bicipitis femoris"
+ ],
+ "sigmoid-artery": [
+  "Arterie sigmoidee",
+  "Arteriae sigmoideae"
+ ],
+ "sigmoid-vein": [
+  "Vene sigmoidee",
+  "Venae sigmoideae"
+ ],
+ "small-cardiac-vein": [
+  "Vena cardiaca parva",
+  "Vena parva cordis"
+ ],
+ "spinal-part-of-deltoid": [
+  "Muscolo deltoide, parte spinale",
+  null
+ ],
+ "spinalis": [
+  "Muscolo spinale",
+  null
+ ],
+ "splenic-artery": [
+  "Arteria lienale",
+  "Arteria splenica"
+ ],
+ "splenic-vein": [
+  "Vena splenica",
+  "Vena splenica"
+ ],
+ "sternocostal-part-of-pectoralis-major": [
+  "Muscolo grande pettorale, parte sternocostale",
+  null
+ ],
+ "straight-part-of-cricothyroid": [
+  "Parte rettilinea del muscolo cricotiroideo",
+  "Pars recta musculi cricothyreoidei"
+ ],
+ "superficial-head-of-flexor-pollicis-brevis": [
+  "Capo superficiale del muscolo flessore breve del pollice",
+  "Caput superficiale flexoris brevis pollicis"
+ ],
+ "superior-branch-of-medial-segmental-artery": [
+  "Ramo superiore dell'arteria segmentale mediale",
+  null
+ ],
+ "superior-branch-of-superior-segmental-artery": [
+  "Ramo superiore dell'arteria segmentale superiore",
+  null
+ ],
+ "superior-lingular-artery": [
+  "Arteria lingulare superiore",
+  null
+ ],
+ "superior-lingular-bronchial-tree": [
+  "Albero bronchiale lingulare superiore",
+  null
+ ],
+ "superior-lingular-vein": [
+  "Vena lingulare superiore",
+  null
+ ],
+ "superior-mesenteric-artery": [
+  "Arteria mesenterica superiore",
+  "Arteria mesenteries superior"
+ ],
+ "superior-mesenteric-vein": [
+  "Vena mesenterica superiore",
+  "Vena mesenterica superior"
+ ],
+ "superior-oblique-part-of-longus-colli": [
+  "Muscolo lungo del collo, parte obliqua superiore",
+  null
+ ],
+ "superior-part-of-medial-segmental-vein": [
+  "Parte superiore della vena segmentale mediale",
+  null
+ ],
+ "superior-part-of-anterior-segmental-vein": [
+  "Parte superiore della vena segmentale anteriore",
+  null
+ ],
+ "superior-phrenic-vein": [
+  "Vena frenica superiore",
+  null
+ ],
+ "superior-rectal-artery": [
+  "Arteria rettale superiore",
+  null
+ ],
+ "superior-rectal-vein": [
+  "Vena rettale superiore",
+  null
+ ],
+ "superior-segmental-branch-of-renal-artery": [
+  "Ramo segmentale superiore dell'arteria renale",
+  null
+ ],
+ "suspensory-ligament-of-lens": [
+  "Legamento sospensore del cristallino",
+  null
+ ],
+ "taenia-libera": [
+  "Tenia libera del colon",
+  null
+ ],
+ "taenia-mesocolica": [
+  "Tenia mesocolica",
+  null
+ ],
+ "taenia-omentalis": [
+  "Tenia omentale",
+  null
+ ],
+ "tarsal-plate-of-lower-eyelid": [
+  "Tarso della palpebra inferiore",
+  null
+ ],
+ "tarsal-plate-of-upper-eyelid": [
+  "Tarso della palpebra superiore",
+  null
+ ],
+ "tendinous-arch-of-levator-ani": [
+  "Arco tendineo del muscolo elevatore dell'ano",
+  "Arcus tendineus levatoris ani"
+ ],
+ "tendon-of-levator-palpebrae-superioris": [
+  "Tendine del muscolo elevatore della palpebra superiore",
+  null
+ ],
+ "third-lumbrical-of-foot": [
+  "Terzo muscolo lombricale del piede",
+  null
+ ],
+ "third-plantar-interosseous-of-foot": [
+  "Terzo muscolo interosseo plantare del piede",
+  null
+ ],
+ "third-right-anterior-branch-of-anterior-interventricular-branch-of-coronary-artery": [
+  "Terzo ramo anteriore del ramo interventricolare anteriore dell'arteria coronaria",
+  null
+ ],
+ "thoracic-rotator": [
+  "Muscoli rotatori del torace",
+  null
+ ],
+ "thyro-epiglottic-ligament": [
+  "Legamento tiro-epiglottico",
+  "Ligamentum thyreoepiglotticum"
+ ],
+ "transverse-arytenoid": [
+  "Muscolo aritenoideo trasverso",
+  "Musculus arytenoideus transversus"
+ ],
+ "transverse-head-of-adductor-hallucis": [
+  "Capo trasverso dell'adduttore dell'alluce",
+  "Caput transversum adductoris hallucis"
+ ],
+ "transverse-head-of-adductor-pollicis": [
+  "Capo trasverso del muscolo adduttore del pollice",
+  "Caput transversum adductoris pollicis"
+ ],
+ "transverse-mesocolon": [
+  "Mesocolon trasverso",
+  "Mesocolon transversum"
+ ],
+ "transverse-part-of-trapezius": [
+  "Parte trasversale del muscolo trapezio",
+  "Pars transversa musculi trapezii"
+ ],
+ "tributary-of-middle-hepatic-vein": [
+  "Affluente della vena epatica media",
+  null
+ ],
+ "tributary-of-plantar-venous-arch": [
+  "Affluente dell'arcata venosa plantare",
+  null
+ ],
+ "tributary-of-superficial-external-pudendal-vein": [
+  "Affluente della vena pudenda esterna superficiale",
+  null
+ ],
+ "trochlea-of-superior-oblique": [
+  "Troclea del muscolo obliquo superiore",
+  "Trochlea musculi obliqui superioris"
+ ],
+ "trunk-of-anterior-interventricular-branch-of-coronary-artery": [
+  "Tronco del ramo interventricolare anteriore dell'arteria coronaria",
+  null
+ ],
+ "trunk-of-gastroduodenal-artery": [
+  "Tronco dell'arteria gastroduodenale",
+  null
+ ],
+ "trunk-of-coronary-artery": [
+  "Tronco dell'arteria coronaria",
+  null
+ ],
+ "trunk-of-hepatic-artery": [
+  "Tronco dell'arteria epatica",
+  null
+ ],
+ "trunk-of-portal-vein": [
+  "Tronco della vena porta",
+  null
+ ],
+ "trunk-of-renal-artery": [
+  "Tronco dell'arteria renale",
+  null
+ ],
+ "trunk-of-thoraco-acromial-artery": [
+  "Tronco dell'arteria toracoacromiale",
+  null
+ ],
+ "trunk-of-apical-segmental-vein": [
+  "Tronco della vena segmentale apicale",
+  null
+ ],
+ "trunk-of-superior-mesenteric-artery": [
+  "Tronco dell'arteria mesenterica superiore",
+  null
+ ],
+ "ulnar-head-of-flexor-carpi-ulnaris": [
+  "Capo ulnare del muscolo flessore ulnare del carpo",
+  "Caput ulnare flexoris ulnaris carpi"
+ ],
+ "ulnar-head-of-pronator-teres": [
+  "Muscolo pronatore rotondo, capo ulnare",
+  null
+ ],
+ "ureteric-segment-of-renal-artery": [
+  "Ramo ureterale dell'arteria renale",
+  null
+ ],
+ "uvular-muscle": [
+  "Muscolo dell'ugola",
+  null
+ ],
+ "vertical-intermediate-part-of-longus-colli": [
+  "Muscolo lungo del collo, parte verticale",
+  null
+ ],
+ "wall-of-atrium": [
+  "Parete dell'atrio",
+  null
+ ],
+ "wall-of-ventricle": [
+  "Parete del ventricolo",
+  null
+ ],
+ "communicating-branch-of-median-nerve-with-ulnar-nerve": [
+  "Ramo comunicante del nervo mediano con il nervo ulnare",
+  null
+ ],
+ "abducens-nerve-vi": [
+  "Nervo abducente (VI)",
+  "Nervus abducens (VI)"
+ ],
+ "accessory-nerve-xi": [
+  "Nervo accessorio (XI)",
+  "Nervus accessorius (XI)"
+ ],
+ "anterior-branch-of-medial-antebrachial-cutaneous-nerve": [
+  "Ramo anteriore del nervo cutaneo mediale dell'avambraccio",
+  "Ramus anterior nervi cutanei medialis antebrachii"
+ ],
+ "anterior-branch-of-obturator-nerve": [
+  "Ramo anteriore del nervo otturatorio",
+  "Ramus anterior nervi obturatorii"
+ ],
+ "anterior-corticospinal-tract": [
+  "Tratto corticospinale anteriore",
+  "Tractus corticospinalis anterior"
+ ],
+ "anterior-cutaneous-branches-of-femoral-nerve": [
+  "Rami cutanei anteriori del nervo femorale",
+  "Rami cutanei anteriores nervi femoralis"
+ ],
+ "anterior-division-of-inferior-trunk-of-brachial-plexus": [
+  "Divisione anteriore del tronco primario inferiore",
+  "Divisio anterior trunci inferioris plexus brachialis"
+ ],
+ "anterior-division-of-mandibular-nerve": [
+  "Divisione anteriore del nervo mandibolare",
+  "Divisio anterior nervi mandibularis"
+ ],
+ "anterior-division-of-middle-trunk-of-brachial-plexus": [
+  "Divisione anteriore del tronco primario medio",
+  "Divisio anterior trunci medii plexus brachialis"
+ ],
+ "anterior-division-of-superior-trunk-of-brachial-plexus": [
+  "Divisione anteriore del tronco primario superiore",
+  "Divisio anterior trunci superioris plexus brachialis"
+ ],
+ "anterior-fasciculus-proprius": [
+  "Fascicolo proprio anteriore",
+  "Fasciculus proprius anterior"
+ ],
+ "anterior-horn-of-spinal-cord": [
+  "Corno anteriore del midollo spinale",
+  "Cornu anterius medullae spinalis"
+ ],
+ "anterior-interosseous-nerve-of-forearm": [
+  "Nervo interosseo anteriore dell'avambraccio",
+  "Nervus interosseus anterior antebrachii"
+ ],
+ "anterior-root-of-posterior-femoral-cutaneous-nerve": [
+  "Radice anteriore del nervo cutaneo posteriore del femore",
+  "Radix anterior nervi cutanei femoris"
+ ],
+ "anterior-root-of-spinal-nerve": [
+  "Radice anteriore del nervo spinale",
+  "Radix anterior nervi spinalis"
+ ],
+ "anterior-spinocerebellar-tract": [
+  "Tratto spinocerebellare anteriore",
+  "Tractus spinocerebellaris anterior"
+ ],
+ "anterior-spinothalamic-tract": [
+  "Tratto spinotalamico anteriore",
+  "Tractus spinothalamicus anterior"
+ ],
+ "axillary-nerve": [
+  "Nervo ascellare",
+  "Nervus axillaris"
+ ],
+ "buccal-nerve": [
+  "Nervo buccale",
+  "Nervus buccalis"
+ ],
+ "cauda-equina": [
+  "Cauda equina",
+  "Cauda equina"
+ ],
+ "central-canal": [
+  "Canale centrale",
+  "Canalis centralis"
+ ],
+ "central-canal-segment": [
+  "Canale centrale",
+  "Canalis centralis"
+ ],
+ "chorda-tympani": [
+  "Chorda tympani",
+  "Chorda tympani"
+ ],
+ "cochlear-nerve": [
+  "Nervo cocleare",
+  "Nervus cochlearis"
+ ],
+ "common-fibular-nerve": [
+  "Nervo fibulare comune",
+  "Nervus fibularis communis"
+ ],
+ "common-palmar-digital-branches-of-median-nerve": [
+  "Rami digitali palmari comuni del nervo mediano",
+  "Rami digitales palmares communes nervi mediani"
+ ],
+ "common-palmar-digital-branches-of-ulnar-nerve": [
+  "Rami digitali palmari comuni del nervo ulnare",
+  "Rami digitales palmares communes nervi ulnaris"
+ ],
+ "common-plantar-digital-branches-of-lateral-plantar-nerve": [
+  "Rami digitali plantari comuni del nervo plantare laterale",
+  "Rami digitales plantares communes nervi plantaris lateralis"
+ ],
+ "common-plantar-digital-branches-of-medial-plantar-nerve": [
+  "Rami digitali plantari comuni del nervo plantare mediale",
+  "Rami digitales plantares communes nervi plantaris medialis"
+ ],
+ "cuneate-fasciculus": [
+  "Fascicolo cuneato",
+  "Fasciculus cuneatus"
+ ],
+ "deep-branch-of-radial-nerve": [
+  "Ramo profondo del nervo radiale",
+  "Ramus profundus nervi radialis"
+ ],
+ "deep-branch-of-ulnar-nerve": [
+  "Ramo profondo del nervo ulnare",
+  "Ramus profundus nervi ulnaris"
+ ],
+ "deep-fibular-nerve": [
+  "Nervo fibulare profondo",
+  "Nervus fibularis profundus"
+ ],
+ "dorsal-branch-of-ulnar-nerve": [
+  "Ramo dorsale del nervo ulnare",
+  "Ramus dorsalis nervi ulnaris"
+ ],
+ "dorsal-digital-branches-of-deep-fibular-nerve": [
+  "Rami digitali dorsali del nervo fibulare profondo",
+  "Rami digitales dorsales nervi fibularis profundi"
+ ],
+ "dorsal-digital-branches-of-radial-nerve": [
+  "Rami digitali dorsali del nervo radiale",
+  "Rami digitales dorsales nervi radialis"
+ ],
+ "dorsal-digital-branches-of-superficial-fibular-nerve": [
+  "Rami digitali dorsali del nervo fibulare superficiale",
+  "Rami digitales dorsales nervi fibularis superficialis"
+ ],
+ "dorsal-digital-branches-of-ulnar-nerve": [
+  "Rami digitali dorsali del nervo ulnare",
+  "Rami digitales dorsales nervi ulnaris"
+ ],
+ "dorsal-scapular-nerve": [
+  "Nervo dorsale della scapola",
+  "Nervus dorsalis scapulae"
+ ],
+ "facial-nerve-vii": [
+  "Nervo facciale (VII)",
+  "Nervus facialis (VII)"
+ ],
+ "falx-cerebri": [
+  "Falce cerebrale",
+  "Falx cerebri"
+ ],
+ "femoral-branch-of-genitofemoral-nerve": [
+  "Ramo femorale del nervo genitofemorale",
+  "Ramus femoralis nervi genitofemoralis"
+ ],
+ "femoral-nerve": [
+  "Nervo femorale",
+  "Nervus femoralis"
+ ],
+ "ganglia-of-sympathetic-trunk": [
+  "Gangli del tronco simpatico",
+  "Ganglia trunci sympathici"
+ ],
+ "genital-branch-of-genitofemoral-nerve": [
+  "Ramo genitale del nervo genitofemorale",
+  "Ramus genitalis nervi genitofemoralis"
+ ],
+ "genitofemoral-nerve": [
+  "Nervo genitofemorale",
+  "Nervus genitofemoralis"
+ ],
+ "glossopharyngeal-nerve-ix": [
+  "Nervo glossofaringeo (IX)",
+  "Nervus glossopharyngeus (IX)"
+ ],
+ "gracile-fasciculus": [
+  "Fascicolo gracile",
+  "Fasciculus gracilis"
+ ],
+ "hypoglossal-nerve-xii": [
+  "Nervo ipoglosso (XII)",
+  "Nervus hypoglossus (XII)"
+ ],
+ "ilio-inguinal-nerve": [
+  "Nervo ileoinguinale",
+  "Nervus ilioinguinalis"
+ ],
+ "iliohypogastric-nerve": [
+  "Nervo ileoipogastrico",
+  "Nervus iliohypogastricus"
+ ],
+ "inferior-alveolar-nerve": [
+  "Nervo alveolare inferiore",
+  "Nervus alveolaris inferior"
+ ],
+ "inferior-lateral-brachial-cutaneous-nerve": [
+  "Nervo cutaneo laterale inferiore del braccio",
+  "Nervus cutaneus lateralis inferior brachii"
+ ],
+ "inferior-subscapular-nerve": [
+  "Nervo sottoscapolare inferiore",
+  "Nervus subscapularis inferior"
+ ],
+ "inferior-trunk-of-brachial-plexus": [
+  "Tronco primario inferiore del plesso brachiale",
+  "Truncus inferior plexus brachialis"
+ ],
+ "infrapatellar-branch-of-saphenous-nerve": [
+  "Ramo sottorotuleo del nervo safeno",
+  "Ramus infrapatellaris nervi sapheni"
+ ],
+ "intercostal-nerves": [
+  "Nervi intercostali",
+  "Nervi intercostales"
+ ],
+ "intermediate-dorsal-cutaneous-nerve-of-foot": [
+  "Nervo cutaneo dorsale intermedio del piede",
+  "Nervus cutaneus intermedius dorsalis pedis"
+ ],
+ "intermediolateral-nucleus": [
+  "Nucleo intermediolaterale",
+  "Nucleus intermediolateralis"
+ ],
+ "intermediomedial-nucleus": [
+  "Nucleo intermediomediale",
+  "Nucleus intermediomedialis"
+ ],
+ "lateral-antebrachial-cutaneous-nerve": [
+  "Nervo cutaneo laterale dell'avambraccio",
+  "Nervus cutaneus lateralis antebrachii"
+ ],
+ "lateral-corticospinal-tract": [
+  "Tratto corticospinale laterale",
+  "Tractus corticospinalis lateralis"
+ ],
+ "lateral-fasciculus-proprius": [
+  "Fascicolo proprio laterale",
+  "Fasciculus proprius lateralis"
+ ],
+ "lateral-femoral-cutaneous-nerve": [
+  "Nervo cutaneo femorale laterale",
+  "Nervus cutaneus lateralis femoris"
+ ],
+ "lateral-intermediate-substance": [
+  "Sostanza intermedia laterale",
+  "Substantia intermedia lateralis"
+ ],
+ "lateral-pectoral-nerve": [
+  "Nervo pettorale laterale",
+  "Nervus pectoralis lateralis"
+ ],
+ "lateral-plantar-nerve": [
+  "Nervo plantare laterale",
+  "Nervus plantaris lateralis"
+ ],
+ "lateral-reticulospinal-tract": [
+  "Tratto reticolospinale laterale",
+  "Tractus reticulospinalis lateralis"
+ ],
+ "lateral-spinothalamic-tract": [
+  "Tratto spinotalamico laterale",
+  "Tractus spinothalamicus lateralis"
+ ],
+ "lateral-vestibulospinal-tract": [
+  "Tratto vestibolospinale laterale",
+  "Tractus vestibulospinalis lateralis"
+ ],
+ "lingual-nerve": [
+  "Nervo linguale",
+  "Nervus lingualis"
+ ],
+ "long-thoracic-nerve": [
+  "Nervo toracico lungo",
+  "Nervus thoracicus longus"
+ ],
+ "maxillary-nerve": [
+  "Nervo mascellare",
+  "Nervus maxillaris"
+ ],
+ "medial-antebrachial-cutaneous-nerve": [
+  "Nervo cutaneo mediale dell'avambraccio",
+  "Nervus cutaneus medialis antebrachii"
+ ],
+ "medial-brachial-cutaneous-nerve": [
+  "Nervo cutaneo mediale del braccio",
+  "Nervus cutaneus medialis brachii"
+ ],
+ "medial-crural-cutaneous-branches-of-saphenous-nerve": [
+  "Rami cutanei mediali della gamba del nervo safeno",
+  "Rami cutanei mediales cruris nervi sapheni"
+ ],
+ "medial-dorsal-cutaneous-nerve-of-foot": [
+  "Nervo cutaneo dorsale mediale del piede",
+  "Nervus cutaneus medialis dorsalis pedis"
+ ],
+ "medial-pectoral-nerve": [
+  "Nervo pettorale mediale",
+  "Nervus pectoralis medialis"
+ ],
+ "medial-plantar-nerve": [
+  "Nervo plantare mediale",
+  "Nervus plantaris medialis"
+ ],
+ "medial-reticulospinal-tract": [
+  "Tratto reticolospinale mediale",
+  "Tractus reticulospinalis medialis tractus"
+ ],
+ "medial-sural-cutaneous-nerve": [
+  "Nervo cutaneo mediale della sura",
+  "Nervus cutaneus medialis surae"
+ ],
+ "medial-vestibulospinal-tract": [
+  "Tratto vestibolospinale mediale",
+  "Tractus vestibulospinalis medialis"
+ ],
+ "median-nerve": [
+  "Nervo mediano",
+  "Nervus medianus"
+ ],
+ "meningeal-branch-of-maxillary-nerve": [
+  "Ramo meningeo del nervo mascellare",
+  "Ramus meningeus nervi maxillaris"
+ ],
+ "mental-nerve": [
+  "Nervo mentoniero",
+  "Nervus mentalis"
+ ],
+ "middle-trunk-of-brachial-plexus": [
+  "Tronco primario medio del plesso brachiale",
+  "Truncus medius plexus brachialis"
+ ],
+ "motor-root-of-trigeminal-nerve": [
+  "Radice motoria del nervo trigemino",
+  "Radix motoria nervi trigemini"
+ ],
+ "muscular-branches-of-axillary-nerve": [
+  "Rami muscolari del nervo ascellare",
+  "Rami musculares nervi axillaris"
+ ],
+ "muscular-branches-of-deep-fibular-nerve": [
+  "Rami muscolari del nervo fibulare profondo",
+  "Rami musculares nervi fibularis profundi"
+ ],
+ "muscular-branches-of-median-nerve": [
+  "Rami muscolari del nervo mediano",
+  "Rami musculares nervi mediani"
+ ],
+ "muscular-branches-of-radial-nerve": [
+  "Rami muscolari del nervo radiale",
+  "Rami musculares nervi radialis"
+ ],
+ "muscular-branches-of-ulnar-nerve": [
+  "Rami muscolari del nervo ulnare",
+  "Rami musculares nervi ulnaris"
+ ],
+ "musculocutaneous-nerve": [
+  "Nervo muscolocutaneo",
+  "Nervus musculocutaneus"
+ ],
+ "nerve-to-mylohyoid-muscle": [
+  "Nervo al muscolo miloioideo",
+  "Nervus mylohyoideus"
+ ],
+ "nerve-to-piriformis-muscle": [
+  "Nervo del muscolo piriforme",
+  "Nervus musculi piriformis"
+ ],
+ "nerve-to-quadratus-femoris-muscle": [
+  "Nervo del muscolo quadrato del femore",
+  "Nervus musculi quadrati femoris"
+ ],
+ "nucleus-of-accessory-nerve": [
+  "Nucleo del nervo accessorio",
+  "Nucleus nervi accessorii"
+ ],
+ "nucleus-proprius": [
+  "Nucleo proprio",
+  "Nucleus proprius"
+ ],
+ "obturator-nerve": [
+  "Nervo otturatorio",
+  "Nervus obturatorius"
+ ],
+ "oculomotor-nerve-iii": [
+  "Nervo oculomotore (III)",
+  "Nervus oculomotorius (III)"
+ ],
+ "olfactory-nerve-i": [
+  "Nervo olfattorio (I)",
+  "Nervus olfactorius (I)"
+ ],
+ "palmar-branch-of-median-nerve": [
+  "Ramo palmare del nervo mediano",
+  "Ramus palmaris nervi mediani"
+ ],
+ "palmar-branch-of-ulnar-nerve": [
+  "Ramo palmare del nervo ulnare",
+  "Ramus palmaris nervi ulnaris"
+ ],
+ "posterior-antebrachial-cutaneous-nerve": [
+  "Nervo cutaneo posteriore dell'avambraccio",
+  "Nervus cutaneus posterior antebrachii"
+ ],
+ "posterior-branch-of-medial-antebrachial-cutaneous-nerve": [
+  "Ramo posteriore del nervo cutaneo mediale dell'avambraccio",
+  "Ramus posterior nervi cutanei medialis antebrachii"
+ ],
+ "posterior-branch-of-obturator-nerve": [
+  "Ramo posteriore del nervo otturatorio",
+  "Ramus posterior nervi obturatorii"
+ ],
+ "posterior-cord-of-brachial-plexus": [
+  "Tronco secondario posteriore del plesso brachiale",
+  "Fasciculus posterior plexus brachialis"
+ ],
+ "posterior-division-of-inferior-trunk-of-brachial-plexus": [
+  "Divisione posteriore del tronco primario inferiore",
+  "Divisio posterior trunci inferioris plexus brachialis"
+ ],
+ "posterior-division-of-mandibular-nerve": [
+  "Divisione posteriore del nervo mandibolare",
+  "Divisio posterior nervi mandibularis"
+ ],
+ "posterior-division-of-middle-trunk-of-brachial-plexus": [
+  "Divisione posteriore del tronco primario medio",
+  "Divisio posterior trunci medii plexus brachialis"
+ ],
+ "posterior-division-of-superior-trunk-of-brachial-plexus": [
+  "Divisione posteriore del tronco primario superiore",
+  "Divisio posterior trunci superioris plexus brachialis"
+ ],
+ "posterior-fasciculus-proprius": [
+  "Fascicolo proprio posteriore",
+  "Fasciculus proprius posterior"
+ ],
+ "posterior-femoral-cutaneous-nerve": [
+  "Nervo cutaneo posteriore del femore",
+  "Nervus cutaneus posterior femoris"
+ ],
+ "posterior-horn-of-spinal-cord": [
+  "Corno posteriore del midollo spinale",
+  "Cornu posterius medullae spinalis"
+ ],
+ "posterior-interosseous-nerve-of-forearm": [
+  "Nervo interosseo posteriore dell'avambraccio",
+  "Nervus interosseus posterior antebrachii"
+ ],
+ "posterior-root-of-posterior-femoral-cutaneous-nerve": [
+  "Radice posteriore del nervo cutaneo posteriore del femore",
+  "Radix posterior nervi cutanei posterioris femoris"
+ ],
+ "posterior-root-of-spinal-nerve": [
+  "Radice posteriore del nervo spinale",
+  "Radix posterior nervi spinalis"
+ ],
+ "posterior-spinocerebellar-tract": [
+  "Tratto spinocerebellare posteriore",
+  "Tractus spinocerebellaris posterior"
+ ],
+ "posterolateral-tract": [
+  "Tratto posterolaterale",
+  "Fasciculus posterolateralis"
+ ],
+ "proper-palmar-digital-branches-of-median-nerve": [
+  "Rami digitali palmari propri del nervo mediano",
+  "Rami digitales palmares proprii nervi mediani"
+ ],
+ "proper-palmar-digital-branches-of-ulnar-nerve": [
+  "Rami digitali palmari propri del nervo ulnare",
+  "Rami digitales palmares proprii nervi ulnaris"
+ ],
+ "proper-plantar-digital-branches-of-lateral-plantar-nerve": [
+  "Rami digitali plantari propri del nervo plantare laterale",
+  "Rami digitales plantares proprii nervi plantaris lateralis"
+ ],
+ "proper-plantar-digital-branches-of-medial-plantar-nerve": [
+  "Rami digitali plantari propri del nervo plantare mediale",
+  "Rami digitales plantares proprii nervi plantaris medialis"
+ ],
+ "pudendal-nerve": [
+  "Nervo pudendo",
+  "Nervus pudendalis"
+ ],
+ "radial-nerve": [
+  "Nervo radiale",
+  "Nervus radialis"
+ ],
+ "roots-of-brachial-plexus": [
+  "Radici del plesso brachiale",
+  "Radices plexus brachialis"
+ ],
+ "rubrospinal-tract": [
+  "Tratto rubrospinale",
+  "Tractus rubrospinalis"
+ ],
+ "saphenous-nerve": [
+  "Nervo safeno",
+  "Nervus saphenus"
+ ],
+ "sciatic-nerve": [
+  "Nervo sciatico",
+  "Nervus ischiadicus"
+ ],
+ "sensory-root-of-trigeminal-nerve": [
+  "Radice sensitiva del nervo trigemino",
+  "Radix sensoria nervi trigemini"
+ ],
+ "spinal-dura": [
+  "Dura spinale",
+  "Dura spinalis"
+ ],
+ "spinal-ganglion": [
+  "Ganglio spinale",
+  "Ganglion spinale"
+ ],
+ "spinal-reticular-process": [
+  "Processo reticolare spinale",
+  "Processus reticularis spinalis"
+ ],
+ "spinotectal-tract": [
+  "Tratto spino-tettale",
+  "Tractus spinotectalis"
+ ],
+ "subclavian-nerve": [
+  "Nervo succlavio",
+  "Nervus subclavius"
+ ],
+ "superficial-branch-of-radial-nerve": [
+  "Ramo superficiale del nervo radiale",
+  "Ramus superficialis nervi radialis"
+ ],
+ "superficial-branch-of-ulnar-nerve": [
+  "Ramo superficiale del nervo ulnare",
+  "Ramus superficialis nervi ulnaris"
+ ],
+ "superficial-fibular-nerve": [
+  "Nervo fibulare superficiale",
+  "Nervus fibularis superficialis"
+ ],
+ "superior-gluteal-nerve": [
+  "Nervo gluteo superiore",
+  "Nervus gluteus superior"
+ ],
+ "superior-lateral-brachial-cutaneous-nerve": [
+  "Nervo cutaneo laterale superiore del braccio",
+  "Nervus cutaneus lateralis posterioris femoris"
+ ],
+ "superior-subscapular-nerve": [
+  "Nervo sottoscapolare superiore",
+  "Nervus subscapularis superior"
+ ],
+ "superior-trunk-of-brachial-plexus": [
+  "Tronco primario superiore del plesso brachiale",
+  "Truncus superior plexus brachialis"
+ ],
+ "suprascapular-nerve": [
+  "Nervo sovrascapolare",
+  "Nervus suprascapularis"
+ ],
+ "sural-communicating-branch-of-common-fibular-nerve": [
+  "Ramo comunicante del nervo fibulare comune della sura",
+  "Ramus communicans suralis nervi fibularis communis"
+ ],
+ "sural-nerve": [
+  "Nervo surale",
+  "Nervus suralis"
+ ],
+ "sympathetic-nerves": [
+  "Nervi simpatici",
+  "Nervi sympathici"
+ ],
+ "sympathetic-trunk": [
+  "Tronco simpatico",
+  "Truncus sympathicus"
+ ],
+ "tectospinal-tract": [
+  "Tratto tettospinale",
+  "Tractus tectospinalis"
+ ],
+ "thoracodorsal-nerve": [
+  "Nervo toracodorsale",
+  "Nervus thoracodorsalis"
+ ],
+ "tibial-nerve": [
+  "Nervo tibiale",
+  "Nervus tibialis"
+ ],
+ "trigeminal-nerve-v": [
+  "Nervo trigemino (V)",
+  "Nervus trigeminus (V)"
+ ],
+ "trochlear-nerve-iv": [
+  "Nervo trocleare (IV)",
+  "Nervus trochlearis (IV)"
+ ],
+ "ulnar-nerve": [
+  "Nervo ulnare",
+  "Nervus ulnaris"
+ ],
+ "vagus-nerve-x": [
+  "Nervo vago (X)",
+  "Nervus vagus (X)"
+ ],
+ "vestibular-nerve": [
+  "Nervo vestibolare",
+  "Nervus vestibularis"
+ ],
+ "vestibulocochlear-nerve-viii": [
+  "Nervo vestibolococleare (VIII)",
+  "Nervus vestibulocochlearis (VIII)"
+ ],
+ "white-matter-of-spinal-cord": [
+  "Sostanza bianca del midollo spinale",
+  "Substantia alba medullae spinalis"
+ ],
+ "anterior-superior-pancreaticoduodenal-artery": [
+  "Arteria pancreaticoduodenale superiore anteriore",
+  null
+ ],
+ "anterolateral-head-of-lateral-papillary-muscle-of-ventricle": [
+  "Capo anterolaterale del muscolo papillare laterale del ventricolo",
+  null
+ ],
+ "caudate-lobe-branch-of-hepatic-artery": [
+  "Ramo dell'arteria epatica per il lobo caudato",
+  null
+ ],
+ "caudate-lobe-branch-of-portal-vein": [
+  "Ramo della vena porta per il lobo caudato",
+  null
+ ],
+ "caudate-lobe-tributary-of-hepatic-biliary-tree": [
+  "Affluente dell'albero biliare epatico dal lobo caudato",
+  null
+ ],
+ "central-canal-of-spinal-cord": [
+  "Canale centrale del midollo spinale",
+  null
+ ],
+ "proximal-part-of-ileum": [
+  "Parte prossimale dell'ileo",
+  null
+ ],
+ "proximal-part-of-jejunum": [
+  "Parte prossimale del digiuno",
+  null
+ ]
+}
