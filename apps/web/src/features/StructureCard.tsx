@@ -2,6 +2,7 @@ import type { ReactNode } from 'react';
 import { LAYERS } from '@/content/catalog';
 import { useUser } from '@/db/user';
 import { useAtlas } from '@/store/atlas';
+import { useTutor } from '@/tutor/store';
 import { RichText, btn, btnOn } from './util';
 
 const SIDE = { L: 'Sinistra', R: 'Destra', M: 'Mediana' } as const;
@@ -80,6 +81,8 @@ export function StructureCard() {
           <button type="button" className={btn} onClick={focusSelection}>Centra</button>
           <button type="button" className={`${btn} ${bookmarked ? btnOn : ''}`} aria-pressed={bookmarked}
             onClick={() => useUser.getState().toggleBookmark(entry.id)}>{bookmarked ? '★ Salvata' : '☆ Segnalibro'}</button>
+          <button type="button" className={btn}
+            onClick={() => useTutor.getState().ask(`Spiegami ${entry.names.it}: dove si trova, che cosa fa e perché è importante in clinica.`)}>Chiedi al tutor</button>
           <button type="button" className={`${btn} ${isolated ? btnOn : ''}`} aria-pressed={isolated} onClick={() => setIsolated(!isolated)}>
             {isolated ? 'Mostra tutto' : 'Isola'}
           </button>

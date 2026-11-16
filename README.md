@@ -6,7 +6,15 @@ Due ambiti, scelti con i pulsanti in alto a sinistra: **Corpo** (scheletro, musc
 
 Strumenti (scheda "Strumenti"): piano di sezione sagittale, coronale o assiale; vista esplosa; etichette senza sovrapposizioni; aree di Brodmann (corrispondenza approssimata); nove vie nervose animate (schemi didattici); segnalibri e note personali salvati sul dispositivo.
 
-Stato: **M2** completata. Prossime: M3 tutor AI, M4 quiz e ripetizione dilazionata, M5 PWA e offline.
+Stato: **M3** completata. Prossime: M4 quiz e ripetizione dilazionata, M5 PWA e offline.
+
+## Tutor AI
+
+Il tutor (scheda "Tutor") usa l'account Claude di chi guarda la pagina, senza chiave API: funziona solo nella versione pubblicata dentro Claude (`npm run build:published` in `apps/web`, poi pubblicazione come artifact con la capacità `sample`). Sul sito GitHub Pages la scheda spiega che il tutor non è disponibile; tutto il resto funziona.
+
+- Conosce lo stato dell'atlante (struttura selezionata, sezione, via, livelli) e riceve le schede pertinenti alla domanda (`apps/web/src/tutor/engine.ts`).
+- Comanda il visualizzatore con sei strumenti: `search_structures`, `get_structure_card`, `highlight_structure`, `set_section_plane`, `show_pathway`, `focus_camera`.
+- Percorsi guidati: otto moduli con obiettivi di apprendimento in `content/modules.json`.
 
 ## Avvio
 

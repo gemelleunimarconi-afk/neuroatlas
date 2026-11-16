@@ -1,8 +1,8 @@
 import type { ReactNode } from 'react';
 import { PATHWAYS } from '@/content/load';
-import type { LayerId } from '@/content/schema';
 import { useUser } from '@/db/user';
 import { useAtlas, type SectionAxis } from '@/store/atlas';
+import { openPathway } from '@/tutor/actions';
 import { RichText, btn, btnOn } from './util';
 
 const AXES: [SectionAxis, string][] = [['sagittal', 'Sagittale'], ['coronal', 'Coronale'], ['axial', 'Assiale']];
@@ -32,12 +32,7 @@ export function ToolsPanel() {
   const persistent = useUser((s) => s.persistent);
   const active = PATHWAYS.find((p) => p.id === pathwayId);
 
-  const open = (id: string) => {
-    const p = PATHWAYS.find((x) => x.id === id)!;
-    const layers = new Set<LayerId>(['cortex', 'brainstem']);
-    for (const t of p.tracks) for (const pt of t.points) { const e = catalog.byId.get(pt.ref); if (e) layers.add(e.layer); }
-    showPathway(id, [...layers]);
-  };
+  const open = openPathway;
   const saved = [...new Set([...Object.keys(bookmarks), ...Object.keys(notes)])]
     .map((id) => catalog.byId.get(id)).filter((e) => e !== undefined)
     .sort((a, b) => a.names.it.localeCompare(b.names.it, 'it'));
