@@ -1,0 +1,92 @@
+{
+  "id": "postcentral-gyrus",
+  "names": {
+    "it": "Giro postcentrale",
+    "la": "Gyrus postcentralis",
+    "en": "Postcentral gyrus",
+    "synonyms": [
+      "circonvoluzione parietale ascendente",
+      "corteccia somatosensoriale primaria",
+      "S1"
+    ]
+  },
+  "parent": "parietal-lobe",
+  "layer": "cortex",
+  "side": "bilateral",
+  "level": 1,
+  "location": "Lobo parietale, subito dietro il solco centrale e davanti al solco postcentrale. Sulla faccia mediale continua nella parte posteriore del lobulo paracentrale.",
+  "relations": [
+    {
+      "direction": "anteriore",
+      "structureId": "central-sulcus",
+      "text": "Solco centrale, che lo separa dal giro precentrale."
+    },
+    {
+      "direction": "posteriore",
+      "structureId": "postcentral-sulcus",
+      "text": "Solco postcentrale e lobuli parietali."
+    },
+    {
+      "direction": "mediale",
+      "structureId": "paracentral-lobule",
+      "text": "Lobulo paracentrale."
+    }
+  ],
+  "function": "Sede della corteccia somatosensoriale primaria (S1, aree 3, 1, 2 di Brodmann). Riceve la sensibilità tattile, propriocettiva, termica e dolorifica della metà controlaterale del corpo, con organizzazione somatotopica (*homunculus* sensitivo): arto inferiore medialmente, volto e mano lateralmente, con rappresentazione più ampia per le regioni a maggiore densità di recettori.",
+  "connections": [
+    {
+      "type": "afferent",
+      "targetId": "ventral-posterolateral-thalamic-nucleus",
+      "via": "radiazione talamica",
+      "text": "Dal nucleo ventrale posterolaterale: sensibilità di tronco e arti."
+    },
+    {
+      "type": "afferent",
+      "targetId": "ventral-posteromedial-thalamic-nucleus",
+      "text": "Dal nucleo ventrale posteromediale: sensibilità del volto."
+    },
+    {
+      "type": "efferent",
+      "targetId": "superior-parietal-lobule",
+      "text": "Alla corteccia somatosensoriale secondaria e alle aree associative parietali posteriori (5 e 7)."
+    },
+    {
+      "type": "reciprocal",
+      "targetId": "precentral-gyrus",
+      "text": "Con la corteccia motoria primaria."
+    }
+  ],
+  "bloodSupply": [
+    {
+      "arteryId": "artery-of-postcentral-sulcus",
+      "text": "Faccia laterale: rami dell'arteria cerebrale media."
+    },
+    {
+      "arteryId": "anterior-cerebral-artery",
+      "text": "Parte mediale: arteria cerebrale anteriore."
+    }
+  ],
+  "clinical": [
+    {
+      "title": "Lesione di S1",
+      "text": "Perdita controlaterale del tatto discriminativo e della propriocezione, con astereognosia (incapacità di riconoscere gli oggetti al tatto); dolore e temperatura sono meno compromessi."
+    },
+    {
+      "title": "Crisi focali sensitive",
+      "text": "Parestesie che si propagano secondo la somatotopia."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [
+    3,
+    1,
+    2
+  ],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

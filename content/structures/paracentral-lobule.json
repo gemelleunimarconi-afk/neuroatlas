@@ -1,0 +1,78 @@
+{
+  "id": "paracentral-lobule",
+  "names": {
+    "it": "Lobulo paracentrale",
+    "la": "Lobulus paracentralis",
+    "en": "Paracentral lobule",
+    "synonyms": [
+      "-"
+    ]
+  },
+  "parent": "cerebral-hemisphere",
+  "layer": "cortex",
+  "side": "bilateral",
+  "level": 2,
+  "location": "Faccia mediale dell'emisfero, attorno all'estremità mediale del solco centrale: è la continuazione mediale dei giri precentrale e postcentrale.",
+  "relations": [
+    {
+      "direction": "inferiore",
+      "structureId": "cingulate-sulcus",
+      "text": "Solco del cingolo."
+    },
+    {
+      "direction": "posteriore",
+      "structureId": "precuneus",
+      "text": "Precuneo."
+    },
+    {
+      "direction": "laterale",
+      "structureId": "precentral-gyrus",
+      "text": "Giri precentrale e postcentrale."
+    }
+  ],
+  "function": "Contiene la rappresentazione motoria (parte anteriore) e sensitiva (parte posteriore) dell'arto inferiore e del piede controlaterali, e il controllo corticale volontario degli sfinteri vescicale e anale.",
+  "connections": [
+    {
+      "type": "efferent",
+      "targetId": "internal-capsule",
+      "via": "tratto corticospinale",
+      "text": "Fibre per i motoneuroni lombosacrali."
+    },
+    {
+      "type": "afferent",
+      "targetId": "ventral-posterolateral-thalamic-nucleus",
+      "text": "Afferenze sensitive dell'arto inferiore."
+    }
+  ],
+  "bloodSupply": [
+    {
+      "arteryId": "paracentral-branch-of-callosomarginal-artery",
+      "text": "Rami paracentrali dell'arteria cerebrale anteriore."
+    }
+  ],
+  "clinical": [
+    {
+      "title": "Ictus dell'arteria cerebrale anteriore",
+      "text": "Paresi e ipoestesia controlaterali prevalenti all'arto inferiore, talvolta incontinenza urinaria."
+    },
+    {
+      "title": "Meningioma della falce",
+      "text": "Può comprimere entrambi i lobuli e dare paraparesi, simulando una lesione midollare."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [
+    4,
+    3,
+    1,
+    2,
+    5
+  ],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

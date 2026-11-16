@@ -1,0 +1,75 @@
+{
+  "id": "third-ventricle",
+  "names": {
+    "it": "Terzo ventricolo",
+    "la": "Ventriculus tertius",
+    "en": "Third ventricle",
+    "synonyms": []
+  },
+  "parent": "ventricular-system",
+  "layer": "ventricles",
+  "side": "midline",
+  "level": 1,
+  "location": "Cavità mediana a fessura del diencefalo, tra i due talami (pareti superiori) e i due ipotalami (pareti inferiori).",
+  "relations": [
+    {
+      "direction": "laterale",
+      "structureId": "dorsomedial-thalamic-nucleus",
+      "text": "Talamo e ipotalamo, separati dal solco ipotalamico."
+    },
+    {
+      "direction": "anteriore",
+      "structureId": "lamina-terminalis",
+      "text": "Lamina terminale e colonne del fornice."
+    },
+    {
+      "direction": "superiore",
+      "structureId": "fornix-of-forebrain",
+      "text": "Tela corioidea e fornice."
+    },
+    {
+      "direction": "posteriore",
+      "structureId": "pineal-body",
+      "text": "Recesso pineale e commessura posteriore."
+    }
+  ],
+  "function": "Riceve il liquor dai ventricoli laterali attraverso i forami interventricolari e lo convoglia nell'acquedotto mesencefalico. Presenta i recessi ottico, infundibolare, pineale e soprapineale.",
+  "connections": [
+    {
+      "type": "afferent",
+      "targetId": "lateral-ventricle",
+      "via": "forame interventricolare",
+      "text": "Dai ventricoli laterali."
+    },
+    {
+      "type": "efferent",
+      "targetId": "aqueduct",
+      "text": "Verso il quarto ventricolo."
+    }
+  ],
+  "bloodSupply": [
+    {
+      "arteryId": "posterior-medial-choroidal-artery",
+      "text": "Il plesso corioideo del tetto è irrorato dalle arterie corioidee posteriori mediali."
+    }
+  ],
+  "clinical": [
+    {
+      "title": "Cisti colloide",
+      "text": "Lesione benigna del tetto anteriore che può ostruire i forami interventricolari, con idrocefalo acuto e cefalea posizionale."
+    },
+    {
+      "title": "Idrocefalo ostruttivo",
+      "text": "Il terzo ventricolo si dilata se è ostruito l'acquedotto."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

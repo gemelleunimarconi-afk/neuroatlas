@@ -1,0 +1,67 @@
+{
+  "id": "intermediolateral-nucleus",
+  "names": {
+    "it": "Nucleo intermediolaterale",
+    "la": "Nucleus intermediolateralis",
+    "en": "Intermediolateral nucleus",
+    "synonyms": [
+      "colonna intermediolaterale",
+      "corno laterale"
+    ]
+  },
+  "parent": "spinal-cord",
+  "layer": "body-spinal-cord",
+  "side": "midline",
+  "level": 2,
+  "location": "Colonna di neuroni nella zona intermedia della sostanza grigia, che forma il corno laterale nei segmenti da T1 a L2; un gruppo analogo, parasimpatico, si trova nei segmenti da S2 a S4.",
+  "relations": [
+    {
+      "direction": "anteriore",
+      "structureId": "anterior-horn-of-spinal-cord",
+      "text": "Corno anteriore."
+    },
+    {
+      "direction": "posteriore",
+      "structureId": "posterior-horn-of-spinal-cord",
+      "text": "Corno posteriore."
+    }
+  ],
+  "function": "Contiene i neuroni pregangliari del sistema simpatico (da T1 a L2). I loro assoni escono con le radici anteriori e raggiungono i gangli del tronco del simpatico attraverso i rami comunicanti bianchi.",
+  "connections": [
+    {
+      "type": "afferent",
+      "text": "Fibre discendenti dall'ipotalamo e dal tronco encefalico."
+    },
+    {
+      "type": "efferent",
+      "targetId": "sympathetic-trunk",
+      "via": "rami comunicanti bianchi",
+      "text": "Ai gangli paravertebrali e prevertebrali."
+    }
+  ],
+  "bloodSupply": [
+    {
+      "arteryId": "anterior-spinal-artery",
+      "text": "Arteria spinale anteriore."
+    }
+  ],
+  "clinical": [
+    {
+      "title": "Sindrome di Horner",
+      "text": "La lesione della via simpatica per l'occhio (fibre ipotalamiche discendenti, neuroni pregangliari in C8-T2 o fibre postgangliari) dà ptosi lieve, miosi e anidrosi omolaterali."
+    },
+    {
+      "title": "Lesioni midollari alte",
+      "text": "Sopra T6 possono dare disreflessia autonomica, con crisi ipertensive."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

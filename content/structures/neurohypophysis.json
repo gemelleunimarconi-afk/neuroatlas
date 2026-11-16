@@ -1,0 +1,63 @@
+{
+  "id": "neurohypophysis",
+  "names": {
+    "it": "Neuroipofisi",
+    "la": "Neurohypophysis",
+    "en": "Posterior pituitary",
+    "synonyms": [
+      "ipofisi posteriore",
+      "lobo posteriore dell'ipofisi"
+    ]
+  },
+  "parent": "pituitary-gland",
+  "layer": "diencephalon",
+  "side": "midline",
+  "level": 1,
+  "location": "Lobo posteriore dell'ipofisi, nella sella turcica, in continuità con l'ipotalamo attraverso l'infundibolo.",
+  "relations": [
+    {
+      "direction": "anteriore",
+      "structureId": "adenohypophysis",
+      "text": "Adenoipofisi."
+    },
+    {
+      "direction": "superiore",
+      "structureId": "infundibulum-of-neurohypophysis",
+      "text": "Infundibolo."
+    }
+  ],
+  "function": "Non produce ormoni: immagazzina e rilascia nel sangue vasopressina (ormone antidiuretico) e ossitocina, sintetizzate nei nuclei sopraottico e paraventricolare dell'ipotalamo.",
+  "connections": [
+    {
+      "type": "afferent",
+      "targetId": "infundibulum-of-neurohypophysis",
+      "via": "tratto ipotalamo-ipofisario",
+      "text": "Assoni dei neuroni magnocellulari dei nuclei sopraottico e paraventricolare."
+    }
+  ],
+  "bloodSupply": [
+    {
+      "arteryId": "internal-carotid-artery",
+      "text": "Arterie ipofisarie inferiori, rami della carotide interna."
+    }
+  ],
+  "clinical": [
+    {
+      "title": "Diabete insipido centrale",
+      "text": "La carenza di vasopressina, per lesione dell'ipotalamo o del peduncolo ipofisario, causa poliuria con urine diluite e polidipsia."
+    },
+    {
+      "title": "SIADH",
+      "text": "L'eccesso di vasopressina causa ritenzione di acqua e iponatriemia."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

@@ -1,0 +1,55 @@
+{
+  "id": "ulnar-nerve",
+  "names": {
+    "it": "Nervo ulnare",
+    "la": "Nervus ulnaris",
+    "en": "Ulnar nerve",
+    "synonyms": [
+      "nervo cubitale"
+    ]
+  },
+  "parent": "brachial-plexus",
+  "layer": "body-nerves",
+  "side": "bilateral",
+  "level": 1,
+  "location": "Nasce dal fascicolo mediale del plesso brachiale (radici C8 e T1), scende nel braccio, passa dietro l'epicondilo mediale dell'omero, percorre l'avambraccio mediale ed entra nella mano attraverso il canale di Guyon.",
+  "relations": [
+    {
+      "direction": "laterale",
+      "structureId": "median-nerve",
+      "text": "Nervo mediano."
+    }
+  ],
+  "function": "Motorio per il flessore ulnare del carpo, la metà mediale del flessore profondo delle dita e la maggior parte dei muscoli intrinseci della mano (interossei, eminenza ipotenar, adduttore del pollice). Sensitivo per il mignolo e la metà mediale dell'anulare.",
+  "connections": [
+    {
+      "type": "afferent",
+      "via": "plesso brachiale",
+      "text": "Dal fascicolo mediale del plesso brachiale."
+    }
+  ],
+  "bloodSupply": [
+    {
+      "text": "Arteria ulnare e arterie collaterali ulnari."
+    }
+  ],
+  "clinical": [
+    {
+      "title": "Lesione al gomito",
+      "text": "Sede più frequente, dove il nervo è superficiale: parestesie del mignolo, debolezza della presa, atrofia degli interossei e \"mano ad artiglio\" delle ultime due dita."
+    },
+    {
+      "title": "Segno di Froment",
+      "text": "Per tenere un foglio tra pollice e indice il paziente flette il pollice, per debolezza dell'adduttore."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

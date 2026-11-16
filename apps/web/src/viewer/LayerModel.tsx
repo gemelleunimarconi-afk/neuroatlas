@@ -54,6 +54,7 @@ export function LayerModel({ layer, lod }: { layer: LayerId; lod: string }) {
   const opacity = useAtlas((s) => s.layers[layer].opacity);
   const selection = useAtlas((s) => s.selection);
   const isolated = useAtlas((s) => s.isolated);
+  const hidden = useAtlas((s) => s.hiddenStructures);
   const select = useAtlas((s) => s.select);
   const sectionOn = useAtlas((s) => s.section !== null);
   const explode = useAtlas((s) => s.explode);
@@ -85,7 +86,7 @@ export function LayerModel({ layer, lod }: { layer: LayerId; lod: string }) {
       const info = catalog.meshById.get(mesh.name)!;
       const inStructure = !!selection && info.structure === selection.structureId;
       const selected = inStructure && (!selection.meshId || selection.meshId === mesh.name);
-      const visible = !(isolated && selection && !inStructure);
+      const visible = !(isolated && selection && !inStructure) && !hidden.includes(info.structure);
       const mat = mesh.material as THREE.MeshStandardMaterial;
       mesh.visible = visible;
       // Un livello reso quasi trasparente non intercetta i tocchi: si seleziona ciò che sta sotto.
@@ -118,7 +119,7 @@ export function LayerModel({ layer, lod }: { layer: LayerId; lod: string }) {
       }
     }
     invalidate();
-  }, [meshes, catalog, opacity, selection, isolated, sectionOn, explode, brodmann, invalidate]);
+  }, [meshes, catalog, opacity, selection, isolated, hidden, sectionOn, explode, brodmann, invalidate]);
 
   const onClick = (e: ThreeEvent<MouseEvent>) => {
     if (e.delta > 6) return; // era un trascinamento, non un tocco

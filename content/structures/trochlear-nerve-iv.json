@@ -1,0 +1,62 @@
+{
+  "id": "trochlear-nerve-iv",
+  "names": {
+    "it": "Nervo trocleare (IV)",
+    "la": "Nervus trochlearis (IV)",
+    "en": "Trochlear nerve (IV)",
+    "synonyms": [
+      "quarto nervo cranico",
+      "nervo patetico"
+    ]
+  },
+  "parent": "cranial-nerves",
+  "layer": "cranial-nerves",
+  "side": "bilateral",
+  "level": 2,
+  "location": "Origina dal nucleo del tegmento del mesencefalo a livello del collicolo inferiore. Le fibre incrociano nel velo midollare superiore ed emergono dalla faccia dorsale del tronco, sotto il collicolo inferiore; il nervo gira attorno al peduncolo cerebrale, decorre nella parete laterale del seno cavernoso ed entra nell'orbita dalla fessura orbitaria superiore.",
+  "relations": [
+    {
+      "direction": "superiore",
+      "structureId": "inferior-colliculus",
+      "text": "Collicolo inferiore."
+    },
+    {
+      "direction": "anteriore",
+      "structureId": "peduncle-of-midbrain",
+      "text": "Peduncolo cerebrale, che il nervo circonda."
+    }
+  ],
+  "function": "Motorio per il solo muscolo obliquo superiore, che abbassa, intorce e abduce l'occhio. È il nervo cranico più sottile, l'unico a emergere dorsalmente e l'unico le cui fibre incrociano completamente: ogni nucleo innerva l'obliquo superiore del lato opposto.",
+  "connections": [
+    {
+      "type": "afferent",
+      "via": "fascicolo longitudinale mediale",
+      "text": "Dai nuclei vestibolari e dai centri dello sguardo."
+    }
+  ],
+  "bloodSupply": [
+    {
+      "arteryId": "superior-cerebellar-artery",
+      "text": "Rami dell'arteria cerebellare superiore."
+    }
+  ],
+  "clinical": [
+    {
+      "title": "Paralisi del IV",
+      "text": "Diplopia verticale, peggiore guardando in basso e verso l'interno (scendere le scale, leggere); il paziente inclina la testa verso il lato opposto per compensare."
+    },
+    {
+      "title": "Trauma cranico",
+      "text": "È la causa più frequente, per il lungo decorso intracranico del nervo."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

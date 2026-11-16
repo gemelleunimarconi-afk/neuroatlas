@@ -1,0 +1,70 @@
+{
+  "id": "olfactory-nerve-i",
+  "names": {
+    "it": "Nervo olfattorio (I)",
+    "la": "Nervus olfactorius (I)",
+    "en": "Olfactory nerve (I)",
+    "synonyms": [
+      "primo nervo cranico",
+      "bulbo e tratto olfattivo"
+    ]
+  },
+  "parent": "cranial-nerves",
+  "layer": "cranial-nerves",
+  "side": "bilateral",
+  "level": 1,
+  "location": "I filamenti olfattivi attraversano la lamina cribrosa dell'etmoide e terminano nel bulbo olfattivo, sulla faccia orbitaria del lobo frontale; da qui il tratto olfattivo decorre all'indietro nel solco olfattivo. In questo atlante il modello comprende bulbo e tratto.",
+  "relations": [
+    {
+      "direction": "superiore",
+      "structureId": "straight-gyrus",
+      "text": "Giro retto e solco olfattivo."
+    },
+    {
+      "direction": "inferiore",
+      "text": "Lamina cribrosa dell'etmoide e cavità nasale."
+    }
+  ],
+  "function": "Nervo sensitivo speciale dell'olfatto. È l'unica via sensoriale che raggiunge la corteccia senza una stazione talamica obbligata.",
+  "connections": [
+    {
+      "type": "afferent",
+      "text": "Neuroni olfattivi bipolari dell'epitelio olfattivo: i loro assoni formano i filamenti olfattivi."
+    },
+    {
+      "type": "efferent",
+      "targetId": "amygdala",
+      "via": "strie olfattive",
+      "text": "Dal bulbo, attraverso il tratto e le strie olfattive, alla corteccia piriforme, all'amigdala e alla corteccia entorinale."
+    }
+  ],
+  "bloodSupply": [
+    {
+      "arteryId": "anterior-cerebral-artery",
+      "text": "Rami dell'arteria cerebrale anteriore e delle arterie etmoidali."
+    }
+  ],
+  "clinical": [
+    {
+      "title": "Anosmia post-traumatica",
+      "text": "Un trauma cranico può strappare i filamenti olfattivi alla lamina cribrosa."
+    },
+    {
+      "title": "Meningioma del solco olfattivo",
+      "text": "Anosmia, talvolta con atrofia ottica omolaterale e papilledema controlaterale (sindrome di Foster Kennedy)."
+    },
+    {
+      "title": "Malattie neurodegenerative",
+      "text": "L'iposmia è un segno precoce nella malattia di Parkinson e di Alzheimer."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

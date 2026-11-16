@@ -1,0 +1,82 @@
+{
+  "id": "lateral-geniculate-body",
+  "names": {
+    "it": "Corpo genicolato laterale",
+    "la": "Corpus geniculatum laterale",
+    "en": "Lateral geniculate body",
+    "synonyms": [
+      "nucleo genicolato laterale",
+      "CGL"
+    ]
+  },
+  "parent": "metathalamus",
+  "layer": "diencephalon",
+  "side": "bilateral",
+  "level": 1,
+  "location": "Piccolo rilievo sulla faccia posteroinferiore del talamo, sotto il pulvinar e lateralmente al corpo genicolato mediale, all'estremità del tratto ottico.",
+  "relations": [
+    {
+      "direction": "anteriore",
+      "structureId": "optic-tract",
+      "text": "Tratto ottico."
+    },
+    {
+      "direction": "mediale",
+      "structureId": "medial-geniculate-body",
+      "text": "Corpo genicolato mediale."
+    },
+    {
+      "direction": "superiore",
+      "structureId": "pulvinar",
+      "text": "Pulvinar."
+    }
+  ],
+  "function": "Nucleo di relè della via visiva. Ha sei strati: ciascuno riceve da un solo occhio e ogni corpo genicolato rappresenta l'emicampo visivo controlaterale. Gli strati magnocellulari (1 e 2) trasmettono movimento e contrasto, quelli parvocellulari (da 3 a 6) dettaglio e colore.",
+  "connections": [
+    {
+      "type": "afferent",
+      "targetId": "optic-tract",
+      "text": "Assoni delle cellule gangliari della retina: fibre crociate agli strati 1, 4 e 6, non crociate agli strati 2, 3 e 5."
+    },
+    {
+      "type": "efferent",
+      "targetId": "visual-cortex",
+      "via": "radiazione ottica",
+      "text": "Alla corteccia visiva primaria; le fibre inferiori compiono un'ansa nel lobo temporale (ansa di Meyer)."
+    },
+    {
+      "type": "afferent",
+      "targetId": "visual-cortex",
+      "text": "Proiezioni corticali di ritorno."
+    }
+  ],
+  "bloodSupply": [
+    {
+      "arteryId": "anterior-choroidal-artery",
+      "text": "Arteria corioidea anteriore e arteria corioidea posteriore laterale (ramo della cerebrale posteriore)."
+    }
+  ],
+  "clinical": [
+    {
+      "title": "Lesione",
+      "text": "Emianopsia omonima controlaterale."
+    },
+    {
+      "title": "Lesione dell'ansa di Meyer",
+      "text": "Nel lobo temporale: quadrantanopsia omonima superiore controlaterale."
+    },
+    {
+      "title": "Infarti selettivi",
+      "text": "I due territori arteriosi danno difetti settoriali caratteristici del campo visivo."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

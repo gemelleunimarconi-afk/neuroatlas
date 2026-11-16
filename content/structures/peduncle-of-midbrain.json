@@ -1,0 +1,72 @@
+{
+  "id": "peduncle-of-midbrain",
+  "names": {
+    "it": "Peduncolo cerebrale",
+    "la": "Crus cerebri",
+    "en": "Cerebral crus",
+    "synonyms": [
+      "piede del peduncolo cerebrale",
+      "base del peduncolo"
+    ]
+  },
+  "parent": "midbrain",
+  "layer": "white-matter",
+  "side": "midline",
+  "level": 1,
+  "location": "Parte ventrale del mesencefalo: due grossi cordoni di sostanza bianca che divergono verso l'alto, separati dalla fossa interpeduncolare. In questo atlante la struttura corrisponde al piede del peduncolo (*crus cerebri*).",
+  "relations": [
+    {
+      "direction": "dorsale",
+      "structureId": "substantia-nigra",
+      "text": "Sostanza nera, che lo separa dal tegmento."
+    },
+    {
+      "direction": "mediale",
+      "structureId": "oculomotor-nerve-iii",
+      "text": "Fossa interpeduncolare, da cui emerge il nervo oculomotore."
+    },
+    {
+      "direction": "rostrale",
+      "structureId": "internal-capsule",
+      "text": "Capsula interna."
+    }
+  ],
+  "function": "Contiene le fibre discendenti dalla corteccia: nei tre quinti intermedi le fibre corticospinali e corticonucleari, nel quinto mediale le frontopontine, nel quinto laterale le parieto-temporo-occipito-pontine.",
+  "connections": [
+    {
+      "type": "afferent",
+      "targetId": "internal-capsule",
+      "text": "Fibre provenienti dalla capsula interna."
+    },
+    {
+      "type": "efferent",
+      "targetId": "pons",
+      "text": "Proseguono nella base del ponte."
+    }
+  ],
+  "bloodSupply": [
+    {
+      "arteryId": "postcommunicating-part-of-posterior-cerebral-artery",
+      "text": "Rami peduncolari dell'arteria cerebrale posteriore e della comunicante posteriore."
+    }
+  ],
+  "clinical": [
+    {
+      "title": "Sindrome di Weber",
+      "text": "Infarto del piede del peduncolo con le fibre dell'oculomotore: ptosi, midriasi e occhio deviato in basso e in fuori dal lato della lesione, con emiparesi controlaterale."
+    },
+    {
+      "title": "Ernia dell'uncus",
+      "text": "Il peduncolo del lato opposto può essere schiacciato contro il margine del tentorio, dando un'emiparesi dallo stesso lato della lesione (falso segno localizzatorio)."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

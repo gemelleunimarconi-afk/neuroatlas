@@ -1,0 +1,74 @@
+{
+  "id": "lateral-ventricle",
+  "names": {
+    "it": "Ventricolo laterale",
+    "la": "Ventriculus lateralis",
+    "en": "Lateral ventricle",
+    "synonyms": []
+  },
+  "parent": "ventricular-system",
+  "layer": "ventricles",
+  "side": "bilateral",
+  "level": 1,
+  "location": "Cavità a forma di C in ciascun emisfero. Comprende il corno frontale (anteriore), la parte centrale, l'atrio (trigono), il corno occipitale (posteriore) e il corno temporale (inferiore). Comunica con il terzo ventricolo attraverso il forame interventricolare (di Monro).",
+  "relations": [
+    {
+      "direction": "mediale",
+      "structureId": "pellucid-septum",
+      "text": "Setto pellucido, che separa i due corni frontali."
+    },
+    {
+      "direction": "laterale",
+      "structureId": "caudate-nucleus",
+      "text": "Nucleo caudato."
+    },
+    {
+      "direction": "superiore",
+      "structureId": "corpus-callosum",
+      "text": "Corpo calloso."
+    },
+    {
+      "direction": "inferiore",
+      "structureId": "hippocampus",
+      "text": "Talamo nella parte centrale; ippocampo nel corno temporale."
+    }
+  ],
+  "function": "Contiene il liquido cerebrospinale, prodotto in gran parte dal plesso corioideo della parte centrale, dell'atrio e del corno temporale. I corni frontale e occipitale non hanno plesso corioideo.",
+  "connections": [
+    {
+      "type": "efferent",
+      "targetId": "third-ventricle",
+      "via": "forame interventricolare",
+      "text": "Il liquor passa nel terzo ventricolo."
+    }
+  ],
+  "bloodSupply": [
+    {
+      "arteryId": "anterior-choroidal-artery",
+      "text": "Il plesso corioideo è irrorato dalle arterie corioidea anteriore e corioidee posteriori."
+    }
+  ],
+  "clinical": [
+    {
+      "title": "Idrocefalo",
+      "text": "Dilatazione dei ventricoli per ostacolo al deflusso o al riassorbimento del liquor."
+    },
+    {
+      "title": "Malattia di Huntington",
+      "text": "Corni frontali allargati per atrofia del nucleo caudato."
+    },
+    {
+      "title": "Emorragia intraventricolare",
+      "text": "Frequente nel neonato pretermine, dalla matrice germinale."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

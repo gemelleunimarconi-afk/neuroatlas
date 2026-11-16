@@ -1,0 +1,68 @@
+{
+  "id": "adenohypophysis",
+  "names": {
+    "it": "Adenoipofisi",
+    "la": "Adenohypophysis",
+    "en": "Anterior pituitary",
+    "synonyms": [
+      "ipofisi anteriore",
+      "lobo anteriore dell'ipofisi"
+    ]
+  },
+  "parent": "pituitary-gland",
+  "layer": "diencephalon",
+  "side": "midline",
+  "level": 1,
+  "location": "Lobo anteriore dell'ipofisi, nella sella turcica dello sfenoide, sotto il diaframma della sella.",
+  "relations": [
+    {
+      "direction": "superiore",
+      "structureId": "optic-chiasm",
+      "text": "Diaframma della sella e chiasma ottico."
+    },
+    {
+      "direction": "posteriore",
+      "structureId": "neurohypophysis",
+      "text": "Neuroipofisi."
+    },
+    {
+      "direction": "laterale",
+      "structureId": "internal-carotid-artery",
+      "text": "Seno cavernoso con l'arteria carotide interna."
+    }
+  ],
+  "function": "Ghiandola endocrina che secerne ormone della crescita, prolattina, ACTH, TSH, FSH e LH, sotto il controllo degli ormoni ipotalamici di rilascio e di inibizione.",
+  "connections": [
+    {
+      "type": "afferent",
+      "targetId": "infundibulum-of-neurohypophysis",
+      "via": "sistema portale ipofisario",
+      "text": "Gli ormoni ipotalamici, rilasciati nell'eminenza mediana, raggiungono l'adenoipofisi attraverso i vasi portali."
+    }
+  ],
+  "bloodSupply": [
+    {
+      "arteryId": "internal-carotid-artery",
+      "text": "Arterie ipofisarie superiori (rami della carotide interna) attraverso il sistema portale."
+    }
+  ],
+  "clinical": [
+    {
+      "title": "Adenoma ipofisario",
+      "text": "Può essere secernente (prolattinoma, acromegalia, malattia di Cushing) o non secernente; se cresce verso l'alto comprime il chiasma ottico (emianopsia bitemporale)."
+    },
+    {
+      "title": "Apoplessia ipofisaria",
+      "text": "Emorragia o infarto acuto della ghiandola, con cefalea improvvisa e deficit visivi."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

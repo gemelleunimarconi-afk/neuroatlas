@@ -1,0 +1,78 @@
+{
+  "id": "superior-colliculus",
+  "names": {
+    "it": "Collicolo superiore",
+    "la": "Colliculus superior",
+    "en": "Superior colliculus",
+    "synonyms": [
+      "tubercolo quadrigemino superiore"
+    ]
+  },
+  "parent": "midbrain",
+  "layer": "brainstem",
+  "side": "bilateral",
+  "level": 2,
+  "location": "Coppia rostrale di rilievi del tetto del mesencefalo (lamina quadrigemina), sotto la ghiandola pineale.",
+  "relations": [
+    {
+      "direction": "superiore",
+      "structureId": "pineal-body",
+      "text": "Ghiandola pineale."
+    },
+    {
+      "direction": "inferiore",
+      "structureId": "inferior-colliculus",
+      "text": "Collicoli inferiori."
+    },
+    {
+      "direction": "laterale",
+      "structureId": "brachia-of-superior-colliculus",
+      "text": "Braccio del collicolo superiore, verso il corpo genicolato laterale."
+    }
+  ],
+  "function": "Centro riflesso visuomotorio: orienta occhi e capo verso stimoli visivi, uditivi e somatici e contribuisce alla genesi dei movimenti saccadici. Ha una mappa retinotopica del campo visivo controlaterale.",
+  "connections": [
+    {
+      "type": "afferent",
+      "targetId": "optic-tract",
+      "via": "braccio del collicolo superiore",
+      "text": "Fibre retiniche dirette."
+    },
+    {
+      "type": "afferent",
+      "targetId": "visual-cortex",
+      "text": "Dalla corteccia visiva e dal campo oculare frontale."
+    },
+    {
+      "type": "afferent",
+      "targetId": "substantia-nigra",
+      "text": "Inibizione tonica dalla parte reticolata."
+    },
+    {
+      "type": "efferent",
+      "targetId": "pulvinar",
+      "text": "Al pulvinar, ai centri dello sguardo del tronco e, con il tratto tettospinale, al midollo cervicale."
+    }
+  ],
+  "bloodSupply": [
+    {
+      "arteryId": "superior-cerebellar-artery",
+      "text": "Rami delle arterie cerebellare superiore e cerebrale posteriore (arterie quadrigemine)."
+    }
+  ],
+  "clinical": [
+    {
+      "title": "Sindrome di Parinaud",
+      "text": "La compressione del tetto, tipicamente da tumore della regione pineale, causa paralisi dello sguardo verso l'alto, pupille poco reagenti alla luce ma reagenti all'accomodazione, e nistagmo di convergenza-retrazione."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

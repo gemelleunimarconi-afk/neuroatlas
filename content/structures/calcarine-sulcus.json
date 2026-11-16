@@ -1,0 +1,56 @@
+{
+  "id": "calcarine-sulcus",
+  "names": {
+    "it": "Solco calcarino",
+    "la": "Sulcus calcarinus",
+    "en": "Calcarine sulcus",
+    "synonyms": [
+      "scissura calcarina"
+    ]
+  },
+  "parent": "occipital-lobe",
+  "layer": "sulci",
+  "side": "bilateral",
+  "level": 1,
+  "location": "Faccia mediale del lobo occipitale: dal polo occipitale decorre in avanti fino a unirsi al solco parieto-occipitale. Sporge nel corno occipitale del ventricolo laterale formando il *calcar avis*.",
+  "relations": [
+    {
+      "direction": "superiore",
+      "structureId": "cuneus",
+      "text": "Cuneo."
+    },
+    {
+      "direction": "inferiore",
+      "structureId": "lingual-gyrus",
+      "text": "Giro linguale."
+    },
+    {
+      "direction": "anteriore",
+      "structureId": "parieto-occipital-sulcus",
+      "text": "Solco parieto-occipitale."
+    }
+  ],
+  "function": "Le sue labbra e le sue pareti contengono la corteccia visiva primaria (area 17). Il labbro superiore riceve le fibre che rappresentano il quadrante inferiore del campo visivo controlaterale, quello inferiore il quadrante superiore.",
+  "connections": [],
+  "bloodSupply": [
+    {
+      "arteryId": "medial-occipital-artery",
+      "text": "Arteria calcarina, ramo dell'arteria cerebrale posteriore."
+    }
+  ],
+  "clinical": [
+    {
+      "title": "Quadrantanopsie",
+      "text": "Una lesione limitata a un labbro causa una quadrantanopsia omonima controlaterale: inferiore se è leso il labbro superiore, superiore se è leso quello inferiore."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

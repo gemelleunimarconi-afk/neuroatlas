@@ -1,0 +1,68 @@
+{
+  "id": "ventral-anterior-thalamic-nucleus",
+  "names": {
+    "it": "Nucleo ventrale anteriore del talamo",
+    "la": "Nucleus ventralis anterior thalami",
+    "en": "Ventral anterior nucleus of thalamus",
+    "synonyms": [
+      "VA"
+    ]
+  },
+  "parent": "thalamus",
+  "layer": "diencephalon",
+  "side": "bilateral",
+  "level": 2,
+  "location": "Parte anteriore del gruppo nucleare ventrale, davanti al nucleo ventrale laterale e lateralmente alla lamina midollare interna.",
+  "relations": [
+    {
+      "direction": "posteriore",
+      "structureId": "ventral-lateral-thalamic-nucleus",
+      "text": "Nucleo ventrale laterale."
+    },
+    {
+      "direction": "laterale",
+      "structureId": "internal-capsule",
+      "text": "Capsula interna."
+    }
+  ],
+  "function": "Nucleo motorio di relè: ritrasmette alla corteccia premotoria e prefrontale l'uscita dei nuclei della base, contribuendo alla pianificazione e all'avvio del movimento.",
+  "connections": [
+    {
+      "type": "afferent",
+      "targetId": "globus-pallidus-pars-interna",
+      "via": "fascicolo talamico",
+      "text": "Dal globo pallido interno (GABA)."
+    },
+    {
+      "type": "afferent",
+      "targetId": "substantia-nigra",
+      "text": "Dalla parte reticolata della sostanza nera (GABA)."
+    },
+    {
+      "type": "efferent",
+      "targetId": "superior-frontal-gyrus",
+      "text": "Alla corteccia premotoria, all'area motoria supplementare e alla corteccia prefrontale."
+    }
+  ],
+  "bloodSupply": [
+    {
+      "arteryId": "posterior-communicating-artery",
+      "text": "Arteria tuberotalamica e arterie talamogenicolate."
+    }
+  ],
+  "clinical": [
+    {
+      "title": "Disturbi del movimento",
+      "text": "Nel Parkinson l'eccessiva inibizione da parte del globo pallido interno riduce l'attivazione talamocorticale (bradicinesia)."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

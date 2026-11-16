@@ -1,0 +1,70 @@
+{
+  "id": "nucleus-accumbens",
+  "names": {
+    "it": "Nucleo accumbens",
+    "la": "Nucleus accumbens",
+    "en": "Nucleus accumbens",
+    "synonyms": [
+      "striato ventrale"
+    ]
+  },
+  "parent": "striatum",
+  "layer": "basal-ganglia",
+  "side": "bilateral",
+  "level": 2,
+  "location": "Parte ventrale dello striato, dove la testa del nucleo caudato e il putamen si fondono, sotto il braccio anteriore della capsula interna e lateralmente all'area settale.",
+  "relations": [
+    {
+      "direction": "dorsale",
+      "structureId": "caudate-nucleus",
+      "text": "Testa del nucleo caudato."
+    },
+    {
+      "direction": "laterale",
+      "structureId": "putamen",
+      "text": "Putamen ventrale."
+    }
+  ],
+  "function": "Nodo centrale del circuito della ricompensa e della motivazione: traduce il valore degli stimoli in comportamento finalizzato. Fa parte del circuito limbico dei nuclei della base.",
+  "connections": [
+    {
+      "type": "afferent",
+      "via": "via mesolimbica",
+      "text": "Afferenze dopaminergiche dall'area tegmentale ventrale del mesencefalo."
+    },
+    {
+      "type": "afferent",
+      "targetId": "amygdala",
+      "text": "Da amigdala, ippocampo e corteccia prefrontale mediale e orbitofrontale."
+    },
+    {
+      "type": "efferent",
+      "text": "Al pallido ventrale, che proietta al nucleo dorsomediale del talamo."
+    }
+  ],
+  "bloodSupply": [
+    {
+      "arteryId": "anterior-cerebral-artery",
+      "text": "Arteria ricorrente di Heubner e rami perforanti dell'arteria cerebrale anteriore."
+    }
+  ],
+  "clinical": [
+    {
+      "title": "Dipendenze",
+      "text": "Le sostanze d'abuso aumentano la dopamina nel nucleo accumbens; l'adattamento di questo circuito contribuisce alla ricerca compulsiva della sostanza."
+    },
+    {
+      "title": "Anedonia",
+      "text": "Una sua ridotta attivazione è associata alla perdita di piacere nella depressione."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

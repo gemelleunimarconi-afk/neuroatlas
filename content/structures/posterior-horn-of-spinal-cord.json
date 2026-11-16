@@ -1,0 +1,66 @@
+{
+  "id": "posterior-horn-of-spinal-cord",
+  "names": {
+    "it": "Corno posteriore del midollo spinale",
+    "la": "Cornu posterius medullae spinalis",
+    "en": "Posterior horn of spinal cord",
+    "synonyms": [
+      "corno dorsale"
+    ]
+  },
+  "parent": "spinal-cord",
+  "layer": "body-spinal-cord",
+  "side": "midline",
+  "level": 1,
+  "location": "Parte posteriore della sostanza grigia del midollo spinale, tra il cordone posteriore e il cordone laterale; raggiunge quasi la superficie, dove entrano le radici posteriori.",
+  "relations": [
+    {
+      "direction": "anteriore",
+      "structureId": "anterior-horn-of-spinal-cord",
+      "text": "Zona intermedia e corno anteriore."
+    },
+    {
+      "direction": "mediale",
+      "structureId": "gracile-fasciculus",
+      "text": "Cordone posteriore."
+    }
+  ],
+  "function": "Prima stazione di elaborazione delle afferenze sensitive. Le lamine superficiali (zona marginale e sostanza gelatinosa) ricevono le fibre del dolore e della temperatura; il nucleo proprio riceve afferenze tattili. Qui il dolore è modulato dalle afferenze tattili e dalle vie discendenti.",
+  "connections": [
+    {
+      "type": "afferent",
+      "via": "radice posteriore",
+      "text": "Dai neuroni dei gangli spinali; le fibre del dolore salgono o scendono di uno o due segmenti nel tratto posterolaterale (di Lissauer) prima di terminare."
+    },
+    {
+      "type": "efferent",
+      "targetId": "lateral-spinothalamic-tract",
+      "via": "commessura bianca anteriore",
+      "text": "Al tratto spinotalamico controlaterale."
+    }
+  ],
+  "bloodSupply": [
+    {
+      "text": "Arterie spinali posteriori."
+    }
+  ],
+  "clinical": [
+    {
+      "title": "Teoria del cancello",
+      "text": "L'attivazione delle fibre tattili riduce la trasmissione del dolore nel corno posteriore; è la base della stimolazione elettrica antalgica."
+    },
+    {
+      "title": "Herpes zoster",
+      "text": "La riattivazione del virus nel ganglio spinale dà dolore ed eruzione in un dermatomero."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

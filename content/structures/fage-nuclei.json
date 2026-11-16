@@ -1,0 +1,68 @@
+{
+  "id": "fage-nuclei",
+  "names": {
+    "it": "Nuclei del fastigio, globoso ed emboliforme",
+    "la": "Nuclei fastigii, globosus et emboliformis",
+    "en": "Fastigial, globose and emboliform nuclei",
+    "synonyms": [
+      "nucleo del tetto",
+      "nucleo interposito"
+    ]
+  },
+  "parent": "cerebellum",
+  "layer": "cerebellum",
+  "side": "bilateral",
+  "level": 2,
+  "location": "Nuclei profondi mediali del cervelletto. Il nucleo del fastigio è il più mediale, nel tetto del quarto ventricolo; globoso ed emboliforme (insieme, nucleo interposito) sono tra il fastigio e il nucleo dentato. In questo atlante sono rappresentati da un'unica struttura per lato.",
+  "relations": [
+    {
+      "direction": "laterale",
+      "structureId": "dentate-nucleus",
+      "text": "Nucleo dentato."
+    },
+    {
+      "direction": "anteriore",
+      "structureId": "fourth-ventricle",
+      "text": "Tetto del quarto ventricolo."
+    }
+  ],
+  "function": "Il nucleo del fastigio è l'uscita del verme e del lobo flocculonodulare: controlla equilibrio, postura, muscolatura assiale e movimenti oculari. Il nucleo interposito è l'uscita della zona intermedia: corregge i movimenti degli arti in corso di esecuzione.",
+  "connections": [
+    {
+      "type": "afferent",
+      "text": "Inibizione dalle cellule di Purkinje del verme (fastigio) e della zona paravermiana (interposito)."
+    },
+    {
+      "type": "efferent",
+      "via": "peduncolo cerebellare inferiore",
+      "text": "Dal fastigio ai nuclei vestibolari e alla formazione reticolare."
+    },
+    {
+      "type": "efferent",
+      "targetId": "red-nucleus",
+      "via": "peduncolo cerebellare superiore",
+      "text": "Dall'interposito al nucleo rosso controlaterale e al talamo."
+    }
+  ],
+  "bloodSupply": [
+    {
+      "arteryId": "superior-cerebellar-artery",
+      "text": "Arteria cerebellare superiore."
+    }
+  ],
+  "clinical": [
+    {
+      "title": "Sindrome del verme",
+      "text": "Atassia del tronco e della marcia a base allargata, con arti relativamente risparmiati; tipica della degenerazione cerebellare alcolica e del medulloblastoma nel bambino."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

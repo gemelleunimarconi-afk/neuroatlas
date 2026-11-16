@@ -1,0 +1,63 @@
+{
+  "id": "aqueduct",
+  "names": {
+    "it": "Acquedotto mesencefalico (di Silvio)",
+    "la": "Aqueductus mesencephali",
+    "en": "Cerebral aqueduct",
+    "synonyms": [
+      "acquedotto di Silvio",
+      "acquedotto cerebrale"
+    ]
+  },
+  "parent": "ventricular-system",
+  "layer": "ventricles",
+  "side": "midline",
+  "level": 1,
+  "location": "Stretto canale che attraversa il mesencefalo tra il tetto e il tegmento, mettendo in comunicazione il terzo e il quarto ventricolo. È circondato dalla sostanza grigia periacqueduttale.",
+  "relations": [
+    {
+      "direction": "dorsale",
+      "structureId": "superior-colliculus",
+      "text": "Lamina quadrigemina."
+    },
+    {
+      "direction": "ventrale",
+      "structureId": "part-of-midbrain",
+      "text": "Tegmento del mesencefalo, con i nuclei dei nervi III e IV."
+    }
+  ],
+  "function": "Via di deflusso del liquor dal terzo al quarto ventricolo; è il punto più stretto del sistema ventricolare. La sostanza grigia che lo circonda partecipa alla modulazione discendente del dolore.",
+  "connections": [
+    {
+      "type": "afferent",
+      "targetId": "third-ventricle",
+      "text": "Dal terzo ventricolo."
+    },
+    {
+      "type": "efferent",
+      "targetId": "fourth-ventricle",
+      "text": "Al quarto ventricolo."
+    }
+  ],
+  "bloodSupply": [
+    {
+      "arteryId": "posteromedial-central-branch-of-posterior-cerebral-artery",
+      "text": "Rami paramediani delle arterie basilare e cerebrale posteriore."
+    }
+  ],
+  "clinical": [
+    {
+      "title": "Stenosi dell'acquedotto",
+      "text": "Causa frequente di idrocefalo ostruttivo, congenito o acquisito (tumori del tetto o della regione pineale): si dilatano i ventricoli laterali e il terzo, mentre il quarto resta normale."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

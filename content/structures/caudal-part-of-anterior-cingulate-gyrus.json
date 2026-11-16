@@ -1,0 +1,79 @@
+{
+  "id": "caudal-part-of-anterior-cingulate-gyrus",
+  "names": {
+    "it": "Giro del cingolo anteriore, parte caudale",
+    "la": "Gyrus cinguli",
+    "en": "Anterior cingulate gyrus, caudal part",
+    "synonyms": [
+      "corteccia cingolata anteriore"
+    ]
+  },
+  "parent": "limbic-lobe",
+  "layer": "cortex",
+  "side": "bilateral",
+  "level": 2,
+  "location": "Faccia mediale dell'emisfero, sopra il corpo calloso, tra il solco del corpo calloso e il solco del cingolo.",
+  "relations": [
+    {
+      "direction": "inferiore",
+      "structureId": "corpus-callosum",
+      "text": "Corpo calloso."
+    },
+    {
+      "direction": "superiore",
+      "structureId": "cingulate-sulcus",
+      "text": "Solco del cingolo e giro frontale superiore."
+    },
+    {
+      "direction": "posteriore",
+      "structureId": "posterior-cingulate-gyrus",
+      "text": "Giro del cingolo posteriore."
+    }
+  ],
+  "function": "La corteccia cingolata anteriore (area 24) partecipa alla motivazione e all'avvio del comportamento, al monitoraggio dei conflitti e degli errori, alla componente affettiva del dolore e al controllo autonomico. Fa parte del lobo limbico.",
+  "connections": [
+    {
+      "type": "afferent",
+      "targetId": "anterior-thalamic-nucleus",
+      "text": "Dai nuclei anteriori del talamo (circuito di Papez)."
+    },
+    {
+      "type": "efferent",
+      "targetId": "parahippocampal-gyrus",
+      "via": "cingolo",
+      "text": "Alla corteccia entorinale, attraverso il fascio del cingolo."
+    },
+    {
+      "type": "reciprocal",
+      "targetId": "amygdala",
+      "text": "Con amigdala e corteccia prefrontale."
+    }
+  ],
+  "bloodSupply": [
+    {
+      "arteryId": "pericallosal-artery",
+      "text": "Arteria pericallosa, ramo dell'arteria cerebrale anteriore."
+    }
+  ],
+  "clinical": [
+    {
+      "title": "Mutismo acinetico",
+      "text": "Lesioni bilaterali della corteccia cingolata anteriore causano grave riduzione dell'iniziativa motoria e verbale con vigilanza conservata."
+    },
+    {
+      "title": "Ictus dell'arteria cerebrale anteriore",
+      "text": "Abulia e apatia."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [
+    24
+  ],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

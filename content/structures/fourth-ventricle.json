@@ -1,0 +1,69 @@
+{
+  "id": "fourth-ventricle",
+  "names": {
+    "it": "Quarto ventricolo",
+    "la": "Ventriculus quartus",
+    "en": "Fourth ventricle",
+    "synonyms": []
+  },
+  "parent": "ventricular-system",
+  "layer": "ventricles",
+  "side": "midline",
+  "level": 1,
+  "location": "Cavità del rombencefalo, tra ponte e bulbo (davanti) e cervelletto (dietro). Il pavimento è la fossa romboidale; il tetto, a tenda, è formato dai veli midollari e dal cervelletto.",
+  "relations": [
+    {
+      "direction": "anteriore",
+      "structureId": "pons",
+      "text": "Ponte e metà rostrale del bulbo."
+    },
+    {
+      "direction": "posteriore",
+      "structureId": "fage-nuclei",
+      "text": "Cervelletto, con il nucleo del fastigio nel tetto."
+    },
+    {
+      "direction": "rostrale",
+      "structureId": "aqueduct",
+      "text": "Acquedotto mesencefalico."
+    }
+  ],
+  "function": "Riceve il liquor dall'acquedotto e lo immette nello spazio subaracnoideo attraverso l'apertura mediana (forame di Magendie) e le due aperture laterali (forami di Luschka); in basso continua con il canale centrale. Nel pavimento sporgono il collicolo facciale e i trigoni dell'ipoglosso e del vago; vi si trova l'area postrema, priva di barriera ematoencefalica, centro del vomito.",
+  "connections": [
+    {
+      "type": "afferent",
+      "targetId": "aqueduct",
+      "text": "Dal terzo ventricolo attraverso l'acquedotto."
+    },
+    {
+      "type": "efferent",
+      "via": "aperture mediana e laterali",
+      "text": "Alla cisterna magna e alle cisterne pontocerebellari."
+    }
+  ],
+  "bloodSupply": [
+    {
+      "arteryId": "posterior-inferior-cerebellar-artery",
+      "text": "Il plesso corioideo è irrorato dalle arterie cerebellari inferiori posteriore e anteriore."
+    }
+  ],
+  "clinical": [
+    {
+      "title": "Tumori della fossa cranica posteriore",
+      "text": "Medulloblastoma ed ependimoma, soprattutto nel bambino, ostruiscono il quarto ventricolo con idrocefalo e vomito."
+    },
+    {
+      "title": "Malformazione di Dandy-Walker",
+      "text": "Dilatazione cistica del quarto ventricolo con ipoplasia del verme."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

@@ -1,0 +1,78 @@
+{
+  "id": "part-of-midbrain",
+  "names": {
+    "it": "Mesencefalo",
+    "la": "Mesencephalon",
+    "en": "Midbrain",
+    "synonyms": [
+      "mesencefalo"
+    ]
+  },
+  "parent": "brainstem",
+  "layer": "brainstem",
+  "side": "midline",
+  "level": 1,
+  "location": "Parte più rostrale e più corta del tronco encefalico, tra diencefalo e ponte, attraversata dall'acquedotto mesencefalico. Comprende il tetto (lamina quadrigemina), il tegmento e, ventralmente, i due peduncoli cerebrali separati dalla fossa interpeduncolare.",
+  "relations": [
+    {
+      "direction": "caudale",
+      "structureId": "pons",
+      "text": "Ponte."
+    },
+    {
+      "direction": "rostrale",
+      "structureId": "mammillary-body",
+      "text": "Diencefalo: corpi mammillari e talamo."
+    },
+    {
+      "direction": "dorsale",
+      "structureId": "superior-colliculus",
+      "text": "Collicoli superiori e inferiori."
+    },
+    {
+      "direction": "ventrale",
+      "structureId": "peduncle-of-midbrain",
+      "text": "Peduncoli cerebrali e fossa interpeduncolare."
+    }
+  ],
+  "function": "Contiene i nuclei dei nervi oculomotore (III) e trocleare (IV), la sostanza nera, il nucleo rosso, la sostanza grigia periacqueduttale (modulazione del dolore) e la formazione reticolare rostrale, essenziale per la vigilanza. È attraversato dalle vie ascendenti e discendenti. **Origini apparenti:** il nervo oculomotore emerge nella fossa interpeduncolare; il trocleare è l'unico nervo cranico che emerge dalla faccia dorsale, sotto il collicolo inferiore.",
+  "connections": [
+    {
+      "type": "reciprocal",
+      "text": "Vie di passaggio: tratti corticospinale e corticonucleare nel piede del peduncolo; lemnisco mediale, tratto spinotalamico e lemnisco laterale nel tegmento; peduncoli cerebellari superiori, che incrociano nel tegmento caudale."
+    }
+  ],
+  "bloodSupply": [
+    {
+      "arteryId": "posteromedial-central-branch-of-posterior-cerebral-artery",
+      "text": "Rami paramediani dell'apice della basilare e dell'arteria cerebrale posteriore; rami circonferenziali delle arterie cerebrale posteriore e cerebellare superiore."
+    }
+  ],
+  "clinical": [
+    {
+      "title": "Sindrome di Weber",
+      "text": "Lesione ventrale: paralisi omolaterale dell'oculomotore con emiparesi controlaterale."
+    },
+    {
+      "title": "Sindrome di Benedikt",
+      "text": "Lesione del tegmento con nucleo rosso: paralisi dell'oculomotore con tremore e movimenti involontari controlaterali."
+    },
+    {
+      "title": "Sindrome di Parinaud",
+      "text": "Compressione del tetto: paralisi dello sguardo verticale verso l'alto."
+    },
+    {
+      "title": "Ernia transtentoriale",
+      "text": "Compressione del mesencefalo con alterazione della coscienza."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

@@ -1,0 +1,59 @@
+{
+  "id": "tentorium-cerebelli",
+  "names": {
+    "it": "Tentorio del cervelletto",
+    "la": "Tentorium cerebelli",
+    "en": "Tentorium cerebelli",
+    "synonyms": [
+      "tenda del cervelletto"
+    ]
+  },
+  "parent": "dura-mater",
+  "layer": "meninges",
+  "side": "midline",
+  "level": 1,
+  "location": "Setto di dura madre teso orizzontalmente tra i lobi occipitali (sopra) e il cervelletto (sotto). Si inserisce sui processi clinoidei, sui margini superiori delle rocche petrose e sull'osso occipitale. Il margine libero anteriore delimita l'incisura del tentorio, attraversata dal mesencefalo.",
+  "relations": [
+    {
+      "direction": "superiore",
+      "structureId": "visual-cortex",
+      "text": "Lobi occipitali e faccia inferiore dei lobi temporali."
+    },
+    {
+      "direction": "inferiore",
+      "structureId": "dentate-nucleus",
+      "text": "Cervelletto."
+    },
+    {
+      "direction": "anteriore",
+      "structureId": "part-of-midbrain",
+      "text": "Mesencefalo, nell'incisura del tentorio."
+    }
+  ],
+  "function": "Separa il compartimento sopratentoriale da quello sottotentoriale (fossa cranica posteriore) e sostiene i lobi occipitali. Contiene il seno retto lungo l'inserzione della falce, i seni trasversi nel margine posteriore e i seni petrosi superiori.",
+  "connections": [],
+  "bloodSupply": [
+    {
+      "text": "Rami meningei delle arterie carotide interna (arteria del tentorio), vertebrale e occipitale."
+    }
+  ],
+  "clinical": [
+    {
+      "title": "Ernia transtentoriale dell'uncus",
+      "text": "Una massa sopratentoriale spinge l'uncus nell'incisura: compressione del nervo oculomotore (midriasi omolaterale), dell'arteria cerebrale posteriore (infarto occipitale) e del mesencefalo (coma)."
+    },
+    {
+      "title": "Classificazione dei tumori",
+      "text": "Sopratentoriali, più frequenti nell'adulto, e sottotentoriali, più frequenti nel bambino."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

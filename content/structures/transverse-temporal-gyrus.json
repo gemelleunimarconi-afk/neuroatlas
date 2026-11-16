@@ -1,0 +1,72 @@
+{
+  "id": "transverse-temporal-gyrus",
+  "names": {
+    "it": "Giri temporali trasversi (di Heschl)",
+    "la": "Gyri temporales transversi",
+    "en": "Transverse temporal gyri",
+    "synonyms": [
+      "giri di Heschl",
+      "corteccia uditiva primaria",
+      "A1"
+    ]
+  },
+  "parent": "temporal-lobe",
+  "layer": "cortex",
+  "side": "bilateral",
+  "level": 1,
+  "location": "Faccia superiore del giro temporale superiore, nascosta in profondità nel solco laterale; decorrono obliquamente verso l'insula.",
+  "relations": [
+    {
+      "direction": "mediale",
+      "structureId": "insula",
+      "text": "Insula."
+    },
+    {
+      "direction": "laterale",
+      "structureId": "superior-temporal-gyrus",
+      "text": "Superficie laterale del giro temporale superiore."
+    }
+  ],
+  "function": "Sede della corteccia uditiva primaria (aree 41 e 42), con organizzazione tonotopica: le diverse frequenze sono rappresentate in posizioni diverse.",
+  "connections": [
+    {
+      "type": "afferent",
+      "targetId": "medial-geniculate-body",
+      "via": "radiazione acustica",
+      "text": "Dal corpo genicolato mediale, attraverso la parte sottolenticolare della capsula interna."
+    },
+    {
+      "type": "efferent",
+      "targetId": "superior-temporal-gyrus",
+      "text": "Alla corteccia uditiva associativa."
+    }
+  ],
+  "bloodSupply": [
+    {
+      "arteryId": "posterior-temporal-branch-of-middle-cerebral-artery",
+      "text": "Rami dell'arteria cerebrale media."
+    }
+  ],
+  "clinical": [
+    {
+      "title": "Lesione monolaterale",
+      "text": "Non causa sordità, perché ciascun lato riceve informazione da entrambe le orecchie; può ridurre la localizzazione dei suoni."
+    },
+    {
+      "title": "Lesione bilaterale",
+      "text": "Rara; può causare sordità corticale o agnosia uditiva."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [
+    41,
+    42
+  ],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

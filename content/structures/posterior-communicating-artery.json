@@ -1,0 +1,55 @@
+{
+  "id": "posterior-communicating-artery",
+  "names": {
+    "it": "Arteria comunicante posteriore",
+    "la": "Arteria communicans posterior",
+    "en": "Posterior communicating artery",
+    "synonyms": []
+  },
+  "parent": "cerebral-arteries",
+  "layer": "vessels",
+  "side": "bilateral",
+  "level": 1,
+  "location": "Nasce dalla carotide interna e decorre all'indietro, sopra il nervo oculomotore, fino a unirsi all'arteria cerebrale posteriore.",
+  "relations": [
+    {
+      "direction": "inferiore",
+      "structureId": "oculomotor-nerve-iii",
+      "text": "Nervo oculomotore."
+    },
+    {
+      "direction": "mediale",
+      "structureId": "mammillary-body",
+      "text": "Tuber cinereum e corpi mammillari."
+    }
+  ],
+  "function": "Collega il circolo carotideo con quello vertebrobasilare, completando il poligono di Willis. Dà rami perforanti per ipotalamo, talamo anteriore (arteria tuberotalamica) e capsula interna.",
+  "connections": [
+    {
+      "type": "afferent",
+      "targetId": "internal-carotid-artery",
+      "text": "Dalla carotide interna."
+    },
+    {
+      "type": "efferent",
+      "targetId": "postcommunicating-part-of-posterior-cerebral-artery",
+      "text": "All'arteria cerebrale posteriore."
+    }
+  ],
+  "bloodSupply": [],
+  "clinical": [
+    {
+      "title": "Aneurisma",
+      "text": "Sede frequente; comprime il nervo oculomotore, dando una paralisi del III con midriasi precoce. Una paralisi dolorosa del III con pupilla dilatata è un'urgenza."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

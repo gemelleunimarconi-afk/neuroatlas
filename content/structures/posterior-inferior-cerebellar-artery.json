@@ -1,0 +1,56 @@
+{
+  "id": "posterior-inferior-cerebellar-artery",
+  "names": {
+    "it": "Arteria cerebellare inferiore posteriore (PICA)",
+    "la": "Arteria inferior posterior cerebelli",
+    "en": "Posterior inferior cerebellar artery",
+    "synonyms": [
+      "PICA"
+    ]
+  },
+  "parent": "vertebrobasilar-system",
+  "layer": "vessels",
+  "side": "bilateral",
+  "level": 1,
+  "location": "Il maggiore ramo dell'arteria vertebrale. Gira attorno al bulbo, passando tra le radici dei nervi cranici inferiori, e raggiunge la faccia inferiore del cervelletto.",
+  "relations": [
+    {
+      "direction": "mediale",
+      "structureId": "medulla-oblongata",
+      "text": "Bulbo."
+    },
+    {
+      "direction": "superiore",
+      "structureId": "vagus-nerve-x",
+      "text": "Radici dei nervi IX, X e XI."
+    }
+  ],
+  "function": "Irrora la parte dorsolaterale del bulbo, la parte inferiore del verme e dell'emisfero cerebellare (tonsilla compresa) e il plesso corioideo del quarto ventricolo.",
+  "connections": [
+    {
+      "type": "afferent",
+      "targetId": "vertebral-artery",
+      "text": "Dall'arteria vertebrale."
+    }
+  ],
+  "bloodSupply": [],
+  "clinical": [
+    {
+      "title": "Sindrome bulbare laterale (di Wallenberg)",
+      "text": "Vertigine, nistagmo, disfagia e disfonia, atassia e sindrome di Horner omolaterali, perdita della sensibilità termodolorifica dell'emivolto omolaterale e dell'emicorpo controlaterale."
+    },
+    {
+      "title": "Infarto cerebellare",
+      "text": "L'edema può comprimere il quarto ventricolo e il tronco: è un'emergenza neurochirurgica."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

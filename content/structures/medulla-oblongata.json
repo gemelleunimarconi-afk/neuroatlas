@@ -1,0 +1,79 @@
+{
+  "id": "medulla-oblongata",
+  "names": {
+    "it": "Bulbo (midollo allungato)",
+    "la": "Medulla oblongata",
+    "en": "Medulla oblongata",
+    "synonyms": [
+      "bulbo",
+      "midollo allungato"
+    ]
+  },
+  "parent": "brainstem",
+  "layer": "brainstem",
+  "side": "midline",
+  "level": 1,
+  "location": "Parte caudale del tronco encefalico, tra il ponte (solco bulbopontino) e il midollo spinale, con cui continua a livello del forame magno. La faccia ventrale mostra le piramidi e, lateralmente, le olive; la metà rostrale della faccia dorsale forma la parte inferiore del pavimento del quarto ventricolo.",
+  "relations": [
+    {
+      "direction": "rostrale",
+      "structureId": "pons",
+      "text": "Ponte."
+    },
+    {
+      "direction": "dorsale",
+      "structureId": "fourth-ventricle",
+      "text": "Quarto ventricolo e cervelletto."
+    },
+    {
+      "direction": "ventrale",
+      "structureId": "vertebral-artery",
+      "text": "Arterie vertebrali e clivus."
+    }
+  ],
+  "function": "Contiene i centri cardiovascolari e respiratori, i nuclei dei nervi cranici IX, X, XI (radice craniale) e XII, i nuclei gracile e cuneato e il complesso olivare inferiore. Qui incrociano le fibre corticospinali (decussazione delle piramidi) e le fibre del lemnisco mediale. **Origini apparenti:** l'ipoglosso (XII) emerge dal solco anterolaterale, tra piramide e oliva; glossofaringeo (IX), vago (X) e accessorio (XI) dal solco retro-olivare.",
+  "connections": [
+    {
+      "type": "reciprocal",
+      "text": "Vie di passaggio: piramidi (tratto corticospinale), lemnisco mediale, tratto spinotalamico, tratti spinocerebellari, tratto e nucleo spinale del trigemino."
+    },
+    {
+      "type": "efferent",
+      "via": "peduncolo cerebellare inferiore",
+      "text": "Fibre olivocerebellari e spinocerebellari dirette al cervelletto."
+    }
+  ],
+  "bloodSupply": [
+    {
+      "arteryId": "anterior-spinal-artery",
+      "text": "Parte mediale: arteria spinale anteriore e rami delle arterie vertebrali."
+    },
+    {
+      "arteryId": "posterior-inferior-cerebellar-artery",
+      "text": "Parte dorsolaterale: arteria cerebellare inferiore posteriore."
+    }
+  ],
+  "clinical": [
+    {
+      "title": "Sindrome di Wallenberg (bulbare laterale)",
+      "text": "Occlusione dell'arteria vertebrale o della PICA: perdita della sensibilità termodolorifica dell'emivolto omolaterale e dell'emicorpo controlaterale, disfagia e disfonia, vertigine, atassia omolaterale, sindrome di Horner; la forza è conservata."
+    },
+    {
+      "title": "Sindrome bulbare mediale (di Dejerine)",
+      "text": "Paralisi omolaterale della lingua, emiparesi e perdita della sensibilità profonda controlaterali."
+    },
+    {
+      "title": "Ernia delle tonsille cerebellari",
+      "text": "La compressione del bulbo causa arresto respiratorio."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

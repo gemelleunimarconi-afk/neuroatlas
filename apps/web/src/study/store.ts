@@ -8,7 +8,7 @@ import { cardText, getSample, TIERS } from '@/tutor/engine';
 import { useTutor } from '@/tutor/store';
 import { DAY, mastery, newItem, review, type SrsItem } from './sm2';
 
-export interface ClinicalCase { id: string; title: string; vignette: string; question: string; answer: string[]; side?: 'L' | 'R'; explanation: string }
+export interface ClinicalCase { id: string; title: string; vignette: string; question: string; answer: string[]; answerLayer?: LayerId; side?: 'L' | 'R'; explanation: string }
 export const CASES = casesFile.cases as ClinicalCase[];
 
 /** Regioni di studio: i livelli da cui si pescano le domande e quelli lasciati in trasparenza come riferimento. */
@@ -92,7 +92,9 @@ const redact = (text: string, e: StructureEntry) =>
 export function buildQuestions(catalog: Catalog, mode: Mode, regionId: string, srs: Record<string, SrsItem>, now: number): Question[] {
   if (mode === 'cases') {
     return shuffle(CASES).slice(0, SESSION_LENGTH).map((c) => ({
-      kind: 'case', structureId: c.answer[0], prompt: c.title, detail: `${c.vignette}\n\n${c.question}`, accepted: c.answer, side: c.side, explanation: c.explanation,
+      kind: 'case', structureId: c.answer[0], prompt: c.title, detail: `${c.vignette}\n\n${c.question}`,
+      // con `answerLayer` vale qualunque struttura di quel livello (es. tutto il cervelletto)
+      accepted: c.answerLayer ? [...c.answer, ...(catalog.byLayer.get(c.answerLayer) ?? []).map((e) => e.id)] : c.answer, side: c.side, explanation: c.explanation,
     }));
   }
   const all = pool(catalog, regionId);
@@ -131,8 +133,9 @@ function stage(q: Question) {
   const catalog = atlas.catalog!;
   const entry = catalog.byId.get(q.structureId)!;
   const onModel = q.kind === 'identify' || q.kind === 'locate' || q.kind === 'case';
-  if (!onModel) { useAtlas.setState({ quiz: null }); return; }
-  const region = regionOf(entry) ?? REGIONS[0];
+  if (!onModel) { useAtlas.setState({ quiz: null, hiddenStructures: [] }); return; }
+  // Fuori dalle regioni di studio (es. cervelletto) si mostra il livello della struttura con il tronco come riferimento.
+  const region = regionOf(entry) ?? { id: entry.layer, label: '', layers: [entry.layer, 'brainstem'] as LayerId[], ghost: ['cortex'] as LayerId[] };
   const layers = Object.fromEntries(LAYERS.map((l) => [l.id, { visible: false, opacity: 1 }])) as typeof atlas.layers;
   for (const l of region.layers) layers[l] = { visible: true, opacity: 1 };
   for (const l of region.ghost) layers[l] = { visible: true, opacity: 0.1 };
@@ -141,6 +144,7 @@ function stage(q: Question) {
   useAtlas.setState({
     scope: 'brain', layers, isolated: false, pathwayId: null, layersBeforePathway: null, section: null, explode: 0,
     quiz: { mode: identify ? 'identify' : 'locate', reveal: false }, quizTap: null,
+    hiddenStructures: ['white-matter-of-cerebral-hemisphere', 'white-matter-of-hemisphere-of-cerebellum'],
     selection: mesh ? { structureId: entry.id, meshId: mesh.id } : null,
   });
   if (identify) useAtlas.getState().focusSelection(); else useAtlas.getState().setView('lateral-left');
@@ -189,13 +193,13 @@ export const useStudy = create<StudyState>((set, get) => ({
       const record: StudySession = { mode: s.mode, region: s.region, startedAt: s.startedAt, total: s.questions.length, correct: s.correct };
       db.sessions.add(record).catch(() => {});
       set({ session: { ...s, done: true, answered: null }, sessions: [record, ...get().sessions].slice(0, 30) });
-      useAtlas.setState({ quiz: null });
+      useAtlas.setState({ quiz: null, hiddenStructures: [] });
       return;
     }
     set({ session: { ...s, index: s.index + 1, answered: null, askedAt: Date.now() } });
     stage(s.questions[s.index + 1]);
   },
-  quit: () => { set({ session: null }); useAtlas.setState({ quiz: null, quizTap: null }); },
+  quit: () => { set({ session: null }); useAtlas.setState({ quiz: null, quizTap: null, hiddenStructures: [] }); },
 
   // ---- Domanda aperta corretta dal tutor (solo dentro Claude) ----
   openQuestion: async () => {

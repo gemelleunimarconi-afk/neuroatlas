@@ -1,0 +1,56 @@
+{
+  "id": "parieto-occipital-sulcus",
+  "names": {
+    "it": "Solco parieto-occipitale",
+    "la": "Sulcus parietooccipitalis",
+    "en": "Parieto-occipital sulcus",
+    "synonyms": [
+      "scissura parieto-occipitale"
+    ]
+  },
+  "parent": "cerebral-hemisphere",
+  "layer": "sulci",
+  "side": "bilateral",
+  "level": 2,
+  "location": "Solco profondo della faccia mediale dell'emisfero, che dal margine superiore scende in avanti fino a incontrare il solco calcarino.",
+  "relations": [
+    {
+      "direction": "anteriore",
+      "structureId": "precuneus",
+      "text": "Precuneo (lobo parietale)."
+    },
+    {
+      "direction": "posteriore",
+      "structureId": "cuneus",
+      "text": "Cuneo (lobo occipitale)."
+    },
+    {
+      "direction": "inferiore",
+      "structureId": "calcarine-sulcus",
+      "text": "Solco calcarino."
+    }
+  ],
+  "function": "Separa il lobo parietale dal lobo occipitale sulla faccia mediale; sulla faccia laterale il confine è convenzionale.",
+  "connections": [],
+  "bloodSupply": [
+    {
+      "arteryId": "medial-occipital-artery",
+      "text": "Ramo parieto-occipitale dell'arteria cerebrale posteriore."
+    }
+  ],
+  "clinical": [
+    {
+      "title": "Punto di repere",
+      "text": "Con il solco calcarino delimita il cuneo, utile per orientarsi nelle sezioni sagittali."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

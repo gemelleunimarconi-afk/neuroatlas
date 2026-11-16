@@ -1,0 +1,79 @@
+{
+  "id": "internal-capsule",
+  "names": {
+    "it": "Capsula interna",
+    "la": "Capsula interna",
+    "en": "Internal capsule",
+    "synonyms": []
+  },
+  "parent": "cerebral-white-matter",
+  "layer": "white-matter",
+  "side": "bilateral",
+  "level": 1,
+  "location": "Spessa lamina di sostanza bianca tra il nucleo lenticolare (lateralmente) e il nucleo caudato e il talamo (medialmente). Nelle sezioni assiali ha forma di V aperta lateralmente, con braccio anteriore, ginocchio e braccio posteriore; seguono le parti retrolenticolare e sottolenticolare.",
+  "relations": [
+    {
+      "direction": "laterale",
+      "structureId": "globus-pallidus-pars-interna",
+      "text": "Nucleo lenticolare (putamen e globo pallido)."
+    },
+    {
+      "direction": "mediale",
+      "structureId": "caudate-nucleus",
+      "text": "Testa del nucleo caudato (braccio anteriore) e talamo (braccio posteriore)."
+    },
+    {
+      "direction": "inferiore",
+      "structureId": "peduncle-of-midbrain",
+      "text": "Continua nel piede del peduncolo cerebrale; in alto si apre nella corona radiata."
+    }
+  ],
+  "function": "Contiene quasi tutte le fibre che collegano la corteccia con le strutture sottocorticali. Braccio anteriore: radiazione talamica anteriore e fibre frontopontine. Ginocchio: fibre corticonucleari. Braccio posteriore: fibre corticospinali e radiazione talamica somatosensoriale. Parte retrolenticolare: radiazione ottica. Parte sottolenticolare: radiazione acustica.",
+  "connections": [
+    {
+      "type": "reciprocal",
+      "targetId": "precentral-gyrus",
+      "via": "corona radiata",
+      "text": "Fibre discendenti dalla corteccia (corticospinali, corticonucleari, corticopontine)."
+    },
+    {
+      "type": "reciprocal",
+      "targetId": "ventral-posterolateral-thalamic-nucleus",
+      "via": "radiazioni talamiche",
+      "text": "Fibre talamocorticali ascendenti."
+    }
+  ],
+  "bloodSupply": [
+    {
+      "arteryId": "anterolateral-central-branch-of-middle-cerebral-artery",
+      "text": "Arterie lenticolostriate (cerebrale media) per la parte superiore dei bracci anteriore e posteriore."
+    },
+    {
+      "arteryId": "anterior-choroidal-artery",
+      "text": "Arteria corioidea anteriore per la parte inferiore del braccio posteriore."
+    },
+    {
+      "arteryId": "anterior-cerebral-artery",
+      "text": "Arteria ricorrente di Heubner per la parte inferiore del braccio anteriore."
+    }
+  ],
+  "clinical": [
+    {
+      "title": "Ictus lacunare motorio puro",
+      "text": "Un piccolo infarto del braccio posteriore causa emiparesi controlaterale di volto, braccio e gamba in uguale misura, senza deficit sensitivi né corticali: le fibre sono concentrate in poco spazio."
+    },
+    {
+      "title": "Emorragia ipertensiva",
+      "text": "L'estensione di un'emorragia del putamen o del talamo alla capsula dà emiplegia."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

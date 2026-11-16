@@ -1,0 +1,55 @@
+{
+  "id": "anterior-choroidal-artery",
+  "names": {
+    "it": "Arteria corioidea anteriore",
+    "la": "Arteria choroidea anterior",
+    "en": "Anterior choroidal artery",
+    "synonyms": []
+  },
+  "parent": "cerebral-arteries",
+  "layer": "vessels",
+  "side": "bilateral",
+  "level": 2,
+  "location": "Nasce dalla carotide interna subito dopo la comunicante posteriore, decorre all'indietro lungo il tratto ottico ed entra nel corno temporale del ventricolo laterale attraverso la fessura corioidea.",
+  "relations": [
+    {
+      "direction": "superiore",
+      "structureId": "optic-tract",
+      "text": "Tratto ottico."
+    },
+    {
+      "direction": "mediale",
+      "structureId": "peduncle-of-midbrain",
+      "text": "Peduncolo cerebrale."
+    },
+    {
+      "direction": "posteriore",
+      "structureId": "choroid-plexus-of-cerebral-hemisphere",
+      "text": "Plesso corioideo del corno temporale."
+    }
+  ],
+  "function": "Nonostante il piccolo calibro irrora strutture importanti: parte inferiore del braccio posteriore della capsula interna, tratto ottico e corpo genicolato laterale, globo pallido interno, testa dell'ippocampo e amigdala, plesso corioideo.",
+  "connections": [
+    {
+      "type": "afferent",
+      "targetId": "internal-carotid-artery",
+      "text": "Dalla carotide interna."
+    }
+  ],
+  "bloodSupply": [],
+  "clinical": [
+    {
+      "title": "Sindrome dell'arteria corioidea anteriore",
+      "text": "Emiplegia ed emianestesia controlaterali con emianopsia omonima, per lesione della capsula interna e delle vie visive; la forma completa è rara."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

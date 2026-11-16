@@ -1,0 +1,86 @@
+{
+  "id": "putamen",
+  "names": {
+    "it": "Putamen",
+    "la": "Putamen",
+    "en": "Putamen",
+    "synonyms": []
+  },
+  "parent": "striatum",
+  "layer": "basal-ganglia",
+  "side": "bilateral",
+  "level": 1,
+  "location": "Parte laterale del nucleo lenticolare, in profondità rispetto all'insula. Con il nucleo caudato forma lo striato (neostriato); con il globo pallido forma il nucleo lenticolare.",
+  "relations": [
+    {
+      "direction": "mediale",
+      "structureId": "globus-pallidus-pars-externa",
+      "text": "Globo pallido esterno, separato dalla lamina midollare laterale."
+    },
+    {
+      "direction": "laterale",
+      "structureId": "claustrum",
+      "text": "Capsula esterna e claustro."
+    },
+    {
+      "direction": "anteromediale",
+      "structureId": "caudate-nucleus",
+      "text": "Testa del nucleo caudato, a cui è unito da ponti di sostanza grigia attraverso il braccio anteriore della capsula interna."
+    }
+  ],
+  "function": "Principale stazione di ingresso del circuito motorio dei nuclei della base: riceve dalla corteccia motoria, premotoria e somatosensoriale con organizzazione somatotopica, e partecipa alla selezione e all'avvio dei programmi motori e all'apprendimento delle abitudini.",
+  "connections": [
+    {
+      "type": "afferent",
+      "targetId": "precentral-gyrus",
+      "text": "Proiezioni corticostriatali glutammatergiche dalle aree sensorimotorie."
+    },
+    {
+      "type": "afferent",
+      "targetId": "substantia-nigra",
+      "via": "via nigrostriatale",
+      "text": "Afferenze dopaminergiche dalla parte compatta."
+    },
+    {
+      "type": "efferent",
+      "targetId": "globus-pallidus-pars-interna",
+      "via": "via diretta",
+      "text": "Neuroni spinosi medi GABAergici (recettori D1)."
+    },
+    {
+      "type": "efferent",
+      "targetId": "globus-pallidus-pars-externa",
+      "via": "via indiretta",
+      "text": "Neuroni spinosi medi GABAergici (recettori D2)."
+    }
+  ],
+  "bloodSupply": [
+    {
+      "arteryId": "anterolateral-central-branch-of-middle-cerebral-artery",
+      "text": "Arterie centrali anterolaterali (lenticolostriate) dell'arteria cerebrale media."
+    }
+  ],
+  "clinical": [
+    {
+      "title": "Emorragia ipertensiva",
+      "text": "Il putamen è la sede più frequente di emorragia intracerebrale ipertensiva, per rottura delle arterie lenticolostriate; il sangue può estendersi alla capsula interna con emiplegia controlaterale."
+    },
+    {
+      "title": "Malattia di Parkinson",
+      "text": "La perdita di dopamina è massima nel putamen posteriore."
+    },
+    {
+      "title": "Malattia di Wilson",
+      "text": "L'accumulo di rame danneggia putamen e globo pallido (degenerazione epatolenticolare)."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

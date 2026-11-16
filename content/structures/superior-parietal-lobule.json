@@ -1,0 +1,78 @@
+{
+  "id": "superior-parietal-lobule",
+  "names": {
+    "it": "Lobulo parietale superiore",
+    "la": "Lobulus parietalis superior",
+    "en": "Superior parietal lobule",
+    "synonyms": [
+      "aree 5 e 7"
+    ]
+  },
+  "parent": "parietal-lobe",
+  "layer": "cortex",
+  "side": "bilateral",
+  "level": 2,
+  "location": "Lobo parietale, dietro il giro postcentrale e sopra il solco intraparietale.",
+  "relations": [
+    {
+      "direction": "anteriore",
+      "structureId": "postcentral-sulcus",
+      "text": "Solco postcentrale e giro postcentrale."
+    },
+    {
+      "direction": "inferiore",
+      "structureId": "intraparietal-sulcus",
+      "text": "Solco intraparietale e lobulo parietale inferiore."
+    },
+    {
+      "direction": "mediale",
+      "structureId": "precuneus",
+      "text": "Precuneo."
+    }
+  ],
+  "function": "Corteccia associativa somatosensoriale e visuospaziale (aree 5 e 7): integra propriocezione e visione per guidare i movimenti nello spazio; fa parte della via visiva dorsale (\"dove\" e \"come\").",
+  "connections": [
+    {
+      "type": "afferent",
+      "targetId": "postcentral-gyrus",
+      "text": "Dalla corteccia somatosensoriale primaria."
+    },
+    {
+      "type": "efferent",
+      "targetId": "superior-frontal-gyrus",
+      "text": "Alle cortecce premotorie."
+    }
+  ],
+  "bloodSupply": [
+    {
+      "arteryId": "posterior-parietal-artery",
+      "text": "Arteria cerebrale media per la parte laterale; arterie cerebrale anteriore e posteriore al margine superiore."
+    }
+  ],
+  "clinical": [
+    {
+      "title": "Atassia ottica",
+      "text": "Difficoltà a raggiungere gli oggetti sotto guida visiva."
+    },
+    {
+      "title": "Astereognosia",
+      "text": "Incapacità di riconoscere gli oggetti al tatto con sensibilità elementare conservata."
+    },
+    {
+      "title": "Sindrome di Bálint",
+      "text": "Lesioni parieto-occipitali bilaterali: atassia ottica, aprassia dello sguardo e simultanagnosia."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [
+    5,
+    7
+  ],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

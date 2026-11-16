@@ -1,0 +1,78 @@
+{
+  "id": "inferior-colliculus",
+  "names": {
+    "it": "Collicolo inferiore",
+    "la": "Colliculus inferior",
+    "en": "Inferior colliculus",
+    "synonyms": [
+      "tubercolo quadrigemino inferiore"
+    ]
+  },
+  "parent": "midbrain",
+  "layer": "brainstem",
+  "side": "bilateral",
+  "level": 2,
+  "location": "Coppia caudale di rilievi del tetto del mesencefalo; subito sotto emerge il nervo trocleare.",
+  "relations": [
+    {
+      "direction": "superiore",
+      "structureId": "superior-colliculus",
+      "text": "Collicoli superiori."
+    },
+    {
+      "direction": "laterale",
+      "structureId": "brachia-of-inferior-colliculus",
+      "text": "Braccio del collicolo inferiore, verso il corpo genicolato mediale."
+    },
+    {
+      "direction": "inferiore",
+      "structureId": "trochlear-nerve-iv",
+      "text": "Emergenza del nervo trocleare e velo midollare superiore."
+    }
+  ],
+  "function": "Stazione obbligata della via uditiva ascendente: integra le informazioni dei nuclei cocleari e olivari e partecipa alla localizzazione dei suoni e ai riflessi di orientamento acustici.",
+  "connections": [
+    {
+      "type": "afferent",
+      "via": "lemnisco laterale",
+      "text": "Dai nuclei cocleari, dal complesso olivare superiore e dai nuclei del lemnisco laterale, di entrambi i lati."
+    },
+    {
+      "type": "efferent",
+      "targetId": "medial-geniculate-body",
+      "via": "braccio del collicolo inferiore",
+      "text": "Al corpo genicolato mediale."
+    },
+    {
+      "type": "reciprocal",
+      "targetId": "inferior-colliculus",
+      "via": "commessura dei collicoli inferiori",
+      "text": "Con il collicolo del lato opposto."
+    }
+  ],
+  "bloodSupply": [
+    {
+      "arteryId": "superior-cerebellar-artery",
+      "text": "Rami dell'arteria cerebellare superiore."
+    }
+  ],
+  "clinical": [
+    {
+      "title": "Lesione monolaterale",
+      "text": "Riduce la localizzazione dei suoni ma non causa sordità."
+    },
+    {
+      "title": "Lesione dorsale del mesencefalo caudale",
+      "text": "Può associare un deficit del nervo trocleare."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

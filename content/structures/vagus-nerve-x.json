@@ -1,0 +1,73 @@
+{
+  "id": "vagus-nerve-x",
+  "names": {
+    "it": "Nervo vago (X)",
+    "la": "Nervus vagus (X)",
+    "en": "Vagus nerve (X)",
+    "synonyms": [
+      "decimo nervo cranico",
+      "nervo pneumogastrico"
+    ]
+  },
+  "parent": "cranial-nerves",
+  "layer": "cranial-nerves",
+  "side": "bilateral",
+  "level": 1,
+  "location": "Emerge dal bulbo nel solco retro-olivare con una serie di radicole, esce dal forame giugulare e scende nel collo nella guaina carotidea, tra arteria carotide e vena giugulare interna, fino al torace e all'addome.",
+  "relations": [
+    {
+      "direction": "superiore",
+      "structureId": "glossopharyngeal-nerve-ix",
+      "text": "Nervo glossofaringeo."
+    },
+    {
+      "direction": "mediale",
+      "structureId": "medulla-oblongata",
+      "text": "Bulbo."
+    }
+  ],
+  "function": "Principale nervo parasimpatico: innerva cuore, polmoni e tubo digerente fino alla flessura colica sinistra (nucleo motore dorsale). Motorio per i muscoli di palato molle, faringe e laringe (nucleo ambiguo), questi ultimi attraverso i nervi laringei superiore e ricorrente. Porta afferenze viscerali e gustative dall'epiglottide al nucleo del tratto solitario.",
+  "connections": [
+    {
+      "type": "afferent",
+      "text": "Afferenze viscerali da organi toracici e addominali e dai barocettori dell'arco aortico."
+    },
+    {
+      "type": "efferent",
+      "text": "Fibre pregangliari parasimpatiche ai gangli intramurali dei visceri."
+    }
+  ],
+  "bloodSupply": [
+    {
+      "arteryId": "posterior-inferior-cerebellar-artery",
+      "text": "Arteria cerebellare inferiore posteriore per i nuclei, nel bulbo dorsolaterale."
+    }
+  ],
+  "clinical": [
+    {
+      "title": "Lesione del vago",
+      "text": "Disfonia, disfagia e deviazione dell'ugola verso il lato sano."
+    },
+    {
+      "title": "Lesione del nervo laringeo ricorrente",
+      "text": "Voce rauca per paralisi di una corda vocale, per esempio dopo chirurgia della tiroide o per compressione nel torace."
+    },
+    {
+      "title": "Sindrome di Wallenberg",
+      "text": "L'interessamento del nucleo ambiguo dà disfagia e disfonia."
+    },
+    {
+      "title": "Sincope vasovagale",
+      "text": "Eccesso di attività vagale con bradicardia e ipotensione."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

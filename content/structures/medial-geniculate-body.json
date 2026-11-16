@@ -1,0 +1,65 @@
+{
+  "id": "medial-geniculate-body",
+  "names": {
+    "it": "Corpo genicolato mediale",
+    "la": "Corpus geniculatum mediale",
+    "en": "Medial geniculate body",
+    "synonyms": [
+      "nucleo genicolato mediale",
+      "CGM"
+    ]
+  },
+  "parent": "metathalamus",
+  "layer": "diencephalon",
+  "side": "bilateral",
+  "level": 1,
+  "location": "Rilievo sulla faccia posteroinferiore del talamo, sotto il pulvinar e medialmente al corpo genicolato laterale.",
+  "relations": [
+    {
+      "direction": "laterale",
+      "structureId": "lateral-geniculate-body",
+      "text": "Corpo genicolato laterale."
+    },
+    {
+      "direction": "inferiore",
+      "structureId": "brachia-of-inferior-colliculus",
+      "text": "Braccio del collicolo inferiore."
+    }
+  ],
+  "function": "Nucleo di relè della via uditiva, con organizzazione tonotopica.",
+  "connections": [
+    {
+      "type": "afferent",
+      "targetId": "inferior-colliculus",
+      "via": "braccio del collicolo inferiore",
+      "text": "Dal collicolo inferiore."
+    },
+    {
+      "type": "efferent",
+      "targetId": "transverse-temporal-gyrus",
+      "via": "radiazione acustica",
+      "text": "Alla corteccia uditiva primaria, attraverso la parte sottolenticolare della capsula interna."
+    }
+  ],
+  "bloodSupply": [
+    {
+      "arteryId": "thalamogeniculate-artery",
+      "text": "Arterie talamogenicolate, rami dell'arteria cerebrale posteriore."
+    }
+  ],
+  "clinical": [
+    {
+      "title": "Lesione monolaterale",
+      "text": "Non dà sordità, per la rappresentazione bilaterale dell'udito sopra i nuclei cocleari."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

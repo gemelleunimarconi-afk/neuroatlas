@@ -1,0 +1,69 @@
+{
+  "id": "precuneus",
+  "names": {
+    "it": "Precuneo",
+    "la": "Precuneus",
+    "en": "Precuneus",
+    "synonyms": [
+      "lobulo quadrilatero"
+    ]
+  },
+  "parent": "parietal-lobe",
+  "layer": "cortex",
+  "side": "bilateral",
+  "level": 3,
+  "location": "Faccia mediale del lobo parietale, tra il ramo marginale del solco del cingolo (davanti), il solco parieto-occipitale (dietro) e il solco sottoparietale (sotto).",
+  "relations": [
+    {
+      "direction": "anteriore",
+      "structureId": "paracentral-lobule",
+      "text": "Lobulo paracentrale."
+    },
+    {
+      "direction": "posteriore",
+      "structureId": "parieto-occipital-sulcus",
+      "text": "Solco parieto-occipitale e cuneo."
+    },
+    {
+      "direction": "inferiore",
+      "structureId": "posterior-cingulate-gyrus",
+      "text": "Giro del cingolo posteriore."
+    }
+  ],
+  "function": "Corteccia associativa (parte mediale dell'area 7): integrazione visuospaziale, memoria episodica e immaginazione; è un nodo centrale della rete di default (*default mode network*).",
+  "connections": [
+    {
+      "type": "reciprocal",
+      "targetId": "posterior-cingulate-gyrus",
+      "text": "Con la corteccia cingolata posteriore e la corteccia parietale laterale."
+    },
+    {
+      "type": "reciprocal",
+      "targetId": "pulvinar",
+      "text": "Con il pulvinar e i nuclei laterali del talamo."
+    }
+  ],
+  "bloodSupply": [
+    {
+      "arteryId": "precuneal-branch-of-pericallosal-artery",
+      "text": "Rami precuneali dell'arteria cerebrale anteriore; posteriormente l'arteria cerebrale posteriore."
+    }
+  ],
+  "clinical": [
+    {
+      "title": "Malattia di Alzheimer",
+      "text": "Ipometabolismo precoce del precuneo e della corteccia cingolata posteriore alla PET."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [
+    7
+  ],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

@@ -1,0 +1,69 @@
+{
+  "id": "pulvinar",
+  "names": {
+    "it": "Pulvinar",
+    "la": "Pulvinar thalami",
+    "en": "Pulvinar",
+    "synonyms": []
+  },
+  "parent": "thalamus",
+  "layer": "diencephalon",
+  "side": "bilateral",
+  "level": 2,
+  "location": "Grande nucleo che forma l'estremità posteriore del talamo e sporge sopra i corpi genicolati e i collicoli superiori.",
+  "relations": [
+    {
+      "direction": "inferiore",
+      "structureId": "lateral-geniculate-body",
+      "text": "Corpi genicolati laterale e mediale."
+    },
+    {
+      "direction": "anteriore",
+      "structureId": "lateral-posterior-thalamic-nucleus",
+      "text": "Nucleo laterale posteriore."
+    },
+    {
+      "direction": "mediale",
+      "structureId": "pineal-body",
+      "text": "Ghiandola pineale e lamina quadrigemina."
+    }
+  ],
+  "function": "Nucleo associativo: integra informazioni visive, uditive e somatiche e partecipa all'attenzione visiva e all'orientamento verso gli stimoli rilevanti.",
+  "connections": [
+    {
+      "type": "afferent",
+      "targetId": "superior-colliculus",
+      "text": "Dal collicolo superiore (via visiva extragenicolata)."
+    },
+    {
+      "type": "reciprocal",
+      "targetId": "inferior-parietal-lobule",
+      "text": "Connessioni reciproche con le cortecce associative parietale, occipitale e temporale."
+    }
+  ],
+  "bloodSupply": [
+    {
+      "arteryId": "posterior-medial-choroidal-artery",
+      "text": "Arterie corioidee posteriori e talamogenicolate, rami dell'arteria cerebrale posteriore."
+    }
+  ],
+  "clinical": [
+    {
+      "title": "Negligenza e disturbi attentivi",
+      "text": "Lesioni del pulvinar, soprattutto destro, possono ridurre l'attenzione verso lo spazio controlaterale."
+    },
+    {
+      "title": "Afasia talamica",
+      "text": "Lesioni del pulvinar sinistro possono dare disturbi del linguaggio."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

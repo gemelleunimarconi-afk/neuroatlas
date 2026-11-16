@@ -1,0 +1,75 @@
+{
+  "id": "superior-temporal-gyrus",
+  "names": {
+    "it": "Giro temporale superiore",
+    "la": "Gyrus temporalis superior",
+    "en": "Superior temporal gyrus",
+    "synonyms": [
+      "prima circonvoluzione temporale",
+      "area di Wernicke (parte posteriore)"
+    ]
+  },
+  "parent": "temporal-lobe",
+  "layer": "cortex",
+  "side": "bilateral",
+  "level": 1,
+  "location": "Lobo temporale, sotto il solco laterale e sopra il solco temporale superiore. La sua faccia superiore, nascosta nel solco laterale, porta i giri temporali trasversi.",
+  "relations": [
+    {
+      "direction": "superiore",
+      "structureId": "transverse-temporal-gyrus",
+      "text": "Giri temporali trasversi (di Heschl), sulla faccia superiore."
+    },
+    {
+      "direction": "inferiore",
+      "structureId": "superior-temporal-sulcus",
+      "text": "Solco temporale superiore e giro temporale medio."
+    },
+    {
+      "direction": "posteriore",
+      "structureId": "supramarginal-gyrus",
+      "text": "Giro sopramarginale."
+    }
+  ],
+  "function": "Contiene la corteccia uditiva associativa (area 22). Nell'emisfero dominante la sua parte posteriore costituisce l'area di Wernicke, essenziale per la comprensione del linguaggio parlato.",
+  "connections": [
+    {
+      "type": "afferent",
+      "targetId": "transverse-temporal-gyrus",
+      "text": "Dalla corteccia uditiva primaria."
+    },
+    {
+      "type": "reciprocal",
+      "targetId": "opercular-part-of-inferior-frontal-gyrus",
+      "via": "fascicolo arcuato",
+      "text": "Con l'area di Broca."
+    }
+  ],
+  "bloodSupply": [
+    {
+      "arteryId": "posterior-temporal-branch-of-middle-cerebral-artery",
+      "text": "Rami temporali del tronco inferiore dell'arteria cerebrale media."
+    }
+  ],
+  "clinical": [
+    {
+      "title": "Afasia di Wernicke",
+      "text": "Eloquio fluente ma privo di significato, con parafasie e neologismi, e grave deficit di comprensione e ripetizione; il paziente è spesso inconsapevole del disturbo."
+    },
+    {
+      "title": "Afasia di conduzione",
+      "text": "La lesione del fascicolo arcuato compromette soprattutto la ripetizione."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [
+    22
+  ],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

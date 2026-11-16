@@ -1,0 +1,72 @@
+{
+  "id": "dorsomedial-thalamic-nucleus",
+  "names": {
+    "it": "Nucleo dorsomediale del talamo",
+    "la": "Nucleus mediodorsalis thalami",
+    "en": "Mediodorsal nucleus of thalamus",
+    "synonyms": [
+      "nucleo mediale dorsale",
+      "MD"
+    ]
+  },
+  "parent": "thalamus",
+  "layer": "diencephalon",
+  "side": "bilateral",
+  "level": 2,
+  "location": "Grande nucleo della parte mediale del talamo, tra la lamina midollare interna (lateralmente) e la parete del terzo ventricolo (medialmente).",
+  "relations": [
+    {
+      "direction": "laterale",
+      "structureId": "internal-medullary-lamina",
+      "text": "Lamina midollare interna, con i nuclei intralaminari."
+    },
+    {
+      "direction": "mediale",
+      "structureId": "third-ventricle",
+      "text": "Terzo ventricolo."
+    },
+    {
+      "direction": "posteriore",
+      "structureId": "pulvinar",
+      "text": "Pulvinar."
+    }
+  ],
+  "function": "Principale nucleo talamico della corteccia prefrontale: partecipa alle funzioni esecutive, alla memoria e al comportamento emotivo.",
+  "connections": [
+    {
+      "type": "reciprocal",
+      "targetId": "lateral-orbital-gyrus",
+      "text": "Connessioni reciproche con la corteccia prefrontale e orbitofrontale."
+    },
+    {
+      "type": "afferent",
+      "targetId": "amygdala",
+      "text": "Dall'amigdala, dalla corteccia olfattiva e dal pallido ventrale."
+    }
+  ],
+  "bloodSupply": [
+    {
+      "arteryId": "thalamoperforating-artery",
+      "text": "Arterie talamoperforanti (paramediane), dal tratto iniziale dell'arteria cerebrale posteriore."
+    }
+  ],
+  "clinical": [
+    {
+      "title": "Infarto talamico paramediano",
+      "text": "Sonnolenza, amnesia e alterazioni del comportamento; se le arterie dei due lati originano da un tronco comune (arteria di Percheron) l'infarto è bilaterale."
+    },
+    {
+      "title": "Sindrome di Korsakoff",
+      "text": "Il nucleo è danneggiato insieme ai corpi mammillari."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

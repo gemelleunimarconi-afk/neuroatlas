@@ -1,0 +1,57 @@
+{
+  "id": "claustrum",
+  "names": {
+    "it": "Claustro",
+    "la": "Claustrum",
+    "en": "Claustrum",
+    "synonyms": [
+      "antemuro"
+    ]
+  },
+  "parent": "cerebral-hemisphere",
+  "layer": "basal-ganglia",
+  "side": "bilateral",
+  "level": 3,
+  "location": "Sottile lamina di sostanza grigia tra la capsula esterna (medialmente) e la capsula estrema (lateralmente), in profondità rispetto all'insula.",
+  "relations": [
+    {
+      "direction": "mediale",
+      "structureId": "putamen",
+      "text": "Capsula esterna e putamen."
+    },
+    {
+      "direction": "laterale",
+      "structureId": "insula",
+      "text": "Capsula estrema e corteccia dell'insula."
+    }
+  ],
+  "function": "Ha connessioni reciproche con quasi tutta la corteccia cerebrale. La sua funzione non è stabilita con certezza: è stato proposto un ruolo nell'integrazione tra aree corticali e nell'attenzione.",
+  "connections": [
+    {
+      "type": "reciprocal",
+      "targetId": "insula",
+      "text": "Connessioni reciproche diffuse con la corteccia."
+    }
+  ],
+  "bloodSupply": [
+    {
+      "arteryId": "insular-part-of-middle-cerebral-artery",
+      "text": "Rami insulari e lenticolostriati dell'arteria cerebrale media."
+    }
+  ],
+  "clinical": [
+    {
+      "title": "Neuroimmagini",
+      "text": "È un punto di repere nelle sezioni assiali e coronali, tra putamen e insula; non gli è attribuita una sindrome clinica specifica."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

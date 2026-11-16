@@ -1,0 +1,73 @@
+{
+  "id": "facial-nerve-vii",
+  "names": {
+    "it": "Nervo facciale (VII)",
+    "la": "Nervus facialis (VII)",
+    "en": "Facial nerve (VII)",
+    "synonyms": [
+      "nervo faciale",
+      "settimo nervo cranico",
+      "nervo intermedio"
+    ]
+  },
+  "parent": "cranial-nerves",
+  "layer": "cranial-nerves",
+  "side": "bilateral",
+  "level": 1,
+  "location": "Le fibre motorie originano dal nucleo del facciale nel ponte caudale e girano attorno al nucleo dell'abducente (ginocchio interno, che solleva il collicolo facciale). Il nervo emerge dal solco bulbopontino, nell'angolo pontocerebellare, insieme al nervo intermedio e al vestibolococleare; entra nel meato acustico interno, percorre il canale del facciale nell'osso temporale ed esce dal forame stilomastoideo, dividendosi nella parotide.",
+  "relations": [
+    {
+      "direction": "laterale",
+      "structureId": "vestibulocochlear-nerve-viii",
+      "text": "Nervo vestibolococleare."
+    },
+    {
+      "direction": "mediale",
+      "structureId": "abducens-nerve-vi",
+      "text": "Nervo abducente."
+    }
+  ],
+  "function": "Motorio per i muscoli mimici, lo stapedio, lo stiloioideo e il ventre posteriore del digastrico. Con il nervo intermedio: gusto dei due terzi anteriori della lingua (corda del timpano), parasimpatico per le ghiandole lacrimale, sottomandibolare e sottolinguale, sensibilità di una piccola area del padiglione auricolare.",
+  "connections": [
+    {
+      "type": "afferent",
+      "targetId": "precentral-gyrus",
+      "via": "fibre corticonucleari",
+      "text": "La parte del nucleo per la metà superiore del volto riceve da entrambi gli emisferi; quella per la metà inferiore solo dall'emisfero controlaterale."
+    },
+    {
+      "type": "efferent",
+      "targetId": "chorda-tympani",
+      "text": "La corda del timpano si unisce al nervo linguale."
+    }
+  ],
+  "bloodSupply": [
+    {
+      "arteryId": "anterior-inferior-cerebellar-artery",
+      "text": "Arteria cerebellare inferiore anteriore e arteria labirintica nel meato acustico interno."
+    }
+  ],
+  "clinical": [
+    {
+      "title": "Paralisi periferica (di Bell)",
+      "text": "Paralisi di tutta la metà omolaterale del volto, fronte compresa; secondo il livello si associano iperacusia, perdita del gusto e ridotta lacrimazione."
+    },
+    {
+      "title": "Paralisi centrale",
+      "text": "Una lesione sopranucleare (ictus) colpisce solo la metà inferiore del volto controlaterale, con fronte risparmiata."
+    },
+    {
+      "title": "Neurinoma dell'acustico",
+      "text": "Può comprimere il nervo nell'angolo pontocerebellare."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

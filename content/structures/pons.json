@@ -34,9 +34,14 @@
       "direction": "ventrale",
       "structureId": "basilar-artery",
       "text": "Arteria basilare, nel solco basilare, e clivus."
+    },
+    {
+      "direction": "laterale",
+      "structureId": "trigeminal-nerve-v",
+      "text": "Peduncoli cerebellari medi; dalla faccia ventrolaterale emerge il nervo trigemino."
     }
   ],
-  "function": "La parte basilare contiene i nuclei basilari del ponte, stazione della via cortico-ponto-cerebellare, ed è attraversata dalle fibre corticospinali e corticonucleari. Il tegmento contiene i nuclei dei nervi cranici V, VI e VII e, al confine con il bulbo, i nuclei vestibolari e cocleari dell'VIII; contiene inoltre formazione reticolare, *locus caeruleus* e il centro pontino dello sguardo orizzontale. **Origini apparenti:** il nervo trigemino (V) emerge dalla faccia ventrolaterale del ponte; l'abducente (VI), il faciale (VII) e il vestibolococleare (VIII) emergono dal solco bulbopontino, in ordine da mediale a laterale.",
+  "function": "La parte basilare contiene i nuclei basilari del ponte, stazione della via cortico-ponto-cerebellare, ed è attraversata dalle fibre corticospinali e corticonucleari. Il tegmento contiene i nuclei dei nervi cranici V, VI e VII e, al confine con il bulbo, i nuclei vestibolari e cocleari dell'VIII; contiene inoltre formazione reticolare, *locus caeruleus* e il centro pontino dello sguardo orizzontale. **Origini apparenti:** il nervo trigemino (V) emerge dalla faccia ventrolaterale del ponte; l'abducente (VI), il facciale (VII) e il vestibolococleare (VIII) emergono dal solco bulbopontino, in ordine da mediale a laterale.",
   "connections": [
     {
       "type": "afferent",
@@ -74,7 +79,7 @@
     },
     {
       "title": "Sindrome di Millard-Gubler",
-      "text": "Lesione della parte ventrale del ponte caudale: paralisi omolaterale del faciale, spesso anche dell'abducente, con emiparesi controlaterale (sindrome alterna)."
+      "text": "Lesione della parte ventrale del ponte caudale: paralisi omolaterale del facciale, spesso anche dell'abducente, con emiparesi controlaterale (sindrome alterna)."
     },
     {
       "title": "Mielinolisi pontina centrale",

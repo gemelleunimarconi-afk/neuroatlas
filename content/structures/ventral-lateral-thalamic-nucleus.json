@@ -1,0 +1,77 @@
+{
+  "id": "ventral-lateral-thalamic-nucleus",
+  "names": {
+    "it": "Nucleo ventrale laterale del talamo",
+    "la": "Nucleus ventralis lateralis thalami",
+    "en": "Ventral lateral nucleus of thalamus",
+    "synonyms": [
+      "VL"
+    ]
+  },
+  "parent": "thalamus",
+  "layer": "diencephalon",
+  "side": "bilateral",
+  "level": 1,
+  "location": "Parte intermedia del gruppo nucleare ventrale, tra il nucleo ventrale anteriore (davanti) e i nuclei ventrali posteriori (dietro).",
+  "relations": [
+    {
+      "direction": "anteriore",
+      "structureId": "ventral-anterior-thalamic-nucleus",
+      "text": "Nucleo ventrale anteriore."
+    },
+    {
+      "direction": "posteriore",
+      "structureId": "ventral-posterolateral-thalamic-nucleus",
+      "text": "Nucleo ventrale posterolaterale."
+    },
+    {
+      "direction": "laterale",
+      "structureId": "internal-capsule",
+      "text": "Braccio posteriore della capsula interna."
+    }
+  ],
+  "function": "Principale nucleo motorio del talamo. La parte posteriore ritrasmette alla corteccia motoria primaria l'uscita del cervelletto; la parte anteriore quella dei nuclei della base.",
+  "connections": [
+    {
+      "type": "afferent",
+      "targetId": "dentate-nucleus",
+      "via": "peduncolo cerebellare superiore",
+      "text": "Dal nucleo dentato controlaterale (via dentato-talamica), dopo l'incrocio nel mesencefalo."
+    },
+    {
+      "type": "afferent",
+      "targetId": "globus-pallidus-pars-interna",
+      "text": "Dal globo pallido interno."
+    },
+    {
+      "type": "efferent",
+      "targetId": "precentral-gyrus",
+      "text": "Alla corteccia motoria primaria e premotoria."
+    }
+  ],
+  "bloodSupply": [
+    {
+      "arteryId": "thalamogeniculate-artery",
+      "text": "Arterie talamogenicolate, rami dell'arteria cerebrale posteriore."
+    }
+  ],
+  "clinical": [
+    {
+      "title": "Tremore",
+      "text": "La sua parte posteriore (nucleo ventrale intermedio) è il bersaglio della stimolazione cerebrale profonda e della talamotomia nel tremore essenziale."
+    },
+    {
+      "title": "Infarto",
+      "text": "Atassia ed emiparesi controlaterali."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

@@ -1,0 +1,75 @@
+{
+  "id": "oculomotor-nerve-iii",
+  "names": {
+    "it": "Nervo oculomotore (III)",
+    "la": "Nervus oculomotorius (III)",
+    "en": "Oculomotor nerve (III)",
+    "synonyms": [
+      "terzo nervo cranico",
+      "nervo oculomotore comune"
+    ]
+  },
+  "parent": "cranial-nerves",
+  "layer": "cranial-nerves",
+  "side": "bilateral",
+  "level": 1,
+  "location": "Origina dai nuclei del tegmento del mesencefalo a livello del collicolo superiore, emerge nella fossa interpeduncolare, passa tra l'arteria cerebrale posteriore e l'arteria cerebellare superiore, decorre nella parete laterale del seno cavernoso ed entra nell'orbita dalla fessura orbitaria superiore.",
+  "relations": [
+    {
+      "direction": "mediale",
+      "structureId": "posterior-communicating-artery",
+      "text": "Arteria comunicante posteriore, che lo accompagna."
+    },
+    {
+      "direction": "superiore",
+      "structureId": "precommunicating-part-of-posterior-cerebral-artery",
+      "text": "Arteria cerebrale posteriore."
+    },
+    {
+      "direction": "inferiore",
+      "structureId": "superior-cerebellar-artery",
+      "text": "Arteria cerebellare superiore."
+    }
+  ],
+  "function": "Motorio somatico per i muscoli retto superiore, retto mediale, retto inferiore, obliquo inferiore ed elevatore della palpebra superiore. Parasimpatico (nucleo di Edinger-Westphal, con sinapsi nel ganglio ciliare) per lo sfintere della pupilla e il muscolo ciliare.",
+  "connections": [
+    {
+      "type": "afferent",
+      "via": "fascicolo longitudinale mediale",
+      "text": "Dai centri dello sguardo e dal nucleo dell'abducente controlaterale, per i movimenti coniugati."
+    },
+    {
+      "type": "afferent",
+      "text": "Dall'area pretettale al nucleo di Edinger-Westphal dei due lati (riflesso fotomotore)."
+    }
+  ],
+  "bloodSupply": [
+    {
+      "arteryId": "precommunicating-part-of-posterior-cerebral-artery",
+      "text": "Rami paramediani dell'arteria cerebrale posteriore per i nuclei."
+    }
+  ],
+  "clinical": [
+    {
+      "title": "Paralisi completa",
+      "text": "Ptosi, occhio deviato in basso e in fuori, midriasi e perdita dell'accomodazione."
+    },
+    {
+      "title": "Compressione",
+      "text": "Aneurisma dell'arteria comunicante posteriore o ernia dell'uncus: la midriasi è precoce, perché le fibre parasimpatiche sono superficiali."
+    },
+    {
+      "title": "Neuropatia ischemica",
+      "text": "Nel diabete la pupilla è spesso risparmiata, perché l'ischemia colpisce le fibre centrali."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

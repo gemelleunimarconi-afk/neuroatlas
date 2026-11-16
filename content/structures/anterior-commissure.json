@@ -1,0 +1,55 @@
+{
+  "id": "anterior-commissure",
+  "names": {
+    "it": "Commessura anteriore",
+    "la": "Commissura anterior",
+    "en": "Anterior commissure",
+    "synonyms": []
+  },
+  "parent": "cerebral-white-matter",
+  "layer": "white-matter",
+  "side": "midline",
+  "level": 2,
+  "location": "Piccolo fascio compatto che incrocia la linea mediana nella lamina terminale, davanti alle colonne del fornice e sotto il rostro del corpo calloso.",
+  "relations": [
+    {
+      "direction": "posteriore",
+      "structureId": "fornix-of-forebrain",
+      "text": "Colonne del fornice."
+    },
+    {
+      "direction": "inferiore",
+      "structureId": "lamina-terminalis",
+      "text": "Lamina terminale e ipotalamo anteriore."
+    }
+  ],
+  "function": "Collega i due lobi temporali (giri temporali medio e inferiore, amigdala) e, con la sua piccola parte anteriore, le strutture olfattive dei due lati.",
+  "connections": [
+    {
+      "type": "reciprocal",
+      "targetId": "amygdala",
+      "text": "Tra le regioni temporali anteriori e le amigdale dei due lati."
+    }
+  ],
+  "bloodSupply": [
+    {
+      "arteryId": "anterior-communicating-artery",
+      "text": "Rami perforanti delle arterie cerebrale anteriore e comunicante anteriore."
+    }
+  ],
+  "clinical": [
+    {
+      "title": "Repere radiologico",
+      "text": "Con la commessura posteriore definisce la linea bicommissurale, riferimento per la neurochirurgia stereotassica e per gli atlanti."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

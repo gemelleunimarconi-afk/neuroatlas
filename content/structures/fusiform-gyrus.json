@@ -1,0 +1,68 @@
+{
+  "id": "fusiform-gyrus",
+  "names": {
+    "it": "Giro fusiforme (occipitotemporale laterale)",
+    "la": "Gyrus occipitotemporalis lateralis",
+    "en": "Fusiform gyrus",
+    "synonyms": [
+      "giro occipitotemporale laterale"
+    ]
+  },
+  "parent": "temporal-lobe",
+  "layer": "cortex",
+  "side": "bilateral",
+  "level": 2,
+  "location": "Faccia inferiore dei lobi temporale e occipitale, tra il solco collaterale (medialmente) e il solco occipitotemporale (lateralmente).",
+  "relations": [
+    {
+      "direction": "mediale",
+      "structureId": "collateral-sulcus",
+      "text": "Solco collaterale, giro paraippocampale e giro linguale."
+    },
+    {
+      "direction": "laterale",
+      "structureId": "inferior-temporal-gyrus",
+      "text": "Giro temporale inferiore."
+    }
+  ],
+  "function": "Area visiva associativa della via ventrale (\"che cosa\") (area 37): riconoscimento di volti, soprattutto a destra, di oggetti e, a sinistra, della forma visiva delle parole.",
+  "connections": [
+    {
+      "type": "afferent",
+      "targetId": "lateral-occipital-gyrus",
+      "text": "Dalle aree visive occipitali."
+    },
+    {
+      "type": "efferent",
+      "targetId": "parahippocampal-gyrus",
+      "text": "Alle strutture temporali mediali e al polo temporale."
+    }
+  ],
+  "bloodSupply": [
+    {
+      "arteryId": "postcommunicating-part-of-posterior-cerebral-artery",
+      "text": "Rami temporali dell'arteria cerebrale posteriore."
+    }
+  ],
+  "clinical": [
+    {
+      "title": "Prosopagnosia",
+      "text": "Incapacità di riconoscere i volti noti, per lesioni bilaterali o destre."
+    },
+    {
+      "title": "Alessia pura",
+      "text": "Lesione occipitotemporale sinistra con interessamento dello splenio: il paziente scrive ma non riesce a leggere."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [
+    37
+  ],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

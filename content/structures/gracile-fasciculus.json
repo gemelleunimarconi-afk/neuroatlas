@@ -1,0 +1,63 @@
+{
+  "id": "gracile-fasciculus",
+  "names": {
+    "it": "Fascicolo gracile",
+    "la": "Fasciculus gracilis",
+    "en": "Gracile fasciculus",
+    "synonyms": [
+      "fascicolo di Goll"
+    ]
+  },
+  "parent": "spinal-cord",
+  "layer": "body-spinal-cord",
+  "side": "midline",
+  "level": 1,
+  "location": "Parte mediale del cordone posteriore del midollo spinale, accanto al setto mediano posteriore, per tutta la lunghezza del midollo.",
+  "relations": [
+    {
+      "direction": "laterale",
+      "structureId": "cuneate-fasciculus",
+      "text": "Fascicolo cuneato, presente dai segmenti toracici alti in su."
+    }
+  ],
+  "function": "Porta il tatto discriminativo, la sensibilità vibratoria e la propriocezione cosciente dell'arto inferiore e della metà inferiore del tronco dello stesso lato.",
+  "connections": [
+    {
+      "type": "afferent",
+      "text": "Rami ascendenti dei neuroni dei gangli spinali, dai segmenti sacrali, lombari e toracici inferiori (primo neurone, non crociato)."
+    },
+    {
+      "type": "efferent",
+      "targetId": "medulla-oblongata",
+      "text": "Al nucleo gracile del bulbo, da cui parte il lemnisco mediale dopo l'incrocio."
+    }
+  ],
+  "bloodSupply": [
+    {
+      "text": "Arterie spinali posteriori."
+    }
+  ],
+  "clinical": [
+    {
+      "title": "Tabe dorsale",
+      "text": "La neurosifilide danneggia i cordoni posteriori: atassia sensitiva e segno di Romberg positivo."
+    },
+    {
+      "title": "Degenerazione combinata subacuta",
+      "text": "La carenza di vitamina B12 colpisce cordoni posteriori e tratti corticospinali."
+    },
+    {
+      "title": "Sindrome di Brown-Séquard",
+      "text": "Perdita della sensibilità profonda dallo stesso lato della lesione."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

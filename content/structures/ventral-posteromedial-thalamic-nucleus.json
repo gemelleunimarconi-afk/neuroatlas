@@ -1,0 +1,68 @@
+{
+  "id": "ventral-posteromedial-thalamic-nucleus",
+  "names": {
+    "it": "Nucleo ventrale posteromediale del talamo",
+    "la": "Nucleus ventralis posteromedialis thalami",
+    "en": "Ventral posteromedial nucleus of thalamus",
+    "synonyms": [
+      "VPM",
+      "nucleo arcuato"
+    ]
+  },
+  "parent": "thalamus",
+  "layer": "diencephalon",
+  "side": "bilateral",
+  "level": 2,
+  "location": "Parte mediale del complesso ventrale posteriore del talamo, medialmente al nucleo ventrale posterolaterale.",
+  "relations": [
+    {
+      "direction": "laterale",
+      "structureId": "ventral-posterolateral-thalamic-nucleus",
+      "text": "Nucleo ventrale posterolaterale."
+    },
+    {
+      "direction": "mediale",
+      "structureId": "centromedian-thalamic-nucleus",
+      "text": "Nucleo centromediano."
+    }
+  ],
+  "function": "Nucleo di relè della sensibilità somatica del volto e della cavità orale del lato opposto e, nella sua parte mediale, della sensibilità gustativa.",
+  "connections": [
+    {
+      "type": "afferent",
+      "targetId": "trigeminal-nerve-v",
+      "via": "lemnisco trigeminale",
+      "text": "Dai nuclei sensitivi del trigemino (principale e spinale) controlaterali."
+    },
+    {
+      "type": "afferent",
+      "text": "Afferenze gustative dal nucleo del tratto solitario, in gran parte omolaterali."
+    },
+    {
+      "type": "efferent",
+      "targetId": "postcentral-gyrus",
+      "text": "Alla parte laterale della corteccia somatosensoriale primaria; le fibre gustative all'insula e all'opercolo frontale."
+    }
+  ],
+  "bloodSupply": [
+    {
+      "arteryId": "thalamogeniculate-artery",
+      "text": "Arterie talamogenicolate."
+    }
+  ],
+  "clinical": [
+    {
+      "title": "Infarto talamico laterale",
+      "text": "Ipoestesia dell'emivolto controlaterale, di solito insieme a quella di tronco e arti per interessamento del nucleo ventrale posterolaterale."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

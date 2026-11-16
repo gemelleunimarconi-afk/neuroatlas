@@ -1,0 +1,60 @@
+{
+  "id": "pellucid-septum",
+  "names": {
+    "it": "Setto pellucido",
+    "la": "Septum pellucidum",
+    "en": "Septum pellucidum",
+    "synonyms": [
+      "setto lucido"
+    ]
+  },
+  "parent": "cerebral-hemisphere",
+  "layer": "white-matter",
+  "side": "midline",
+  "level": 2,
+  "location": "Sottile lamina verticale doppia, sulla linea mediana, tesa tra il corpo calloso (sopra e davanti) e il fornice (sotto e dietro). Separa i corni frontali dei due ventricoli laterali.",
+  "relations": [
+    {
+      "direction": "superiore",
+      "structureId": "corpus-callosum",
+      "text": "Corpo calloso."
+    },
+    {
+      "direction": "inferiore",
+      "structureId": "fornix-of-forebrain",
+      "text": "Fornice."
+    },
+    {
+      "direction": "laterale",
+      "structureId": "lateral-ventricle",
+      "text": "Corni frontali dei ventricoli laterali."
+    }
+  ],
+  "function": "Parete mediale dei ventricoli laterali. È composto da glia e poche fibre; i nuclei del setto, funzionalmente importanti, si trovano più in basso e in avanti, non nel setto pellucido.",
+  "connections": [],
+  "bloodSupply": [
+    {
+      "arteryId": "anterior-cerebral-artery",
+      "text": "Rami dell'arteria cerebrale anteriore."
+    }
+  ],
+  "clinical": [
+    {
+      "title": "Cavo del setto pellucido",
+      "text": "Persistenza di uno spazio tra le due lamine; variante normale, più frequente in chi ha subito traumi cranici ripetuti."
+    },
+    {
+      "title": "Displasia setto-ottica",
+      "text": "Assenza del setto con ipoplasia dei nervi ottici e disfunzione ipofisaria."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

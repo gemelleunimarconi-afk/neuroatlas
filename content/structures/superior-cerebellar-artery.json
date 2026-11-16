@@ -1,0 +1,56 @@
+{
+  "id": "superior-cerebellar-artery",
+  "names": {
+    "it": "Arteria cerebellare superiore",
+    "la": "Arteria superior cerebelli",
+    "en": "Superior cerebellar artery",
+    "synonyms": [
+      "SCA"
+    ]
+  },
+  "parent": "vertebrobasilar-system",
+  "layer": "vessels",
+  "side": "bilateral",
+  "level": 2,
+  "location": "Nasce dall'arteria basilare subito prima della biforcazione e gira attorno al mesencefalo sotto il nervo oculomotore, lungo il margine del tentorio, fino alla faccia superiore del cervelletto.",
+  "relations": [
+    {
+      "direction": "superiore",
+      "structureId": "oculomotor-nerve-iii",
+      "text": "Nervo oculomotore, che la separa dall'arteria cerebrale posteriore."
+    },
+    {
+      "direction": "laterale",
+      "structureId": "trigeminal-nerve-v",
+      "text": "Radice del nervo trigemino."
+    }
+  ],
+  "function": "Irrora la faccia superiore del cervelletto, i nuclei profondi (dentato compreso), il peduncolo cerebellare superiore e la parte laterale del ponte rostrale e del tetto del mesencefalo.",
+  "connections": [
+    {
+      "type": "afferent",
+      "targetId": "basilar-artery",
+      "text": "Dall'arteria basilare."
+    }
+  ],
+  "bloodSupply": [],
+  "clinical": [
+    {
+      "title": "Infarto",
+      "text": "Atassia degli arti omolaterali e disartria, talvolta con perdita della sensibilità termodolorifica controlaterale."
+    },
+    {
+      "title": "Nevralgia del trigemino",
+      "text": "Un'ansa dell'arteria può comprimere la radice del nervo."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

@@ -1,0 +1,63 @@
+{
+  "id": "radial-nerve",
+  "names": {
+    "it": "Nervo radiale",
+    "la": "Nervus radialis",
+    "en": "Radial nerve",
+    "synonyms": []
+  },
+  "parent": "brachial-plexus",
+  "layer": "body-nerves",
+  "side": "bilateral",
+  "level": 1,
+  "location": "Ramo terminale del fascicolo posteriore del plesso brachiale (radici da C5 a T1). Gira attorno all'omero nel solco del nervo radiale, passa davanti all'epicondilo laterale e si divide in un ramo superficiale, sensitivo, e uno profondo, motorio.",
+  "relations": [
+    {
+      "direction": "anteriore",
+      "text": "Omero, nel solco del nervo radiale."
+    },
+    {
+      "direction": "mediale",
+      "structureId": "median-nerve",
+      "text": "Nervo mediano, nel braccio."
+    }
+  ],
+  "function": "Motorio per il tricipite e per tutti i muscoli estensori di polso e dita. Sensitivo per la faccia posteriore di braccio e avambraccio e per il dorso della mano dal lato del pollice.",
+  "connections": [
+    {
+      "type": "afferent",
+      "targetId": "posterior-cord-of-brachial-plexus",
+      "text": "Dal fascicolo posteriore del plesso brachiale."
+    },
+    {
+      "type": "efferent",
+      "targetId": "deep-branch-of-radial-nerve",
+      "text": "Ramo profondo (nervo interosseo posteriore)."
+    },
+    {
+      "type": "efferent",
+      "targetId": "superficial-branch-of-radial-nerve",
+      "text": "Ramo superficiale."
+    }
+  ],
+  "bloodSupply": [
+    {
+      "text": "Arteria brachiale profonda, che lo accompagna."
+    }
+  ],
+  "clinical": [
+    {
+      "title": "Paralisi del radiale",
+      "text": "\"Mano cadente\" per paralisi degli estensori del polso. Cause tipiche: frattura della diafisi dell'omero o compressione prolungata del braccio durante il sonno (paralisi \"del sabato sera\")."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

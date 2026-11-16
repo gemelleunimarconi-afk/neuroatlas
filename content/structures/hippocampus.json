@@ -34,6 +34,11 @@
       "direction": "superomediale",
       "structureId": "fornix-of-forebrain",
       "text": "Fimbria, che prosegue nel fornice."
+    },
+    {
+      "direction": "mediale",
+      "structureId": "peduncle-of-midbrain",
+      "text": "Cisterna ambiens e mesencefalo, oltre la fessura corioidea."
     }
   ],
   "function": "Indispensabile per la formazione e il consolidamento della memoria dichiarativa (episodica e semantica) e per la memoria e la navigazione spaziale. Non è la sede del deposito definitivo dei ricordi a lungo termine, che dipende dalla neocorteccia.",

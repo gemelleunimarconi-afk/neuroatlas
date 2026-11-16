@@ -1,0 +1,71 @@
+{
+  "id": "dentate-nucleus",
+  "names": {
+    "it": "Nucleo dentato",
+    "la": "Nucleus dentatus",
+    "en": "Dentate nucleus",
+    "synonyms": [
+      "oliva cerebellare"
+    ]
+  },
+  "parent": "cerebellum",
+  "layer": "cerebellum",
+  "side": "bilateral",
+  "level": 1,
+  "location": "Il più grande e laterale dei nuclei profondi del cervelletto, nella sostanza bianca dell'emisfero. Ha la forma di una lamina pieghettata con l'ilo rivolto in avanti e medialmente.",
+  "relations": [
+    {
+      "direction": "mediale",
+      "structureId": "fage-nuclei",
+      "text": "Nuclei emboliforme, globoso e del fastigio."
+    },
+    {
+      "direction": "anteriore",
+      "structureId": "fourth-ventricle",
+      "text": "Tetto del quarto ventricolo."
+    }
+  ],
+  "function": "Nucleo di uscita del cervelletto laterale (cerebrocerebello): partecipa alla pianificazione, all'avvio e alla temporizzazione dei movimenti volontari fini degli arti omolaterali, e a funzioni cognitive.",
+  "connections": [
+    {
+      "type": "afferent",
+      "text": "Inibizione GABAergica dalle cellule di Purkinje della corteccia dell'emisfero laterale; collaterali eccitatorie delle fibre muscoidi e rampicanti."
+    },
+    {
+      "type": "efferent",
+      "targetId": "ventral-lateral-thalamic-nucleus",
+      "via": "peduncolo cerebellare superiore",
+      "text": "Al talamo ventrale laterale controlaterale, dopo la decussazione nel mesencefalo, e da qui alla corteccia motoria."
+    },
+    {
+      "type": "efferent",
+      "targetId": "red-nucleus",
+      "text": "Al nucleo rosso controlaterale."
+    }
+  ],
+  "bloodSupply": [
+    {
+      "arteryId": "superior-cerebellar-artery",
+      "text": "Arteria cerebellare superiore."
+    }
+  ],
+  "clinical": [
+    {
+      "title": "Sindrome cerebellare dell'emisfero",
+      "text": "Atassia degli arti omolaterali, dismetria, tremore intenzionale, adiadococinesia e disartria. I segni sono dallo stesso lato della lesione perché la via incrocia due volte."
+    },
+    {
+      "title": "Tremore palatale",
+      "text": "Lesione del circuito dentato-rubro-olivare (triangolo di Guillain-Mollaret)."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

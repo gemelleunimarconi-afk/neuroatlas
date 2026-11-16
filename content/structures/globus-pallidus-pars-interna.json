@@ -1,0 +1,79 @@
+{
+  "id": "globus-pallidus-pars-interna",
+  "names": {
+    "it": "Globo pallido interno",
+    "la": "Globus pallidus medialis",
+    "en": "Internal globus pallidus",
+    "synonyms": [
+      "pallido mediale",
+      "GPi"
+    ]
+  },
+  "parent": "basal-ganglia",
+  "layer": "basal-ganglia",
+  "side": "bilateral",
+  "level": 1,
+  "location": "Segmento mediale del globo pallido, all'apice del nucleo lenticolare, lateralmente al braccio posteriore della capsula interna.",
+  "relations": [
+    {
+      "direction": "laterale",
+      "structureId": "globus-pallidus-pars-externa",
+      "text": "Globo pallido esterno."
+    },
+    {
+      "direction": "mediale",
+      "structureId": "internal-capsule",
+      "text": "Braccio posteriore della capsula interna."
+    }
+  ],
+  "function": "Con la parte reticolata della sostanza nera è il nucleo di uscita dei nuclei della base. I suoi neuroni GABAergici inibiscono tonicamente il talamo motorio: la via diretta li inibisce (facilitando il movimento), la via indiretta li eccita attraverso il nucleo subtalamico (frenandolo).",
+  "connections": [
+    {
+      "type": "afferent",
+      "targetId": "putamen",
+      "via": "via diretta",
+      "text": "Dallo striato (GABA, sostanza P)."
+    },
+    {
+      "type": "afferent",
+      "targetId": "subthalamic-nucleus",
+      "text": "Afferenze glutammatergiche eccitatorie."
+    },
+    {
+      "type": "efferent",
+      "targetId": "ventral-lateral-thalamic-nucleus",
+      "via": "ansa lenticolare e fascicolo lenticolare",
+      "text": "Ai nuclei ventrale anteriore e ventrale laterale del talamo; le fibre si riuniscono nel fascicolo talamico."
+    },
+    {
+      "type": "efferent",
+      "targetId": "centromedian-thalamic-nucleus",
+      "text": "Al nucleo centromediano."
+    }
+  ],
+  "bloodSupply": [
+    {
+      "arteryId": "anterior-choroidal-artery",
+      "text": "Arteria corioidea anteriore, con contributi delle arterie lenticolostriate."
+    }
+  ],
+  "clinical": [
+    {
+      "title": "Stimolazione cerebrale profonda",
+      "text": "Il globo pallido interno è un bersaglio nella malattia di Parkinson e nelle distonie."
+    },
+    {
+      "title": "Intossicazione da monossido di carbonio",
+      "text": "Necrosi bilaterale del globo pallido, con parkinsonismo."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

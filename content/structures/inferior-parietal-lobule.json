@@ -1,0 +1,74 @@
+{
+  "id": "inferior-parietal-lobule",
+  "names": {
+    "it": "Lobulo parietale inferiore",
+    "la": "Gyrus angularis",
+    "en": "Angular gyrus (inferior parietal lobule)",
+    "synonyms": [
+      "giro angolare",
+      "area 39"
+    ]
+  },
+  "parent": "parietal-lobe",
+  "layer": "cortex",
+  "side": "bilateral",
+  "level": 2,
+  "location": "Parte posteriore del lobulo parietale inferiore, attorno all'estremità posteriore del solco temporale superiore. In questo atlante la parcella \"lobulo parietale inferiore\" corrisponde soprattutto al giro angolare.",
+  "relations": [
+    {
+      "direction": "anteriore",
+      "structureId": "supramarginal-gyrus",
+      "text": "Giro sopramarginale."
+    },
+    {
+      "direction": "superiore",
+      "structureId": "intraparietal-sulcus",
+      "text": "Solco intraparietale."
+    },
+    {
+      "direction": "posteriore",
+      "structureId": "lateral-occipital-gyrus",
+      "text": "Giri occipitali laterali."
+    }
+  ],
+  "function": "Corteccia associativa multimodale (area 39) che integra informazioni visive, uditive e somatiche. Nell'emisfero dominante è coinvolta in lettura, scrittura e calcolo.",
+  "connections": [
+    {
+      "type": "reciprocal",
+      "targetId": "superior-temporal-gyrus",
+      "text": "Con le aree temporali del linguaggio."
+    },
+    {
+      "type": "afferent",
+      "targetId": "lateral-occipital-gyrus",
+      "text": "Dalle aree visive associative."
+    }
+  ],
+  "bloodSupply": [
+    {
+      "arteryId": "branch-of-middle-cerebral-artery-to-angular-gyrus",
+      "text": "Arteria del giro angolare, ramo dell'arteria cerebrale media."
+    }
+  ],
+  "clinical": [
+    {
+      "title": "Sindrome di Gerstmann",
+      "text": "Lesione del giro angolare dominante: agrafia, acalculia, agnosia digitale e confusione destra-sinistra."
+    },
+    {
+      "title": "Alessia con agrafia",
+      "text": "Perdita della capacità di leggere e scrivere."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [
+    39
+  ],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

@@ -1,0 +1,74 @@
+{
+  "id": "sciatic-nerve",
+  "names": {
+    "it": "Nervo sciatico",
+    "la": "Nervus ischiadicus",
+    "en": "Sciatic nerve",
+    "synonyms": [
+      "nervo ischiatico"
+    ]
+  },
+  "parent": "sacral-plexus",
+  "layer": "body-nerves",
+  "side": "bilateral",
+  "level": 1,
+  "location": "Il nervo più grosso del corpo. Nasce dal plesso sacrale (radici da L4 a S3), esce dalla pelvi attraverso il grande forame ischiatico sotto il muscolo piriforme e scende nella parte posteriore della coscia; di solito si divide sopra la fossa poplitea nei nervi tibiale e fibulare comune.",
+  "relations": [
+    {
+      "direction": "superiore",
+      "text": "Muscolo piriforme."
+    },
+    {
+      "direction": "inferiore",
+      "structureId": "tibial-nerve",
+      "text": "Nervo tibiale e nervo fibulare comune."
+    }
+  ],
+  "function": "Motorio per i muscoli posteriori della coscia e, con i suoi rami, per tutti i muscoli della gamba e del piede. Sensitivo per la gamba e il piede, tranne la faccia mediale (nervo safeno).",
+  "connections": [
+    {
+      "type": "afferent",
+      "targetId": "cauda-equina",
+      "via": "plesso sacrale",
+      "text": "Dalle radici da L4 a S3."
+    },
+    {
+      "type": "efferent",
+      "targetId": "tibial-nerve",
+      "text": "Nervo tibiale: flessione plantare, flessione delle dita."
+    },
+    {
+      "type": "efferent",
+      "targetId": "common-fibular-nerve",
+      "text": "Nervo fibulare comune: dorsiflessione ed eversione del piede."
+    }
+  ],
+  "bloodSupply": [
+    {
+      "text": "Arteria glutea inferiore e rami perforanti dell'arteria femorale profonda."
+    }
+  ],
+  "clinical": [
+    {
+      "title": "Sciatica",
+      "text": "Dolore irradiato lungo il decorso del nervo, più spesso per compressione delle radici L5 o S1 da ernia discale."
+    },
+    {
+      "title": "Lesione del nervo fibulare comune",
+      "text": "Al collo del perone: piede cadente e andatura steppante."
+    },
+    {
+      "title": "Iniezioni intramuscolari",
+      "text": "Si eseguono nel quadrante superoesterno del gluteo per evitare il nervo."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

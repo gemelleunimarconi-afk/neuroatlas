@@ -1,0 +1,74 @@
+{
+  "id": "corpus-callosum",
+  "names": {
+    "it": "Corpo calloso",
+    "la": "Corpus callosum",
+    "en": "Corpus callosum",
+    "synonyms": [
+      "grande commessura"
+    ]
+  },
+  "parent": "cerebral-white-matter",
+  "layer": "white-matter",
+  "side": "midline",
+  "level": 1,
+  "location": "La maggiore commessura interemisferica, sul fondo della fessura longitudinale, sopra i ventricoli laterali. Da davanti a dietro comprende rostro, ginocchio, tronco e splenio.",
+  "relations": [
+    {
+      "direction": "superiore",
+      "structureId": "caudal-part-of-anterior-cingulate-gyrus",
+      "text": "Giro del cingolo e arterie pericallose."
+    },
+    {
+      "direction": "inferiore",
+      "structureId": "pellucid-septum",
+      "text": "Setto pellucido, fornice e ventricoli laterali."
+    },
+    {
+      "direction": "posteriore",
+      "structureId": "pineal-body",
+      "text": "Lo splenio sovrasta la ghiandola pineale e il tetto del mesencefalo."
+    }
+  ],
+  "function": "Collega aree corticali omologhe dei due emisferi, permettendo il trasferimento di informazioni sensoriali, motorie e cognitive. Le fibre del ginocchio formano il forcipe minore (lobi frontali), quelle dello splenio il forcipe maggiore (lobi occipitali).",
+  "connections": [
+    {
+      "type": "reciprocal",
+      "targetId": "superior-frontal-gyrus",
+      "text": "Fibre commissurali tra aree corrispondenti dei due emisferi; le aree primarie della mano e la corteccia visiva primaria ne sono in gran parte prive."
+    }
+  ],
+  "bloodSupply": [
+    {
+      "arteryId": "pericallosal-artery",
+      "text": "Arteria pericallosa (cerebrale anteriore) per rostro, ginocchio e tronco."
+    },
+    {
+      "arteryId": "splenial-artery",
+      "text": "Rami dell'arteria cerebrale posteriore per lo splenio."
+    }
+  ],
+  "clinical": [
+    {
+      "title": "Sindrome da disconnessione",
+      "text": "Dopo sezione del corpo calloso (callosotomia per epilessia) l'emisfero destro non può comunicare verbalmente ciò che percepisce: per esempio il paziente non sa denominare un oggetto tenuto nella mano sinistra."
+    },
+    {
+      "title": "Alessia senza agrafia",
+      "text": "Lesione dello splenio e della corteccia visiva sinistra."
+    },
+    {
+      "title": "Agenesia",
+      "text": "Malformazione congenita, talvolta asintomatica."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

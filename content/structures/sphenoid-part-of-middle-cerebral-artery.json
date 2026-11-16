@@ -1,0 +1,71 @@
+{
+  "id": "sphenoid-part-of-middle-cerebral-artery",
+  "names": {
+    "it": "Arteria cerebrale media, parte sfenoidale (M1)",
+    "la": "Pars sphenoidalis arteriae cerebri mediae",
+    "en": "Middle cerebral artery, sphenoidal part (M1)",
+    "synonyms": [
+      "arteria cerebrale media",
+      "arteria silviana",
+      "ACM"
+    ]
+  },
+  "parent": "cerebral-arteries",
+  "layer": "vessels",
+  "side": "bilateral",
+  "level": 1,
+  "location": "L'arteria cerebrale media è il maggiore ramo terminale della carotide interna. Il primo tratto (M1, parte sfenoidale) decorre lateralmente sotto la sostanza perforata anteriore fino al limen dell'insula, dove si divide nei tronchi superiore e inferiore.",
+  "relations": [
+    {
+      "direction": "superiore",
+      "structureId": "putamen",
+      "text": "Sostanza perforata anteriore e nuclei della base."
+    },
+    {
+      "direction": "laterale",
+      "structureId": "limen-insulae",
+      "text": "Limen dell'insula."
+    }
+  ],
+  "function": "Da M1 originano le arterie centrali anterolaterali (lenticolostriate) per putamen, caudato e capsula interna. Nel complesso l'arteria cerebrale media irrora quasi tutta la faccia laterale dell'emisfero: aree motoria e sensitiva di volto e arto superiore, aree del linguaggio, corteccia uditiva, insula.",
+  "connections": [
+    {
+      "type": "efferent",
+      "targetId": "anterolateral-central-branch-of-middle-cerebral-artery",
+      "text": "Arterie centrali anterolaterali."
+    },
+    {
+      "type": "efferent",
+      "targetId": "insular-part-of-middle-cerebral-artery",
+      "text": "Parte insulare (M2), con i tronchi superiore e inferiore."
+    }
+  ],
+  "bloodSupply": [],
+  "clinical": [
+    {
+      "title": "Infarto completo",
+      "text": "Emiplegia ed emianestesia controlaterali prevalenti a volto e braccio, emianopsia omonima, deviazione dello sguardo verso la lesione; afasia globale se a sinistra, negligenza spaziale se a destra."
+    },
+    {
+      "title": "Tronco superiore",
+      "text": "Afasia di Broca ed emiparesi facio-brachiale."
+    },
+    {
+      "title": "Tronco inferiore",
+      "text": "Afasia di Wernicke ed emianopsia, senza paresi."
+    },
+    {
+      "title": "Sede di emboli",
+      "text": "È l'arteria più spesso occlusa negli ictus embolici."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

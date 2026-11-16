@@ -1,0 +1,60 @@
+{
+  "id": "cuneate-fasciculus",
+  "names": {
+    "it": "Fascicolo cuneato",
+    "la": "Fasciculus cuneatus",
+    "en": "Cuneate fasciculus",
+    "synonyms": [
+      "fascicolo di Burdach"
+    ]
+  },
+  "parent": "spinal-cord",
+  "layer": "body-spinal-cord",
+  "side": "midline",
+  "level": 2,
+  "location": "Parte laterale del cordone posteriore del midollo spinale, tra il fascicolo gracile e il corno posteriore; presente solo dai segmenti toracici alti in su.",
+  "relations": [
+    {
+      "direction": "mediale",
+      "structureId": "gracile-fasciculus",
+      "text": "Fascicolo gracile."
+    },
+    {
+      "direction": "laterale",
+      "structureId": "posterior-horn-of-spinal-cord",
+      "text": "Corno posteriore."
+    }
+  ],
+  "function": "Porta il tatto discriminativo, la sensibilità vibratoria e la propriocezione cosciente dell'arto superiore, del collo e della metà superiore del tronco dello stesso lato.",
+  "connections": [
+    {
+      "type": "afferent",
+      "text": "Rami ascendenti dei neuroni dei gangli spinali cervicali e toracici alti."
+    },
+    {
+      "type": "efferent",
+      "targetId": "medulla-oblongata",
+      "text": "Al nucleo cuneato del bulbo."
+    }
+  ],
+  "bloodSupply": [
+    {
+      "text": "Arterie spinali posteriori."
+    }
+  ],
+  "clinical": [
+    {
+      "title": "Lesione dei cordoni posteriori",
+      "text": "Perdita omolaterale del senso di posizione e della sensibilità vibratoria, con atassia sensitiva che peggiora a occhi chiusi."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

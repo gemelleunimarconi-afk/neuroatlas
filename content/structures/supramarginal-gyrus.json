@@ -1,0 +1,77 @@
+{
+  "id": "supramarginal-gyrus",
+  "names": {
+    "it": "Giro sopramarginale",
+    "la": "Gyrus supramarginalis",
+    "en": "Supramarginal gyrus",
+    "synonyms": [
+      "area 40"
+    ]
+  },
+  "parent": "parietal-lobe",
+  "layer": "cortex",
+  "side": "bilateral",
+  "level": 2,
+  "location": "Lobulo parietale inferiore, attorno all'estremità posteriore del solco laterale.",
+  "relations": [
+    {
+      "direction": "anteriore",
+      "structureId": "postcentral-gyrus",
+      "text": "Giro postcentrale."
+    },
+    {
+      "direction": "posteriore",
+      "structureId": "inferior-parietal-lobule",
+      "text": "Giro angolare."
+    },
+    {
+      "direction": "superiore",
+      "structureId": "intraparietal-sulcus",
+      "text": "Solco intraparietale."
+    }
+  ],
+  "function": "Corteccia associativa (area 40). Nell'emisfero dominante partecipa all'elaborazione fonologica del linguaggio e alla programmazione dei gesti appresi; nell'emisfero non dominante all'attenzione spaziale.",
+  "connections": [
+    {
+      "type": "reciprocal",
+      "targetId": "superior-temporal-gyrus",
+      "text": "Con le aree del linguaggio; il fascicolo arcuato decorre in profondità."
+    },
+    {
+      "type": "reciprocal",
+      "targetId": "postcentral-gyrus",
+      "text": "Con la corteccia somatosensoriale."
+    }
+  ],
+  "bloodSupply": [
+    {
+      "arteryId": "posterior-parietal-artery",
+      "text": "Rami parietali dell'arteria cerebrale media."
+    }
+  ],
+  "clinical": [
+    {
+      "title": "Aprassia ideomotoria",
+      "text": "Lesioni dell'emisfero dominante: incapacità di eseguire gesti appresi su comando."
+    },
+    {
+      "title": "Afasia di conduzione",
+      "text": "Per interessamento del fascicolo arcuato sottostante."
+    },
+    {
+      "title": "Negligenza spaziale",
+      "text": "Lesioni parietali inferiori destre: il paziente ignora la metà sinistra dello spazio."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [
+    40
+  ],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

@@ -1,0 +1,71 @@
+{
+  "id": "anterior-thalamic-nucleus",
+  "names": {
+    "it": "Nuclei anteriori del talamo",
+    "la": "Nuclei anteriores thalami",
+    "en": "Anterior nuclei of thalamus",
+    "synonyms": [
+      "gruppo nucleare anteriore"
+    ]
+  },
+  "parent": "thalamus",
+  "layer": "diencephalon",
+  "side": "bilateral",
+  "level": 1,
+  "location": "Polo anteriore del talamo, nel tubercolo anteriore, racchiuso nella biforcazione a Y della lamina midollare interna.",
+  "relations": [
+    {
+      "direction": "posteriore",
+      "structureId": "dorsomedial-thalamic-nucleus",
+      "text": "Nucleo dorsomediale e nuclei laterali, oltre la lamina midollare interna."
+    },
+    {
+      "direction": "anteriore",
+      "text": "Forame interventricolare e colonna del fornice."
+    }
+  ],
+  "function": "Nuclei di relè del circuito di Papez: collegano l'ipotalamo e l'ippocampo alla corteccia cingolata. Sono coinvolti nella memoria episodica e nell'orientamento spaziale.",
+  "connections": [
+    {
+      "type": "afferent",
+      "targetId": "mammillary-body",
+      "via": "fascio mammillotalamico",
+      "text": "Dai corpi mammillari."
+    },
+    {
+      "type": "afferent",
+      "targetId": "fornix-of-forebrain",
+      "text": "Fibre dirette dal subicolo."
+    },
+    {
+      "type": "efferent",
+      "targetId": "caudal-part-of-anterior-cingulate-gyrus",
+      "text": "Al giro del cingolo, attraverso il braccio anteriore della capsula interna."
+    }
+  ],
+  "bloodSupply": [
+    {
+      "arteryId": "posterior-communicating-artery",
+      "text": "Arteria tuberotalamica (polare), ramo dell'arteria comunicante posteriore."
+    }
+  ],
+  "clinical": [
+    {
+      "title": "Infarto talamico anteriore",
+      "text": "Amnesia anterograda, apatia e disturbi esecutivi."
+    },
+    {
+      "title": "Epilessia",
+      "text": "Il nucleo anteriore è un bersaglio della stimolazione cerebrale profonda nelle forme farmacoresistenti."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

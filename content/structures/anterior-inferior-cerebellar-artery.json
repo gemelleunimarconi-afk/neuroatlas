@@ -1,0 +1,52 @@
+{
+  "id": "anterior-inferior-cerebellar-artery",
+  "names": {
+    "it": "Arteria cerebellare inferiore anteriore (AICA)",
+    "la": "Arteria inferior anterior cerebelli",
+    "en": "Anterior inferior cerebellar artery",
+    "synonyms": [
+      "AICA"
+    ]
+  },
+  "parent": "vertebrobasilar-system",
+  "layer": "vessels",
+  "side": "midline",
+  "level": 2,
+  "location": "Nasce dal tratto inferiore dell'arteria basilare e decorre lateralmente e all'indietro verso l'angolo pontocerebellare, in rapporto con i nervi facciale e vestibolococleare.",
+  "relations": [
+    {
+      "direction": "laterale",
+      "structureId": "facial-nerve-vii",
+      "text": "Nervi facciale e vestibolococleare."
+    },
+    {
+      "direction": "mediale",
+      "structureId": "pons",
+      "text": "Ponte."
+    }
+  ],
+  "function": "Irrora la parte laterale del ponte caudale, il peduncolo cerebellare medio, il flocculo e la parte anteroinferiore del cervelletto; di solito dà l'arteria labirintica per l'orecchio interno.",
+  "connections": [
+    {
+      "type": "afferent",
+      "targetId": "basilar-artery",
+      "text": "Dall'arteria basilare."
+    }
+  ],
+  "bloodSupply": [],
+  "clinical": [
+    {
+      "title": "Sindrome pontina laterale",
+      "text": "Vertigine e ipoacusia o sordità improvvisa omolaterale, paralisi facciale periferica, atassia omolaterale, perdita della sensibilità termodolorifica dell'emivolto omolaterale e dell'emicorpo controlaterale. La sordità la distingue dalla sindrome di Wallenberg."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

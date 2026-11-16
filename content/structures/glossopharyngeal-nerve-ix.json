@@ -1,0 +1,64 @@
+{
+  "id": "glossopharyngeal-nerve-ix",
+  "names": {
+    "it": "Nervo glossofaringeo (IX)",
+    "la": "Nervus glossopharyngeus (IX)",
+    "en": "Glossopharyngeal nerve (IX)",
+    "synonyms": [
+      "nono nervo cranico"
+    ]
+  },
+  "parent": "cranial-nerves",
+  "layer": "cranial-nerves",
+  "side": "bilateral",
+  "level": 2,
+  "location": "Emerge dal bulbo nel solco retro-olivare, sopra il nervo vago, ed esce dal cranio attraverso il forame giugulare.",
+  "relations": [
+    {
+      "direction": "inferiore",
+      "structureId": "vagus-nerve-x",
+      "text": "Nervo vago."
+    },
+    {
+      "direction": "mediale",
+      "structureId": "medulla-oblongata",
+      "text": "Oliva bulbare."
+    }
+  ],
+  "function": "Sensibilità generale e gusto del terzo posteriore della lingua, sensibilità di faringe, tonsilla e orecchio medio; afferenze dal seno e dal glomo carotideo (pressione e gas del sangue). Motorio per il muscolo stilofaringeo. Parasimpatico per la ghiandola parotide, attraverso il ganglio otico.",
+  "connections": [
+    {
+      "type": "efferent",
+      "text": "Le afferenze gustative e viscerali terminano nel nucleo del tratto solitario; le fibre motorie originano dal nucleo ambiguo, quelle parasimpatiche dal nucleo salivatorio inferiore."
+    }
+  ],
+  "bloodSupply": [
+    {
+      "arteryId": "posterior-inferior-cerebellar-artery",
+      "text": "Rami dell'arteria vertebrale e dell'arteria cerebellare inferiore posteriore per i nuclei."
+    }
+  ],
+  "clinical": [
+    {
+      "title": "Riflesso faringeo",
+      "text": "Via afferente glossofaringeo, via efferente vago."
+    },
+    {
+      "title": "Riflesso barocettivo",
+      "text": "Le afferenze dal seno carotideo regolano frequenza cardiaca e pressione."
+    },
+    {
+      "title": "Sindrome del forame giugulare",
+      "text": "Lesione combinata di IX, X e XI."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

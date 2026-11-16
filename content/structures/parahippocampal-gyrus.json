@@ -1,0 +1,83 @@
+{
+  "id": "parahippocampal-gyrus",
+  "names": {
+    "it": "Giro paraippocampale",
+    "la": "Gyrus parahippocampalis",
+    "en": "Parahippocampal gyrus",
+    "synonyms": [
+      "corteccia entorinale (parte anteriore)"
+    ]
+  },
+  "parent": "limbic-lobe",
+  "layer": "cortex",
+  "side": "bilateral",
+  "level": 2,
+  "location": "Faccia inferomediale del lobo temporale, medialmente al solco collaterale. Anteriormente si ripiega nell'uncus; posteriormente continua con l'istmo del giro del cingolo e con il giro linguale.",
+  "relations": [
+    {
+      "direction": "laterale",
+      "structureId": "collateral-sulcus",
+      "text": "Solco collaterale e giro fusiforme."
+    },
+    {
+      "direction": "superiore",
+      "structureId": "hippocampus",
+      "text": "Ippocampo."
+    },
+    {
+      "direction": "posteriore",
+      "structureId": "isthmus-of-cingulate-gyrus",
+      "text": "Istmo del giro del cingolo."
+    }
+  ],
+  "function": "La parte anteriore contiene la corteccia entorinale (area 28), porta di ingresso e di uscita dell'ippocampo verso la neocorteccia associativa; è essenziale per la memoria dichiarativa. La parte posteriore partecipa al riconoscimento di luoghi e scene.",
+  "connections": [
+    {
+      "type": "efferent",
+      "targetId": "hippocampus",
+      "via": "via perforante",
+      "text": "Dalla corteccia entorinale al giro dentato e all'ippocampo."
+    },
+    {
+      "type": "afferent",
+      "targetId": "caudal-part-of-anterior-cingulate-gyrus",
+      "via": "cingolo",
+      "text": "Dal giro del cingolo."
+    },
+    {
+      "type": "reciprocal",
+      "targetId": "fusiform-gyrus",
+      "text": "Con le cortecce associative temporali, parietali e prefrontali."
+    }
+  ],
+  "bloodSupply": [
+    {
+      "arteryId": "postcommunicating-part-of-posterior-cerebral-artery",
+      "text": "Rami temporali dell'arteria cerebrale posteriore; anteriormente l'arteria corioidea anteriore."
+    }
+  ],
+  "clinical": [
+    {
+      "title": "Malattia di Alzheimer",
+      "text": "La corteccia entorinale è tra le prime sedi della degenerazione neurofibrillare."
+    },
+    {
+      "title": "Ernia dell'uncus",
+      "text": "Un'ipertensione sopratentoriale può spingere l'uncus oltre il margine del tentorio, comprimendo il nervo oculomotore (midriasi omolaterale) e il mesencefalo."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [
+    28,
+    34,
+    35,
+    36
+  ],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

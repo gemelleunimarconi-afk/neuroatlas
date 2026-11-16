@@ -1,0 +1,68 @@
+{
+  "id": "vertebral-artery",
+  "names": {
+    "it": "Arteria vertebrale",
+    "la": "Arteria vertebralis",
+    "en": "Vertebral artery",
+    "synonyms": []
+  },
+  "parent": "vertebrobasilar-system",
+  "layer": "vessels",
+  "side": "bilateral",
+  "level": 1,
+  "location": "Nasce dall'arteria succlavia, sale nei forami trasversari delle vertebre cervicali da C6 a C1, gira dietro la massa laterale dell'atlante, perfora la dura ed entra nel cranio dal forame magno. Davanti al bulbo si unisce alla controlaterale formando l'arteria basilare.",
+  "relations": [
+    {
+      "direction": "posteriore",
+      "structureId": "medulla-oblongata",
+      "text": "Bulbo."
+    },
+    {
+      "direction": "superiore",
+      "structureId": "basilar-artery",
+      "text": "Arteria basilare."
+    }
+  ],
+  "function": "Con la controlaterale alimenta il circolo posteriore. I suoi rami intracranici irrorano bulbo, parte inferiore del cervelletto e midollo spinale cervicale.",
+  "connections": [
+    {
+      "type": "efferent",
+      "targetId": "posterior-inferior-cerebellar-artery",
+      "text": "Arteria cerebellare inferiore posteriore."
+    },
+    {
+      "type": "efferent",
+      "targetId": "anterior-spinal-artery",
+      "text": "Arteria spinale anteriore, formata dall'unione di un ramo per lato."
+    },
+    {
+      "type": "efferent",
+      "targetId": "basilar-artery",
+      "text": "Arteria basilare."
+    }
+  ],
+  "bloodSupply": [],
+  "clinical": [
+    {
+      "title": "Sindrome di Wallenberg",
+      "text": "La causa più frequente è l'occlusione dell'arteria vertebrale."
+    },
+    {
+      "title": "Dissezione",
+      "text": "Dopo traumi o manipolazioni del collo; causa di ictus del circolo posteriore nel giovane."
+    },
+    {
+      "title": "Furto della succlavia",
+      "text": "Una stenosi della succlavia a monte inverte il flusso nella vertebrale durante lo sforzo del braccio."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

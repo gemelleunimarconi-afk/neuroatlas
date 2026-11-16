@@ -8,6 +8,10 @@ Strumenti (scheda "Strumenti"): piano di sezione sagittale, coronale o assiale; 
 
 Stato: tutte le milestone (M0–M5) completate.
 
+## Contenuti
+
+106 schede anatomiche complete (`content/structures`), 20 casi clinici, 9 vie nervose, 8 percorsi guidati, nomi italiani per tutte le 1.258 strutture. Le schede coprono corteccia funzionale e solchi principali, nuclei della base, talamo e diencefalo, tronco encefalico, nuclei cerebellari, ventricoli, sostanza bianca, nervi cranici I–X e XII, arterie cerebrali, meningi, midollo spinale e nervi periferici principali. Sono state scritte da un modello e rilette una seconda volta, ma **non revisionate da un docente**: hanno tutte lo stato `draft` e l'app lo segnala. Nuove schede si scrivono in formato compatto e si convertono con `python3 content/tools/build_cards.py bozze.txt`.
+
 ## Studio (M4)
 
 Scheda "Studio": riconosci la struttura evidenziata, trova una struttura sul modello, nomi latini, funzioni, dieci casi clinici con localizzazione della lesione (`content/cases.json`), ripasso programmato con l'algoritmo SM-2 (`apps/web/src/study/sm2.ts`), progressi per regione, punti deboli e storico delle sessioni. Funziona senza connessione e senza tutor; le domande aperte corrette dal tutor richiedono la versione dentro Claude. I progressi restano sul dispositivo (IndexedDB).

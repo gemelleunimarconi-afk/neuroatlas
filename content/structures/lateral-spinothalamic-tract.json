@@ -1,0 +1,72 @@
+{
+  "id": "lateral-spinothalamic-tract",
+  "names": {
+    "it": "Tratto spinotalamico laterale",
+    "la": "Tractus spinothalamicus lateralis",
+    "en": "Lateral spinothalamic tract",
+    "synonyms": [
+      "via spinotalamica laterale",
+      "sistema anterolaterale"
+    ]
+  },
+  "parent": "spinal-cord",
+  "layer": "body-spinal-cord",
+  "side": "midline",
+  "level": 1,
+  "location": "Parte anteriore del cordone laterale del midollo spinale. Ha organizzazione somatotopica: le fibre sacrali sono le più laterali, quelle cervicali le più mediali.",
+  "relations": [
+    {
+      "direction": "posteriore",
+      "structureId": "lateral-corticospinal-tract",
+      "text": "Tratto corticospinale laterale."
+    },
+    {
+      "direction": "mediale",
+      "structureId": "anterior-horn-of-spinal-cord",
+      "text": "Corno anteriore."
+    }
+  ],
+  "function": "Porta la sensibilità dolorifica e termica della metà controlaterale del corpo.",
+  "connections": [
+    {
+      "type": "afferent",
+      "targetId": "posterior-horn-of-spinal-cord",
+      "via": "commessura bianca anteriore",
+      "text": "Dai neuroni del corno posteriore controlaterale (secondo neurone), i cui assoni incrociano entro uno o due segmenti."
+    },
+    {
+      "type": "efferent",
+      "targetId": "ventral-posterolateral-thalamic-nucleus",
+      "text": "Al nucleo ventrale posterolaterale del talamo e ai nuclei intralaminari."
+    }
+  ],
+  "bloodSupply": [
+    {
+      "arteryId": "anterior-spinal-artery",
+      "text": "Arteria spinale anteriore."
+    }
+  ],
+  "clinical": [
+    {
+      "title": "Siringomielia",
+      "text": "Una cavità centrale interrompe le fibre che incrociano nella commessura bianca: perdita termodolorifica bilaterale \"a mantellina\" con tatto conservato."
+    },
+    {
+      "title": "Sindrome dell'arteria spinale anteriore",
+      "text": "Paralisi e perdita termodolorifica bilaterali sotto la lesione, con sensibilità profonda conservata."
+    },
+    {
+      "title": "Sindrome di Brown-Séquard",
+      "text": "Perdita termodolorifica controlaterale, a partire da uno o due segmenti sotto la lesione."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

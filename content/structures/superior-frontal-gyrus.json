@@ -1,0 +1,80 @@
+{
+  "id": "superior-frontal-gyrus",
+  "names": {
+    "it": "Giro frontale superiore",
+    "la": "Gyrus frontalis superior",
+    "en": "Superior frontal gyrus",
+    "synonyms": [
+      "prima circonvoluzione frontale"
+    ]
+  },
+  "parent": "frontal-lobe",
+  "layer": "cortex",
+  "side": "bilateral",
+  "level": 2,
+  "location": "Lobo frontale, lungo il margine superiore dell'emisfero, sopra il solco frontale superiore. Continua sulla faccia mediale fino al solco del cingolo.",
+  "relations": [
+    {
+      "direction": "inferiore",
+      "structureId": "superior-frontal-sulcus",
+      "text": "Solco frontale superiore e giro frontale medio."
+    },
+    {
+      "direction": "posteriore",
+      "structureId": "precentral-sulcus",
+      "text": "Solco precentrale e giro precentrale."
+    },
+    {
+      "direction": "mediale",
+      "structureId": "cingulate-sulcus",
+      "text": "Solco del cingolo."
+    }
+  ],
+  "function": "La parte posteriore contiene l'area motoria supplementare (parte mediale dell'area 6), coinvolta nella pianificazione e nell'avvio dei movimenti generati internamente e delle sequenze motorie, e il campo oculare frontale al confine con il giro frontale medio (area 8). La parte anteriore appartiene alla corteccia prefrontale (funzioni esecutive, memoria di lavoro).",
+  "connections": [
+    {
+      "type": "reciprocal",
+      "targetId": "precentral-gyrus",
+      "text": "Con la corteccia motoria primaria e premotoria."
+    },
+    {
+      "type": "afferent",
+      "targetId": "ventral-anterior-thalamic-nucleus",
+      "text": "Dai nuclei ventrale anteriore e ventrale laterale del talamo, che ritrasmettono i nuclei della base."
+    },
+    {
+      "type": "efferent",
+      "targetId": "caudate-nucleus",
+      "text": "Proiezioni corticostriatali."
+    }
+  ],
+  "bloodSupply": [
+    {
+      "arteryId": "anterior-cerebral-artery",
+      "text": "Arteria cerebrale anteriore per la faccia mediale e il margine superiore; arteria cerebrale media per la parte laterale."
+    }
+  ],
+  "clinical": [
+    {
+      "title": "Lesione dell'area motoria supplementare",
+      "text": "Riduzione dell'iniziativa motoria e verbale controlaterale (acinesia, mutismo transitorio) con forza conservata."
+    },
+    {
+      "title": "Lesione del campo oculare frontale",
+      "text": "Deviazione coniugata dello sguardo verso il lato della lesione."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [
+    6,
+    8,
+    9
+  ],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

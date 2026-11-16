@@ -43,6 +43,8 @@ interface AtlasState {
   /** Quiz sul modello: finché `reveal` è falso nomi ed etichette restano nascosti; in `locate` il tocco è una risposta. */
   quiz: { mode: 'identify' | 'locate'; reveal: boolean } | null;
   quizTap: { structureId: string; seq: number } | null;
+  /** Strutture nascoste qualunque sia il livello (nei quiz: la sostanza bianca degli emisferi, che coprirebbe quelle profonde). */
+  hiddenStructures: string[];
   setQuiz: (q: AtlasState['quiz']) => void;
   coveredBottom: number;
   setCoveredBottom: (f: number) => void;
@@ -124,11 +126,12 @@ export const useAtlas = create<AtlasState>((set, get) => ({
   setBrodmann: (brodmann) => set({ brodmann }),
   quiz: null,
   quizTap: null,
+  hiddenStructures: [],
   setQuiz: (quiz) => set({ quiz }),
   coveredBottom: 0,
   setCoveredBottom: (coveredBottom) => set({ coveredBottom }),
   setCatalog: (catalog) => set({ catalog }),
-  setScope: (scope) => set({ quiz: null, scope, layers: defaultLayers(scope), selection: null, isolated: false, pathwayId: null, layersBeforePathway: null, section: null, explode: 0, cameraRequest: { kind: 'view', view: scope === 'body' ? 'anterior' : 'lateral-left', seq: ++seq } }),
+  setScope: (scope) => set({ quiz: null, hiddenStructures: [], scope, layers: defaultLayers(scope), selection: null, isolated: false, pathwayId: null, layersBeforePathway: null, section: null, explode: 0, cameraRequest: { kind: 'view', view: scope === 'body' ? 'anterior' : 'lateral-left', seq: ++seq } }),
   select: (structureId, meshId = null) => {
     const entry = get().catalog?.byId.get(structureId);
     if (!entry) return;

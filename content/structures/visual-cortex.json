@@ -1,0 +1,81 @@
+{
+  "id": "visual-cortex",
+  "names": {
+    "it": "Corteccia visiva (pericalcarina)",
+    "la": "Area striata",
+    "en": "Primary visual cortex",
+    "synonyms": [
+      "corteccia visiva primaria",
+      "area striata",
+      "V1",
+      "corteccia calcarina"
+    ]
+  },
+  "parent": "occipital-lobe",
+  "layer": "cortex",
+  "side": "bilateral",
+  "level": 1,
+  "location": "Faccia mediale del lobo occipitale, sulle due labbra del solco calcarino e fino al polo occipitale.",
+  "relations": [
+    {
+      "direction": "superiore",
+      "structureId": "cuneus",
+      "text": "Cuneo, labbro superiore del solco calcarino."
+    },
+    {
+      "direction": "inferiore",
+      "structureId": "lingual-gyrus",
+      "text": "Giro linguale, labbro inferiore."
+    },
+    {
+      "direction": "profonda",
+      "structureId": "calcarine-sulcus",
+      "text": "Solco calcarino."
+    }
+  ],
+  "function": "Corteccia visiva primaria (area 17). Riceve l'emicampo visivo controlaterale con organizzazione retinotopica: il labbro superiore (cuneo) rappresenta il quadrante inferiore del campo, il labbro inferiore (giro linguale) il quadrante superiore; la macula è rappresentata al polo occipitale, su un'area sproporzionatamente estesa.",
+  "connections": [
+    {
+      "type": "afferent",
+      "targetId": "lateral-geniculate-body",
+      "via": "radiazione ottica",
+      "text": "Dal corpo genicolato laterale."
+    },
+    {
+      "type": "efferent",
+      "targetId": "lateral-occipital-gyrus",
+      "text": "Alle aree visive associative (18 e 19), da cui partono la via dorsale (parietale) e la via ventrale (temporale)."
+    }
+  ],
+  "bloodSupply": [
+    {
+      "arteryId": "medial-occipital-artery",
+      "text": "Arteria calcarina, ramo dell'arteria cerebrale posteriore; il polo occipitale riceve anche rami dell'arteria cerebrale media."
+    }
+  ],
+  "clinical": [
+    {
+      "title": "Infarto dell'arteria cerebrale posteriore",
+      "text": "Emianopsia omonima controlaterale, spesso con risparmio maculare per il doppio apporto vascolare del polo occipitale."
+    },
+    {
+      "title": "Lesione di un solo labbro",
+      "text": "Quadrantanopsia omonima controlaterale."
+    },
+    {
+      "title": "Lesione bilaterale",
+      "text": "Cecità corticale, con riflessi pupillari conservati."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [
+    17
+  ],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

@@ -1,0 +1,59 @@
+{
+  "id": "cauda-equina",
+  "names": {
+    "it": "Cauda equina",
+    "la": "Cauda equina",
+    "en": "Cauda equina",
+    "synonyms": [
+      "coda di cavallo"
+    ]
+  },
+  "parent": "spinal-nerves",
+  "layer": "body-nerves",
+  "side": "midline",
+  "level": 1,
+  "location": "Insieme delle radici spinali lombari, sacrali e coccigee che scendono nel sacco durale sotto il cono midollare. Poiché nell'adulto il midollo termina tra L1 e L2, queste radici percorrono un lungo tratto prima di uscire dai rispettivi forami.",
+  "relations": [
+    {
+      "direction": "superiore",
+      "text": "Cono midollare."
+    },
+    {
+      "direction": "laterale",
+      "structureId": "spinal-dura",
+      "text": "Sacco durale, nella cisterna lombare."
+    }
+  ],
+  "function": "Radici anteriori (motorie) e posteriori (sensitive) per gli arti inferiori, il perineo e gli sfinteri. È tessuto del sistema nervoso periferico.",
+  "connections": [
+    {
+      "type": "reciprocal",
+      "targetId": "sciatic-nerve",
+      "text": "Le radici da L4 a S3 formano il plesso sacrale e il nervo sciatico."
+    }
+  ],
+  "bloodSupply": [
+    {
+      "text": "Arterie radicolari."
+    }
+  ],
+  "clinical": [
+    {
+      "title": "Sindrome della cauda equina",
+      "text": "Compressione, per esempio da ernia discale voluminosa: dolore radicolare, anestesia \"a sella\", paralisi flaccida degli arti inferiori, ritenzione urinaria e incontinenza. È un'urgenza chirurgica."
+    },
+    {
+      "title": "Puntura lombare",
+      "text": "Si esegue tra L3 e L4 o tra L4 e L5, sotto la fine del midollo: l'ago sposta le radici senza lederle."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

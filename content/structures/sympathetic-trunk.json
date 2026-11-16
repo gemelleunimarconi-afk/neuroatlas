@@ -1,0 +1,65 @@
+{
+  "id": "sympathetic-trunk",
+  "names": {
+    "it": "Tronco simpatico",
+    "la": "Truncus sympathicus",
+    "en": "Sympathetic trunk",
+    "synonyms": [
+      "catena del simpatico",
+      "catena gangliare paravertebrale"
+    ]
+  },
+  "parent": "autonomic-nervous-system",
+  "layer": "body-nerves",
+  "side": "bilateral",
+  "level": 2,
+  "location": "Catena di gangli collegati da cordoni, su ciascun lato della colonna vertebrale, dalla base del cranio al coccige.",
+  "relations": [
+    {
+      "direction": "mediale",
+      "text": "Corpi vertebrali."
+    },
+    {
+      "direction": "posteriore",
+      "text": "Nervi spinali, a cui è unito dai rami comunicanti."
+    }
+  ],
+  "function": "Contiene i neuroni postgangliari del sistema simpatico. Le fibre pregangliari vi arrivano dai segmenti da T1 a L2 e possono fare sinapsi allo stesso livello, salire o scendere nella catena, oppure attraversarla e proseguire nei nervi splancnici verso i gangli prevertebrali.",
+  "connections": [
+    {
+      "type": "afferent",
+      "targetId": "intermediolateral-nucleus",
+      "via": "rami comunicanti bianchi",
+      "text": "Dalla colonna intermediolaterale del midollo."
+    },
+    {
+      "type": "efferent",
+      "via": "rami comunicanti grigi",
+      "text": "Fibre postgangliari a vasi, ghiandole sudoripare e muscoli erettori del pelo, attraverso tutti i nervi spinali; dal ganglio cervicale superiore a occhio e testa."
+    }
+  ],
+  "bloodSupply": [
+    {
+      "text": "Rami delle arterie segmentali."
+    }
+  ],
+  "clinical": [
+    {
+      "title": "Sindrome di Horner",
+      "text": "Lesione della catena cervicale o del ganglio cervicale superiore, per esempio da tumore dell'apice polmonare (di Pancoast)."
+    },
+    {
+      "title": "Simpatectomia",
+      "text": "Interruzione chirurgica della catena toracica nell'iperidrosi palmare."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

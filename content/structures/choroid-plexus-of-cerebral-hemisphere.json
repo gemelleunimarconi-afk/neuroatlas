@@ -1,0 +1,55 @@
+{
+  "id": "choroid-plexus-of-cerebral-hemisphere",
+  "names": {
+    "it": "Plesso corioideo del ventricolo laterale",
+    "la": "Plexus choroideus ventriculi lateralis",
+    "en": "Choroid plexus of lateral ventricle",
+    "synonyms": [
+      "plesso coroideo"
+    ]
+  },
+  "parent": "ventricular-system",
+  "layer": "ventricles",
+  "side": "midline",
+  "level": 2,
+  "location": "Frangia vascolare che sporge nel ventricolo laterale lungo la fessura corioidea, dalla punta del corno temporale all'atrio (dove forma il glomo) e alla parte centrale, fino al forame interventricolare, dove continua con il plesso del terzo ventricolo.",
+  "relations": [
+    {
+      "direction": "mediale",
+      "structureId": "fornix-of-forebrain",
+      "text": "Fornice e fimbria."
+    },
+    {
+      "direction": "inferiore",
+      "structureId": "hippocampus",
+      "text": "Talamo nella parte centrale; ippocampo nel corno temporale."
+    }
+  ],
+  "function": "Produce la maggior parte del liquido cerebrospinale. È formato da capillari fenestrati rivestiti da epitelio ependimale specializzato, le cui giunzioni serrate costituiscono la barriera emato-liquorale.",
+  "connections": [],
+  "bloodSupply": [
+    {
+      "arteryId": "anterior-choroidal-artery",
+      "text": "Arteria corioidea anteriore (corno temporale) e arterie corioidee posteriori laterali (atrio e parte centrale)."
+    }
+  ],
+  "clinical": [
+    {
+      "title": "Papilloma del plesso corioideo",
+      "text": "Tumore raro, soprattutto infantile, che può causare idrocefalo per eccesso di produzione di liquor."
+    },
+    {
+      "title": "Calcificazioni",
+      "text": "Il glomo calcifica spesso nell'adulto ed è un repere radiologico."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

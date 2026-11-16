@@ -1,0 +1,73 @@
+{
+  "id": "optic-tract",
+  "names": {
+    "it": "Tratto ottico",
+    "la": "Tractus opticus",
+    "en": "Optic tract",
+    "synonyms": [
+      "benderella ottica"
+    ]
+  },
+  "parent": "visual-pathway",
+  "layer": "cranial-nerves",
+  "side": "bilateral",
+  "level": 1,
+  "location": "Dal chiasma ottico decorre all'indietro e lateralmente attorno al peduncolo cerebrale, fino al corpo genicolato laterale.",
+  "relations": [
+    {
+      "direction": "anteriore",
+      "structureId": "optic-chiasm",
+      "text": "Chiasma ottico."
+    },
+    {
+      "direction": "mediale",
+      "structureId": "peduncle-of-midbrain",
+      "text": "Peduncolo cerebrale e ipotalamo."
+    },
+    {
+      "direction": "posteriore",
+      "structureId": "lateral-geniculate-body",
+      "text": "Corpo genicolato laterale."
+    }
+  ],
+  "function": "Contiene le fibre della metà temporale della retina omolaterale e della metà nasale della retina controlaterale: porta quindi l'intero emicampo visivo controlaterale.",
+  "connections": [
+    {
+      "type": "afferent",
+      "targetId": "optic-chiasm",
+      "text": "Dal chiasma."
+    },
+    {
+      "type": "efferent",
+      "targetId": "lateral-geniculate-body",
+      "text": "Al corpo genicolato laterale (via della visione cosciente)."
+    },
+    {
+      "type": "efferent",
+      "targetId": "superior-colliculus",
+      "via": "braccio del collicolo superiore",
+      "text": "Al collicolo superiore e all'area pretettale (riflesso pupillare)."
+    }
+  ],
+  "bloodSupply": [
+    {
+      "arteryId": "anterior-choroidal-artery",
+      "text": "Arteria corioidea anteriore e rami della comunicante posteriore."
+    }
+  ],
+  "clinical": [
+    {
+      "title": "Lesione del tratto",
+      "text": "Emianopsia omonima controlaterale, spesso incongruente (difetto diverso nei due occhi), con possibile difetto pupillare afferente controlaterale."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

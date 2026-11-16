@@ -1,0 +1,66 @@
+{
+  "id": "pineal-body",
+  "names": {
+    "it": "Ghiandola pineale (epifisi)",
+    "la": "Glandula pinealis",
+    "en": "Pineal gland",
+    "synonyms": [
+      "epifisi",
+      "corpo pineale"
+    ]
+  },
+  "parent": "epithalamus",
+  "layer": "diencephalon",
+  "side": "midline",
+  "level": 1,
+  "location": "Piccola ghiandola impari dell'epitalamo, sulla linea mediana, dietro il terzo ventricolo e sopra i collicoli superiori, nella cisterna quadrigemina.",
+  "relations": [
+    {
+      "direction": "inferiore",
+      "structureId": "superior-colliculus",
+      "text": "Collicoli superiori."
+    },
+    {
+      "direction": "anteriore",
+      "structureId": "posterior-commissure",
+      "text": "Commessura posteriore, commessura abenulare e terzo ventricolo."
+    },
+    {
+      "direction": "superiore",
+      "structureId": "corpus-callosum",
+      "text": "Splenio del corpo calloso."
+    }
+  ],
+  "function": "Secerne melatonina durante il buio, sincronizzando i ritmi circadiani e stagionali. Non ha barriera ematoencefalica.",
+  "connections": [
+    {
+      "type": "afferent",
+      "text": "Il segnale di luce arriva per via indiretta: retina, nucleo soprachiasmatico, ipotalamo, colonna intermediolaterale del midollo, ganglio cervicale superiore, fibre simpatiche postgangliari."
+    }
+  ],
+  "bloodSupply": [
+    {
+      "arteryId": "posterior-medial-choroidal-artery",
+      "text": "Arterie corioidee posteriori mediali, rami dell'arteria cerebrale posteriore."
+    }
+  ],
+  "clinical": [
+    {
+      "title": "Tumori della regione pineale",
+      "text": "Comprimono il tetto del mesencefalo (sindrome di Parinaud: paralisi dello sguardo verso l'alto) e l'acquedotto (idrocefalo ostruttivo)."
+    },
+    {
+      "title": "Calcificazione",
+      "text": "Frequente nell'adulto; è un repere radiologico della linea mediana."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

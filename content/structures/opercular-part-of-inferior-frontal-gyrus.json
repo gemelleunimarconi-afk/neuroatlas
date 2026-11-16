@@ -1,0 +1,71 @@
+{
+  "id": "opercular-part-of-inferior-frontal-gyrus",
+  "names": {
+    "it": "Giro frontale inferiore, parte opercolare",
+    "la": "Pars opercularis gyri frontalis inferioris",
+    "en": "Opercular part of inferior frontal gyrus",
+    "synonyms": [
+      "pars opercularis",
+      "area di Broca (parte)"
+    ]
+  },
+  "parent": "frontal-lobe",
+  "layer": "cortex",
+  "side": "bilateral",
+  "level": 1,
+  "location": "Parte posteriore del giro frontale inferiore, davanti alla parte inferiore del giro precentrale e sopra il solco laterale, di cui forma l'opercolo frontale.",
+  "relations": [
+    {
+      "direction": "posteriore",
+      "structureId": "precentral-gyrus",
+      "text": "Giro precentrale (rappresentazione di volto e laringe)."
+    },
+    {
+      "direction": "anteriore",
+      "structureId": "triangular-part-of-inferior-frontal-gyrus",
+      "text": "Parte triangolare."
+    },
+    {
+      "direction": "profonda",
+      "structureId": "insula",
+      "text": "Insula, coperta dall'opercolo."
+    }
+  ],
+  "function": "Nell'emisfero dominante (di solito il sinistro) forma, con la parte triangolare, l'area di Broca (aree 44 e 45): programmazione motoria del linguaggio, elaborazione sintattica e articolazione delle parole.",
+  "connections": [
+    {
+      "type": "reciprocal",
+      "targetId": "superior-temporal-gyrus",
+      "via": "fascicolo arcuato",
+      "text": "Con l'area di Wernicke nel lobo temporale posteriore."
+    },
+    {
+      "type": "efferent",
+      "targetId": "precentral-gyrus",
+      "text": "Alla corteccia motoria per la muscolatura della fonazione."
+    }
+  ],
+  "bloodSupply": [
+    {
+      "arteryId": "prefrontal-artery",
+      "text": "Rami del tronco superiore dell'arteria cerebrale media."
+    }
+  ],
+  "clinical": [
+    {
+      "title": "Afasia di Broca",
+      "text": "Eloquio non fluente, faticoso e agrammatico, con comprensione relativamente conservata e ripetizione compromessa; spesso associata a emiparesi destra facio-brachiale per la vicinanza della corteccia motoria."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [
+    44
+  ],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

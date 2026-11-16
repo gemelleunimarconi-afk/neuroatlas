@@ -1,0 +1,71 @@
+{
+  "id": "centromedian-thalamic-nucleus",
+  "names": {
+    "it": "Nucleo centromediano del talamo",
+    "la": "Nucleus centromedianus thalami",
+    "en": "Centromedian nucleus of thalamus",
+    "synonyms": [
+      "centro mediano di Luys",
+      "CM"
+    ]
+  },
+  "parent": "thalamus",
+  "layer": "diencephalon",
+  "side": "bilateral",
+  "level": 3,
+  "location": "Il maggiore dei nuclei intralaminari, nella parte posteriore della lamina midollare interna, medialmente ai nuclei ventrali posteriori.",
+  "relations": [
+    {
+      "direction": "laterale",
+      "structureId": "ventral-posteromedial-thalamic-nucleus",
+      "text": "Nucleo ventrale posteromediale."
+    },
+    {
+      "direction": "mediale",
+      "structureId": "dorsomedial-thalamic-nucleus",
+      "text": "Nucleo dorsomediale."
+    }
+  ],
+  "function": "Nucleo intralaminare: partecipa alla regolazione della vigilanza e dell'attenzione e ai circuiti dei nuclei della base.",
+  "connections": [
+    {
+      "type": "afferent",
+      "targetId": "globus-pallidus-pars-interna",
+      "text": "Dal globo pallido interno e dalla formazione reticolare."
+    },
+    {
+      "type": "efferent",
+      "targetId": "putamen",
+      "text": "Allo striato (proiezione talamostriatale)."
+    },
+    {
+      "type": "efferent",
+      "text": "Proiezioni diffuse alla corteccia cerebrale."
+    }
+  ],
+  "bloodSupply": [
+    {
+      "arteryId": "thalamoperforating-artery",
+      "text": "Arterie talamoperforanti."
+    }
+  ],
+  "clinical": [
+    {
+      "title": "Disturbi di coscienza",
+      "text": "Lesioni bilaterali dei nuclei intralaminari compromettono la vigilanza."
+    },
+    {
+      "title": "Stimolazione cerebrale profonda",
+      "text": "Bersaglio sperimentale nella sindrome di Tourette e in alcune epilessie."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

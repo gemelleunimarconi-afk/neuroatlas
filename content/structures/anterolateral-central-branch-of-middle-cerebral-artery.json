@@ -1,0 +1,51 @@
+{
+  "id": "anterolateral-central-branch-of-middle-cerebral-artery",
+  "names": {
+    "it": "Arterie centrali anterolaterali (lenticolostriate)",
+    "la": "Arteriae centrales anterolaterales",
+    "en": "Anterolateral central arteries",
+    "synonyms": [
+      "arterie lenticolostriate"
+    ]
+  },
+  "parent": "cerebral-arteries",
+  "layer": "vessels",
+  "side": "bilateral",
+  "level": 1,
+  "location": "Gruppo di sottili arterie perforanti che nascono ad angolo retto dal tratto M1 dell'arteria cerebrale media ed entrano nell'encefalo attraverso la sostanza perforata anteriore.",
+  "relations": [
+    {
+      "direction": "superiore",
+      "structureId": "putamen",
+      "text": "Nuclei della base, in cui penetrano."
+    }
+  ],
+  "function": "Arterie terminali, prive di anastomosi efficaci: irrorano putamen, parte del globo pallido, corpo e parte della testa del caudato, parte superiore della capsula interna.",
+  "connections": [
+    {
+      "type": "afferent",
+      "targetId": "sphenoid-part-of-middle-cerebral-artery",
+      "text": "Dal tratto M1 dell'arteria cerebrale media."
+    }
+  ],
+  "bloodSupply": [],
+  "clinical": [
+    {
+      "title": "Infarti lacunari",
+      "text": "L'ipertensione cronica danneggia la parete di queste arterie (lipoialinosi): piccoli infarti profondi, per esempio l'ictus motorio puro della capsula interna."
+    },
+    {
+      "title": "Emorragia ipertensiva",
+      "text": "La rottura dà l'emorragia del putamen, la più frequente delle emorragie intracerebrali."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

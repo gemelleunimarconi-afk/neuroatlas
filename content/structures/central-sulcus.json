@@ -1,0 +1,51 @@
+{
+  "id": "central-sulcus",
+  "names": {
+    "it": "Solco centrale (di Rolando)",
+    "la": "Sulcus centralis",
+    "en": "Central sulcus",
+    "synonyms": [
+      "scissura di Rolando"
+    ]
+  },
+  "parent": "cerebral-hemisphere",
+  "layer": "sulci",
+  "side": "bilateral",
+  "level": 1,
+  "location": "Decorre obliquamente sulla faccia laterale dell'emisfero, dal margine superiore verso il basso e in avanti, senza raggiungere di norma il solco laterale. Separa il lobo frontale dal lobo parietale.",
+  "relations": [
+    {
+      "direction": "anteriore",
+      "structureId": "precentral-gyrus",
+      "text": "Giro precentrale."
+    },
+    {
+      "direction": "posteriore",
+      "structureId": "postcentral-gyrus",
+      "text": "Giro postcentrale."
+    }
+  ],
+  "function": "È il principale punto di repere della faccia laterale: separa la corteccia motoria primaria, davanti, dalla corteccia somatosensoriale primaria, dietro. Nella sua parete anteriore si trova gran parte dell'area 4, in quella posteriore l'area 3.",
+  "connections": [],
+  "bloodSupply": [
+    {
+      "arteryId": "artery-of-central-sulcus",
+      "text": "Arteria del solco centrale, ramo dell'arteria cerebrale media."
+    }
+  ],
+  "clinical": [
+    {
+      "title": "Chirurgia e neuroimmagini",
+      "text": "Il suo riconoscimento permette di localizzare le aree motoria e sensitiva; il tratto del giro precentrale a forma di omega rovesciata corrisponde alla rappresentazione della mano."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

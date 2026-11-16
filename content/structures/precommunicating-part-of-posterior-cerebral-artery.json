@@ -1,0 +1,71 @@
+{
+  "id": "precommunicating-part-of-posterior-cerebral-artery",
+  "names": {
+    "it": "Arteria cerebrale posteriore, parte precomunicante (P1)",
+    "la": "Pars precommunicalis arteriae cerebri posterioris",
+    "en": "Posterior cerebral artery, precommunicating part (P1)",
+    "synonyms": [
+      "arteria cerebrale posteriore",
+      "ACP"
+    ]
+  },
+  "parent": "cerebral-arteries",
+  "layer": "vessels",
+  "side": "bilateral",
+  "level": 1,
+  "location": "L'arteria cerebrale posteriore nasce dalla biforcazione dell'arteria basilare. Il tratto P1 va dall'origine all'incontro con l'arteria comunicante posteriore; poi l'arteria gira attorno al mesencefalo e raggiunge la faccia inferomediale dei lobi temporale e occipitale.",
+  "relations": [
+    {
+      "direction": "inferiore",
+      "structureId": "oculomotor-nerve-iii",
+      "text": "Nervo oculomotore, che passa tra questa arteria e la cerebellare superiore."
+    },
+    {
+      "direction": "laterale",
+      "structureId": "posterior-communicating-artery",
+      "text": "Arteria comunicante posteriore."
+    }
+  ],
+  "function": "Da P1 nascono le arterie talamoperforanti per talamo mediale e mesencefalo. Nel complesso l'arteria cerebrale posteriore irrora lobo occipitale (corteccia visiva), parte inferomediale del lobo temporale (ippocampo), talamo e splenio del corpo calloso.",
+  "connections": [
+    {
+      "type": "afferent",
+      "targetId": "basilar-artery",
+      "text": "Dalla biforcazione dell'arteria basilare."
+    },
+    {
+      "type": "efferent",
+      "targetId": "thalamoperforating-artery",
+      "text": "Arterie talamoperforanti."
+    },
+    {
+      "type": "efferent",
+      "targetId": "postcommunicating-part-of-posterior-cerebral-artery",
+      "text": "Prosegue nel tratto postcomunicante (P2)."
+    }
+  ],
+  "bloodSupply": [],
+  "clinical": [
+    {
+      "title": "Infarto dell'arteria cerebrale posteriore",
+      "text": "Emianopsia omonima controlaterale con risparmio maculare; se a sinistra, alessia senza agrafia; se bilaterale, cecità corticale e amnesia."
+    },
+    {
+      "title": "Sindromi talamiche e mesencefaliche",
+      "text": "Per occlusione dei rami perforanti."
+    },
+    {
+      "title": "Origine fetale",
+      "text": "In alcune persone l'arteria nasce dalla carotide interna, attraverso una grossa comunicante posteriore."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

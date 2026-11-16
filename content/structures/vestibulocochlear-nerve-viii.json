@@ -1,0 +1,66 @@
+{
+  "id": "vestibulocochlear-nerve-viii",
+  "names": {
+    "it": "Nervo vestibolococleare (VIII)",
+    "la": "Nervus vestibulocochlearis (VIII)",
+    "en": "Vestibulocochlear nerve (VIII)",
+    "synonyms": [
+      "ottavo nervo cranico",
+      "nervo statoacustico"
+    ]
+  },
+  "parent": "cranial-nerves",
+  "layer": "cranial-nerves",
+  "side": "bilateral",
+  "level": 1,
+  "location": "Dall'orecchio interno percorre il meato acustico interno insieme al nervo facciale ed entra nel tronco nell'angolo pontocerebellare, all'estremità laterale del solco bulbopontino. È formato dal nervo cocleare e dal nervo vestibolare.",
+  "relations": [
+    {
+      "direction": "mediale",
+      "structureId": "facial-nerve-vii",
+      "text": "Nervo facciale e nervo intermedio."
+    },
+    {
+      "direction": "posteriore",
+      "text": "Flocculo del cervelletto."
+    }
+  ],
+  "function": "Sensitivo speciale. Il nervo cocleare (ganglio spirale) porta l'udito ai nuclei cocleari; il nervo vestibolare (ganglio di Scarpa) porta dai canali semicircolari, dall'utricolo e dal sacculo le informazioni su posizione e accelerazione del capo ai nuclei vestibolari e al cervelletto.",
+  "connections": [
+    {
+      "type": "efferent",
+      "targetId": "inferior-colliculus",
+      "via": "lemnisco laterale",
+      "text": "Dai nuclei cocleari, con incrocio parziale, al collicolo inferiore."
+    },
+    {
+      "type": "efferent",
+      "text": "Dai nuclei vestibolari al cervelletto, ai nuclei oculomotori (riflesso vestibolo-oculare) e al midollo (tratti vestibolospinali)."
+    }
+  ],
+  "bloodSupply": [
+    {
+      "arteryId": "anterior-inferior-cerebellar-artery",
+      "text": "Arteria labirintica, di solito ramo dell'arteria cerebellare inferiore anteriore."
+    }
+  ],
+  "clinical": [
+    {
+      "title": "Schwannoma vestibolare (neurinoma dell'acustico)",
+      "text": "Ipoacusia neurosensoriale monolaterale progressiva, acufene e instabilità; crescendo nell'angolo pontocerebellare comprime il facciale, il trigemino e il tronco."
+    },
+    {
+      "title": "Neurite vestibolare",
+      "text": "Vertigine acuta con nistagmo, senza ipoacusia."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

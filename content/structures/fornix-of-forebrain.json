@@ -1,0 +1,79 @@
+{
+  "id": "fornix-of-forebrain",
+  "names": {
+    "it": "Fornice",
+    "la": "Fornix",
+    "en": "Fornix",
+    "synonyms": [
+      "trigono cerebrale"
+    ]
+  },
+  "parent": "limbic-system",
+  "layer": "limbic",
+  "side": "bilateral",
+  "level": 1,
+  "location": "Fascio arcuato di sostanza bianca sotto il corpo calloso. Origina dalla fimbria dell'ippocampo e comprende pilastri posteriori (gambe), corpo e colonne anteriori, che scendono davanti al forame interventricolare fino ai corpi mammillari.",
+  "relations": [
+    {
+      "direction": "superiore",
+      "structureId": "corpus-callosum",
+      "text": "Corpo calloso e setto pellucido."
+    },
+    {
+      "direction": "inferiore",
+      "structureId": "third-ventricle",
+      "text": "Tetto del terzo ventricolo e talamo."
+    },
+    {
+      "direction": "posteriore",
+      "structureId": "hippocampus",
+      "text": "Fimbria e ippocampo."
+    }
+  ],
+  "function": "Principale via efferente della formazione dell'ippocampo e tappa del circuito di Papez; contiene anche fibre afferenti colinergiche dal setto all'ippocampo.",
+  "connections": [
+    {
+      "type": "afferent",
+      "targetId": "hippocampus",
+      "via": "fimbria",
+      "text": "Dal subicolo e dall'ippocampo."
+    },
+    {
+      "type": "efferent",
+      "targetId": "mammillary-body",
+      "via": "fibre postcommessurali",
+      "text": "Ai corpi mammillari, dietro la commessura anteriore."
+    },
+    {
+      "type": "efferent",
+      "targetId": "anterior-thalamic-nucleus",
+      "text": "Fibre dirette ai nuclei anteriori del talamo."
+    },
+    {
+      "type": "efferent",
+      "via": "fibre precommessurali",
+      "text": "Ai nuclei del setto e allo striato ventrale."
+    }
+  ],
+  "bloodSupply": [
+    {
+      "arteryId": "anterior-cerebral-artery",
+      "text": "Rami perforanti delle arterie cerebrale anteriore e comunicante anteriore per le colonne; arterie corioidee posteriori per il corpo e le gambe."
+    }
+  ],
+  "clinical": [
+    {
+      "title": "Amnesia",
+      "text": "La lesione bilaterale, per esempio dopo la rimozione di una cisti colloide del terzo ventricolo, può causare amnesia anterograda."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

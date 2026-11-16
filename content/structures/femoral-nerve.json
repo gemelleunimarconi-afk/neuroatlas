@@ -1,0 +1,58 @@
+{
+  "id": "femoral-nerve",
+  "names": {
+    "it": "Nervo femorale",
+    "la": "Nervus femoralis",
+    "en": "Femoral nerve",
+    "synonyms": [
+      "nervo crurale"
+    ]
+  },
+  "parent": "lumbar-plexus",
+  "layer": "body-nerves",
+  "side": "bilateral",
+  "level": 1,
+  "location": "Il maggiore ramo del plesso lombare (radici da L2 a L4). Scende tra i muscoli psoas e iliaco, passa sotto il legamento inguinale lateralmente all'arteria femorale e si divide subito in numerosi rami.",
+  "relations": [
+    {
+      "direction": "mediale",
+      "text": "Arteria e vena femorale, nel triangolo femorale."
+    },
+    {
+      "direction": "posteriore",
+      "text": "Muscolo ileopsoas."
+    }
+  ],
+  "function": "Motorio per il quadricipite femorale (estensione del ginocchio), il sartorio e in parte l'ileopsoas. Sensitivo per la faccia anteriore della coscia e, con il nervo safeno, per la faccia mediale di gamba e piede.",
+  "connections": [
+    {
+      "type": "afferent",
+      "via": "plesso lombare",
+      "text": "Dalle radici da L2 a L4."
+    }
+  ],
+  "bloodSupply": [
+    {
+      "text": "Rami dell'arteria femorale."
+    }
+  ],
+  "clinical": [
+    {
+      "title": "Lesione del nervo femorale",
+      "text": "Debolezza dell'estensione del ginocchio con cedimento sulle scale, riflesso rotuleo assente, ipoestesia anteriore della coscia e mediale della gamba. Cause: ematoma dello psoas, chirurgia pelvica, diabete."
+    },
+    {
+      "title": "Riflesso rotuleo",
+      "text": "Esplora le radici L3 e L4."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

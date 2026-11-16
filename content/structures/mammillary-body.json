@@ -1,0 +1,68 @@
+{
+  "id": "mammillary-body",
+  "names": {
+    "it": "Corpo mammillare",
+    "la": "Corpus mammillare",
+    "en": "Mammillary body",
+    "synonyms": [
+      "corpo mamillare"
+    ]
+  },
+  "parent": "hypothalamus",
+  "layer": "diencephalon",
+  "side": "bilateral",
+  "level": 1,
+  "location": "Coppia di rilievi sferici sulla faccia inferiore dell'ipotalamo posteriore, dietro il *tuber cinereum* e davanti alla sostanza perforata posteriore, nella fossa interpeduncolare.",
+  "relations": [
+    {
+      "direction": "anteriore",
+      "structureId": "infundibulum-of-neurohypophysis",
+      "text": "Tuber cinereum e infundibolo."
+    },
+    {
+      "direction": "posteriore",
+      "structureId": "peduncle-of-midbrain",
+      "text": "Fossa interpeduncolare e peduncoli cerebrali."
+    }
+  ],
+  "function": "Stazione del circuito di Papez, coinvolta nella memoria episodica.",
+  "connections": [
+    {
+      "type": "afferent",
+      "targetId": "fornix-of-forebrain",
+      "text": "Dal subicolo attraverso le colonne del fornice."
+    },
+    {
+      "type": "efferent",
+      "targetId": "anterior-thalamic-nucleus",
+      "via": "fascio mammillotalamico",
+      "text": "Ai nuclei anteriori del talamo."
+    },
+    {
+      "type": "efferent",
+      "via": "fascio mammillotegmentale",
+      "text": "Al tegmento del mesencefalo."
+    }
+  ],
+  "bloodSupply": [
+    {
+      "arteryId": "posterior-communicating-artery",
+      "text": "Rami perforanti delle arterie comunicante posteriore e cerebrale posteriore."
+    }
+  ],
+  "clinical": [
+    {
+      "title": "Sindrome di Wernicke-Korsakoff",
+      "text": "La carenza di tiamina (tipica dell'alcolismo cronico) causa emorragie puntiformi e poi atrofia dei corpi mammillari e del talamo mediale: encefalopatia acuta con confusione, atassia e oftalmoplegia, seguita da amnesia con confabulazione."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

@@ -1,0 +1,71 @@
+{
+  "id": "anterior-cerebral-artery",
+  "names": {
+    "it": "Arteria cerebrale anteriore",
+    "la": "Arteria cerebri anterior",
+    "en": "Anterior cerebral artery",
+    "synonyms": [
+      "ACA"
+    ]
+  },
+  "parent": "cerebral-arteries",
+  "layer": "vessels",
+  "side": "bilateral",
+  "level": 1,
+  "location": "Ramo terminale mediale della carotide interna. Decorre in avanti e medialmente sopra il chiasma ottico, si unisce alla controlaterale con l'arteria comunicante anteriore, poi sale nella fessura longitudinale e gira attorno al ginocchio del corpo calloso.",
+  "relations": [
+    {
+      "direction": "inferiore",
+      "structureId": "optic-chiasm",
+      "text": "Chiasma e nervo ottico."
+    },
+    {
+      "direction": "mediale",
+      "structureId": "anterior-communicating-artery",
+      "text": "Arteria comunicante anteriore."
+    },
+    {
+      "direction": "posteriore",
+      "structureId": "corpus-callosum",
+      "text": "Corpo calloso."
+    }
+  ],
+  "function": "Irrora la faccia mediale dei lobi frontale e parietale fino al solco parieto-occipitale, il margine superiore dell'emisfero, la maggior parte del corpo calloso e, con l'arteria ricorrente di Heubner, la testa del caudato e il braccio anteriore della capsula interna.",
+  "connections": [
+    {
+      "type": "efferent",
+      "targetId": "pericallosal-artery",
+      "text": "Arteria pericallosa."
+    },
+    {
+      "type": "efferent",
+      "targetId": "callosomarginal-artery",
+      "text": "Arteria callosomarginale."
+    },
+    {
+      "type": "efferent",
+      "targetId": "medial-frontobasal-artery",
+      "text": "Arteria frontobasale mediale."
+    }
+  ],
+  "bloodSupply": [],
+  "clinical": [
+    {
+      "title": "Infarto dell'arteria cerebrale anteriore",
+      "text": "Paresi e ipoestesia controlaterali prevalenti all'arto inferiore, incontinenza urinaria, abulia; se bilaterale, mutismo acinetico."
+    },
+    {
+      "title": "Ernia subfalcina",
+      "text": "L'arteria può essere compressa sotto la falce."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

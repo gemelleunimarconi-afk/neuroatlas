@@ -1,0 +1,75 @@
+{
+  "id": "lateral-orbital-gyrus",
+  "names": {
+    "it": "Giri orbitari",
+    "la": "Gyri orbitales",
+    "en": "Orbital gyri",
+    "synonyms": [
+      "corteccia orbitofrontale"
+    ]
+  },
+  "parent": "frontal-lobe",
+  "layer": "cortex",
+  "side": "bilateral",
+  "level": 2,
+  "location": "Faccia inferiore (orbitaria) del lobo frontale, sopra il tetto dell'orbita, lateralmente al solco olfattivo e al giro retto.",
+  "relations": [
+    {
+      "direction": "mediale",
+      "structureId": "straight-gyrus",
+      "text": "Giro retto e solco olfattivo, con il bulbo e il tratto olfattivo."
+    },
+    {
+      "direction": "laterale",
+      "structureId": "orbital-part-of-inferior-frontal-gyrus",
+      "text": "Parte orbitaria del giro frontale inferiore."
+    }
+  ],
+  "function": "Corteccia orbitofrontale (aree 11 e 47): attribuzione del valore di ricompensa agli stimoli, decisioni guidate dalle conseguenze, inibizione dei comportamenti inadeguati, regolazione emotiva; riceve informazioni olfattive e gustative.",
+  "connections": [
+    {
+      "type": "reciprocal",
+      "targetId": "amygdala",
+      "via": "fascicolo uncinato",
+      "text": "Con amigdala e polo temporale."
+    },
+    {
+      "type": "reciprocal",
+      "targetId": "dorsomedial-thalamic-nucleus",
+      "text": "Con il nucleo dorsomediale del talamo."
+    },
+    {
+      "type": "efferent",
+      "targetId": "nucleus-accumbens",
+      "text": "Allo striato ventrale."
+    }
+  ],
+  "bloodSupply": [
+    {
+      "arteryId": "lateral-frontobasal-artery",
+      "text": "Arterie frontobasali, rami delle arterie cerebrali media e anteriore."
+    }
+  ],
+  "clinical": [
+    {
+      "title": "Sindrome orbitofrontale",
+      "text": "Disinibizione, impulsività e comportamento sociale inadeguato con intelligenza conservata; il caso storico è quello di Phineas Gage."
+    },
+    {
+      "title": "Trauma cranico",
+      "text": "Sede tipica di contusioni; può associarsi ad anosmia."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [
+    11,
+    47
+  ],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

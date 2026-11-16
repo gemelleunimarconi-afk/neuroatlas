@@ -1,15 +1,221 @@
 {
-  "_note": "Casi clinici per la localizzazione della lesione. Ricavati dai correlati clinici delle schede; stato: bozza da rivedere. `answer` = strutture accettate come sede della lesione.",
-  "cases": [
-    {"id": "mca-sinistra", "title": "Debolezza improvvisa al braccio destro", "vignette": "Uomo di 68 anni, iperteso. Al risveglio non riesce a sollevare il braccio destro e ha la rima orale deviata; la gamba destra è quasi normale. Riflessi vivaci a destra, segno di Babinski a destra.", "question": "Tocca sul modello la regione corticale la cui lesione spiega il deficit motorio.", "answer": ["precentral-gyrus"], "side": "L", "explanation": "Emiparesi destra a prevalenza facio-brachiale con segni del motoneurone superiore: lesione della corteccia motoria primaria sinistra nella sua parte laterale, territorio dell'arteria cerebrale media. L'arto inferiore è risparmiato perché è rappresentato sulla faccia mediale (lobulo paracentrale), irrorata dall'arteria cerebrale anteriore."},
-    {"id": "amnesia", "title": "Non ricorda ciò che è appena accaduto", "vignette": "Donna di 45 anni, sopravvissuta a un arresto cardiaco prolungato. Conversa normalmente e ricorda bene la sua infanzia, ma dopo pochi minuti dimentica ogni nuova informazione. Sa ancora andare in bicicletta e impara nuovi gesti motori.", "question": "Tocca la struttura il cui danno bilaterale spiega questo quadro.", "answer": ["hippocampus"], "explanation": "Amnesia anterograda con memoria remota e procedurale conservate: danno bilaterale dell'ippocampo. I neuroni piramidali di CA1 sono particolarmente vulnerabili all'ischemia globale."},
-    {"id": "kluver-bucy", "title": "Ha perso la paura", "vignette": "Uomo di 30 anni, esiti di encefalite erpetica con lesioni bilaterali dei lobi temporali anteriori. È diventato placido, non mostra paura davanti a situazioni pericolose, porta alla bocca qualsiasi oggetto.", "question": "Tocca la struttura temporale profonda il cui danno bilaterale spiega la perdita della paura.", "answer": ["amygdala"], "explanation": "Sindrome di Klüver-Bucy: placidità, iperoralità e perdita della paura per lesione bilaterale dei lobi temporali anteriori, amigdala compresa. L'amigdala attribuisce il significato emotivo agli stimoli ed è essenziale per le risposte di paura."},
-    {"id": "huntington", "title": "Movimenti involontari e familiarità", "vignette": "Donna di 42 anni con movimenti involontari rapidi e irregolari degli arti e del volto, irritabilità e difficoltà di pianificazione. Il padre aveva avuto disturbi simili. La risonanza mostra corni frontali dei ventricoli laterali allargati.", "question": "Tocca il nucleo la cui atrofia allarga i corni frontali.", "answer": ["caudate-nucleus"], "explanation": "Malattia di Huntington: la degenerazione dei neuroni spinosi medi dello striato causa atrofia della testa del nucleo caudato, che forma la parete laterale del corno frontale; il corno appare quindi dilatato."},
-    {"id": "sensitivo-puro", "title": "Formicolio a metà corpo", "vignette": "Uomo di 72 anni, diabetico. Da un'ora avverte intorpidimento di volto, braccio, tronco e gamba a sinistra. Forza, linguaggio e campo visivo sono normali.", "question": "Tocca il nucleo talamico la cui lesione dà un deficit sensitivo puro di tronco e arti.", "answer": ["ventral-posterolateral-thalamic-nucleus", "ventral-posteromedial-thalamic-nucleus"], "side": "R", "explanation": "Ictus sensitivo puro: infarto lacunare del talamo ventrale posteriore destro. Il nucleo ventrale posterolaterale ritrasmette la sensibilità di tronco e arti controlaterali; il ventrale posteromediale quella del volto. Il territorio è delle arterie talamogenicolate."},
-    {"id": "emiballismo", "title": "Un braccio che si lancia da solo", "vignette": "Donna di 70 anni, ipertesa. Improvvisa comparsa di movimenti involontari ampi e violenti, di lancio, del braccio e della gamba di sinistra, che cessano nel sonno.", "question": "Tocca il nucleo la cui lesione causa questo quadro.", "answer": ["subthalamic-nucleus"], "side": "R", "explanation": "Emiballismo sinistro: lesione, tipicamente un piccolo infarto, del nucleo subtalamico destro. Venendo meno l'eccitazione del globo pallido interno, il talamo è meno inibito e il movimento risulta eccessivo."},
-    {"id": "parkinson", "title": "Tremore a riposo e lentezza", "vignette": "Uomo di 66 anni. Da due anni tremore a riposo della mano destra, che scompare durante il movimento, lentezza nei gesti, scrittura sempre più piccola e rigidità. Migliora con la levodopa.", "question": "Tocca la struttura del mesencefalo i cui neuroni degenerano in questa malattia.", "answer": ["substantia-nigra"], "explanation": "Malattia di Parkinson: degenerazione dei neuroni dopaminergici della parte compatta della sostanza nera. Viene meno la facilitazione dopaminergica della via diretta e l'inibizione della via indiretta, con riduzione del movimento."},
-    {"id": "locked-in", "title": "Sveglio ma immobile", "vignette": "Uomo di 58 anni trovato a terra. È vigile e comprende, ma non muove gli arti né parla. Comunica solo aprendo e chiudendo gli occhi e muovendoli in verticale. L'angio-TC mostra un'occlusione dell'arteria basilare.", "question": "Tocca la parte del tronco encefalico lesa.", "answer": ["pons"], "explanation": "Sindrome locked-in: infarto bilaterale della base del ponte per occlusione dell'arteria basilare. Si interrompono le vie corticospinali e corticonucleari, mentre il tegmento, con la formazione reticolare, è risparmiato e la coscienza è conservata. Restano i movimenti oculari verticali, controllati dal mesencefalo."},
-    {"id": "emianopsia-bitemporale", "title": "Urta gli stipiti delle porte", "vignette": "Donna di 35 anni con amenorrea e cefalea. Da mesi non vede gli oggetti ai lati e urta contro gli stipiti. L'esame del campo visivo mostra la perdita dei due emicampi temporali.", "question": "Tocca la struttura della via visiva compressa.", "answer": ["optic-chiasm"], "explanation": "Emianopsia bitemporale: compressione del chiasma ottico sulla linea mediana, dove incrociano le fibre delle metà nasali delle retine, che vedono i campi temporali. La causa tipica è un adenoma ipofisario, coerente con l'amenorrea."},
-    {"id": "apice-basilare", "title": "Coma improvviso con disturbi oculari", "vignette": "Uomo di 74 anni con fibrillazione atriale. Improvvisa perdita di coscienza, pupille asimmetriche e poco reagenti, sguardo verticale abolito. La risonanza mostra ischemia bilaterale di mesencefalo, talamo e lobi occipitali.", "question": "Tocca l'arteria il cui apice è occluso dall'embolo.", "answer": ["basilar-artery"], "explanation": "Sindrome dell'apice della basilare: un embolo fermo alla biforcazione dell'arteria basilare interrompe il flusso verso le arterie cerebrali posteriori e i rami perforanti per mesencefalo e talamo."}
-  ]
+ "_note": "Casi clinici per la localizzazione della lesione. Ricavati dai correlati clinici delle schede; stato: bozza da rivedere. `answer` = strutture accettate come sede della lesione.",
+ "cases": [
+  {
+   "id": "mca-sinistra",
+   "title": "Debolezza improvvisa al braccio destro",
+   "vignette": "Uomo di 68 anni, iperteso. Al risveglio non riesce a sollevare il braccio destro e ha la rima orale deviata; la gamba destra è quasi normale. Riflessi vivaci a destra, segno di Babinski a destra.",
+   "question": "Tocca sul modello la regione corticale la cui lesione spiega il deficit motorio.",
+   "answer": [
+    "precentral-gyrus"
+   ],
+   "side": "L",
+   "explanation": "Emiparesi destra a prevalenza facio-brachiale con segni del motoneurone superiore: lesione della corteccia motoria primaria sinistra nella sua parte laterale, territorio dell'arteria cerebrale media. L'arto inferiore è risparmiato perché è rappresentato sulla faccia mediale (lobulo paracentrale), irrorata dall'arteria cerebrale anteriore."
+  },
+  {
+   "id": "amnesia",
+   "title": "Non ricorda ciò che è appena accaduto",
+   "vignette": "Donna di 45 anni, sopravvissuta a un arresto cardiaco prolungato. Conversa normalmente e ricorda bene la sua infanzia, ma dopo pochi minuti dimentica ogni nuova informazione. Sa ancora andare in bicicletta e impara nuovi gesti motori.",
+   "question": "Tocca la struttura il cui danno bilaterale spiega questo quadro.",
+   "answer": [
+    "hippocampus"
+   ],
+   "explanation": "Amnesia anterograda con memoria remota e procedurale conservate: danno bilaterale dell'ippocampo. I neuroni piramidali di CA1 sono particolarmente vulnerabili all'ischemia globale."
+  },
+  {
+   "id": "kluver-bucy",
+   "title": "Ha perso la paura",
+   "vignette": "Uomo di 30 anni, esiti di encefalite erpetica con lesioni bilaterali dei lobi temporali anteriori. È diventato placido, non mostra paura davanti a situazioni pericolose, porta alla bocca qualsiasi oggetto.",
+   "question": "Tocca la struttura temporale profonda il cui danno bilaterale spiega la perdita della paura.",
+   "answer": [
+    "amygdala"
+   ],
+   "explanation": "Sindrome di Klüver-Bucy: placidità, iperoralità e perdita della paura per lesione bilaterale dei lobi temporali anteriori, amigdala compresa. L'amigdala attribuisce il significato emotivo agli stimoli ed è essenziale per le risposte di paura."
+  },
+  {
+   "id": "huntington",
+   "title": "Movimenti involontari e familiarità",
+   "vignette": "Donna di 42 anni con movimenti involontari rapidi e irregolari degli arti e del volto, irritabilità e difficoltà di pianificazione. Il padre aveva avuto disturbi simili. La risonanza mostra corni frontali dei ventricoli laterali allargati.",
+   "question": "Tocca il nucleo la cui atrofia allarga i corni frontali.",
+   "answer": [
+    "caudate-nucleus"
+   ],
+   "explanation": "Malattia di Huntington: la degenerazione dei neuroni spinosi medi dello striato causa atrofia della testa del nucleo caudato, che forma la parete laterale del corno frontale; il corno appare quindi dilatato."
+  },
+  {
+   "id": "sensitivo-puro",
+   "title": "Formicolio a metà corpo",
+   "vignette": "Uomo di 72 anni, diabetico. Da un'ora avverte intorpidimento di volto, braccio, tronco e gamba a sinistra. Forza, linguaggio e campo visivo sono normali.",
+   "question": "Tocca il nucleo talamico la cui lesione dà un deficit sensitivo puro di tronco e arti.",
+   "answer": [
+    "ventral-posterolateral-thalamic-nucleus",
+    "ventral-posteromedial-thalamic-nucleus"
+   ],
+   "side": "R",
+   "explanation": "Ictus sensitivo puro: infarto lacunare del talamo ventrale posteriore destro. Il nucleo ventrale posterolaterale ritrasmette la sensibilità di tronco e arti controlaterali; il ventrale posteromediale quella del volto. Il territorio è delle arterie talamogenicolate."
+  },
+  {
+   "id": "emiballismo",
+   "title": "Un braccio che si lancia da solo",
+   "vignette": "Donna di 70 anni, ipertesa. Improvvisa comparsa di movimenti involontari ampi e violenti, di lancio, del braccio e della gamba di sinistra, che cessano nel sonno.",
+   "question": "Tocca il nucleo la cui lesione causa questo quadro.",
+   "answer": [
+    "subthalamic-nucleus"
+   ],
+   "side": "R",
+   "explanation": "Emiballismo sinistro: lesione, tipicamente un piccolo infarto, del nucleo subtalamico destro. Venendo meno l'eccitazione del globo pallido interno, il talamo è meno inibito e il movimento risulta eccessivo."
+  },
+  {
+   "id": "parkinson",
+   "title": "Tremore a riposo e lentezza",
+   "vignette": "Uomo di 66 anni. Da due anni tremore a riposo della mano destra, che scompare durante il movimento, lentezza nei gesti, scrittura sempre più piccola e rigidità. Migliora con la levodopa.",
+   "question": "Tocca la struttura del mesencefalo i cui neuroni degenerano in questa malattia.",
+   "answer": [
+    "substantia-nigra"
+   ],
+   "explanation": "Malattia di Parkinson: degenerazione dei neuroni dopaminergici della parte compatta della sostanza nera. Viene meno la facilitazione dopaminergica della via diretta e l'inibizione della via indiretta, con riduzione del movimento."
+  },
+  {
+   "id": "locked-in",
+   "title": "Sveglio ma immobile",
+   "vignette": "Uomo di 58 anni trovato a terra. È vigile e comprende, ma non muove gli arti né parla. Comunica solo aprendo e chiudendo gli occhi e muovendoli in verticale. L'angio-TC mostra un'occlusione dell'arteria basilare.",
+   "question": "Tocca la parte del tronco encefalico lesa.",
+   "answer": [
+    "pons"
+   ],
+   "explanation": "Sindrome locked-in: infarto bilaterale della base del ponte per occlusione dell'arteria basilare. Si interrompono le vie corticospinali e corticonucleari, mentre il tegmento, con la formazione reticolare, è risparmiato e la coscienza è conservata. Restano i movimenti oculari verticali, controllati dal mesencefalo."
+  },
+  {
+   "id": "emianopsia-bitemporale",
+   "title": "Urta gli stipiti delle porte",
+   "vignette": "Donna di 35 anni con amenorrea e cefalea. Da mesi non vede gli oggetti ai lati e urta contro gli stipiti. L'esame del campo visivo mostra la perdita dei due emicampi temporali.",
+   "question": "Tocca la struttura della via visiva compressa.",
+   "answer": [
+    "optic-chiasm"
+   ],
+   "explanation": "Emianopsia bitemporale: compressione del chiasma ottico sulla linea mediana, dove incrociano le fibre delle metà nasali delle retine, che vedono i campi temporali. La causa tipica è un adenoma ipofisario, coerente con l'amenorrea."
+  },
+  {
+   "id": "apice-basilare",
+   "title": "Coma improvviso con disturbi oculari",
+   "vignette": "Uomo di 74 anni con fibrillazione atriale. Improvvisa perdita di coscienza, pupille asimmetriche e poco reagenti, sguardo verticale abolito. La risonanza mostra ischemia bilaterale di mesencefalo, talamo e lobi occipitali.",
+   "question": "Tocca l'arteria il cui apice è occluso dall'embolo.",
+   "answer": [
+    "basilar-artery"
+   ],
+   "explanation": "Sindrome dell'apice della basilare: un embolo fermo alla biforcazione dell'arteria basilare interrompe il flusso verso le arterie cerebrali posteriori e i rami perforanti per mesencefalo e talamo."
+  },
+  {
+   "id": "broca",
+   "title": "Capisce ma non riesce a parlare",
+   "vignette": "Donna di 61 anni. Da stamattina pronuncia poche parole staccate, con grande sforzo e senza articoli né verbi coniugati; esegue correttamente gli ordini. Non riesce a ripetere una frase. Lieve debolezza del braccio destro e della metà inferiore destra del volto.",
+   "question": "Tocca la regione corticale la cui lesione spiega il disturbo del linguaggio.",
+   "answer": [
+    "opercular-part-of-inferior-frontal-gyrus",
+    "triangular-part-of-inferior-frontal-gyrus"
+   ],
+   "side": "L",
+   "explanation": "Afasia di Broca: eloquio non fluente e agrammatico con comprensione conservata, per lesione delle parti opercolare e triangolare del giro frontale inferiore sinistro (aree 44 e 45), territorio del tronco superiore dell'arteria cerebrale media. La paresi facio-brachiale destra è dovuta alla vicinanza della corteccia motoria."
+  },
+  {
+   "id": "wernicke",
+   "title": "Parla molto ma non si capisce",
+   "vignette": "Uomo di 70 anni. Parla in modo scorrevole ma con parole sbagliate o inventate, e non comprende le domande né gli ordini semplici. Non sembra rendersi conto del problema. La forza è normale; c'è un difetto del campo visivo a destra.",
+   "question": "Tocca il giro la cui parte posteriore è lesa.",
+   "answer": [
+    "superior-temporal-gyrus"
+   ],
+   "side": "L",
+   "explanation": "Afasia di Wernicke: eloquio fluente con parafasie e grave deficit di comprensione, per lesione della parte posteriore del giro temporale superiore sinistro (area 22), territorio del tronco inferiore dell'arteria cerebrale media. L'assenza di paresi e il difetto del campo visivo sono tipici."
+  },
+  {
+   "id": "capsula-interna",
+   "title": "Emiparesi pura",
+   "vignette": "Uomo di 66 anni, iperteso e diabetico. Improvvisa debolezza di volto, braccio e gamba a sinistra, tutti colpiti in uguale misura. Sensibilità, linguaggio, campo visivo e attenzione sono normali.",
+   "question": "Tocca la struttura di sostanza bianca in cui un piccolo infarto spiega questo quadro.",
+   "answer": [
+    "internal-capsule"
+   ],
+   "side": "R",
+   "explanation": "Ictus lacunare motorio puro: un piccolo infarto del braccio posteriore della capsula interna destra, dove le fibre corticospinali e corticonucleari sono concentrate in poco spazio, dà un'emiparesi che colpisce in uguale misura volto, braccio e gamba, senza segni corticali. È dovuto all'occlusione di un'arteria perforante lenticolostriata."
+  },
+  {
+   "id": "emianopsia-omonima",
+   "title": "Non vede a destra",
+   "vignette": "Donna di 75 anni con fibrillazione atriale. Urta gli oggetti alla sua destra. L'esame mostra la perdita della metà destra del campo visivo in entrambi gli occhi, con visione centrale conservata. Pupille e forza sono normali.",
+   "question": "Tocca la regione corticale lesa.",
+   "answer": [
+    "visual-cortex",
+    "cuneus",
+    "lingual-gyrus"
+   ],
+   "side": "L",
+   "explanation": "Emianopsia omonima destra con risparmio maculare: infarto della corteccia visiva primaria sinistra, attorno al solco calcarino, per occlusione dell'arteria cerebrale posteriore. La macula è spesso risparmiata perché il polo occipitale riceve sangue anche dall'arteria cerebrale media."
+  },
+  {
+   "id": "wallenberg",
+   "title": "Vertigine e difficoltà a deglutire",
+   "vignette": "Uomo di 55 anni. Improvvisa vertigine con vomito, voce rauca e difficoltà a deglutire. All'esame: palpebra sinistra abbassata e pupilla sinistra piccola, perdita della sensibilità al dolore sull'emivolto sinistro e sul braccio e sulla gamba di destra, atassia degli arti di sinistra. La forza è normale.",
+   "question": "Tocca la parte del tronco encefalico lesa.",
+   "answer": [
+    "medulla-oblongata"
+   ],
+   "explanation": "Sindrome bulbare laterale (di Wallenberg): infarto della parte dorsolaterale sinistra del bulbo, per occlusione dell'arteria vertebrale o dell'arteria cerebellare inferiore posteriore. La sensibilità termodolorifica è persa sull'emivolto omolaterale (nucleo spinale del trigemino) e sull'emicorpo controlaterale (tratto spinotalamico); il nucleo ambiguo spiega disfagia e disfonia. La forza è conservata perché le piramidi sono risparmiate."
+  },
+  {
+   "id": "weber",
+   "title": "Palpebra cadente e debolezza dal lato opposto",
+   "vignette": "Uomo di 68 anni. Improvvisa visione doppia: l'occhio destro ha la palpebra abbassata, è deviato in basso e in fuori e ha la pupilla dilatata. Braccio e gamba di sinistra sono deboli.",
+   "question": "Tocca la struttura del mesencefalo ventrale lesa insieme alle fibre dell'oculomotore.",
+   "answer": [
+    "peduncle-of-midbrain",
+    "part-of-midbrain"
+   ],
+   "explanation": "Sindrome di Weber: infarto della parte ventrale del mesencefalo destro, che colpisce le fibre del nervo oculomotore (paralisi omolaterale del III) e il piede del peduncolo cerebrale con le fibre corticospinali (emiparesi controlaterale). È un esempio di sindrome alterna."
+  },
+  {
+   "id": "terzo-nervo",
+   "title": "Cefalea e pupilla dilatata",
+   "vignette": "Donna di 48 anni. Da due giorni cefalea intensa dietro l'occhio sinistro. Oggi palpebra sinistra abbassata, visione doppia e pupilla sinistra dilatata che non reagisce alla luce. Non ci sono altri deficit.",
+   "question": "Tocca l'arteria il cui aneurisma comprime il nervo oculomotore.",
+   "answer": [
+    "posterior-communicating-artery"
+   ],
+   "side": "L",
+   "explanation": "Paralisi dolorosa del III nervo con midriasi: è il quadro tipico di un aneurisma dell'arteria comunicante posteriore, accanto alla quale decorre il nervo. La pupilla è colpita presto perché le fibre parasimpatiche sono alla superficie del nervo. È un'urgenza, per il rischio di rottura."
+  },
+  {
+   "id": "paralisi-facciale",
+   "title": "Metà del volto paralizzata",
+   "vignette": "Uomo di 34 anni. Al risveglio non riesce a chiudere l'occhio destro né a corrugare la fronte a destra, e la bocca è deviata verso sinistra. I suoni gli sembrano troppo forti all'orecchio destro. Forza degli arti e sensibilità sono normali.",
+   "question": "Tocca il nervo cranico colpito.",
+   "answer": [
+    "facial-nerve-vii"
+   ],
+   "side": "R",
+   "explanation": "Paralisi periferica del nervo facciale destro (paralisi di Bell): è colpita tutta la metà del volto, fronte compresa. In una lesione centrale la fronte sarebbe risparmiata, perché la parte superiore del nucleo riceve da entrambi gli emisferi. L'iperacusia indica l'interessamento del ramo per il muscolo stapedio."
+  },
+  {
+   "id": "cervelletto",
+   "title": "Mano che manca il bersaglio",
+   "vignette": "Donna di 59 anni con un tumore della fossa cranica posteriore. Nella prova indice-naso la mano destra oscilla e manca il bersaglio; i movimenti alternati rapidi della mano destra sono irregolari. Forza e sensibilità sono normali.",
+   "question": "Tocca sul modello la parte dell'encefalo lesa.",
+   "answer": [
+    "dentate-nucleus"
+   ],
+   "side": "R",
+   "explanation": "Sindrome dell'emisfero cerebellare destro: dismetria, tremore intenzionale e adiadococinesia degli arti dello stesso lato. I segni sono omolaterali perché la via in uscita dal nucleo dentato incrocia nel mesencefalo e la via corticospinale incrocia di nuovo nel bulbo. Il nucleo dentato, ora evidenziato, è l'uscita dell'emisfero cerebellare.",
+   "answerLayer": "cerebellum"
+  },
+  {
+   "id": "korsakoff",
+   "title": "Inventa ciò che non ricorda",
+   "vignette": "Uomo di 52 anni con alcolismo cronico e malnutrizione. Dopo un episodio di confusione, andatura instabile e visione doppia, non riesce più a formare nuovi ricordi e riempie i vuoti con racconti inventati, di cui è convinto.",
+   "question": "Tocca la struttura ipotalamica tipicamente danneggiata.",
+   "answer": [
+    "mammillary-body"
+   ],
+   "explanation": "Sindrome di Wernicke-Korsakoff da carenza di tiamina: all'encefalopatia acuta (confusione, atassia, oftalmoplegia) segue un'amnesia con confabulazione. Le lesioni tipiche sono nei corpi mammillari e nel talamo mediale, stazioni del circuito di Papez."
+  }
+ ]
 }

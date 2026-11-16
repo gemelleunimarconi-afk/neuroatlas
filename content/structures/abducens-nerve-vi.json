@@ -1,0 +1,75 @@
+{
+  "id": "abducens-nerve-vi",
+  "names": {
+    "it": "Nervo abducente (VI)",
+    "la": "Nervus abducens (VI)",
+    "en": "Abducens nerve (VI)",
+    "synonyms": [
+      "sesto nervo cranico"
+    ]
+  },
+  "parent": "cranial-nerves",
+  "layer": "cranial-nerves",
+  "side": "bilateral",
+  "level": 2,
+  "location": "Origina dal nucleo del tegmento del ponte caudale, sotto il collicolo facciale del pavimento del quarto ventricolo. Emerge dal solco bulbopontino, vicino alla linea mediana, sale sul clivus, attraversa il seno cavernoso ed entra nell'orbita dalla fessura orbitaria superiore.",
+  "relations": [
+    {
+      "direction": "laterale",
+      "structureId": "facial-nerve-vii",
+      "text": "Nervo facciale, più laterale nel solco bulbopontino."
+    },
+    {
+      "direction": "superiore",
+      "structureId": "pons",
+      "text": "Ponte."
+    },
+    {
+      "direction": "mediale",
+      "structureId": "basilar-artery",
+      "text": "Arteria basilare."
+    }
+  ],
+  "function": "Motorio per il muscolo retto laterale, che abduce l'occhio. Il nucleo contiene anche interneuroni che, attraverso il fascicolo longitudinale mediale controlaterale, attivano il retto mediale dell'altro occhio: è il centro dello sguardo orizzontale.",
+  "connections": [
+    {
+      "type": "afferent",
+      "text": "Dalla formazione reticolare pontina paramediana e dai nuclei vestibolari."
+    },
+    {
+      "type": "efferent",
+      "targetId": "oculomotor-nerve-iii",
+      "via": "fascicolo longitudinale mediale",
+      "text": "Dagli interneuroni del nucleo al nucleo dell'oculomotore controlaterale."
+    }
+  ],
+  "bloodSupply": [
+    {
+      "arteryId": "basilar-artery",
+      "text": "Rami paramediani dell'arteria basilare."
+    }
+  ],
+  "clinical": [
+    {
+      "title": "Paralisi del nervo",
+      "text": "Strabismo convergente e diplopia orizzontale, peggiore guardando verso il lato leso."
+    },
+    {
+      "title": "Ipertensione endocranica",
+      "text": "Il lungo decorso lo rende vulnerabile: la paralisi è un falso segno localizzatorio."
+    },
+    {
+      "title": "Lesione del nucleo",
+      "text": "Paralisi dello sguardo orizzontale verso il lato della lesione, in entrambi gli occhi."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

@@ -1,0 +1,72 @@
+{
+  "id": "trigeminal-nerve-v",
+  "names": {
+    "it": "Nervo trigemino (V)",
+    "la": "Nervus trigeminus (V)",
+    "en": "Trigeminal nerve (V)",
+    "synonyms": [
+      "quinto nervo cranico"
+    ]
+  },
+  "parent": "cranial-nerves",
+  "layer": "cranial-nerves",
+  "side": "bilateral",
+  "level": 1,
+  "location": "Emerge dalla faccia ventrolaterale del ponte con una grossa radice sensitiva e una piccola radice motoria. Raggiunge il ganglio trigeminale (di Gasser) nel cavo di Meckel, da cui originano le tre branche: oftalmica (V1, fessura orbitaria superiore), mascellare (V2, forame rotondo) e mandibolare (V3, forame ovale).",
+  "relations": [
+    {
+      "direction": "mediale",
+      "structureId": "pons",
+      "text": "Ponte."
+    },
+    {
+      "direction": "anteriore",
+      "structureId": "ophthalmic-nerve",
+      "text": "Branche oftalmica, mascellare e mandibolare."
+    }
+  ],
+  "function": "Sensibilità somatica di volto, cuoio capelluto anteriore, cornea, cavità nasale e orale, denti e gran parte della dura madre. Motorio (solo con V3) per i muscoli masticatori, il miloioideo, il ventre anteriore del digastrico, il tensore del velo palatino e il tensore del timpano.",
+  "connections": [
+    {
+      "type": "efferent",
+      "targetId": "ventral-posteromedial-thalamic-nucleus",
+      "via": "lemnisco trigeminale",
+      "text": "Dai nuclei sensitivi (principale: tatto; spinale: dolore e temperatura; mesencefalico: propriocezione) al talamo ventrale posteromediale controlaterale."
+    },
+    {
+      "type": "afferent",
+      "targetId": "precentral-gyrus",
+      "via": "fibre corticonucleari",
+      "text": "Al nucleo motorio, dai due emisferi."
+    }
+  ],
+  "bloodSupply": [
+    {
+      "arteryId": "basilar-artery",
+      "text": "Rami pontini dell'arteria basilare e arteria cerebellare superiore per la radice."
+    }
+  ],
+  "clinical": [
+    {
+      "title": "Nevralgia del trigemino",
+      "text": "Dolore parossistico a scossa elettrica nel territorio di V2 o V3, spesso per conflitto con un'ansa arteriosa (di solito l'arteria cerebellare superiore)."
+    },
+    {
+      "title": "Riflesso corneale",
+      "text": "Via afferente V1, via efferente nervo facciale."
+    },
+    {
+      "title": "Herpes zoster oftalmico",
+      "text": "Riattivazione del virus nel territorio di V1."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

@@ -1,0 +1,66 @@
+{
+  "id": "hypoglossal-nerve-xii",
+  "names": {
+    "it": "Nervo ipoglosso (XII)",
+    "la": "Nervus hypoglossus (XII)",
+    "en": "Hypoglossal nerve (XII)",
+    "synonyms": [
+      "dodicesimo nervo cranico"
+    ]
+  },
+  "parent": "cranial-nerves",
+  "layer": "cranial-nerves",
+  "side": "bilateral",
+  "level": 2,
+  "location": "Origina dal nucleo dell'ipoglosso, sotto il trigono omonimo del pavimento del quarto ventricolo. Emerge dal bulbo nel solco anterolaterale, tra piramide e oliva, ed esce dal cranio attraverso il canale dell'ipoglosso.",
+  "relations": [
+    {
+      "direction": "mediale",
+      "structureId": "medulla-oblongata",
+      "text": "Piramide bulbare."
+    },
+    {
+      "direction": "laterale",
+      "structureId": "vagus-nerve-x",
+      "text": "Oliva e, più indietro, nervi IX e X."
+    }
+  ],
+  "function": "Motorio per tutti i muscoli intrinseci ed estrinseci della lingua, tranne il palatoglosso (innervato dal vago).",
+  "connections": [
+    {
+      "type": "afferent",
+      "targetId": "precentral-gyrus",
+      "via": "fibre corticonucleari",
+      "text": "Afferenze corticali prevalentemente controlaterali, soprattutto per il muscolo genioglosso."
+    }
+  ],
+  "bloodSupply": [
+    {
+      "arteryId": "anterior-spinal-artery",
+      "text": "Arteria spinale anteriore e rami paramediani dell'arteria vertebrale."
+    }
+  ],
+  "clinical": [
+    {
+      "title": "Lesione periferica o del nucleo",
+      "text": "La lingua protrusa devia verso il lato della lesione, con atrofia e fascicolazioni della metà paralizzata."
+    },
+    {
+      "title": "Lesione sopranucleare",
+      "text": "La lingua devia verso il lato opposto alla lesione, senza atrofia."
+    },
+    {
+      "title": "Sindrome bulbare mediale",
+      "text": "Paralisi omolaterale della lingua con emiparesi controlaterale."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

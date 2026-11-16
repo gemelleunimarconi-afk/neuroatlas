@@ -46,7 +46,8 @@
     {
       "type": "efferent",
       "via": "tratto corticonucleare (corticobulbare)",
-      "text": "Ai nuclei motori dei nervi cranici, passando per il ginocchio della capsula interna."
+      "text": "Ai nuclei motori dei nervi cranici, passando per il ginocchio della capsula interna.",
+      "targetId": "facial-nerve-vii"
     },
     {
       "type": "efferent",

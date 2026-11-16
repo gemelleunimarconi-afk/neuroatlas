@@ -1,0 +1,82 @@
+{
+  "id": "internal-carotid-artery",
+  "names": {
+    "it": "Arteria carotide interna",
+    "la": "Arteria carotis interna",
+    "en": "Internal carotid artery",
+    "synonyms": []
+  },
+  "parent": "cerebral-arteries",
+  "layer": "vessels",
+  "side": "bilateral",
+  "level": 1,
+  "location": "Origina dalla biforcazione della carotide comune, sale nel collo senza dare rami, attraversa il canale carotideo della rocca petrosa e il seno cavernoso (sifone carotideo) e perfora la dura accanto al processo clinoideo anteriore. Termina dividendosi nelle arterie cerebrale anteriore e cerebrale media.",
+  "relations": [
+    {
+      "direction": "mediale",
+      "structureId": "optic-chiasm",
+      "text": "Chiasma ottico e ipofisi."
+    },
+    {
+      "direction": "superiore",
+      "structureId": "optic-nerve",
+      "text": "Nervo ottico."
+    },
+    {
+      "direction": "laterale",
+      "structureId": "oculomotor-nerve-iii",
+      "text": "Nervi III, IV, V1 e VI nel seno cavernoso."
+    }
+  ],
+  "function": "Arteria principale del circolo anteriore: irrora l'occhio e la maggior parte degli emisferi cerebrali.",
+  "connections": [
+    {
+      "type": "efferent",
+      "targetId": "ophthalmic-artery",
+      "text": "Arteria oftalmica."
+    },
+    {
+      "type": "efferent",
+      "targetId": "posterior-communicating-artery",
+      "text": "Arteria comunicante posteriore."
+    },
+    {
+      "type": "efferent",
+      "targetId": "anterior-choroidal-artery",
+      "text": "Arteria corioidea anteriore."
+    },
+    {
+      "type": "efferent",
+      "targetId": "anterior-cerebral-artery",
+      "text": "Rami terminali: arterie cerebrale anteriore e cerebrale media."
+    }
+  ],
+  "bloodSupply": [],
+  "clinical": [
+    {
+      "title": "Stenosi aterosclerotica",
+      "text": "Alla biforcazione carotidea; causa attacchi ischemici transitori e ictus per embolia."
+    },
+    {
+      "title": "Amaurosi fugace",
+      "text": "Cecità monoculare transitoria per emboli nell'arteria oftalmica."
+    },
+    {
+      "title": "Dissezione",
+      "text": "Causa di ictus nel giovane, con dolore al collo e sindrome di Horner."
+    },
+    {
+      "title": "Fistola carotido-cavernosa",
+      "text": "Esoftalmo pulsante."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

@@ -1,0 +1,69 @@
+{
+  "id": "optic-nerve",
+  "names": {
+    "it": "Nervo ottico (II)",
+    "la": "Nervus opticus",
+    "en": "Optic nerve (II)",
+    "synonyms": [
+      "secondo nervo cranico"
+    ]
+  },
+  "parent": "cranial-nerves",
+  "layer": "cranial-nerves",
+  "side": "bilateral",
+  "level": 1,
+  "location": "Dal polo posteriore del bulbo oculare attraversa l'orbita e il canale ottico e raggiunge il chiasma. È un tratto del sistema nervoso centrale: è rivestito dalle meningi e mielinizzato da oligodendrociti.",
+  "relations": [
+    {
+      "direction": "posteriore",
+      "structureId": "optic-chiasm",
+      "text": "Chiasma ottico."
+    },
+    {
+      "direction": "laterale",
+      "structureId": "internal-carotid-artery",
+      "text": "Arteria carotide interna, con l'arteria oftalmica che lo accompagna nel canale ottico."
+    }
+  ],
+  "function": "Nervo sensitivo speciale della visione: porta gli assoni delle cellule gangliari della retina di un solo occhio.",
+  "connections": [
+    {
+      "type": "afferent",
+      "text": "Cellule gangliari della retina."
+    },
+    {
+      "type": "efferent",
+      "targetId": "optic-chiasm",
+      "text": "Al chiasma, dove incrociano le fibre della metà nasale della retina."
+    }
+  ],
+  "bloodSupply": [
+    {
+      "arteryId": "ophthalmic-artery",
+      "text": "Arteria oftalmica, con l'arteria centrale della retina che decorre al suo interno."
+    }
+  ],
+  "clinical": [
+    {
+      "title": "Lesione del nervo ottico",
+      "text": "Cecità monoculare con perdita del riflesso fotomotore diretto e consensuale conservato (difetto pupillare afferente)."
+    },
+    {
+      "title": "Neurite ottica",
+      "text": "Calo visivo doloroso, spesso prima manifestazione della sclerosi multipla."
+    },
+    {
+      "title": "Papilledema",
+      "text": "L'ipertensione endocranica si trasmette lungo la guaina meningea del nervo."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

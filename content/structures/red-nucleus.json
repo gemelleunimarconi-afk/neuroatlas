@@ -1,0 +1,75 @@
+{
+  "id": "red-nucleus",
+  "names": {
+    "it": "Nucleo rosso",
+    "la": "Nucleus ruber",
+    "en": "Red nucleus",
+    "synonyms": []
+  },
+  "parent": "midbrain",
+  "layer": "brainstem",
+  "side": "bilateral",
+  "level": 2,
+  "location": "Nucleo ovoidale del tegmento del mesencefalo rostrale, a livello del collicolo superiore, dorsomedialmente alla sostanza nera.",
+  "relations": [
+    {
+      "direction": "ventrolaterale",
+      "structureId": "substantia-nigra",
+      "text": "Sostanza nera."
+    },
+    {
+      "direction": "rostrale",
+      "structureId": "subthalamic-nucleus",
+      "text": "Regione subtalamica."
+    }
+  ],
+  "function": "Stazione dei circuiti motori cerebellari. La parte parvocellulare, prevalente nell'uomo, proietta all'oliva inferiore; la parte magnocellulare origina il tratto rubrospinale, che nell'uomo è poco sviluppato e facilita i muscoli flessori dell'arto superiore.",
+  "connections": [
+    {
+      "type": "afferent",
+      "targetId": "dentate-nucleus",
+      "via": "peduncolo cerebellare superiore",
+      "text": "Dai nuclei cerebellari controlaterali (dentato e interposito)."
+    },
+    {
+      "type": "afferent",
+      "targetId": "precentral-gyrus",
+      "text": "Dalla corteccia motoria."
+    },
+    {
+      "type": "efferent",
+      "via": "tratto tegmentale centrale",
+      "text": "All'oliva inferiore omolaterale, che proietta al cervelletto controlaterale."
+    },
+    {
+      "type": "efferent",
+      "targetId": "rubrospinal-tract",
+      "text": "Tratto rubrospinale, che incrocia subito nel tegmento."
+    }
+  ],
+  "bloodSupply": [
+    {
+      "arteryId": "posteromedial-central-branch-of-posterior-cerebral-artery",
+      "text": "Rami paramediani dell'apice della basilare e dell'arteria cerebrale posteriore."
+    }
+  ],
+  "clinical": [
+    {
+      "title": "Sindrome di Benedikt",
+      "text": "Lesione del nucleo rosso con le fibre dell'oculomotore: paralisi del III nervo con tremore e atassia controlaterali."
+    },
+    {
+      "title": "Postura in decorticazione",
+      "text": "Una lesione sopra il nucleo rosso lascia arti superiori flessi; sotto il nucleo rosso (decerebrazione) gli arti sono estesi."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

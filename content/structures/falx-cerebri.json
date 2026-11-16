@@ -1,0 +1,60 @@
+{
+  "id": "falx-cerebri",
+  "names": {
+    "it": "Falce cerebrale",
+    "la": "Falx cerebri",
+    "en": "Falx cerebri",
+    "synonyms": [
+      "grande falce"
+    ]
+  },
+  "parent": "dura-mater",
+  "layer": "meninges",
+  "side": "midline",
+  "level": 1,
+  "location": "Setto sagittale di dura madre, a forma di falce, nella fessura longitudinale tra i due emisferi. Si inserisce davanti sulla *crista galli* e dietro sul tentorio del cervelletto.",
+  "relations": [
+    {
+      "direction": "inferiore",
+      "structureId": "corpus-callosum",
+      "text": "Il margine libero sovrasta il corpo calloso."
+    },
+    {
+      "direction": "posteriore",
+      "structureId": "tentorium-cerebelli",
+      "text": "Tentorio del cervelletto, lungo il seno retto."
+    },
+    {
+      "direction": "laterale",
+      "structureId": "superior-frontal-gyrus",
+      "text": "Facce mediali degli emisferi."
+    }
+  ],
+  "function": "Limita gli spostamenti laterali degli emisferi. Contiene il seno sagittale superiore nel margine aderente e il seno sagittale inferiore nel margine libero.",
+  "connections": [],
+  "bloodSupply": [
+    {
+      "arteryId": "anterior-cerebral-artery",
+      "text": "Rami meningei: arteria meningea anteriore e rami dell'arteria cerebrale anteriore."
+    }
+  ],
+  "clinical": [
+    {
+      "title": "Ernia subfalcina",
+      "text": "Una massa spinge il giro del cingolo sotto il margine libero della falce; può comprimere l'arteria cerebrale anteriore."
+    },
+    {
+      "title": "Meningioma della falce",
+      "text": "Può comprimere i lobuli paracentrali di entrambi i lati, con debolezza degli arti inferiori."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

@@ -1,0 +1,58 @@
+{
+  "id": "median-nerve",
+  "names": {
+    "it": "Nervo mediano",
+    "la": "Nervus medianus",
+    "en": "Median nerve",
+    "synonyms": []
+  },
+  "parent": "brachial-plexus",
+  "layer": "body-nerves",
+  "side": "bilateral",
+  "level": 1,
+  "location": "Nasce dai fascicoli laterale e mediale del plesso brachiale (radici da C5 a T1), scende nel braccio con l'arteria brachiale, passa nella fossa cubitale e tra i capi del pronatore rotondo, percorre l'avambraccio e attraversa il tunnel carpale.",
+  "relations": [
+    {
+      "direction": "mediale",
+      "structureId": "ulnar-nerve",
+      "text": "Nervo ulnare, nel braccio."
+    },
+    {
+      "direction": "laterale",
+      "structureId": "musculocutaneous-nerve",
+      "text": "Nervo muscolocutaneo."
+    }
+  ],
+  "function": "Motorio per la maggior parte dei muscoli flessori dell'avambraccio, per i muscoli dell'eminenza tenar (tranne l'adduttore del pollice) e per i primi due lombricali. Sensitivo per la superficie palmare delle prime tre dita e metà della quarta.",
+  "connections": [
+    {
+      "type": "afferent",
+      "via": "plesso brachiale",
+      "text": "Dai fascicoli laterale e mediale del plesso brachiale."
+    }
+  ],
+  "bloodSupply": [
+    {
+      "text": "Arteria brachiale e suoi rami."
+    }
+  ],
+  "clinical": [
+    {
+      "title": "Sindrome del tunnel carpale",
+      "text": "Compressione al polso: parestesie notturne delle prime tre dita, poi ipotrofia dell'eminenza tenar; la sensibilità del palmo è risparmiata."
+    },
+    {
+      "title": "Lesione alta",
+      "text": "Al gomito: \"mano benedicente\" quando si tenta di chiudere il pugno."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

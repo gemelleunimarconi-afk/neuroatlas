@@ -1,0 +1,70 @@
+{
+  "id": "lateral-corticospinal-tract",
+  "names": {
+    "it": "Tratto corticospinale laterale",
+    "la": "Tractus corticospinalis lateralis",
+    "en": "Lateral corticospinal tract",
+    "synonyms": [
+      "fascio piramidale crociato"
+    ]
+  },
+  "parent": "spinal-cord",
+  "layer": "body-spinal-cord",
+  "side": "midline",
+  "level": 1,
+  "location": "Parte posteriore del cordone laterale del midollo spinale, medialmente al tratto spinocerebellare posteriore, per tutta la lunghezza del midollo.",
+  "relations": [
+    {
+      "direction": "laterale",
+      "structureId": "posterior-spinocerebellar-tract",
+      "text": "Tratto spinocerebellare posteriore."
+    },
+    {
+      "direction": "mediale",
+      "structureId": "posterior-horn-of-spinal-cord",
+      "text": "Corno posteriore."
+    }
+  ],
+  "function": "Contiene la maggior parte delle fibre corticospinali, che hanno incrociato nella decussazione delle piramidi. Controlla i movimenti volontari, soprattutto quelli fini e indipendenti delle estremità, del lato del corpo in cui decorre.",
+  "connections": [
+    {
+      "type": "afferent",
+      "targetId": "precentral-gyrus",
+      "text": "Dalla corteccia motoria controlaterale, attraverso capsula interna, peduncolo cerebrale, ponte e piramide bulbare."
+    },
+    {
+      "type": "efferent",
+      "targetId": "anterior-horn-of-spinal-cord",
+      "text": "Ai motoneuroni e agli interneuroni del corno anteriore dello stesso lato."
+    }
+  ],
+  "bloodSupply": [
+    {
+      "arteryId": "anterior-spinal-artery",
+      "text": "Arteria spinale anteriore, con contributi delle arterie spinali posteriori."
+    }
+  ],
+  "clinical": [
+    {
+      "title": "Lesione midollare",
+      "text": "Sotto la decussazione il deficit è dallo stesso lato della lesione: paresi spastica, iperreflessia e segno di Babinski sotto il livello leso."
+    },
+    {
+      "title": "Sindrome di Brown-Séquard",
+      "text": "Emisezione del midollo: paralisi e perdita della sensibilità profonda omolaterali, perdita della sensibilità termodolorifica controlaterale."
+    },
+    {
+      "title": "Sclerosi laterale amiotrofica",
+      "text": "Degenerazione dei tratti corticospinali e dei motoneuroni."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

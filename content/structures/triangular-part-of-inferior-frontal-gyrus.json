@@ -1,0 +1,70 @@
+{
+  "id": "triangular-part-of-inferior-frontal-gyrus",
+  "names": {
+    "it": "Giro frontale inferiore, parte triangolare",
+    "la": "Pars triangularis gyri frontalis inferioris",
+    "en": "Triangular part of inferior frontal gyrus",
+    "synonyms": [
+      "pars triangularis",
+      "area di Broca (parte)"
+    ]
+  },
+  "parent": "frontal-lobe",
+  "layer": "cortex",
+  "side": "bilateral",
+  "level": 2,
+  "location": "Parte intermedia del giro frontale inferiore, tra i rami anteriore e ascendente del solco laterale.",
+  "relations": [
+    {
+      "direction": "posteriore",
+      "structureId": "opercular-part-of-inferior-frontal-gyrus",
+      "text": "Parte opercolare."
+    },
+    {
+      "direction": "anteriore",
+      "structureId": "orbital-part-of-inferior-frontal-gyrus",
+      "text": "Parte orbitaria."
+    },
+    {
+      "direction": "superiore",
+      "structureId": "inferior-frontal-sulcus",
+      "text": "Solco frontale inferiore."
+    }
+  ],
+  "function": "Area 45 di Brodmann. Nell'emisfero dominante fa parte dell'area di Broca e partecipa al recupero lessicale e all'elaborazione semantica e sintattica del linguaggio.",
+  "connections": [
+    {
+      "type": "reciprocal",
+      "targetId": "superior-temporal-gyrus",
+      "text": "Con le aree temporali del linguaggio."
+    },
+    {
+      "type": "reciprocal",
+      "targetId": "opercular-part-of-inferior-frontal-gyrus",
+      "text": "Con la parte opercolare."
+    }
+  ],
+  "bloodSupply": [
+    {
+      "arteryId": "prefrontal-artery",
+      "text": "Rami del tronco superiore dell'arteria cerebrale media."
+    }
+  ],
+  "clinical": [
+    {
+      "title": "Afasia di Broca",
+      "text": "Vedi parte opercolare: la lesione di entrambe le parti dà un'afasia non fluente."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [
+    45
+  ],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

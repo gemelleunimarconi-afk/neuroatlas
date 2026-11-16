@@ -1,0 +1,69 @@
+{
+  "id": "globus-pallidus-pars-externa",
+  "names": {
+    "it": "Globo pallido esterno",
+    "la": "Globus pallidus lateralis",
+    "en": "External globus pallidus",
+    "synonyms": [
+      "pallido laterale",
+      "GPe"
+    ]
+  },
+  "parent": "basal-ganglia",
+  "layer": "basal-ganglia",
+  "side": "bilateral",
+  "level": 2,
+  "location": "Segmento laterale del globo pallido, tra il putamen (lateralmente) e il globo pallido interno (medialmente), da cui è separato dalla lamina midollare mediale.",
+  "relations": [
+    {
+      "direction": "laterale",
+      "structureId": "putamen",
+      "text": "Putamen."
+    },
+    {
+      "direction": "mediale",
+      "structureId": "globus-pallidus-pars-interna",
+      "text": "Globo pallido interno."
+    }
+  ],
+  "function": "Stazione della via indiretta. I suoi neuroni GABAergici inibiscono tonicamente il nucleo subtalamico: quando lo striato li inibisce, il nucleo subtalamico viene disinibito e il movimento è frenato.",
+  "connections": [
+    {
+      "type": "afferent",
+      "targetId": "putamen",
+      "via": "via indiretta",
+      "text": "Dai neuroni spinosi medi dello striato con recettori D2 (GABA, encefalina)."
+    },
+    {
+      "type": "efferent",
+      "targetId": "subthalamic-nucleus",
+      "text": "Proiezione GABAergica inibitoria."
+    },
+    {
+      "type": "afferent",
+      "targetId": "subthalamic-nucleus",
+      "text": "Proiezione eccitatoria di ritorno."
+    }
+  ],
+  "bloodSupply": [
+    {
+      "arteryId": "anterolateral-central-branch-of-middle-cerebral-artery",
+      "text": "Arterie lenticolostriate e arteria corioidea anteriore."
+    }
+  ],
+  "clinical": [
+    {
+      "title": "Malattia di Huntington, fase iniziale",
+      "text": "La perdita selettiva dei neuroni striatali della via indiretta riduce l'inibizione del globo pallido esterno, che inibisce di più il nucleo subtalamico: ne risultano movimenti involontari (corea)."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

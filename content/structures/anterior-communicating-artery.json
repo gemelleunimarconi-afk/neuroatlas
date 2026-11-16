@@ -1,0 +1,58 @@
+{
+  "id": "anterior-communicating-artery",
+  "names": {
+    "it": "Arteria comunicante anteriore",
+    "la": "Arteria communicans anterior",
+    "en": "Anterior communicating artery",
+    "synonyms": []
+  },
+  "parent": "cerebral-arteries",
+  "layer": "vessels",
+  "side": "midline",
+  "level": 1,
+  "location": "Breve arteria impari che unisce le due arterie cerebrali anteriori davanti alla lamina terminale e sopra il chiasma ottico.",
+  "relations": [
+    {
+      "direction": "inferiore",
+      "structureId": "optic-chiasm",
+      "text": "Chiasma ottico."
+    },
+    {
+      "direction": "laterale",
+      "structureId": "anterior-cerebral-artery",
+      "text": "Arterie cerebrali anteriori."
+    }
+  ],
+  "function": "Chiude anteriormente il poligono di Willis, collegando i circoli carotidei dei due lati. Dà piccoli rami perforanti per l'ipotalamo anteriore, il setto e le colonne del fornice.",
+  "connections": [
+    {
+      "type": "reciprocal",
+      "targetId": "anterior-cerebral-artery",
+      "text": "Tra le due arterie cerebrali anteriori."
+    }
+  ],
+  "bloodSupply": [],
+  "clinical": [
+    {
+      "title": "Aneurisma",
+      "text": "È la sede più frequente degli aneurismi sacculari intracranici; la rottura causa emorragia subaracnoidea."
+    },
+    {
+      "title": "Sindrome dell'arteria comunicante anteriore",
+      "text": "Dopo la rottura o l'intervento: amnesia con confabulazione e alterazioni della personalità."
+    },
+    {
+      "title": "Compressione del chiasma",
+      "text": "Un aneurisma voluminoso può dare difetti del campo visivo."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

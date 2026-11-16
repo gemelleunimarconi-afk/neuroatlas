@@ -1,0 +1,72 @@
+{
+  "id": "insula",
+  "names": {
+    "it": "Insula",
+    "la": "Insula",
+    "en": "Insula",
+    "synonyms": [
+      "lobo dell'insula",
+      "isola di Reil"
+    ]
+  },
+  "parent": "cerebral-hemisphere",
+  "layer": "cortex",
+  "side": "bilateral",
+  "level": 2,
+  "location": "Porzione di corteccia nascosta in fondo al solco laterale, coperta dagli opercoli frontale, parietale e temporale. È delimitata dal solco circolare.",
+  "relations": [
+    {
+      "direction": "laterale",
+      "structureId": "opercular-part-of-inferior-frontal-gyrus",
+      "text": "Opercoli frontale, parietale e temporale."
+    },
+    {
+      "direction": "mediale",
+      "structureId": "claustrum",
+      "text": "Capsula estrema, claustro, capsula esterna e putamen."
+    },
+    {
+      "direction": "inferiore",
+      "structureId": "limen-insulae",
+      "text": "Limen dell'insula."
+    }
+  ],
+  "function": "Corteccia gustativa primaria (parte anteriore, con l'opercolo frontale), rappresentazione viscerale e interocettiva, elaborazione del dolore e delle emozioni (disgusto), controllo autonomico.",
+  "connections": [
+    {
+      "type": "afferent",
+      "targetId": "ventral-posteromedial-thalamic-nucleus",
+      "text": "Afferenze gustative e viscerali dal talamo ventrale posteromediale."
+    },
+    {
+      "type": "reciprocal",
+      "targetId": "amygdala",
+      "text": "Con amigdala, corteccia orbitofrontale e giro del cingolo."
+    }
+  ],
+  "bloodSupply": [
+    {
+      "arteryId": "insular-part-of-middle-cerebral-artery",
+      "text": "Rami del segmento insulare (M2) dell'arteria cerebrale media."
+    }
+  ],
+  "clinical": [
+    {
+      "title": "Ictus dell'arteria cerebrale media",
+      "text": "L'insula è spesso coinvolta precocemente; alla TC la perdita del suo profilo è un segno iniziale di ischemia."
+    },
+    {
+      "title": "Epilessia insulare",
+      "text": "Crisi con sintomi viscerali, gustativi o dolorosi."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}
