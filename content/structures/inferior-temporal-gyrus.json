@@ -1,0 +1,68 @@
+{
+  "id": "inferior-temporal-gyrus",
+  "names": {
+    "it": "Giro temporale inferiore",
+    "la": "Gyrus temporalis inferior",
+    "en": "Inferior temporal gyrus",
+    "synonyms": [
+      "terza circonvoluzione temporale"
+    ]
+  },
+  "parent": "temporal-lobe",
+  "layer": "cortex",
+  "side": "bilateral",
+  "level": 2,
+  "location": "Margine inferolaterale del lobo temporale, sotto il solco temporale inferiore; sulla faccia inferiore confina con il giro fusiforme.",
+  "relations": [
+    {
+      "direction": "superiore",
+      "structureId": "middle-temporal-gyrus",
+      "text": "Giro temporale medio."
+    },
+    {
+      "direction": "mediale",
+      "structureId": "fusiform-gyrus",
+      "text": "Giro fusiforme."
+    }
+  ],
+  "function": "Corteccia visiva associativa di ordine superiore (area 20), stazione finale della via ventrale (\"che cosa\"): riconoscimento di oggetti e forme complesse e memoria visiva.",
+  "connections": [
+    {
+      "type": "afferent",
+      "targetId": "lateral-occipital-gyrus",
+      "text": "Dalle aree visive occipitotemporali."
+    },
+    {
+      "type": "efferent",
+      "targetId": "parahippocampal-gyrus",
+      "text": "Alle strutture temporali mediali e alla corteccia prefrontale."
+    }
+  ],
+  "bloodSupply": [
+    {
+      "arteryId": "posterior-temporal-branch-of-middle-cerebral-artery",
+      "text": "Rami temporali dell'arteria cerebrale media; la faccia inferiore dall'arteria cerebrale posteriore."
+    }
+  ],
+  "clinical": [
+    {
+      "title": "Agnosia visiva associativa",
+      "text": "Lesioni occipitotemporali: gli oggetti sono visti ma non riconosciuti."
+    },
+    {
+      "title": "Demenza semantica",
+      "text": "Atrofia dei lobi temporali anteriori e inferiori con perdita del significato di parole e oggetti."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [
+    20
+  ],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

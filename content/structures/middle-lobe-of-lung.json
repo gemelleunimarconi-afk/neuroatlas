@@ -1,0 +1,65 @@
+{
+  "id": "middle-lobe-of-lung",
+  "names": {
+    "it": "Lobo medio del polmone destro",
+    "la": "Lobus medius pulmonis dextri",
+    "en": "Middle lobe of right lung",
+    "synonyms": [
+      "lobo medio"
+    ]
+  },
+  "parent": "lung",
+  "layer": "body-respiratory",
+  "side": "midline",
+  "level": 2,
+  "location": "Lobo a forma di cuneo del polmone destro, tra la scissura orizzontale (sopra) e la scissura obliqua (dietro e sotto); si proietta sulla parete toracica anteriore. Il polmone sinistro non ha un lobo medio.",
+  "relations": [
+    {
+      "direction": "superiore",
+      "structureId": "upper-lobe-of-lung",
+      "text": "Lobo superiore."
+    },
+    {
+      "direction": "posteriore",
+      "structureId": "lower-lobe-of-lung",
+      "text": "Lobo inferiore."
+    },
+    {
+      "direction": "mediale",
+      "structureId": "wall-of-atrium",
+      "text": "Atrio destro."
+    }
+  ],
+  "function": "Scambi gassosi. Ha due segmenti, laterale e mediale.",
+  "connections": [
+    {
+      "type": "afferent",
+      "targetId": "lateral-segmental-bronchial-tree",
+      "text": "Bronco lobare medio, lungo e sottile."
+    }
+  ],
+  "bloodSupply": [
+    {
+      "text": "Arterie bronchiali."
+    }
+  ],
+  "clinical": [
+    {
+      "title": "Sindrome del lobo medio",
+      "text": "Il suo bronco, stretto e circondato da linfonodi, si ostruisce facilmente: atelettasia e infezioni ricorrenti."
+    },
+    {
+      "title": "Polmonite del lobo medio",
+      "text": "Cancella il margine destro del cuore alla radiografia."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

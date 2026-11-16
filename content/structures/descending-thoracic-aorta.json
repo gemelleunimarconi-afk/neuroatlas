@@ -1,0 +1,61 @@
+{
+  "id": "descending-thoracic-aorta",
+  "names": {
+    "it": "Aorta toracica discendente",
+    "la": "Aorta thoracica",
+    "en": "Descending thoracic aorta",
+    "synonyms": [
+      "aorta toracica"
+    ]
+  },
+  "parent": "aorta",
+  "layer": "body-arteries",
+  "side": "midline",
+  "level": 2,
+  "location": "Dall'arco, a livello di T4, scende nel mediastino posteriore, prima a sinistra e poi davanti alla colonna vertebrale; attraversa il diaframma a livello di T12.",
+  "relations": [
+    {
+      "direction": "anteriore",
+      "structureId": "esophagus",
+      "text": "Esofago, che la incrocia in basso, e radice del polmone sinistro."
+    },
+    {
+      "direction": "inferiore",
+      "structureId": "abdominal-aorta",
+      "text": "Aorta addominale."
+    }
+  ],
+  "function": "Dà le arterie intercostali posteriori, bronchiali ed esofagee, e rami per il midollo spinale.",
+  "connections": [
+    {
+      "type": "afferent",
+      "targetId": "arch-of-aorta",
+      "text": "Dall'arco aortico."
+    },
+    {
+      "type": "efferent",
+      "targetId": "abdominal-aorta",
+      "text": "Continua nell'aorta addominale."
+    }
+  ],
+  "bloodSupply": [],
+  "clinical": [
+    {
+      "title": "Rottura traumatica",
+      "text": "Nelle decelerazioni violente l'aorta si lacera all'istmo, subito dopo l'origine della succlavia sinistra."
+    },
+    {
+      "title": "Ischemia midollare",
+      "text": "La chirurgia dell'aorta toracica può compromettere l'arteria radicolare magna."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

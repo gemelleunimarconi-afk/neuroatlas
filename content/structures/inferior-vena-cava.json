@@ -1,0 +1,64 @@
+{
+  "id": "inferior-vena-cava",
+  "names": {
+    "it": "Vena cava inferiore",
+    "la": "Vena cava inferior",
+    "en": "Inferior vena cava",
+    "synonyms": []
+  },
+  "parent": "systemic-veins",
+  "layer": "body-veins",
+  "side": "midline",
+  "level": 1,
+  "location": "Si forma a livello di L5 dall'unione delle due vene iliache comuni, sale a destra dell'aorta, passa dietro il fegato, attraversa il centro tendineo del diaframma (T8) e sbocca subito nell'atrio destro.",
+  "relations": [
+    {
+      "direction": "sinistra",
+      "structureId": "abdominal-aorta",
+      "text": "Aorta addominale."
+    },
+    {
+      "direction": "anteriore",
+      "structureId": "liver",
+      "text": "Fegato, che la accoglie in un solco."
+    }
+  ],
+  "function": "Raccoglie il sangue venoso di arti inferiori, pelvi, reni e parete addominale e, attraverso le vene epatiche, quello dell'apparato digerente dopo il passaggio nel fegato.",
+  "connections": [
+    {
+      "type": "afferent",
+      "targetId": "renal-vein",
+      "text": "Vene renali."
+    },
+    {
+      "type": "afferent",
+      "targetId": "hepatic-vein",
+      "text": "Vene epatiche."
+    },
+    {
+      "type": "efferent",
+      "targetId": "wall-of-atrium",
+      "text": "All'atrio destro."
+    }
+  ],
+  "bloodSupply": [],
+  "clinical": [
+    {
+      "title": "Compressione in gravidanza",
+      "text": "In posizione supina l'utero comprime la vena riducendo il ritorno venoso (sindrome ipotensiva supina)."
+    },
+    {
+      "title": "Filtro cavale",
+      "text": "Impedisce a trombi degli arti inferiori di raggiungere i polmoni."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

@@ -1,0 +1,71 @@
+{
+  "id": "infundibulum-of-neurohypophysis",
+  "names": {
+    "it": "Infundibolo",
+    "la": "Infundibulum",
+    "en": "Infundibulum",
+    "synonyms": [
+      "peduncolo ipofisario"
+    ]
+  },
+  "parent": "hypothalamus",
+  "layer": "diencephalon",
+  "side": "midline",
+  "level": 2,
+  "location": "Peduncolo a imbuto che scende dal tuber cinereum, attraversa il diaframma della sella e raggiunge l'ipofisi.",
+  "relations": [
+    {
+      "direction": "superiore",
+      "structureId": "inferior-tuberal-hypothalamus",
+      "text": "Tuber cinereum ed eminenza mediana."
+    },
+    {
+      "direction": "anteriore",
+      "structureId": "optic-chiasm",
+      "text": "Chiasma ottico."
+    },
+    {
+      "direction": "inferiore",
+      "structureId": "neurohypophysis",
+      "text": "Ipofisi."
+    }
+  ],
+  "function": "Contiene gli assoni del tratto ipotalamo-ipofisario, diretti alla neuroipofisi, e i vasi portali ipofisari, che portano gli ormoni ipotalamici all'adenoipofisi.",
+  "connections": [
+    {
+      "type": "afferent",
+      "targetId": "anterior-inferior-hypothalamus",
+      "text": "Dai nuclei sopraottico e paraventricolare."
+    },
+    {
+      "type": "efferent",
+      "targetId": "neurohypophysis",
+      "text": "Alla neuroipofisi."
+    }
+  ],
+  "bloodSupply": [
+    {
+      "arteryId": "internal-carotid-artery",
+      "text": "Arterie ipofisarie superiori."
+    }
+  ],
+  "clinical": [
+    {
+      "title": "Sezione del peduncolo",
+      "text": "Trauma o chirurgia: diabete insipido, ipopituitarismo e iperprolattinemia."
+    },
+    {
+      "title": "Compressione",
+      "text": "Anche una massa che non secerne prolattina può aumentarla comprimendo il peduncolo."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

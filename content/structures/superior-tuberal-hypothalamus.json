@@ -1,0 +1,70 @@
+{
+  "id": "superior-tuberal-hypothalamus",
+  "names": {
+    "it": "Ipotalamo tuberale superiore",
+    "la": "Hypothalamus, pars tuberalis superior",
+    "en": "Superior tuberal hypothalamus",
+    "synonyms": [
+      "ipotalamo tuberale dorsale"
+    ]
+  },
+  "parent": "hypothalamus",
+  "layer": "diencephalon",
+  "side": "bilateral",
+  "level": 3,
+  "location": "Parte intermedia e superiore dell'ipotalamo, sopra il tuber cinereum, tra la parete del terzo ventricolo e la capsula interna. L'attribuzione dei nuclei alle zone dell'atlante è indicativa.",
+  "relations": [
+    {
+      "direction": "mediale",
+      "structureId": "third-ventricle",
+      "text": "Terzo ventricolo."
+    },
+    {
+      "direction": "inferiore",
+      "structureId": "inferior-tuberal-hypothalamus",
+      "text": "Zona tuberale inferiore."
+    },
+    {
+      "direction": "superiore",
+      "structureId": "dorsomedial-thalamic-nucleus",
+      "text": "Talamo, oltre il solco ipotalamico."
+    }
+  ],
+  "function": "Comprende il nucleo dorsomediale e parte dell'area ipotalamica laterale: regolazione dell'assunzione di cibo, dei ritmi e della vigilanza. I neuroni a orexina (ipocretina) dell'ipotalamo laterale stabilizzano la veglia.",
+  "connections": [
+    {
+      "type": "reciprocal",
+      "via": "fascicolo prosencefalico mediale",
+      "text": "Con il setto, lo striato ventrale e il tegmento del mesencefalo."
+    },
+    {
+      "type": "efferent",
+      "text": "Proiezioni orexinergiche diffuse a corteccia, tronco e midollo."
+    }
+  ],
+  "bloodSupply": [
+    {
+      "arteryId": "posterior-communicating-artery",
+      "text": "Rami perforanti dell'arteria comunicante posteriore."
+    }
+  ],
+  "clinical": [
+    {
+      "title": "Narcolessia",
+      "text": "Perdita dei neuroni a orexina: sonnolenza diurna e cataplessia."
+    },
+    {
+      "title": "Lesione dell'ipotalamo laterale",
+      "text": "Negli animali causa afagia e dimagrimento."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

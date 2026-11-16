@@ -1,0 +1,59 @@
+{
+  "id": "renal-artery",
+  "names": {
+    "it": "Arteria renale",
+    "la": "Arteria renalis",
+    "en": "Renal artery",
+    "synonyms": []
+  },
+  "parent": "abdominal-aorta",
+  "layer": "body-arteries",
+  "side": "bilateral",
+  "level": 2,
+  "location": "Nasce ad angolo retto dall'aorta addominale a livello di L1-L2, sotto l'arteria mesenterica superiore; la destra, più lunga, passa dietro la vena cava inferiore. All'ilo si divide in rami segmentali.",
+  "relations": [
+    {
+      "direction": "anteriore",
+      "structureId": "renal-vein",
+      "text": "Vena renale."
+    },
+    {
+      "direction": "laterale",
+      "structureId": "kidney",
+      "text": "Ilo del rene."
+    }
+  ],
+  "function": "Porta ai reni circa un quinto della gittata cardiaca, molto più di quanto serva al loro metabolismo: l'alto flusso serve alla filtrazione. I rami segmentali sono arterie terminali, senza anastomosi tra loro.",
+  "connections": [
+    {
+      "type": "afferent",
+      "targetId": "abdominal-aorta",
+      "text": "Dall'aorta addominale."
+    },
+    {
+      "type": "efferent",
+      "targetId": "kidney",
+      "text": "Arterie segmentali, interlobari, arcuate e interlobulari, fino alle arteriole afferenti dei glomeruli."
+    }
+  ],
+  "bloodSupply": [],
+  "clinical": [
+    {
+      "title": "Stenosi dell'arteria renale",
+      "text": "Il rene ipoperfuso libera renina: ipertensione secondaria, per aterosclerosi nell'anziano o displasia fibromuscolare nella donna giovane."
+    },
+    {
+      "title": "Infarto renale",
+      "text": "Poiché i rami sono terminali, l'occlusione dà un infarto a cuneo."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

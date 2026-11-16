@@ -1,0 +1,51 @@
+{
+  "id": "superior-temporal-sulcus",
+  "names": {
+    "it": "Solco temporale superiore",
+    "la": "Sulcus temporalis superior",
+    "en": "Superior temporal sulcus",
+    "synonyms": [
+      "solco parallelo"
+    ]
+  },
+  "parent": "temporal-lobe",
+  "layer": "sulci",
+  "side": "bilateral",
+  "level": 2,
+  "location": "Solco della faccia laterale del lobo temporale, parallelo al solco laterale, tra i giri temporali superiore e medio; la sua estremità posteriore è circondata dal giro angolare.",
+  "relations": [
+    {
+      "direction": "superiore",
+      "structureId": "superior-temporal-gyrus",
+      "text": "Giro temporale superiore."
+    },
+    {
+      "direction": "inferiore",
+      "structureId": "middle-temporal-gyrus",
+      "text": "Giro temporale medio."
+    }
+  ],
+  "function": "Separa i giri temporali superiore e medio; le sue pareti contengono cortecce associative multimodali.",
+  "connections": [],
+  "bloodSupply": [
+    {
+      "arteryId": "temporo-occipital-branch-of-middle-cerebral-artery",
+      "text": "Rami temporali dell'arteria cerebrale media."
+    }
+  ],
+  "clinical": [
+    {
+      "title": "Repere",
+      "text": "Seguendolo all'indietro si raggiunge il giro angolare."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

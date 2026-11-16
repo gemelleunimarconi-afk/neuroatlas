@@ -1,0 +1,51 @@
+{
+  "id": "collateral-sulcus",
+  "names": {
+    "it": "Solco collaterale",
+    "la": "Sulcus collateralis",
+    "en": "Collateral sulcus",
+    "synonyms": [
+      "solco occipitotemporale mediale"
+    ]
+  },
+  "parent": "temporal-lobe",
+  "layer": "sulci",
+  "side": "bilateral",
+  "level": 3,
+  "location": "Lungo solco sagittale della faccia inferiore dei lobi temporale e occipitale, tra il giro paraippocampale e il giro linguale (medialmente) e il giro fusiforme (lateralmente).",
+  "relations": [
+    {
+      "direction": "mediale",
+      "structureId": "parahippocampal-gyrus",
+      "text": "Giro paraippocampale e giro linguale."
+    },
+    {
+      "direction": "laterale",
+      "structureId": "fusiform-gyrus",
+      "text": "Giro fusiforme."
+    }
+  ],
+  "function": "Limite laterale del lobo limbico sulla faccia inferiore. In profondità solleva l'eminenza collaterale nel pavimento del corno temporale del ventricolo laterale.",
+  "connections": [],
+  "bloodSupply": [
+    {
+      "arteryId": "postcommunicating-part-of-posterior-cerebral-artery",
+      "text": "Rami temporali dell'arteria cerebrale posteriore."
+    }
+  ],
+  "clinical": [
+    {
+      "title": "Repere",
+      "text": "Nelle sezioni coronali separa la corteccia entorinale e peririnale dal giro fusiforme; è usato per misurare l'atrofia temporale mediale."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

@@ -1,0 +1,54 @@
+{
+  "id": "lingual-nerve",
+  "names": {
+    "it": "Nervo linguale",
+    "la": "Nervus lingualis",
+    "en": "Lingual nerve",
+    "synonyms": []
+  },
+  "parent": "trigeminal-nerve",
+  "layer": "cranial-nerves",
+  "side": "bilateral",
+  "level": 3,
+  "location": "Ramo del nervo mandibolare (V3). Scende tra i muscoli pterigoidei, riceve la corda del timpano e raggiunge il pavimento della bocca, vicino al terzo molare inferiore, incrociando il dotto sottomandibolare.",
+  "relations": [
+    {
+      "direction": "posteriore",
+      "structureId": "inferior-alveolar-nerve",
+      "text": "Nervo alveolare inferiore."
+    },
+    {
+      "direction": "superiore",
+      "structureId": "chorda-tympani",
+      "text": "Corda del timpano, che vi si unisce."
+    }
+  ],
+  "function": "Sensibilità generale dei due terzi anteriori della lingua, del pavimento della bocca e della gengiva linguale. Trasporta le fibre della corda del timpano: gusto dei due terzi anteriori della lingua e parasimpatico per le ghiandole sottomandibolare e sottolinguale.",
+  "connections": [
+    {
+      "type": "afferent",
+      "targetId": "chorda-tympani",
+      "text": "Fibre gustative e parasimpatiche del nervo facciale."
+    }
+  ],
+  "bloodSupply": [
+    {
+      "text": "Rami dell'arteria linguale."
+    }
+  ],
+  "clinical": [
+    {
+      "title": "Lesione iatrogena",
+      "text": "Può essere leso nell'estrazione del terzo molare inferiore: anestesia e perdita del gusto di metà della lingua."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

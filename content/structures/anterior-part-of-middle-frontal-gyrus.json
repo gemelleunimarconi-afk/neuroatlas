@@ -1,0 +1,76 @@
+{
+  "id": "anterior-part-of-middle-frontal-gyrus",
+  "names": {
+    "it": "Giro frontale medio, parte anteriore",
+    "la": "Gyrus frontalis medius",
+    "en": "Middle frontal gyrus, anterior part",
+    "synonyms": [
+      "corteccia prefrontale dorsolaterale"
+    ]
+  },
+  "parent": "frontal-lobe",
+  "layer": "cortex",
+  "side": "bilateral",
+  "level": 2,
+  "location": "Metà anteriore del giro frontale medio, tra i solchi frontali superiore e inferiore, sulla faccia laterale del lobo frontale.",
+  "relations": [
+    {
+      "direction": "superiore",
+      "structureId": "superior-frontal-sulcus",
+      "text": "Solco frontale superiore."
+    },
+    {
+      "direction": "inferiore",
+      "structureId": "inferior-frontal-sulcus",
+      "text": "Solco frontale inferiore."
+    },
+    {
+      "direction": "posteriore",
+      "structureId": "posterior-part-of-middle-frontal-gyrus",
+      "text": "Parte posteriore del giro frontale medio."
+    }
+  ],
+  "function": "Nucleo della corteccia prefrontale dorsolaterale (aree 46 e 9): memoria di lavoro, pianificazione, flessibilità cognitiva, ragionamento e controllo dell'attenzione.",
+  "connections": [
+    {
+      "type": "reciprocal",
+      "targetId": "dorsomedial-thalamic-nucleus",
+      "text": "Con il nucleo dorsomediale del talamo."
+    },
+    {
+      "type": "efferent",
+      "targetId": "caudate-nucleus",
+      "text": "Alla testa del nucleo caudato (circuito associativo dei nuclei della base)."
+    },
+    {
+      "type": "reciprocal",
+      "targetId": "superior-parietal-lobule",
+      "via": "fascicolo longitudinale superiore",
+      "text": "Con la corteccia parietale posteriore."
+    }
+  ],
+  "bloodSupply": [
+    {
+      "arteryId": "prefrontal-artery",
+      "text": "Arteria prefrontale, ramo dell'arteria cerebrale media."
+    }
+  ],
+  "clinical": [
+    {
+      "title": "Sindrome disesecutiva",
+      "text": "Lesioni dorsolaterali: difficoltà a pianificare, perseverazioni, ridotta fluenza verbale e memoria di lavoro compromessa, con personalità relativamente conservata."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [
+    46,
+    10
+  ],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

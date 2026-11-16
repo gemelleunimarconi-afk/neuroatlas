@@ -1,0 +1,68 @@
+{
+  "id": "lateral-dorsal-thalamic-nucleus",
+  "names": {
+    "it": "Nucleo laterale dorsale del talamo",
+    "la": "Nucleus lateralis dorsalis thalami",
+    "en": "Lateral dorsal nucleus of thalamus",
+    "synonyms": [
+      "LD"
+    ]
+  },
+  "parent": "thalamus",
+  "layer": "diencephalon",
+  "side": "bilateral",
+  "level": 3,
+  "location": "Parte anteriore del gruppo nucleare laterale del talamo, sul margine dorsale, subito dietro i nuclei anteriori.",
+  "relations": [
+    {
+      "direction": "anteriore",
+      "structureId": "anterior-thalamic-nucleus",
+      "text": "Nuclei anteriori."
+    },
+    {
+      "direction": "posteriore",
+      "structureId": "lateral-posterior-thalamic-nucleus",
+      "text": "Nucleo laterale posteriore."
+    },
+    {
+      "direction": "mediale",
+      "structureId": "internal-medullary-lamina",
+      "text": "Lamina midollare interna."
+    }
+  ],
+  "function": "Funzionalmente affine ai nuclei anteriori: appartiene ai circuiti limbici della memoria e dell'orientamento spaziale.",
+  "connections": [
+    {
+      "type": "afferent",
+      "targetId": "hippocampus",
+      "via": "fornice",
+      "text": "Dalla formazione dell'ippocampo."
+    },
+    {
+      "type": "efferent",
+      "targetId": "posterior-cingulate-gyrus",
+      "text": "Alla corteccia cingolata posteriore e retrospleniale."
+    }
+  ],
+  "bloodSupply": [
+    {
+      "arteryId": "posterior-medial-choroidal-artery",
+      "text": "Arterie corioidee posteriori."
+    }
+  ],
+  "clinical": [
+    {
+      "title": "Infarti talamici dorsali",
+      "text": "Possono contribuire a disturbi di memoria; è raramente leso in modo isolato."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

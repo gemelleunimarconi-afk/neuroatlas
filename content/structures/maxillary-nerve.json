@@ -1,0 +1,60 @@
+{
+  "id": "maxillary-nerve",
+  "names": {
+    "it": "Nervo mascellare",
+    "la": "Nervus maxillaris",
+    "en": "Maxillary nerve (V2)",
+    "synonyms": [
+      "seconda branca del trigemino"
+    ]
+  },
+  "parent": "trigeminal-nerve",
+  "layer": "cranial-nerves",
+  "side": "bilateral",
+  "level": 2,
+  "location": "Seconda branca del trigemino. Lascia il cranio dal forame rotondo, attraversa la fossa pterigopalatina ed entra nell'orbita come nervo infraorbitario, che emerge sulla guancia dal forame omonimo.",
+  "relations": [
+    {
+      "direction": "posteriore",
+      "structureId": "trigeminal-nerve-v",
+      "text": "Ganglio trigeminale."
+    },
+    {
+      "direction": "superiore",
+      "structureId": "ophthalmic-nerve",
+      "text": "Nervo oftalmico."
+    }
+  ],
+  "function": "Solo sensitivo: palpebra inferiore, guancia, ala del naso, labbro superiore, denti e gengive dell'arcata superiore, palato, parte della cavità nasale e del seno mascellare.",
+  "connections": [
+    {
+      "type": "efferent",
+      "targetId": "trigeminal-nerve-v",
+      "text": "Ai nuclei sensitivi del trigemino."
+    }
+  ],
+  "bloodSupply": [
+    {
+      "text": "Rami dell'arteria mascellare."
+    }
+  ],
+  "clinical": [
+    {
+      "title": "Nevralgia del trigemino",
+      "text": "È la branca più spesso colpita, con dolore a scossa su guancia e labbro superiore."
+    },
+    {
+      "title": "Fratture del pavimento dell'orbita",
+      "text": "Anestesia della guancia per lesione del nervo infraorbitario."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

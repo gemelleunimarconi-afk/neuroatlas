@@ -1,0 +1,69 @@
+{
+  "id": "vestibular-nerve",
+  "names": {
+    "it": "Nervo vestibolare",
+    "la": "Nervus vestibularis",
+    "en": "Vestibular nerve",
+    "synonyms": []
+  },
+  "parent": "vestibulocochlear-nerve",
+  "layer": "cranial-nerves",
+  "side": "bilateral",
+  "level": 2,
+  "location": "Componente vestibolare dell'ottavo nervo cranico: dal ganglio vestibolare (di Scarpa), nel fondo del meato acustico interno, raggiunge i nuclei vestibolari nel pavimento del quarto ventricolo.",
+  "relations": [
+    {
+      "direction": "anteriore",
+      "structureId": "cochlear-nerve",
+      "text": "Nervo cocleare."
+    },
+    {
+      "direction": "superiore",
+      "structureId": "facial-nerve-vii",
+      "text": "Nervo facciale."
+    }
+  ],
+  "function": "Porta le informazioni dei canali semicircolari (accelerazioni angolari del capo) e di utricolo e sacculo (gravità e accelerazioni lineari).",
+  "connections": [
+    {
+      "type": "efferent",
+      "text": "Ai quattro nuclei vestibolari e direttamente al lobo flocculonodulare del cervelletto."
+    },
+    {
+      "type": "efferent",
+      "targetId": "oculomotor-nerve-iii",
+      "via": "fascicolo longitudinale mediale",
+      "text": "Dai nuclei vestibolari ai nuclei oculomotori (riflesso vestibolo-oculare)."
+    },
+    {
+      "type": "efferent",
+      "targetId": "lateral-vestibulospinal-tract",
+      "text": "Tratti vestibolospinali, per il tono posturale."
+    }
+  ],
+  "bloodSupply": [
+    {
+      "arteryId": "anterior-inferior-cerebellar-artery",
+      "text": "Arteria labirintica."
+    }
+  ],
+  "clinical": [
+    {
+      "title": "Neurite vestibolare",
+      "text": "Vertigine rotatoria acuta, nausea e nistagmo con fase rapida verso il lato sano, senza ipoacusia."
+    },
+    {
+      "title": "Prova calorica",
+      "text": "Valuta separatamente la funzione di ciascun lato."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

@@ -1,0 +1,65 @@
+{
+  "id": "abdominal-aorta",
+  "names": {
+    "it": "Aorta addominale",
+    "la": "Aorta abdominalis",
+    "en": "Abdominal aorta",
+    "synonyms": []
+  },
+  "parent": "aorta",
+  "layer": "body-arteries",
+  "side": "midline",
+  "level": 1,
+  "location": "Dallo iato aortico del diaframma (T12) scende davanti alla colonna vertebrale, a sinistra della vena cava inferiore, e si biforca a livello di L4 nelle arterie iliache comuni.",
+  "relations": [
+    {
+      "direction": "destra",
+      "structureId": "inferior-vena-cava",
+      "text": "Vena cava inferiore."
+    },
+    {
+      "direction": "anteriore",
+      "structureId": "pancreas",
+      "text": "Pancreas, duodeno e radice del mesentere."
+    }
+  ],
+  "function": "Irrora visceri addominali, reni, parete addominale e, attraverso le arterie iliache, pelvi e arti inferiori.",
+  "connections": [
+    {
+      "type": "efferent",
+      "targetId": "celiac-trunk",
+      "text": "Tronco celiaco."
+    },
+    {
+      "type": "efferent",
+      "targetId": "superior-mesenteric-artery",
+      "text": "Arteria mesenterica superiore."
+    },
+    {
+      "type": "efferent",
+      "targetId": "renal-artery",
+      "text": "Arterie renali."
+    },
+    {
+      "type": "efferent",
+      "targetId": "inferior-mesenteric-artery",
+      "text": "Arteria mesenterica inferiore."
+    }
+  ],
+  "bloodSupply": [],
+  "clinical": [
+    {
+      "title": "Aneurisma dell'aorta addominale",
+      "text": "Di solito sotto l'origine delle arterie renali; spesso asintomatico fino alla rottura, che dà dolore addominale o lombare e shock."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

@@ -1,0 +1,72 @@
+{
+  "id": "middle-part-of-ileum",
+  "names": {
+    "it": "Parte media dell'ileo",
+    "la": "Ileum",
+    "en": "Ileum",
+    "synonyms": [
+      "ileo",
+      "intestino tenue"
+    ]
+  },
+  "parent": "small-intestine",
+  "layer": "body-digestive",
+  "side": "midline",
+  "level": 1,
+  "location": "Ultimo tratto dell'intestino tenue, soprattutto nella parte inferiore destra dell'addome e nella pelvi; termina nel cieco con la valvola ileocecale. In questo atlante è diviso in tre parti: la scheda descrive l'intero ileo.",
+  "relations": [
+    {
+      "direction": "superiore",
+      "structureId": "middle-part-of-jejunum",
+      "text": "Digiuno."
+    },
+    {
+      "direction": "inferiore",
+      "structureId": "ileocecal-junction",
+      "text": "Giunzione ileocecale e cieco."
+    }
+  ],
+  "function": "Completa l'assorbimento dei nutrienti. L'ileo terminale è l'unica sede di assorbimento della vitamina B12, legata al fattore intrinseco, e dei sali biliari, che tornano al fegato con il circolo enteroepatico. Contiene abbondante tessuto linfoide (placche di Peyer).",
+  "connections": [
+    {
+      "type": "afferent",
+      "targetId": "middle-part-of-jejunum",
+      "text": "Dal digiuno."
+    },
+    {
+      "type": "efferent",
+      "targetId": "ascending-colon",
+      "via": "valvola ileocecale",
+      "text": "Al cieco."
+    }
+  ],
+  "bloodSupply": [
+    {
+      "arteryId": "superior-mesenteric-artery",
+      "text": "Arterie ileali e arteria ileocolica, rami della mesenterica superiore."
+    }
+  ],
+  "clinical": [
+    {
+      "title": "Malattia di Crohn",
+      "text": "Colpisce spesso l'ileo terminale."
+    },
+    {
+      "title": "Resezione ileale",
+      "text": "Carenza di vitamina B12 e diarrea da sali biliari."
+    },
+    {
+      "title": "Diverticolo di Meckel",
+      "text": "Residuo embrionale dell'ileo distale, che può sanguinare."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

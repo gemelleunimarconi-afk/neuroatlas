@@ -1,0 +1,57 @@
+{
+  "id": "septal-leaflet-of-tricuspid-valve",
+  "names": {
+    "it": "Lembo settale della valvola tricuspide",
+    "la": "Valva tricuspidalis",
+    "en": "Tricuspid valve",
+    "synonyms": [
+      "valvola tricuspide"
+    ]
+  },
+  "parent": "heart",
+  "layer": "body-heart",
+  "side": "midline",
+  "level": 2,
+  "location": "Valvola dell'orifizio atrioventricolare destro, tra atrio e ventricolo destro. Ha tre lembi: anteriore, posteriore e settale. La scheda descrive l'intera valvola; il modello selezionato è il lembo settale.",
+  "relations": [
+    {
+      "direction": "anteriore",
+      "structureId": "anterior-leaflet-of-tricuspid-valve",
+      "text": "Lembo anteriore."
+    },
+    {
+      "direction": "posteriore",
+      "structureId": "posterior-leaflet-of-tricuspid-valve",
+      "text": "Lembo posteriore."
+    }
+  ],
+  "function": "Impedisce il reflusso dal ventricolo all'atrio destro durante la sistole. I lembi sono trattenuti da corde tendinee che partono dai muscoli papillari anteriore, posteriore e settale.",
+  "connections": [
+    {
+      "type": "reciprocal",
+      "targetId": "septal-papillary-muscle-of-ventricle",
+      "via": "corde tendinee",
+      "text": "Ai muscoli papillari del ventricolo destro."
+    }
+  ],
+  "bloodSupply": [],
+  "clinical": [
+    {
+      "title": "Insufficienza tricuspidale",
+      "text": "Più spesso funzionale, per dilatazione del ventricolo destro nell'ipertensione polmonare: turgore delle giugulari, fegato pulsante, edemi."
+    },
+    {
+      "title": "Endocardite",
+      "text": "La tricuspide è la valvola colpita più spesso in chi usa droghe per via endovenosa."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

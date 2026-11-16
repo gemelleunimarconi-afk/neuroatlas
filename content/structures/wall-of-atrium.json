@@ -1,0 +1,79 @@
+{
+  "id": "wall-of-atrium",
+  "names": {
+    "it": "Atri del cuore (parete)",
+    "la": "Atrium cordis dextrum et sinistrum",
+    "en": "Atria of heart",
+    "synonyms": [
+      "atrio sinistro",
+      "atrio destro",
+      "nodo senoatriale",
+      "setto interatriale"
+    ]
+  },
+  "parent": "heart",
+  "layer": "body-heart",
+  "side": "bilateral",
+  "level": 1,
+  "location": "I due atri formano la base del cuore, sopra e dietro i ventricoli. L'atrio destro è a destra e in avanti; il sinistro è la cavità più posteriore, davanti all'esofago. Sono separati dal setto interatriale, che porta la fossa ovale.",
+  "relations": [
+    {
+      "direction": "inferiore",
+      "structureId": "wall-of-ventricle",
+      "text": "Ventricoli."
+    },
+    {
+      "direction": "posteriore",
+      "structureId": "esophagus",
+      "text": "Esofago, dietro l'atrio sinistro."
+    },
+    {
+      "direction": "superiore",
+      "structureId": "superior-vena-cava",
+      "text": "Vene cave e vene polmonari."
+    }
+  ],
+  "function": "Ricevono il sangue e completano il riempimento ventricolare con la loro contrazione. L'atrio destro riceve le vene cave e il seno coronario; il sinistro le quattro vene polmonari. Nella parete dell'atrio destro, allo sbocco della vena cava superiore, si trova il nodo senoatriale, segnapassi del cuore; il nodo atrioventricolare è nel setto interatriale, vicino allo sbocco del seno coronario. Gli atri secernono il peptide natriuretico atriale.",
+  "connections": [
+    {
+      "type": "afferent",
+      "targetId": "superior-vena-cava",
+      "text": "Vene cave superiore e inferiore e seno coronario all'atrio destro."
+    },
+    {
+      "type": "afferent",
+      "targetId": "superior-pulmonary-vein",
+      "text": "Vene polmonari all'atrio sinistro."
+    },
+    {
+      "type": "efferent",
+      "targetId": "wall-of-ventricle",
+      "text": "Ai ventricoli attraverso le valvole atrioventricolari."
+    }
+  ],
+  "bloodSupply": [
+    {
+      "arteryId": "trunk-of-coronary-artery",
+      "text": "Rami atriali delle arterie coronarie; l'arteria del nodo senoatriale nasce di solito dalla coronaria destra."
+    }
+  ],
+  "clinical": [
+    {
+      "title": "Fibrillazione atriale",
+      "text": "Attività elettrica disorganizzata degli atri; il ristagno di sangue, soprattutto nell'auricola sinistra, favorisce trombi ed embolie cerebrali."
+    },
+    {
+      "title": "Difetto interatriale",
+      "text": "Persistenza di una comunicazione, come il forame ovale pervio, che può permettere embolie paradosse."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

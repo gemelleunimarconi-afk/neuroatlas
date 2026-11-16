@@ -1,0 +1,61 @@
+{
+  "id": "posterior-commissure",
+  "names": {
+    "it": "Commessura posteriore",
+    "la": "Commissura posterior",
+    "en": "Posterior commissure",
+    "synonyms": [
+      "commessura epitalamica"
+    ]
+  },
+  "parent": "epithalamus",
+  "layer": "white-matter",
+  "side": "midline",
+  "level": 3,
+  "location": "Piccolo fascio trasversale nella parete posteriore del terzo ventricolo, sotto il recesso pineale e sopra l'imbocco dell'acquedotto.",
+  "relations": [
+    {
+      "direction": "superiore",
+      "structureId": "pineal-body",
+      "text": "Ghiandola pineale."
+    },
+    {
+      "direction": "inferiore",
+      "structureId": "aqueduct",
+      "text": "Acquedotto mesencefalico e collicoli superiori."
+    }
+  ],
+  "function": "Contiene fibre che collegano i nuclei pretettali dei due lati, necessarie per il riflesso fotomotore consensuale, e fibre dei centri dello sguardo verticale.",
+  "connections": [
+    {
+      "type": "reciprocal",
+      "targetId": "superior-colliculus",
+      "text": "Tra le aree pretettali e i collicoli superiori dei due lati."
+    }
+  ],
+  "bloodSupply": [
+    {
+      "arteryId": "posteromedial-central-branch-of-posterior-cerebral-artery",
+      "text": "Rami dell'arteria cerebrale posteriore."
+    }
+  ],
+  "clinical": [
+    {
+      "title": "Sindrome di Parinaud",
+      "text": "La compressione di questa regione compromette lo sguardo verso l'alto."
+    },
+    {
+      "title": "Repere",
+      "text": "Con la commessura anteriore definisce la linea bicommissurale."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

@@ -1,0 +1,72 @@
+{
+  "id": "middle-part-of-jejunum",
+  "names": {
+    "it": "Parte media del digiuno",
+    "la": "Jejunum",
+    "en": "Jejunum",
+    "synonyms": [
+      "digiuno",
+      "intestino tenue"
+    ]
+  },
+  "parent": "small-intestine",
+  "layer": "body-digestive",
+  "side": "midline",
+  "level": 1,
+  "location": "Tratto dell'intestino tenue che segue il duodeno e occupa soprattutto la parte superiore sinistra dell'addome; è sospeso alla parete posteriore dal mesentere. In questo atlante è diviso in tre parti: la scheda descrive l'intero digiuno.",
+  "relations": [
+    {
+      "direction": "superiore",
+      "structureId": "duodenum",
+      "text": "Duodeno, alla flessura duodenodigiunale."
+    },
+    {
+      "direction": "inferiore",
+      "structureId": "middle-part-of-ileum",
+      "text": "Ileo."
+    },
+    {
+      "direction": "posteriore",
+      "structureId": "mesentery-of-small-intestine",
+      "text": "Mesentere."
+    }
+  ],
+  "function": "Sede principale della digestione e dell'assorbimento di zuccheri, amminoacidi, grassi, acqua e vitamine. La superficie è enormemente ampliata da pieghe circolari, villi e microvilli. Rispetto all'ileo ha parete più spessa, pieghe più alte e numerose e vasi retti più lunghi.",
+  "connections": [
+    {
+      "type": "afferent",
+      "targetId": "duodenum",
+      "text": "Dal duodeno."
+    },
+    {
+      "type": "efferent",
+      "targetId": "middle-part-of-ileum",
+      "text": "All'ileo."
+    }
+  ],
+  "bloodSupply": [
+    {
+      "arteryId": "superior-mesenteric-artery",
+      "text": "Arterie digiunali, rami dell'arteria mesenterica superiore."
+    }
+  ],
+  "clinical": [
+    {
+      "title": "Malassorbimento",
+      "text": "Malattie o resezioni del digiuno riducono l'assorbimento dei nutrienti."
+    },
+    {
+      "title": "Ischemia mesenterica",
+      "text": "L'occlusione dell'arteria mesenterica superiore causa infarto intestinale."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

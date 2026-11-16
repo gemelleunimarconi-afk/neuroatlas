@@ -1,0 +1,87 @@
+{
+  "id": "liver",
+  "names": {
+    "it": "Fegato",
+    "la": "Hepar",
+    "en": "Liver",
+    "synonyms": []
+  },
+  "parent": "digestive-system",
+  "layer": "body-digestive",
+  "side": "midline",
+  "level": 1,
+  "location": "La ghiandola più voluminosa del corpo, sotto il diaframma, nell'ipocondrio destro e nell'epigastrio. Anatomicamente è diviso in lobo destro e sinistro dal legamento falciforme, con i lobi caudato e quadrato sulla faccia inferiore; funzionalmente in otto segmenti, ciascuno con il proprio ramo portale, arterioso e biliare. All'ilo entrano vena porta e arteria epatica ed escono i dotti biliari.",
+  "relations": [
+    {
+      "direction": "superiore",
+      "structureId": "diaphragm",
+      "text": "Diaframma."
+    },
+    {
+      "direction": "inferiore",
+      "structureId": "gallbladder",
+      "text": "Cistifellea, stomaco, duodeno, flessura colica destra e rene destro."
+    },
+    {
+      "direction": "posteriore",
+      "structureId": "inferior-vena-cava",
+      "text": "Vena cava inferiore."
+    }
+  ],
+  "function": "Metabolismo di glucidi (glicogeno, gluconeogenesi), lipidi e proteine; sintesi di albumina, fattori della coagulazione e urea; produzione della bile; detossificazione di farmaci e ormoni; deposito di ferro e vitamine. L'unità funzionale è il lobulo, con i sinusoidi tra gli spazi portali e la vena centrolobulare.",
+  "connections": [
+    {
+      "type": "afferent",
+      "targetId": "hepatic-portal-vein",
+      "text": "Vena porta: circa tre quarti del flusso."
+    },
+    {
+      "type": "afferent",
+      "targetId": "hepatic-artery-proper",
+      "text": "Arteria epatica propria: sangue ossigenato."
+    },
+    {
+      "type": "efferent",
+      "targetId": "hepatic-vein",
+      "text": "Vene epatiche, nella vena cava inferiore."
+    },
+    {
+      "type": "efferent",
+      "targetId": "common-hepatic-duct",
+      "text": "Bile nel dotto epatico comune."
+    }
+  ],
+  "bloodSupply": [
+    {
+      "arteryId": "hepatic-artery-proper",
+      "text": "Arteria epatica propria, dal tronco celiaco."
+    }
+  ],
+  "clinical": [
+    {
+      "title": "Cirrosi",
+      "text": "Fibrosi con noduli di rigenerazione: ipertensione portale, ascite, ittero, deficit di coagulazione, encefalopatia epatica."
+    },
+    {
+      "title": "Epatiti",
+      "text": "Virali, alcoliche, metaboliche."
+    },
+    {
+      "title": "Ittero",
+      "text": "Accumulo di bilirubina per eccesso di produzione, danno epatico o ostruzione biliare."
+    },
+    {
+      "title": "Metastasi",
+      "text": "Il fegato filtra il sangue dell'intestino ed è sede frequente di metastasi."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

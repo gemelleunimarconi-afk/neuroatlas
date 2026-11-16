@@ -1,0 +1,49 @@
+{
+  "id": "postcentral-sulcus",
+  "names": {
+    "it": "Solco postcentrale",
+    "la": "Sulcus postcentralis",
+    "en": "Postcentral sulcus",
+    "synonyms": []
+  },
+  "parent": "parietal-lobe",
+  "layer": "sulci",
+  "side": "bilateral",
+  "level": 2,
+  "location": "Solco parallelo al solco centrale, dietro il giro postcentrale; in basso si continua spesso con il solco intraparietale.",
+  "relations": [
+    {
+      "direction": "anteriore",
+      "structureId": "postcentral-gyrus",
+      "text": "Giro postcentrale."
+    },
+    {
+      "direction": "posteriore",
+      "structureId": "superior-parietal-lobule",
+      "text": "Lobuli parietali superiore e inferiore."
+    }
+  ],
+  "function": "Delimita posteriormente la corteccia somatosensoriale primaria.",
+  "connections": [],
+  "bloodSupply": [
+    {
+      "arteryId": "artery-of-postcentral-sulcus",
+      "text": "Arteria del solco postcentrale, ramo dell'arteria cerebrale media."
+    }
+  ],
+  "clinical": [
+    {
+      "title": "Repere",
+      "text": "Separa la corteccia somatosensoriale primaria dalle aree associative parietali."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

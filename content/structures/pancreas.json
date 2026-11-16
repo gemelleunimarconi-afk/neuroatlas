@@ -1,0 +1,82 @@
+{
+  "id": "pancreas",
+  "names": {
+    "it": "Pancreas",
+    "la": "Pancreas",
+    "en": "Pancreas",
+    "synonyms": []
+  },
+  "parent": "digestive-system",
+  "layer": "body-digestive",
+  "side": "midline",
+  "level": 1,
+  "location": "Ghiandola retroperitoneale allungata, disposta trasversalmente davanti a L1-L2. La testa è accolta nella C duodenale; seguono collo, corpo e coda, che raggiunge l'ilo della milza. Il dotto pancreatico principale si unisce al coledoco e sbocca nella papilla duodenale maggiore.",
+  "relations": [
+    {
+      "direction": "destra",
+      "structureId": "duodenum",
+      "text": "Duodeno."
+    },
+    {
+      "direction": "anteriore",
+      "structureId": "stomach",
+      "text": "Stomaco, oltre la borsa omentale."
+    },
+    {
+      "direction": "posteriore",
+      "structureId": "abdominal-aorta",
+      "text": "Aorta, vena cava inferiore, vasi mesenterici superiori e vena porta."
+    },
+    {
+      "direction": "sinistra",
+      "structureId": "spleen",
+      "text": "Milza."
+    }
+  ],
+  "function": "Ghiandola esocrina ed endocrina. Gli acini secernono enzimi digestivi (amilasi, lipasi, proteasi sotto forma di precursori inattivi), sotto lo stimolo di colecistochinina e vago; i dotti secernono bicarbonato, sotto lo stimolo della secretina. Le isole di Langerhans producono insulina (cellule beta), glucagone (alfa) e somatostatina (delta).",
+  "connections": [
+    {
+      "type": "efferent",
+      "targetId": "pancreatic-duct",
+      "text": "Succo pancreatico nel duodeno."
+    },
+    {
+      "type": "efferent",
+      "targetId": "hepatic-portal-vein",
+      "text": "Gli ormoni delle isole raggiungono prima il fegato attraverso la vena porta."
+    }
+  ],
+  "bloodSupply": [
+    {
+      "arteryId": "celiac-trunk",
+      "text": "Rami dell'arteria lienale e arterie pancreaticoduodenali (tronco celiaco e mesenterica superiore)."
+    }
+  ],
+  "clinical": [
+    {
+      "title": "Pancreatite acuta",
+      "text": "Attivazione degli enzimi dentro la ghiandola, più spesso per calcoli biliari o alcol: dolore epigastrico che si irradia al dorso."
+    },
+    {
+      "title": "Carcinoma della testa",
+      "text": "Comprime il coledoco: ittero senza dolore."
+    },
+    {
+      "title": "Diabete mellito",
+      "text": "Distruzione autoimmune delle cellule beta (tipo 1) o resistenza all'insulina (tipo 2)."
+    },
+    {
+      "title": "Insufficienza esocrina",
+      "text": "Maldigestione dei grassi con steatorrea."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

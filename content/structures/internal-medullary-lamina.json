@@ -1,0 +1,61 @@
+{
+  "id": "internal-medullary-lamina",
+  "names": {
+    "it": "Lamina midollare interna del talamo",
+    "la": "Lamina medullaris medialis thalami",
+    "en": "Internal medullary lamina of thalamus",
+    "synonyms": [
+      "lamina midollare interna"
+    ]
+  },
+  "parent": "thalamus",
+  "layer": "diencephalon",
+  "side": "bilateral",
+  "level": 3,
+  "location": "Lamina verticale di sostanza bianca che attraversa il talamo e in avanti si biforca a Y, separando i gruppi nucleari anteriore, mediale e laterale.",
+  "relations": [
+    {
+      "direction": "mediale",
+      "structureId": "dorsomedial-thalamic-nucleus",
+      "text": "Nucleo dorsomediale."
+    },
+    {
+      "direction": "laterale",
+      "structureId": "ventral-lateral-thalamic-nucleus",
+      "text": "Nuclei laterali e ventrali."
+    },
+    {
+      "direction": "anteriore",
+      "structureId": "anterior-thalamic-nucleus",
+      "text": "Nuclei anteriori, nella biforcazione."
+    }
+  ],
+  "function": "Contiene fibre di connessione tra i nuclei talamici e ospita i nuclei intralaminari (tra cui il centromediano), che fanno parte del sistema di attivazione della corteccia.",
+  "connections": [
+    {
+      "type": "afferent",
+      "text": "Dalla formazione reticolare del tronco encefalico ai nuclei intralaminari."
+    }
+  ],
+  "bloodSupply": [
+    {
+      "arteryId": "thalamoperforating-artery",
+      "text": "Arterie talamoperforanti."
+    }
+  ],
+  "clinical": [
+    {
+      "title": "Disturbi di coscienza",
+      "text": "Lesioni bilaterali che interessano i nuclei intralaminari riducono la vigilanza."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

@@ -1,0 +1,76 @@
+{
+  "id": "posterior-part-of-middle-frontal-gyrus",
+  "names": {
+    "it": "Giro frontale medio, parte posteriore",
+    "la": "Gyrus frontalis medius",
+    "en": "Middle frontal gyrus, posterior part",
+    "synonyms": [
+      "corteccia premotoria",
+      "campo oculare frontale"
+    ]
+  },
+  "parent": "frontal-lobe",
+  "layer": "cortex",
+  "side": "bilateral",
+  "level": 2,
+  "location": "Metà posteriore del giro frontale medio, davanti al solco precentrale.",
+  "relations": [
+    {
+      "direction": "posteriore",
+      "structureId": "precentral-sulcus",
+      "text": "Solco precentrale e giro precentrale."
+    },
+    {
+      "direction": "anteriore",
+      "structureId": "anterior-part-of-middle-frontal-gyrus",
+      "text": "Parte anteriore del giro frontale medio."
+    }
+  ],
+  "function": "Contiene la corteccia premotoria laterale (area 6), che prepara i movimenti guidati da stimoli esterni, e il campo oculare frontale (area 8), che comanda i movimenti saccadici volontari verso il lato opposto.",
+  "connections": [
+    {
+      "type": "efferent",
+      "targetId": "precentral-gyrus",
+      "text": "Alla corteccia motoria primaria."
+    },
+    {
+      "type": "efferent",
+      "targetId": "superior-colliculus",
+      "text": "Dal campo oculare frontale al collicolo superiore e ai centri dello sguardo del tronco."
+    },
+    {
+      "type": "afferent",
+      "targetId": "superior-parietal-lobule",
+      "text": "Dalla corteccia parietale posteriore."
+    }
+  ],
+  "bloodSupply": [
+    {
+      "arteryId": "artery-of-precentral-sulcus",
+      "text": "Rami precentrali dell'arteria cerebrale media."
+    }
+  ],
+  "clinical": [
+    {
+      "title": "Lesione del campo oculare frontale",
+      "text": "Gli occhi deviano verso il lato della lesione (\"guardano la lesione\") e non riescono a volgersi verso il lato opposto; il deficit è di solito transitorio."
+    },
+    {
+      "title": "Crisi frontali",
+      "text": "Una scarica epilettica devia occhi e capo verso il lato opposto al focolaio."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [
+    8,
+    9,
+    6
+  ],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

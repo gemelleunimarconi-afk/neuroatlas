@@ -1,0 +1,75 @@
+{
+  "id": "upper-lobe-of-lung",
+  "names": {
+    "it": "Lobo superiore del polmone",
+    "la": "Lobus superior pulmonis",
+    "en": "Upper lobe of lung",
+    "synonyms": [
+      "polmone",
+      "lobo superiore"
+    ]
+  },
+  "parent": "lung",
+  "layer": "body-respiratory",
+  "side": "bilateral",
+  "level": 1,
+  "location": "Parte superiore di ciascun polmone, comprendente l'apice, che sporge sopra la clavicola. A destra è separato dal lobo medio dalla scissura orizzontale; a sinistra comprende la lingula, omologa del lobo medio.",
+  "relations": [
+    {
+      "direction": "inferiore",
+      "structureId": "middle-lobe-of-lung",
+      "text": "Lobo medio (a destra) e lobo inferiore, oltre la scissura obliqua."
+    },
+    {
+      "direction": "mediale",
+      "structureId": "arch-of-aorta",
+      "text": "Mediastino."
+    }
+  ],
+  "function": "Scambi gassosi negli alveoli. In posizione eretta gli apici sono più ventilati che perfusi (rapporto ventilazione/perfusione alto), perché la gravità riduce il flusso di sangue verso l'alto. Segmenti: apicale, posteriore e anteriore a destra; apicoposteriore, anteriore e i due lingulari a sinistra.",
+  "connections": [
+    {
+      "type": "afferent",
+      "targetId": "apical-segmental-bronchial-tree",
+      "text": "Bronco lobare superiore e bronchi segmentali."
+    },
+    {
+      "type": "afferent",
+      "targetId": "pulmonary-artery",
+      "text": "Sangue venoso dalle arterie polmonari."
+    },
+    {
+      "type": "efferent",
+      "targetId": "superior-pulmonary-vein",
+      "text": "Sangue ossigenato alle vene polmonari superiori."
+    }
+  ],
+  "bloodSupply": [
+    {
+      "text": "Arterie bronchiali per il tessuto di sostegno."
+    }
+  ],
+  "clinical": [
+    {
+      "title": "Tubercolosi",
+      "text": "La riattivazione colpisce di preferenza gli apici, ricchi di ossigeno."
+    },
+    {
+      "title": "Tumore di Pancoast",
+      "text": "Un carcinoma dell'apice può invadere il plesso brachiale e la catena simpatica (dolore al braccio e sindrome di Horner)."
+    },
+    {
+      "title": "Pneumotorace spontaneo",
+      "text": "Per rottura di bolle apicali."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

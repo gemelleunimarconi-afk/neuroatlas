@@ -1,0 +1,79 @@
+{
+  "id": "anterior-inferior-hypothalamus",
+  "names": {
+    "it": "Ipotalamo anteriore inferiore",
+    "la": "Hypothalamus, pars anterior inferior",
+    "en": "Anterior inferior hypothalamus",
+    "synonyms": [
+      "ipotalamo",
+      "regione sopraottica e soprachiasmatica"
+    ]
+  },
+  "parent": "hypothalamus",
+  "layer": "diencephalon",
+  "side": "bilateral",
+  "level": 2,
+  "location": "Parte anteriore e inferiore dell'ipotalamo, sopra il chiasma ottico. L'attribuzione dei nuclei alle zone dell'atlante è indicativa.",
+  "relations": [
+    {
+      "direction": "inferiore",
+      "structureId": "optic-chiasm",
+      "text": "Chiasma ottico."
+    },
+    {
+      "direction": "superiore",
+      "structureId": "anterior-superior-hypothalamus",
+      "text": "Zona anteriore superiore."
+    },
+    {
+      "direction": "posteriore",
+      "structureId": "inferior-tuberal-hypothalamus",
+      "text": "Zona tuberale inferiore."
+    }
+  ],
+  "function": "Contiene il nucleo soprachiasmatico, orologio circadiano principale sincronizzato dalla luce, e il nucleo sopraottico, che con il paraventricolare produce vasopressina e ossitocina.",
+  "connections": [
+    {
+      "type": "afferent",
+      "targetId": "optic-chiasm",
+      "via": "tratto retinoipotalamico",
+      "text": "Dalle cellule gangliari fotosensibili della retina al nucleo soprachiasmatico."
+    },
+    {
+      "type": "efferent",
+      "targetId": "neurohypophysis",
+      "via": "tratto ipotalamo-ipofisario",
+      "text": "Dal nucleo sopraottico."
+    },
+    {
+      "type": "efferent",
+      "targetId": "pineal-body",
+      "text": "Via indiretta alla ghiandola pineale, attraverso il simpatico cervicale."
+    }
+  ],
+  "bloodSupply": [
+    {
+      "arteryId": "anterior-communicating-artery",
+      "text": "Rami perforanti delle arterie cerebrale anteriore, comunicante anteriore e ipofisaria superiore."
+    }
+  ],
+  "clinical": [
+    {
+      "title": "Diabete insipido centrale",
+      "text": "Lesione dei nuclei sopraottico e paraventricolare o del loro tratto."
+    },
+    {
+      "title": "Disturbi del ritmo circadiano",
+      "text": "Per lesione del nucleo soprachiasmatico."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

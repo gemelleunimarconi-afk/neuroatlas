@@ -1,0 +1,82 @@
+{
+  "id": "kidney",
+  "names": {
+    "it": "Rene",
+    "la": "Ren",
+    "en": "Kidney",
+    "synonyms": []
+  },
+  "parent": "urinary-system",
+  "layer": "body-urogenital",
+  "side": "bilateral",
+  "level": 1,
+  "location": "Organo retroperitoneale pari, ai lati della colonna vertebrale tra T12 e L3; il destro è più basso per la presenza del fegato. All'ilo, sul margine mediale, entrano l'arteria renale ed escono la vena renale e la pelvi renale. All'interno si distinguono la corticale e la midollare, formata dalle piramidi.",
+  "relations": [
+    {
+      "direction": "superiore",
+      "structureId": "adrenal-gland",
+      "text": "Ghiandola surrenale."
+    },
+    {
+      "direction": "posteriore",
+      "structureId": "diaphragm",
+      "text": "Diaframma, dodicesima costa e muscoli della parete posteriore."
+    },
+    {
+      "direction": "anteriore",
+      "structureId": "liver",
+      "text": "Fegato e duodeno a destra; stomaco, milza e pancreas a sinistra."
+    }
+  ],
+  "function": "Filtra il plasma nei glomeruli e, lungo i tubuli del nefrone, riassorbe e secerne: regola volume e composizione dei liquidi corporei, equilibrio acido-base, pressione arteriosa (sistema renina-angiotensina) ed elimina le scorie azotate. Produce eritropoietina e attiva la vitamina D. L'ansa di Henle e il dotto collettore, nella midollare, permettono di concentrare l'urina.",
+  "connections": [
+    {
+      "type": "afferent",
+      "targetId": "renal-artery",
+      "text": "Arteria renale."
+    },
+    {
+      "type": "efferent",
+      "targetId": "ureter",
+      "text": "L'urina passa da calici e pelvi renale all'uretere."
+    },
+    {
+      "type": "efferent",
+      "targetId": "renal-vein",
+      "text": "Vena renale."
+    }
+  ],
+  "bloodSupply": [
+    {
+      "arteryId": "renal-artery",
+      "text": "Arteria renale; i suoi rami segmentali sono terminali."
+    }
+  ],
+  "clinical": [
+    {
+      "title": "Insufficienza renale",
+      "text": "Acuta o cronica, con accumulo di scorie, alterazioni elettrolitiche e sovraccarico di liquidi."
+    },
+    {
+      "title": "Calcolosi",
+      "text": "I calcoli che si impegnano nell'uretere danno la colica renale."
+    },
+    {
+      "title": "Pielonefrite",
+      "text": "Infezione del rene, con febbre e dolore al fianco."
+    },
+    {
+      "title": "Rene policistico",
+      "text": "Malattia ereditaria con cisti multiple."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

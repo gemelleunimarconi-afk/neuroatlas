@@ -1,0 +1,70 @@
+{
+  "id": "lower-lobe-of-lung",
+  "names": {
+    "it": "Lobo inferiore del polmone",
+    "la": "Lobus inferior pulmonis",
+    "en": "Lower lobe of lung",
+    "synonyms": [
+      "polmone",
+      "lobo inferiore"
+    ]
+  },
+  "parent": "lung",
+  "layer": "body-respiratory",
+  "side": "bilateral",
+  "level": 1,
+  "location": "Parte posteroinferiore di ciascun polmone, dietro e sotto la scissura obliqua; la sua base poggia sul diaframma.",
+  "relations": [
+    {
+      "direction": "inferiore",
+      "structureId": "diaphragm",
+      "text": "Diaframma."
+    },
+    {
+      "direction": "anteriore",
+      "structureId": "upper-lobe-of-lung",
+      "text": "Lobi superiore e medio."
+    }
+  ],
+  "function": "Scambi gassosi. In posizione eretta le basi ricevono la maggior parte sia della ventilazione sia, in misura ancora maggiore, della perfusione. Segmenti: superiore e quattro basali (a sinistra il basale mediale è spesso fuso con l'anteriore).",
+  "connections": [
+    {
+      "type": "afferent",
+      "targetId": "superior-segmental-bronchial-tree",
+      "text": "Bronco lobare inferiore e bronchi segmentali."
+    },
+    {
+      "type": "efferent",
+      "targetId": "inferior-pulmonary-vein",
+      "text": "Vene polmonari inferiori."
+    }
+  ],
+  "bloodSupply": [
+    {
+      "text": "Arterie bronchiali."
+    }
+  ],
+  "clinical": [
+    {
+      "title": "Polmonite da aspirazione",
+      "text": "Colpisce i segmenti declivi: il segmento superiore del lobo inferiore se il paziente è supino, i basali se è seduto, più spesso a destra."
+    },
+    {
+      "title": "Versamento pleurico",
+      "text": "Si raccoglie attorno alle basi."
+    },
+    {
+      "title": "Embolia polmonare",
+      "text": "Più frequente nei lobi inferiori, che ricevono più sangue."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

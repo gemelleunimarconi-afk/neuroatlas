@@ -1,0 +1,78 @@
+{
+  "id": "esophagus",
+  "names": {
+    "it": "Esofago",
+    "la": "Oesophagus",
+    "en": "Esophagus",
+    "synonyms": []
+  },
+  "parent": "digestive-system",
+  "layer": "body-digestive",
+  "side": "midline",
+  "level": 1,
+  "location": "Condotto muscolare lungo circa 25 cm che dalla faringe (C6) scende dietro la trachea e il cuore, attraversa il diaframma a livello di T10 e sbocca nello stomaco al cardias.",
+  "relations": [
+    {
+      "direction": "anteriore",
+      "structureId": "trachea",
+      "text": "Trachea e, più in basso, atrio sinistro."
+    },
+    {
+      "direction": "posteriore",
+      "structureId": "descending-thoracic-aorta",
+      "text": "Colonna vertebrale e aorta toracica."
+    },
+    {
+      "direction": "inferiore",
+      "structureId": "stomach",
+      "text": "Stomaco."
+    }
+  ],
+  "function": "Trasporta il bolo con onde peristaltiche. Il terzo superiore è muscolo striato, il terzo inferiore muscolo liscio. Lo sfintere esofageo inferiore, tonicamente contratto, si rilascia alla deglutizione e impedisce il reflusso gastrico.",
+  "connections": [
+    {
+      "type": "afferent",
+      "targetId": "vagus-nerve-x",
+      "via": "plesso esofageo",
+      "text": "Innervazione dal nervo vago e dal plesso mioenterico."
+    },
+    {
+      "type": "efferent",
+      "targetId": "stomach",
+      "text": "Allo stomaco."
+    }
+  ],
+  "bloodSupply": [
+    {
+      "arteryId": "descending-thoracic-aorta",
+      "text": "Rami dell'arteria tiroidea inferiore, dell'aorta toracica e dell'arteria gastrica sinistra. Le vene del tratto inferiore collegano il sistema portale con quello cavale."
+    }
+  ],
+  "clinical": [
+    {
+      "title": "Malattia da reflusso",
+      "text": "Incontinenza dello sfintere inferiore; il reflusso cronico può causare metaplasia (esofago di Barrett)."
+    },
+    {
+      "title": "Varici esofagee",
+      "text": "Nell'ipertensione portale; la rottura dà emorragia grave."
+    },
+    {
+      "title": "Acalasia",
+      "text": "Mancato rilasciamento dello sfintere inferiore per perdita dei neuroni inibitori del plesso mioenterico."
+    },
+    {
+      "title": "Restringimenti fisiologici",
+      "text": "Sedi in cui si fermano i corpi estranei."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

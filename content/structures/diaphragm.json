@@ -1,0 +1,68 @@
+{
+  "id": "diaphragm",
+  "names": {
+    "it": "Diaframma",
+    "la": "Diaphragma",
+    "en": "Diaphragm",
+    "synonyms": [
+      "muscolo diaframma"
+    ]
+  },
+  "parent": "respiratory-system",
+  "layer": "body-muscles",
+  "side": "midline",
+  "level": 1,
+  "location": "Lamina muscolotendinea a cupola che separa la cavità toracica da quella addominale. Si inserisce su sterno, ultime sei coste e vertebre lombari (pilastri) e converge nel centro tendineo. Ha tre aperture principali: per la vena cava inferiore (T8), per l'esofago (T10) e per l'aorta (T12).",
+  "relations": [
+    {
+      "direction": "superiore",
+      "structureId": "lower-lobe-of-lung",
+      "text": "Basi dei polmoni e cuore."
+    },
+    {
+      "direction": "inferiore",
+      "structureId": "liver",
+      "text": "Fegato a destra; stomaco e milza a sinistra."
+    }
+  ],
+  "function": "Principale muscolo inspiratorio: contraendosi si abbassa, aumenta il volume del torace e riduce la pressione intrapleurica, facendo entrare aria. A riposo l'espirazione è passiva. Aumentando la pressione addominale contribuisce anche a tosse, vomito, defecazione e ritorno venoso.",
+  "connections": [
+    {
+      "type": "afferent",
+      "via": "nervo frenico",
+      "text": "Innervazione motoria dal nervo frenico (radici C3, C4, C5), che porta anche la sensibilità della parte centrale."
+    }
+  ],
+  "bloodSupply": [
+    {
+      "text": "Arterie freniche superiori e inferiori, pericardicofrenica e muscolofrenica."
+    }
+  ],
+  "clinical": [
+    {
+      "title": "Lesioni midollari cervicali alte",
+      "text": "Sopra C3 paralizzano il diaframma e richiedono ventilazione assistita."
+    },
+    {
+      "title": "Dolore riferito alla spalla",
+      "text": "L'irritazione del diaframma è avvertita nel territorio di C4."
+    },
+    {
+      "title": "Ernia iatale",
+      "text": "Parte dello stomaco risale attraverso lo iato esofageo."
+    },
+    {
+      "title": "Paralisi del nervo frenico",
+      "text": "L'emidiaframma risale e si muove in modo paradosso."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

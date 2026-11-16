@@ -1,0 +1,70 @@
+{
+  "id": "isthmus-of-cingulate-gyrus",
+  "names": {
+    "it": "Istmo del giro del cingolo",
+    "la": "Isthmus gyri cinguli",
+    "en": "Isthmus of cingulate gyrus",
+    "synonyms": [
+      "regione retrospleniale"
+    ]
+  },
+  "parent": "limbic-lobe",
+  "layer": "cortex",
+  "side": "bilateral",
+  "level": 3,
+  "location": "Stretto tratto di corteccia che gira attorno allo splenio del corpo calloso e unisce il giro del cingolo al giro paraippocampale, chiudendo l'anello del lobo limbico.",
+  "relations": [
+    {
+      "direction": "anteriore",
+      "structureId": "corpus-callosum",
+      "text": "Splenio del corpo calloso."
+    },
+    {
+      "direction": "inferiore",
+      "structureId": "parahippocampal-gyrus",
+      "text": "Giro paraippocampale."
+    },
+    {
+      "direction": "superiore",
+      "structureId": "posterior-cingulate-gyrus",
+      "text": "Giro del cingolo posteriore."
+    }
+  ],
+  "function": "Corteccia retrospleniale (aree 29 e 30): collega la corteccia cingolata con la formazione dell'ippocampo; partecipa alla memoria spaziale e all'orientamento.",
+  "connections": [
+    {
+      "type": "reciprocal",
+      "targetId": "hippocampus",
+      "text": "Con il subicolo e la corteccia entorinale."
+    },
+    {
+      "type": "afferent",
+      "targetId": "anterior-thalamic-nucleus",
+      "text": "Dai nuclei anteriori del talamo."
+    }
+  ],
+  "bloodSupply": [
+    {
+      "arteryId": "postcommunicating-part-of-posterior-cerebral-artery",
+      "text": "Arteria cerebrale posteriore e ramo spleniale."
+    }
+  ],
+  "clinical": [
+    {
+      "title": "Disorientamento topografico",
+      "text": "Lesioni retrospleniali, soprattutto destre: il paziente riconosce i luoghi ma non sa orientarsi tra di essi."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [
+    29,
+    30
+  ],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

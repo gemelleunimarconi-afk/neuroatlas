@@ -1,0 +1,65 @@
+{
+  "id": "chorda-tympani",
+  "names": {
+    "it": "Chorda tympani",
+    "la": "Chorda tympani",
+    "en": "Chorda tympani",
+    "synonyms": [
+      "corda del timpano"
+    ]
+  },
+  "parent": "facial-nerve",
+  "layer": "cranial-nerves",
+  "side": "bilateral",
+  "level": 3,
+  "location": "Ramo del nervo facciale che nasce nel canale del facciale, attraversa la cassa del timpano passando tra martello e incudine, esce dalla fessura petrotimpanica e si unisce al nervo linguale.",
+  "relations": [
+    {
+      "direction": "inferiore",
+      "structureId": "lingual-nerve",
+      "text": "Nervo linguale."
+    },
+    {
+      "direction": "superiore",
+      "structureId": "facial-nerve-vii",
+      "text": "Nervo facciale."
+    }
+  ],
+  "function": "Porta le fibre gustative dei due terzi anteriori della lingua (al nucleo del tratto solitario) e le fibre parasimpatiche pregangliari per le ghiandole sottomandibolare e sottolinguale (dal nucleo salivatorio superiore).",
+  "connections": [
+    {
+      "type": "afferent",
+      "targetId": "facial-nerve-vii",
+      "text": "Dal nervo intermedio."
+    },
+    {
+      "type": "efferent",
+      "targetId": "lingual-nerve",
+      "text": "Al nervo linguale e al ganglio sottomandibolare."
+    }
+  ],
+  "bloodSupply": [
+    {
+      "text": "Rami dell'arteria stilomastoidea."
+    }
+  ],
+  "clinical": [
+    {
+      "title": "Localizzazione di una paralisi del facciale",
+      "text": "Se il gusto è perso la lesione è a monte dell'origine della corda del timpano."
+    },
+    {
+      "title": "Otite e chirurgia dell'orecchio medio",
+      "text": "Possono lederla, con alterazione del gusto."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

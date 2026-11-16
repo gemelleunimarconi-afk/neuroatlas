@@ -1,0 +1,49 @@
+{
+  "id": "superior-frontal-sulcus",
+  "names": {
+    "it": "Solco frontale superiore",
+    "la": "Sulcus frontalis superior",
+    "en": "Superior frontal sulcus",
+    "synonyms": []
+  },
+  "parent": "frontal-lobe",
+  "layer": "sulci",
+  "side": "bilateral",
+  "level": 3,
+  "location": "Solco sagittale della faccia laterale del lobo frontale, tra i giri frontali superiore e medio; termina dietro nel solco precentrale.",
+  "relations": [
+    {
+      "direction": "superiore",
+      "structureId": "superior-frontal-gyrus",
+      "text": "Giro frontale superiore."
+    },
+    {
+      "direction": "inferiore",
+      "structureId": "anterior-part-of-middle-frontal-gyrus",
+      "text": "Giro frontale medio."
+    }
+  ],
+  "function": "Separa i giri frontali superiore e medio.",
+  "connections": [],
+  "bloodSupply": [
+    {
+      "arteryId": "prefrontal-artery",
+      "text": "Rami delle arterie cerebrali anteriore e media."
+    }
+  ],
+  "clinical": [
+    {
+      "title": "Repere",
+      "text": "Nelle sezioni assiali il suo incontro con il solco precentrale aiuta a individuare il solco centrale, che è il solco successivo all'indietro."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

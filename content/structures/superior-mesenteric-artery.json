@@ -1,0 +1,64 @@
+{
+  "id": "superior-mesenteric-artery",
+  "names": {
+    "it": "Arteria mesenterica superiore",
+    "la": "Arteria mesenterica superior",
+    "en": "Superior mesenteric artery",
+    "synonyms": []
+  },
+  "parent": "abdominal-aorta",
+  "layer": "body-arteries",
+  "side": "midline",
+  "level": 2,
+  "location": "Nasce dalla faccia anteriore dell'aorta a livello di L1, dietro il collo del pancreas, scende davanti al processo uncinato e alla terza parte del duodeno ed entra nel mesentere.",
+  "relations": [
+    {
+      "direction": "anteriore",
+      "structureId": "pancreas",
+      "text": "Collo del pancreas."
+    },
+    {
+      "direction": "posteriore",
+      "structureId": "duodenum",
+      "text": "Terza parte del duodeno e vena renale sinistra."
+    }
+  ],
+  "function": "Irrora i derivati dell'intestino medio: seconda metà del duodeno, digiuno, ileo, cieco, appendice, colon ascendente e due terzi destri del colon trasverso.",
+  "connections": [
+    {
+      "type": "afferent",
+      "targetId": "abdominal-aorta",
+      "text": "Dall'aorta addominale."
+    },
+    {
+      "type": "efferent",
+      "targetId": "middle-part-of-jejunum",
+      "text": "Arterie digiunali e ileali."
+    },
+    {
+      "type": "efferent",
+      "targetId": "ascending-colon",
+      "text": "Arterie ileocolica, colica destra e colica media."
+    }
+  ],
+  "bloodSupply": [],
+  "clinical": [
+    {
+      "title": "Ischemia mesenterica acuta",
+      "text": "Embolia o trombosi: dolore addominale intenso e sproporzionato all'esame obiettivo, poi infarto intestinale."
+    },
+    {
+      "title": "Dolore viscerale",
+      "text": "Gli organi del suo territorio danno dolore riferito attorno all'ombelico."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

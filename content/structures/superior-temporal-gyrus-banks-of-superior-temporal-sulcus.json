@@ -1,0 +1,57 @@
+{
+  "id": "superior-temporal-gyrus-banks-of-superior-temporal-sulcus",
+  "names": {
+    "it": "Giro temporale superiore, labbri del solco temporale superiore",
+    "la": "Sulcus temporalis superior (labia)",
+    "en": "Banks of superior temporal sulcus",
+    "synonyms": [
+      "labbri del solco temporale superiore"
+    ]
+  },
+  "parent": "temporal-lobe",
+  "layer": "cortex",
+  "side": "bilateral",
+  "level": 3,
+  "location": "Corteccia delle due pareti della parte posteriore del solco temporale superiore, tra i giri temporali superiore e medio.",
+  "relations": [
+    {
+      "direction": "superiore",
+      "structureId": "superior-temporal-gyrus",
+      "text": "Giro temporale superiore."
+    },
+    {
+      "direction": "inferiore",
+      "structureId": "middle-temporal-gyrus",
+      "text": "Giro temporale medio."
+    }
+  ],
+  "function": "Area associativa multimodale: integra informazioni uditive e visive, percepisce il movimento biologico (volti, sguardo, gesti) e partecipa alla comprensione delle intenzioni altrui.",
+  "connections": [
+    {
+      "type": "reciprocal",
+      "targetId": "superior-temporal-gyrus",
+      "text": "Con le cortecce uditive e visive associative."
+    }
+  ],
+  "bloodSupply": [
+    {
+      "arteryId": "temporo-occipital-branch-of-middle-cerebral-artery",
+      "text": "Rami temporali dell'arteria cerebrale media."
+    }
+  ],
+  "clinical": [
+    {
+      "title": "Cognizione sociale",
+      "text": "La sua attività risulta alterata in studi sui disturbi dello spettro autistico; non corrisponde a una sindrome da lesione ben definita."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

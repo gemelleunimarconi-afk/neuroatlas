@@ -1,0 +1,72 @@
+{
+  "id": "trunk-of-coronary-artery",
+  "names": {
+    "it": "Arterie coronarie (tronco)",
+    "la": "Arteriae coronariae",
+    "en": "Coronary arteries",
+    "synonyms": [
+      "coronaria destra",
+      "coronaria sinistra",
+      "tronco comune"
+    ]
+  },
+  "parent": "heart",
+  "layer": "body-heart",
+  "side": "bilateral",
+  "level": 1,
+  "location": "Le due arterie coronarie nascono dai seni aortici, subito sopra la valvola aortica. La sinistra, dopo un breve tronco comune, si divide nel ramo interventricolare anteriore e nel ramo circonflesso; la destra percorre il solco coronario fino alla faccia diaframmatica.",
+  "relations": [
+    {
+      "direction": "posteriore",
+      "structureId": "ascending-aorta",
+      "text": "Aorta ascendente."
+    },
+    {
+      "direction": "inferiore",
+      "structureId": "wall-of-ventricle",
+      "text": "Ventricoli."
+    }
+  ],
+  "function": "Irrorano il miocardio. Il flusso coronarico avviene soprattutto in diastole, perché in sistole i vasi intramurali sono compressi; il cuore estrae già a riposo gran parte dell'ossigeno, quindi un maggiore fabbisogno richiede un aumento del flusso. Si parla di dominanza destra quando il ramo interventricolare posteriore nasce dalla coronaria destra, come avviene nella maggior parte delle persone.",
+  "connections": [
+    {
+      "type": "efferent",
+      "targetId": "trunk-of-anterior-interventricular-branch-of-coronary-artery",
+      "text": "Ramo interventricolare anteriore."
+    },
+    {
+      "type": "efferent",
+      "targetId": "circumflex-branch-of-coronary-artery",
+      "text": "Ramo circonflesso."
+    },
+    {
+      "type": "efferent",
+      "targetId": "posterior-interventricular-branch-of-coronary-artery",
+      "text": "Ramo interventricolare posteriore."
+    }
+  ],
+  "bloodSupply": [],
+  "clinical": [
+    {
+      "title": "Cardiopatia ischemica",
+      "text": "L'aterosclerosi coronarica causa angina da sforzo; la rottura di una placca con trombosi causa l'infarto."
+    },
+    {
+      "title": "Stenosi del tronco comune",
+      "text": "Mette a rischio gran parte del ventricolo sinistro."
+    },
+    {
+      "title": "Bypass e angioplastica",
+      "text": "Ripristinano il flusso a valle della stenosi."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

@@ -1,0 +1,59 @@
+{
+  "id": "superior-vena-cava",
+  "names": {
+    "it": "Vena cava superiore",
+    "la": "Vena cava superior",
+    "en": "Superior vena cava",
+    "synonyms": []
+  },
+  "parent": "systemic-veins",
+  "layer": "body-veins",
+  "side": "midline",
+  "level": 1,
+  "location": "Si forma dietro la prima cartilagine costale destra dall'unione delle due vene brachiocefaliche e scende lungo il margine destro dello sterno fino all'atrio destro.",
+  "relations": [
+    {
+      "direction": "mediale",
+      "structureId": "ascending-aorta",
+      "text": "Aorta ascendente."
+    },
+    {
+      "direction": "inferiore",
+      "structureId": "wall-of-atrium",
+      "text": "Atrio destro."
+    }
+  ],
+  "function": "Raccoglie il sangue venoso di testa, collo, arti superiori e parete toracica (attraverso la vena azygos).",
+  "connections": [
+    {
+      "type": "afferent",
+      "targetId": "brachiocephalic-vein",
+      "text": "Vene brachiocefaliche."
+    },
+    {
+      "type": "efferent",
+      "targetId": "wall-of-atrium",
+      "text": "All'atrio destro."
+    }
+  ],
+  "bloodSupply": [],
+  "clinical": [
+    {
+      "title": "Sindrome della vena cava superiore",
+      "text": "Compressione, più spesso da tumore del polmone o linfoma: edema e cianosi di volto, collo e braccia, turgore delle giugulari."
+    },
+    {
+      "title": "Cateteri venosi centrali",
+      "text": "La punta viene posizionata nel suo tratto inferiore."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

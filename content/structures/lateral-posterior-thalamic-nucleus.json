@@ -1,0 +1,67 @@
+{
+  "id": "lateral-posterior-thalamic-nucleus",
+  "names": {
+    "it": "Nucleo laterale posteriore del talamo",
+    "la": "Nucleus lateralis posterior thalami",
+    "en": "Lateral posterior nucleus of thalamus",
+    "synonyms": [
+      "LP"
+    ]
+  },
+  "parent": "thalamus",
+  "layer": "diencephalon",
+  "side": "bilateral",
+  "level": 3,
+  "location": "Parte posteriore del gruppo nucleare laterale del talamo, sopra i nuclei ventrali posteriori e davanti al pulvinar.",
+  "relations": [
+    {
+      "direction": "anteriore",
+      "structureId": "lateral-dorsal-thalamic-nucleus",
+      "text": "Nucleo laterale dorsale."
+    },
+    {
+      "direction": "posteriore",
+      "structureId": "pulvinar",
+      "text": "Pulvinar."
+    },
+    {
+      "direction": "inferiore",
+      "structureId": "ventral-posterolateral-thalamic-nucleus",
+      "text": "Nucleo ventrale posterolaterale."
+    }
+  ],
+  "function": "Nucleo associativo, funzionalmente unito al pulvinar: integrazione sensoriale e attenzione visuospaziale.",
+  "connections": [
+    {
+      "type": "reciprocal",
+      "targetId": "superior-parietal-lobule",
+      "text": "Connessioni reciproche con il lobulo parietale superiore."
+    },
+    {
+      "type": "afferent",
+      "targetId": "superior-colliculus",
+      "text": "Dal collicolo superiore."
+    }
+  ],
+  "bloodSupply": [
+    {
+      "arteryId": "thalamogeniculate-artery",
+      "text": "Arterie talamogenicolate e corioidee posteriori."
+    }
+  ],
+  "clinical": [
+    {
+      "title": "Lesioni talamiche posterolaterali",
+      "text": "Possono dare disturbi dell'attenzione spaziale insieme ai deficit sensitivi."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

@@ -1,0 +1,68 @@
+{
+  "id": "rectum",
+  "names": {
+    "it": "Retto",
+    "la": "Rectum",
+    "en": "Rectum",
+    "synonyms": []
+  },
+  "parent": "large-intestine",
+  "layer": "body-digestive",
+  "side": "midline",
+  "level": 1,
+  "location": "Ultimo tratto dell'intestino crasso, nella piccola pelvi, davanti al sacro; segue il colon sigmoideo a livello di S3 e continua nel canale anale. Non ha tenie né appendici epiploiche.",
+  "relations": [
+    {
+      "direction": "posteriore",
+      "structureId": "sacrum",
+      "text": "Sacro e coccige."
+    },
+    {
+      "direction": "anteriore",
+      "structureId": "urinary-bladder",
+      "text": "Vescica, vescichette seminali e prostata nell'uomo; vagina e utero nella donna."
+    }
+  ],
+  "function": "Serbatoio delle feci. La sua distensione provoca il riflesso rettoanale: si rilascia lo sfintere interno, involontario, mentre lo sfintere esterno, volontario e innervato dal nervo pudendo, permette di rimandare la defecazione.",
+  "connections": [
+    {
+      "type": "afferent",
+      "targetId": "descending-colon",
+      "text": "Dal colon sigmoideo."
+    },
+    {
+      "type": "afferent",
+      "via": "nervi splancnici pelvici",
+      "text": "Innervazione parasimpatica da S2-S4."
+    }
+  ],
+  "bloodSupply": [
+    {
+      "arteryId": "inferior-mesenteric-artery",
+      "text": "Arteria rettale superiore (mesenterica inferiore); arterie rettali media e inferiore (iliaca interna). Le vene collegano il sistema portale con quello cavale."
+    }
+  ],
+  "clinical": [
+    {
+      "title": "Emorroidi",
+      "text": "Dilatazione dei plessi venosi, favorita anche dall'ipertensione portale."
+    },
+    {
+      "title": "Carcinoma del retto",
+      "text": "Sanguinamento e tenesmo; è raggiungibile con l'esplorazione rettale."
+    },
+    {
+      "title": "Incontinenza fecale",
+      "text": "Per lesione degli sfinteri o del nervo pudendo."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

@@ -1,0 +1,62 @@
+{
+  "id": "mammillothalamic-tract",
+  "names": {
+    "it": "Fascio mammillotalamico",
+    "la": "Fasciculus mammillothalamicus",
+    "en": "Mammillothalamic tract",
+    "synonyms": [
+      "fascio di Vicq d'Azyr"
+    ]
+  },
+  "parent": "limbic-system",
+  "layer": "limbic",
+  "side": "bilateral",
+  "level": 2,
+  "location": "Fascio compatto che sale dal corpo mammillare attraverso l'ipotalamo e il talamo fino ai nuclei anteriori del talamo.",
+  "relations": [
+    {
+      "direction": "inferiore",
+      "structureId": "mammillary-body",
+      "text": "Corpo mammillare."
+    },
+    {
+      "direction": "superiore",
+      "structureId": "anterior-thalamic-nucleus",
+      "text": "Nuclei anteriori del talamo."
+    }
+  ],
+  "function": "Tappa del circuito di Papez: trasmette ai nuclei anteriori del talamo l'informazione che i corpi mammillari ricevono dall'ippocampo attraverso il fornice.",
+  "connections": [
+    {
+      "type": "afferent",
+      "targetId": "mammillary-body",
+      "text": "Dai nuclei mammillari."
+    },
+    {
+      "type": "efferent",
+      "targetId": "anterior-thalamic-nucleus",
+      "text": "Ai nuclei anteriori del talamo."
+    }
+  ],
+  "bloodSupply": [
+    {
+      "arteryId": "posterior-communicating-artery",
+      "text": "Arteria tuberotalamica e rami perforanti."
+    }
+  ],
+  "clinical": [
+    {
+      "title": "Amnesia talamica",
+      "text": "Negli infarti talamici anteriori la lesione di questo fascio è il miglior indice di un deficit di memoria."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

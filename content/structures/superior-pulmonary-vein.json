@@ -1,0 +1,61 @@
+{
+  "id": "superior-pulmonary-vein",
+  "names": {
+    "it": "Vena polmonare superiore",
+    "la": "Venae pulmonales",
+    "en": "Pulmonary veins",
+    "synonyms": [
+      "vene polmonari"
+    ]
+  },
+  "parent": "pulmonary-circulation",
+  "layer": "body-veins",
+  "side": "bilateral",
+  "level": 2,
+  "location": "Quattro vene, due per polmone (superiore e inferiore), che dall'ilo polmonare raggiungono la parete posteriore dell'atrio sinistro. La scheda descrive l'insieme delle vene polmonari.",
+  "relations": [
+    {
+      "direction": "mediale",
+      "structureId": "wall-of-atrium",
+      "text": "Atrio sinistro."
+    },
+    {
+      "direction": "laterale",
+      "structureId": "upper-lobe-of-lung",
+      "text": "Ilo polmonare."
+    }
+  ],
+  "function": "Portano all'atrio sinistro il sangue ossigenato: sono le uniche vene dell'adulto con sangue arterioso.",
+  "connections": [
+    {
+      "type": "afferent",
+      "targetId": "upper-lobe-of-lung",
+      "text": "Dai capillari alveolari."
+    },
+    {
+      "type": "efferent",
+      "targetId": "wall-of-atrium",
+      "text": "All'atrio sinistro."
+    }
+  ],
+  "bloodSupply": [],
+  "clinical": [
+    {
+      "title": "Fibrillazione atriale",
+      "text": "I focolai che la innescano si trovano spesso nei manicotti di miocardio attorno allo sbocco delle vene polmonari, bersaglio dell'ablazione."
+    },
+    {
+      "title": "Edema polmonare",
+      "text": "L'aumento di pressione nell'atrio sinistro si trasmette alle vene e ai capillari polmonari."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

@@ -1,0 +1,49 @@
+{
+  "id": "precentral-sulcus",
+  "names": {
+    "it": "Solco precentrale",
+    "la": "Sulcus precentralis",
+    "en": "Precentral sulcus",
+    "synonyms": []
+  },
+  "parent": "frontal-lobe",
+  "layer": "sulci",
+  "side": "bilateral",
+  "level": 2,
+  "location": "Solco parallelo al solco centrale, davanti al giro precentrale; spesso è diviso in un tratto superiore e uno inferiore.",
+  "relations": [
+    {
+      "direction": "posteriore",
+      "structureId": "precentral-gyrus",
+      "text": "Giro precentrale."
+    },
+    {
+      "direction": "anteriore",
+      "structureId": "superior-frontal-gyrus",
+      "text": "Giri frontali superiore, medio e inferiore."
+    }
+  ],
+  "function": "Delimita anteriormente il giro precentrale. All'incrocio con il solco frontale superiore si trova il campo oculare frontale.",
+  "connections": [],
+  "bloodSupply": [
+    {
+      "arteryId": "artery-of-precentral-sulcus",
+      "text": "Arteria del solco precentrale, ramo dell'arteria cerebrale media."
+    }
+  ],
+  "clinical": [
+    {
+      "title": "Repere",
+      "text": "Aiuta a riconoscere il giro precentrale nelle sezioni assiali."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

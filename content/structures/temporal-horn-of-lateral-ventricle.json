@@ -1,0 +1,60 @@
+{
+  "id": "temporal-horn-of-lateral-ventricle",
+  "names": {
+    "it": "Corno temporale (inferiore) del ventricolo laterale",
+    "la": "Cornu temporale ventriculi lateralis",
+    "en": "Temporal horn of lateral ventricle",
+    "synonyms": [
+      "corno inferiore"
+    ]
+  },
+  "parent": "ventricular-system",
+  "layer": "ventricles",
+  "side": "bilateral",
+  "level": 2,
+  "location": "Prolungamento del ventricolo laterale che dall'atrio si dirige in avanti e in basso nel lobo temporale, terminando dietro l'amigdala.",
+  "relations": [
+    {
+      "direction": "mediale",
+      "structureId": "hippocampus",
+      "text": "Ippocampo, che ne forma il pavimento mediale."
+    },
+    {
+      "direction": "anteriore",
+      "structureId": "amygdala",
+      "text": "Amigdala."
+    },
+    {
+      "direction": "superiore",
+      "structureId": "caudate-nucleus",
+      "text": "Coda del nucleo caudato, nel tetto."
+    }
+  ],
+  "function": "Contiene liquor e plesso corioideo, che vi entra dalla fessura corioidea.",
+  "connections": [],
+  "bloodSupply": [
+    {
+      "arteryId": "anterior-choroidal-artery",
+      "text": "Arteria corioidea anteriore, per il plesso corioideo."
+    }
+  ],
+  "clinical": [
+    {
+      "title": "Atrofia ippocampale",
+      "text": "Nella malattia di Alzheimer e nella sclerosi temporale mesiale il corno temporale appare allargato."
+    },
+    {
+      "title": "Idrocefalo",
+      "text": "La dilatazione dei corni temporali è un segno precoce."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

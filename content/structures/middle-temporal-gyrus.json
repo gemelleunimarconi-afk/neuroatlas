@@ -1,0 +1,73 @@
+{
+  "id": "middle-temporal-gyrus",
+  "names": {
+    "it": "Giro temporale medio",
+    "la": "Gyrus temporalis medius",
+    "en": "Middle temporal gyrus",
+    "synonyms": [
+      "seconda circonvoluzione temporale"
+    ]
+  },
+  "parent": "temporal-lobe",
+  "layer": "cortex",
+  "side": "bilateral",
+  "level": 2,
+  "location": "Faccia laterale del lobo temporale, tra il solco temporale superiore e il solco temporale inferiore.",
+  "relations": [
+    {
+      "direction": "superiore",
+      "structureId": "superior-temporal-sulcus",
+      "text": "Solco temporale superiore e giro temporale superiore."
+    },
+    {
+      "direction": "inferiore",
+      "structureId": "inferior-temporal-gyrus",
+      "text": "Giro temporale inferiore."
+    },
+    {
+      "direction": "posteriore",
+      "structureId": "lateral-occipital-gyrus",
+      "text": "Giri occipitali laterali."
+    }
+  ],
+  "function": "Corteccia associativa (area 21). Partecipa all'elaborazione semantica del linguaggio e al recupero del significato delle parole, soprattutto a sinistra; la parte posteriore, al confine con il lobo occipitale, contiene aree sensibili al movimento visivo (area MT/V5).",
+  "connections": [
+    {
+      "type": "reciprocal",
+      "targetId": "superior-temporal-gyrus",
+      "text": "Con le aree uditive associative e del linguaggio."
+    },
+    {
+      "type": "reciprocal",
+      "targetId": "temporal-pole",
+      "text": "Con il polo temporale e le cortecce prefrontali."
+    }
+  ],
+  "bloodSupply": [
+    {
+      "arteryId": "middle-temporal-branch-of-middle-cerebral-artery",
+      "text": "Rami temporali dell'arteria cerebrale media."
+    }
+  ],
+  "clinical": [
+    {
+      "title": "Afasia transcorticale sensoriale",
+      "text": "Lesioni temporali posteriori sinistre che risparmiano l'area di Wernicke: comprensione compromessa con ripetizione conservata."
+    },
+    {
+      "title": "Acinetopsia",
+      "text": "Lesioni bilaterali dell'area del movimento: incapacità di percepire il movimento visivo."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [
+    21
+  ],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

@@ -1,0 +1,79 @@
+{
+  "id": "anterior-superior-hypothalamus",
+  "names": {
+    "it": "Ipotalamo anteriore superiore",
+    "la": "Hypothalamus, pars anterior superior",
+    "en": "Anterior superior hypothalamus",
+    "synonyms": [
+      "ipotalamo",
+      "regione preottica e paraventricolare"
+    ]
+  },
+  "parent": "hypothalamus",
+  "layer": "diencephalon",
+  "side": "bilateral",
+  "level": 2,
+  "location": "Parte anteriore e superiore dell'ipotalamo, nella parete del terzo ventricolo dietro la lamina terminale. La suddivisione in cinque zone è quella dell'atlante usato per i modelli: l'attribuzione dei nuclei a ciascuna zona è indicativa.",
+  "relations": [
+    {
+      "direction": "mediale",
+      "structureId": "third-ventricle",
+      "text": "Terzo ventricolo."
+    },
+    {
+      "direction": "anteriore",
+      "structureId": "lamina-terminalis",
+      "text": "Lamina terminale."
+    },
+    {
+      "direction": "inferiore",
+      "structureId": "anterior-inferior-hypothalamus",
+      "text": "Zona anteriore inferiore."
+    }
+  ],
+  "function": "Contiene l'area preottica (termoregolazione, sonno, comportamento sessuale) e gran parte del nucleo paraventricolare, che produce ossitocina e vasopressina, rilascia il CRH che comanda l'asse ipotalamo-ipofisi-surrene e invia fibre ai centri autonomici del tronco e del midollo.",
+  "connections": [
+    {
+      "type": "efferent",
+      "targetId": "neurohypophysis",
+      "via": "tratto ipotalamo-ipofisario",
+      "text": "Neuroni magnocellulari del nucleo paraventricolare."
+    },
+    {
+      "type": "efferent",
+      "targetId": "intermediolateral-nucleus",
+      "text": "Fibre discendenti ai neuroni pregangliari autonomici."
+    },
+    {
+      "type": "reciprocal",
+      "targetId": "amygdala",
+      "via": "stria terminale",
+      "text": "Con amigdala e setto."
+    }
+  ],
+  "bloodSupply": [
+    {
+      "arteryId": "anterior-communicating-artery",
+      "text": "Rami perforanti delle arterie cerebrale anteriore e comunicante anteriore."
+    }
+  ],
+  "clinical": [
+    {
+      "title": "Febbre",
+      "text": "I pirogeni agiscono sull'area preottica alzando il valore di riferimento della temperatura."
+    },
+    {
+      "title": "Lesione dell'area preottica",
+      "text": "Ipertermia e insonnia."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

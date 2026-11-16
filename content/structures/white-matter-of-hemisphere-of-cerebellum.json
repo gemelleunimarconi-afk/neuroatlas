@@ -1,0 +1,69 @@
+{
+  "id": "white-matter-of-hemisphere-of-cerebellum",
+  "names": {
+    "it": "Sostanza bianca del cervelletto",
+    "la": "Corpus medullare cerebelli",
+    "en": "Cerebellar white matter",
+    "synonyms": [
+      "corpo midollare",
+      "arbor vitae"
+    ]
+  },
+  "parent": "cerebellum",
+  "layer": "cerebellum",
+  "side": "bilateral",
+  "level": 2,
+  "location": "Massa di sostanza bianca al centro di ciascun emisfero cerebellare, da cui partono le lamine che sostengono le lamelle della corteccia. Contiene i nuclei profondi.",
+  "relations": [
+    {
+      "direction": "profonda",
+      "structureId": "dentate-nucleus",
+      "text": "Nuclei dentato, emboliforme, globoso e del fastigio."
+    },
+    {
+      "direction": "anteriore",
+      "structureId": "pons",
+      "text": "Peduncoli cerebellari."
+    }
+  ],
+  "function": "Contiene le fibre afferenti alla corteccia (muscoidi e rampicanti), gli assoni delle cellule di Purkinje diretti ai nuclei profondi e le fibre in uscita. Continua nei tre peduncoli: inferiore (afferenze da midollo e bulbo), medio (dai nuclei pontini) e superiore (principale via di uscita).",
+  "connections": [
+    {
+      "type": "afferent",
+      "targetId": "pons",
+      "via": "peduncolo cerebellare medio",
+      "text": "Fibre pontocerebellari."
+    },
+    {
+      "type": "efferent",
+      "targetId": "red-nucleus",
+      "via": "peduncolo cerebellare superiore",
+      "text": "Fibre in uscita dai nuclei profondi."
+    }
+  ],
+  "bloodSupply": [
+    {
+      "arteryId": "superior-cerebellar-artery",
+      "text": "Arterie cerebellari superiore, inferiore anteriore e inferiore posteriore."
+    }
+  ],
+  "clinical": [
+    {
+      "title": "Sclerosi multipla",
+      "text": "Le placche nei peduncoli cerebellari danno atassia, tremore intenzionale e disartria."
+    },
+    {
+      "title": "Lesione del peduncolo",
+      "text": "Atassia omolaterale."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

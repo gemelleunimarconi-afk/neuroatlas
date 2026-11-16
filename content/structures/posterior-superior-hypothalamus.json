@@ -1,0 +1,71 @@
+{
+  "id": "posterior-superior-hypothalamus",
+  "names": {
+    "it": "Ipotalamo posteriore superiore",
+    "la": "Hypothalamus, pars posterior",
+    "en": "Posterior hypothalamus",
+    "synonyms": [
+      "ipotalamo posteriore",
+      "regione mammillare"
+    ]
+  },
+  "parent": "hypothalamus",
+  "layer": "diencephalon",
+  "side": "bilateral",
+  "level": 3,
+  "location": "Parte posteriore dell'ipotalamo, sopra e attorno ai corpi mammillari, al confine con il tegmento del mesencefalo. L'attribuzione dei nuclei alle zone dell'atlante è indicativa.",
+  "relations": [
+    {
+      "direction": "inferiore",
+      "structureId": "mammillary-body",
+      "text": "Corpi mammillari."
+    },
+    {
+      "direction": "posteriore",
+      "structureId": "part-of-midbrain",
+      "text": "Tegmento del mesencefalo."
+    },
+    {
+      "direction": "anteriore",
+      "structureId": "superior-tuberal-hypothalamus",
+      "text": "Zona tuberale superiore."
+    }
+  ],
+  "function": "Comprende il nucleo ipotalamico posteriore, coinvolto nella conservazione del calore e nell'attivazione simpatica, e il nucleo tuberomammillare, unica sorgente di istamina del cervello, che promuove la veglia.",
+  "connections": [
+    {
+      "type": "efferent",
+      "text": "Proiezioni istaminergiche diffuse alla corteccia."
+    },
+    {
+      "type": "efferent",
+      "targetId": "intermediolateral-nucleus",
+      "text": "Fibre discendenti ai centri simpatici."
+    }
+  ],
+  "bloodSupply": [
+    {
+      "arteryId": "posterior-communicating-artery",
+      "text": "Rami perforanti delle arterie comunicante posteriore e cerebrale posteriore."
+    }
+  ],
+  "clinical": [
+    {
+      "title": "Lesione dell'ipotalamo posteriore",
+      "text": "Ipersonnia e incapacità di regolare la temperatura (poichilotermia)."
+    },
+    {
+      "title": "Antistaminici",
+      "text": "Quelli che attraversano la barriera ematoencefalica danno sonnolenza bloccando questa via."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

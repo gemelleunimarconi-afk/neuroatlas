@@ -1,0 +1,54 @@
+{
+  "id": "anterior-papillary-muscle-of-ventricle",
+  "names": {
+    "it": "Muscolo papillare anteriore del ventricolo",
+    "la": "Musculi papillares",
+    "en": "Papillary muscles",
+    "synonyms": [
+      "muscoli papillari",
+      "corde tendinee"
+    ]
+  },
+  "parent": "heart",
+  "layer": "body-heart",
+  "side": "midline",
+  "level": 2,
+  "location": "Rilievi conici del miocardio che sporgono nelle cavità ventricolari: tre nel ventricolo destro (anteriore, posteriore, settale) e due nel sinistro (anteriore e posteriore). La scheda descrive l'insieme dei muscoli papillari.",
+  "relations": [
+    {
+      "direction": "superiore",
+      "structureId": "anterior-leaflet-of-mitral-valve",
+      "text": "Lembi delle valvole atrioventricolari, raggiunti dalle corde tendinee."
+    }
+  ],
+  "function": "Si contraggono all'inizio della sistole tendendo le corde tendinee: impediscono che i lembi delle valvole atrioventricolari si rovescino nell'atrio. Non aprono né chiudono attivamente le valvole.",
+  "connections": [
+    {
+      "type": "efferent",
+      "targetId": "anterior-leaflet-of-mitral-valve",
+      "via": "corde tendinee",
+      "text": "Ai lembi valvolari."
+    }
+  ],
+  "bloodSupply": [
+    {
+      "arteryId": "circumflex-branch-of-coronary-artery",
+      "text": "Il muscolo papillare posteriore del ventricolo sinistro ha spesso un solo apporto arterioso ed è il più vulnerabile all'ischemia."
+    }
+  ],
+  "clinical": [
+    {
+      "title": "Rottura dopo infarto",
+      "text": "Causa insufficienza mitralica acuta con edema polmonare; colpisce più spesso il muscolo papillare posteriore."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

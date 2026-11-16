@@ -1,0 +1,61 @@
+{
+  "id": "posterior-cusp-of-aortic-valve",
+  "names": {
+    "it": "Cuspide posteriore della valvola aortica",
+    "la": "Valva aortae",
+    "en": "Aortic valve",
+    "synonyms": [
+      "valvola aortica"
+    ]
+  },
+  "parent": "heart",
+  "layer": "body-heart",
+  "side": "bilateral",
+  "level": 1,
+  "location": "Valvola all'origine dell'aorta, tra ventricolo sinistro e aorta ascendente. Ha tre cuspidi semilunari: destra, sinistra e posteriore. Dai seni aortici sopra le cuspidi destra e sinistra nascono le due arterie coronarie; la posteriore è la cuspide non coronarica. La scheda descrive l'intera valvola.",
+  "relations": [
+    {
+      "direction": "superiore",
+      "structureId": "ascending-aorta",
+      "text": "Aorta ascendente."
+    },
+    {
+      "direction": "posteriore",
+      "structureId": "anterior-leaflet-of-mitral-valve",
+      "text": "Lembo anteriore della mitrale."
+    }
+  ],
+  "function": "Si apre in sistole e si chiude in diastole, impedendo il ritorno del sangue nel ventricolo; il riempimento delle coronarie avviene soprattutto in diastole, quando la valvola è chiusa. La sua chiusura contribuisce al secondo tono.",
+  "connections": [
+    {
+      "type": "afferent",
+      "targetId": "wall-of-ventricle",
+      "text": "Dal ventricolo sinistro."
+    },
+    {
+      "type": "efferent",
+      "targetId": "ascending-aorta",
+      "text": "All'aorta."
+    }
+  ],
+  "bloodSupply": [],
+  "clinical": [
+    {
+      "title": "Stenosi aortica",
+      "text": "Calcificazione degenerativa nell'anziano o valvola bicuspide congenita: soffio sistolico, con angina, sincope e dispnea."
+    },
+    {
+      "title": "Insufficienza aortica",
+      "text": "Reflusso diastolico con polso ampio e pressione differenziale aumentata."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

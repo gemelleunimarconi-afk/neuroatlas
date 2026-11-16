@@ -1,0 +1,65 @@
+{
+  "id": "ophthalmic-nerve",
+  "names": {
+    "it": "Nervo oftalmico (V1)",
+    "la": "Nervus ophthalmicus",
+    "en": "Ophthalmic nerve (V1)",
+    "synonyms": [
+      "prima branca del trigemino"
+    ]
+  },
+  "parent": "trigeminal-nerve",
+  "layer": "body-nerves",
+  "side": "bilateral",
+  "level": 2,
+  "location": "Prima branca del trigemino. Dal ganglio trigeminale decorre nella parete laterale del seno cavernoso ed entra nell'orbita dalla fessura orbitaria superiore, dividendosi nei nervi frontale, lacrimale e nasociliare.",
+  "relations": [
+    {
+      "direction": "posteriore",
+      "structureId": "trigeminal-nerve-v",
+      "text": "Ganglio trigeminale."
+    },
+    {
+      "direction": "mediale",
+      "structureId": "internal-carotid-artery",
+      "text": "Arteria carotide interna, nel seno cavernoso."
+    }
+  ],
+  "function": "Solo sensitivo: fronte e cuoio capelluto fino al vertice, palpebra superiore, dorso del naso, cornea e congiuntiva, parte della mucosa nasale e della dura madre.",
+  "connections": [
+    {
+      "type": "efferent",
+      "targetId": "trigeminal-nerve-v",
+      "text": "Ai nuclei sensitivi del trigemino."
+    }
+  ],
+  "bloodSupply": [
+    {
+      "arteryId": "internal-carotid-artery",
+      "text": "Rami della carotide interna nel seno cavernoso."
+    }
+  ],
+  "clinical": [
+    {
+      "title": "Riflesso corneale",
+      "text": "La sua via afferente è il nervo nasociliare."
+    },
+    {
+      "title": "Herpes zoster oftalmico",
+      "text": "Lesioni sulla punta del naso (segno di Hutchinson) indicano l'interessamento del nasociliare e il rischio per la cornea."
+    },
+    {
+      "title": "Sindrome del seno cavernoso",
+      "text": "Deficit di V1 con paralisi dei nervi III, IV e VI."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

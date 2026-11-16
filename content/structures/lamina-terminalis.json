@@ -1,0 +1,60 @@
+{
+  "id": "lamina-terminalis",
+  "names": {
+    "it": "Lamina terminale",
+    "la": "Lamina terminalis",
+    "en": "Lamina terminalis",
+    "synonyms": []
+  },
+  "parent": "hypothalamus",
+  "layer": "white-matter",
+  "side": "midline",
+  "level": 3,
+  "location": "Sottile lamina che chiude in avanti il terzo ventricolo, tesa dal rostro del corpo calloso e dalla commessura anteriore al chiasma ottico.",
+  "relations": [
+    {
+      "direction": "posteriore",
+      "structureId": "third-ventricle",
+      "text": "Terzo ventricolo."
+    },
+    {
+      "direction": "inferiore",
+      "structureId": "optic-chiasm",
+      "text": "Chiasma ottico."
+    },
+    {
+      "direction": "anteriore",
+      "structureId": "anterior-communicating-artery",
+      "text": "Arteria comunicante anteriore."
+    }
+  ],
+  "function": "Contiene l'organo vascoloso, privo di barriera ematoencefalica, che rileva l'osmolarità del sangue e contribuisce alla sete e al rilascio di vasopressina.",
+  "connections": [
+    {
+      "type": "efferent",
+      "targetId": "anterior-inferior-hypothalamus",
+      "text": "Ai nuclei sopraottico e paraventricolare e ai centri della sete."
+    }
+  ],
+  "bloodSupply": [
+    {
+      "arteryId": "anterior-communicating-artery",
+      "text": "Rami delle arterie cerebrale anteriore e comunicante anteriore."
+    }
+  ],
+  "clinical": [
+    {
+      "title": "Fenestrazione chirurgica",
+      "text": "Aprire la lamina terminale mette in comunicazione il terzo ventricolo con le cisterne; si usa in alcune forme di idrocefalo."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

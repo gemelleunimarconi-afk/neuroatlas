@@ -1,0 +1,62 @@
+{
+  "id": "brachia-of-inferior-colliculus",
+  "names": {
+    "it": "Braccio del collicolo inferiore",
+    "la": "Brachium colliculi inferioris",
+    "en": "Brachium of inferior colliculus",
+    "synonyms": [
+      "braccio congiuntivo inferiore"
+    ]
+  },
+  "parent": "midbrain",
+  "layer": "brainstem",
+  "side": "bilateral",
+  "level": 3,
+  "location": "Fascio che dal collicolo inferiore sale lateralmente fino al corpo genicolato mediale, sulla superficie laterale del mesencefalo.",
+  "relations": [
+    {
+      "direction": "mediale",
+      "structureId": "inferior-colliculus",
+      "text": "Collicolo inferiore."
+    },
+    {
+      "direction": "superiore",
+      "structureId": "medial-geniculate-body",
+      "text": "Corpo genicolato mediale."
+    }
+  ],
+  "function": "Tratto della via uditiva tra collicolo inferiore e talamo.",
+  "connections": [
+    {
+      "type": "afferent",
+      "targetId": "inferior-colliculus",
+      "text": "Dal collicolo inferiore."
+    },
+    {
+      "type": "efferent",
+      "targetId": "medial-geniculate-body",
+      "text": "Al corpo genicolato mediale."
+    }
+  ],
+  "bloodSupply": [
+    {
+      "arteryId": "superior-cerebellar-artery",
+      "text": "Rami delle arterie cerebellare superiore e cerebrale posteriore."
+    }
+  ],
+  "clinical": [
+    {
+      "title": "Lesione monolaterale",
+      "text": "Lieve deficit uditivo controlaterale, soprattutto nella localizzazione dei suoni."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

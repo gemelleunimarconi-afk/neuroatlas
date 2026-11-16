@@ -1,0 +1,65 @@
+{
+  "id": "celiac-trunk",
+  "names": {
+    "it": "Tronco celiaco",
+    "la": "Truncus coeliacus",
+    "en": "Celiac trunk",
+    "synonyms": [
+      "tripode celiaco"
+    ]
+  },
+  "parent": "abdominal-aorta",
+  "layer": "body-arteries",
+  "side": "midline",
+  "level": 2,
+  "location": "Breve ramo anteriore dell'aorta addominale, che nasce subito sotto il diaframma, a livello di T12, sopra il margine superiore del pancreas.",
+  "relations": [
+    {
+      "direction": "inferiore",
+      "structureId": "pancreas",
+      "text": "Pancreas e origine dell'arteria mesenterica superiore."
+    },
+    {
+      "direction": "posteriore",
+      "structureId": "abdominal-aorta",
+      "text": "Aorta addominale."
+    }
+  ],
+  "function": "Irrora i derivati dell'intestino anteriore: stomaco, prima metà del duodeno, fegato, vie biliari, pancreas e milza.",
+  "connections": [
+    {
+      "type": "efferent",
+      "targetId": "common-hepatic-artery",
+      "text": "Arteria epatica comune."
+    },
+    {
+      "type": "efferent",
+      "targetId": "splenic-artery",
+      "text": "Arteria lienale."
+    },
+    {
+      "type": "efferent",
+      "text": "Arteria gastrica sinistra."
+    }
+  ],
+  "bloodSupply": [],
+  "clinical": [
+    {
+      "title": "Dolore viscerale",
+      "text": "Gli organi del suo territorio danno dolore riferito all'epigastrio."
+    },
+    {
+      "title": "Sindrome del legamento arcuato",
+      "text": "Compressione del tronco da parte del diaframma, con dolore dopo i pasti."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

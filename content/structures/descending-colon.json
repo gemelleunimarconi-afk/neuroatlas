@@ -1,0 +1,64 @@
+{
+  "id": "descending-colon",
+  "names": {
+    "it": "Colon discendente",
+    "la": "Colon descendens",
+    "en": "Descending colon",
+    "synonyms": []
+  },
+  "parent": "large-intestine",
+  "layer": "body-digestive",
+  "side": "midline",
+  "level": 2,
+  "location": "Dalla flessura colica sinistra scende lungo la parete addominale posteriore sinistra fino alla fossa iliaca, dove continua nel colon sigmoideo. È retroperitoneale.",
+  "relations": [
+    {
+      "direction": "superiore",
+      "structureId": "spleen",
+      "text": "Milza e flessura colica sinistra."
+    },
+    {
+      "direction": "posteriore",
+      "structureId": "kidney",
+      "text": "Rene sinistro."
+    }
+  ],
+  "function": "Completa l'assorbimento dell'acqua e conduce le feci, ormai solide, verso il sigma.",
+  "connections": [
+    {
+      "type": "afferent",
+      "targetId": "transverse-colon",
+      "text": "Dal colon trasverso."
+    },
+    {
+      "type": "efferent",
+      "targetId": "rectum",
+      "text": "Al colon sigmoideo e al retto."
+    }
+  ],
+  "bloodSupply": [
+    {
+      "arteryId": "inferior-mesenteric-artery",
+      "text": "Arteria colica sinistra, ramo dell'arteria mesenterica inferiore."
+    }
+  ],
+  "clinical": [
+    {
+      "title": "Carcinoma del colon sinistro",
+      "text": "Dà più spesso alterazioni dell'alvo e occlusione, perché il lume è stretto e le feci sono solide."
+    },
+    {
+      "title": "Diverticolosi",
+      "text": "Frequente nel colon discendente e sigmoideo."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

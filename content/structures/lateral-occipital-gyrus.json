@@ -1,0 +1,70 @@
+{
+  "id": "lateral-occipital-gyrus",
+  "names": {
+    "it": "Giri occipitali laterali",
+    "la": "Gyri occipitales laterales",
+    "en": "Lateral occipital gyri",
+    "synonyms": [
+      "giri occipitali laterali"
+    ]
+  },
+  "parent": "occipital-lobe",
+  "layer": "cortex",
+  "side": "bilateral",
+  "level": 3,
+  "location": "Faccia laterale del lobo occipitale, dietro il confine convenzionale con i lobi parietale e temporale, fino al polo occipitale.",
+  "relations": [
+    {
+      "direction": "anteriore",
+      "structureId": "inferior-parietal-lobule",
+      "text": "Giro angolare e giri temporali."
+    },
+    {
+      "direction": "mediale",
+      "structureId": "visual-cortex",
+      "text": "Corteccia visiva primaria, al polo occipitale."
+    }
+  ],
+  "function": "Corteccia visiva associativa (aree 18 e 19): elaborazione di forma, colore e movimento; da qui partono la via dorsale verso il lobo parietale e la via ventrale verso il lobo temporale.",
+  "connections": [
+    {
+      "type": "afferent",
+      "targetId": "visual-cortex",
+      "text": "Dalla corteccia visiva primaria."
+    },
+    {
+      "type": "efferent",
+      "targetId": "superior-parietal-lobule",
+      "text": "Via dorsale."
+    },
+    {
+      "type": "efferent",
+      "targetId": "inferior-temporal-gyrus",
+      "text": "Via ventrale."
+    }
+  ],
+  "bloodSupply": [
+    {
+      "arteryId": "lateral-occipital-artery",
+      "text": "Arteria cerebrale posteriore; il polo e la parte laterale ricevono anche rami dell'arteria cerebrale media."
+    }
+  ],
+  "clinical": [
+    {
+      "title": "Agnosia visiva appercettiva",
+      "text": "Lesioni occipitali laterali bilaterali: incapacità di percepire le forme pur con acuità conservata."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [
+    18,
+    19
+  ],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

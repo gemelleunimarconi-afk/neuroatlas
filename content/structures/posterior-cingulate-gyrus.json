@@ -1,0 +1,80 @@
+{
+  "id": "posterior-cingulate-gyrus",
+  "names": {
+    "it": "Giro del cingolo posteriore",
+    "la": "Gyrus cinguli",
+    "en": "Posterior cingulate gyrus",
+    "synonyms": [
+      "corteccia cingolata posteriore"
+    ]
+  },
+  "parent": "limbic-lobe",
+  "layer": "cortex",
+  "side": "bilateral",
+  "level": 2,
+  "location": "Parte posteriore del giro del cingolo, sopra il tronco e lo splenio del corpo calloso, sotto il precuneo.",
+  "relations": [
+    {
+      "direction": "inferiore",
+      "structureId": "corpus-callosum",
+      "text": "Corpo calloso."
+    },
+    {
+      "direction": "superiore",
+      "structureId": "precuneus",
+      "text": "Precuneo."
+    },
+    {
+      "direction": "posteriore",
+      "structureId": "isthmus-of-cingulate-gyrus",
+      "text": "Istmo del giro del cingolo."
+    }
+  ],
+  "function": "Aree 23 e 31. Nodo centrale della rete di default: memoria autobiografica, orientamento spaziale e riflessione riferita a sé.",
+  "connections": [
+    {
+      "type": "afferent",
+      "targetId": "anterior-thalamic-nucleus",
+      "text": "Dai nuclei anteriori e laterale dorsale del talamo."
+    },
+    {
+      "type": "efferent",
+      "targetId": "parahippocampal-gyrus",
+      "via": "cingolo",
+      "text": "Alla corteccia entorinale."
+    },
+    {
+      "type": "reciprocal",
+      "targetId": "precuneus",
+      "text": "Con il precuneo e la corteccia parietale."
+    }
+  ],
+  "bloodSupply": [
+    {
+      "arteryId": "pericallosal-artery",
+      "text": "Arteria pericallosa; posteriormente rami dell'arteria cerebrale posteriore."
+    }
+  ],
+  "clinical": [
+    {
+      "title": "Malattia di Alzheimer",
+      "text": "Ipometabolismo precoce, visibile alla PET."
+    },
+    {
+      "title": "Amnesia retrospleniale",
+      "text": "Lesioni della regione retrospleniale possono dare amnesia e disorientamento topografico."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [
+    23,
+    31
+  ],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

@@ -1,0 +1,68 @@
+{
+  "id": "ureter",
+  "names": {
+    "it": "Uretere",
+    "la": "Ureter",
+    "en": "Ureter",
+    "synonyms": []
+  },
+  "parent": "urinary-system",
+  "layer": "body-urogenital",
+  "side": "bilateral",
+  "level": 2,
+  "location": "Condotto muscolare retroperitoneale che dalla pelvi renale scende sul muscolo psoas, incrocia i vasi iliaci all'ingresso della pelvi ed entra obliquamente nella parete della vescica.",
+  "relations": [
+    {
+      "direction": "superiore",
+      "structureId": "kidney",
+      "text": "Pelvi renale."
+    },
+    {
+      "direction": "inferiore",
+      "structureId": "urinary-bladder",
+      "text": "Vescica urinaria."
+    }
+  ],
+  "function": "Trasporta l'urina alla vescica con onde peristaltiche. Il decorso obliquo nella parete vescicale funziona da valvola e impedisce il reflusso.",
+  "connections": [
+    {
+      "type": "afferent",
+      "targetId": "kidney",
+      "text": "Dalla pelvi renale."
+    },
+    {
+      "type": "efferent",
+      "targetId": "urinary-bladder",
+      "text": "Alla vescica."
+    }
+  ],
+  "bloodSupply": [
+    {
+      "arteryId": "renal-artery",
+      "text": "Rami delle arterie renale, gonadica, iliache e vescicali, lungo il decorso."
+    }
+  ],
+  "clinical": [
+    {
+      "title": "Colica renale",
+      "text": "I calcoli si fermano nei tre restringimenti: giunzione con la pelvi renale, incrocio con i vasi iliaci e tratto nella parete vescicale."
+    },
+    {
+      "title": "Lesione chirurgica",
+      "text": "Nella donna l'uretere passa sotto l'arteria uterina e può essere leso nell'isterectomia."
+    },
+    {
+      "title": "Reflusso vescico-ureterale",
+      "text": "Favorisce le infezioni renali nel bambino."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

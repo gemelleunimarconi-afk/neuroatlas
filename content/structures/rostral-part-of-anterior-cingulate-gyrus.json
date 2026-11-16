@@ -1,0 +1,65 @@
+{
+  "id": "rostral-part-of-anterior-cingulate-gyrus",
+  "names": {
+    "it": "Giro del cingolo anteriore, parte rostrale",
+    "la": "Gyrus cinguli",
+    "en": "Anterior cingulate gyrus, rostral part",
+    "synonyms": [
+      "corteccia cingolata pregenuale e subgenuale"
+    ]
+  },
+  "parent": "limbic-lobe",
+  "layer": "cortex",
+  "side": "bilateral",
+  "level": 3,
+  "location": "Parte più anteriore del giro del cingolo, attorno al ginocchio e al rostro del corpo calloso.",
+  "relations": [
+    {
+      "direction": "posteriore",
+      "structureId": "caudal-part-of-anterior-cingulate-gyrus",
+      "text": "Parte caudale del giro del cingolo anteriore."
+    },
+    {
+      "direction": "inferiore",
+      "structureId": "corpus-callosum",
+      "text": "Ginocchio e rostro del corpo calloso."
+    }
+  ],
+  "function": "Divisione \"affettiva\" della corteccia cingolata anteriore (aree 24, 32 e, sotto il ginocchio, 25): regolazione dell'umore e delle risposte autonomiche ed endocrine alle emozioni.",
+  "connections": [
+    {
+      "type": "reciprocal",
+      "targetId": "amygdala",
+      "text": "Con amigdala, ipotalamo e corteccia orbitofrontale."
+    },
+    {
+      "type": "efferent",
+      "targetId": "nucleus-accumbens",
+      "text": "Allo striato ventrale."
+    }
+  ],
+  "bloodSupply": [
+    {
+      "arteryId": "anterior-cerebral-artery",
+      "text": "Arteria cerebrale anteriore (rami frontobasale mediale e pericalloso)."
+    }
+  ],
+  "clinical": [
+    {
+      "title": "Depressione",
+      "text": "Attività alterata della corteccia subgenuale (area 25), bersaglio sperimentale della stimolazione cerebrale profonda nelle forme resistenti."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [
+    24,
+    32
+  ],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

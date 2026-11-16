@@ -1,0 +1,67 @@
+{
+  "id": "trachea",
+  "names": {
+    "it": "Trachea",
+    "la": "Trachea",
+    "en": "Trachea",
+    "synonyms": []
+  },
+  "parent": "respiratory-system",
+  "layer": "body-respiratory",
+  "side": "midline",
+  "level": 1,
+  "location": "Condotto mediano che dalla cartilagine cricoidea (C6) scende nel collo e nel mediastino superiore fino alla biforcazione (carena), a livello dell'angolo sternale (T4-T5).",
+  "relations": [
+    {
+      "direction": "posteriore",
+      "structureId": "esophagus",
+      "text": "Esofago."
+    },
+    {
+      "direction": "anteriore",
+      "structureId": "arch-of-aorta",
+      "text": "Istmo della tiroide nel collo; arco aortico e tronco brachiocefalico nel torace."
+    },
+    {
+      "direction": "inferiore",
+      "structureId": "main-bronchus",
+      "text": "Bronchi principali."
+    }
+  ],
+  "function": "Via aerea di conduzione: non partecipa agli scambi gassosi (spazio morto anatomico). È tenuta aperta da anelli cartilaginei a C, chiusi dietro dal muscolo tracheale. L'epitelio cilindrico ciliato con cellule mucipare trasporta muco e particelle verso la faringe.",
+  "connections": [
+    {
+      "type": "efferent",
+      "targetId": "main-bronchus",
+      "text": "Si divide nei bronchi principali destro e sinistro."
+    }
+  ],
+  "bloodSupply": [
+    {
+      "text": "Arterie tiroidee inferiori e arterie bronchiali."
+    }
+  ],
+  "clinical": [
+    {
+      "title": "Tracheotomia",
+      "text": "Apertura chirurgica della trachea per assicurare la via aerea."
+    },
+    {
+      "title": "Intubazione",
+      "text": "La carena è molto sensibile; un tubo spinto troppo in basso entra più facilmente nel bronco destro."
+    },
+    {
+      "title": "Deviazione della trachea",
+      "text": "Segno di pneumotorace iperteso o di una massa del collo."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

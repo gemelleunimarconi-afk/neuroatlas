@@ -1,0 +1,61 @@
+{
+  "id": "ascending-colon",
+  "names": {
+    "it": "Colon ascendente",
+    "la": "Colon ascendens",
+    "en": "Ascending colon",
+    "synonyms": []
+  },
+  "parent": "large-intestine",
+  "layer": "body-digestive",
+  "side": "midline",
+  "level": 2,
+  "location": "Dal cieco, nella fossa iliaca destra, sale lungo la parete addominale posteriore destra fino alla flessura colica destra (epatica), sotto il fegato. È retroperitoneale.",
+  "relations": [
+    {
+      "direction": "superiore",
+      "structureId": "liver",
+      "text": "Fegato e flessura colica destra."
+    },
+    {
+      "direction": "posteriore",
+      "structureId": "kidney",
+      "text": "Rene destro e muscoli della parete posteriore."
+    }
+  ],
+  "function": "Assorbe acqua ed elettroliti dal contenuto intestinale; la flora batterica fermenta i residui producendo acidi grassi a catena corta.",
+  "connections": [
+    {
+      "type": "afferent",
+      "targetId": "middle-part-of-ileum",
+      "via": "valvola ileocecale",
+      "text": "Dall'ileo."
+    },
+    {
+      "type": "efferent",
+      "targetId": "transverse-colon",
+      "text": "Al colon trasverso."
+    }
+  ],
+  "bloodSupply": [
+    {
+      "arteryId": "superior-mesenteric-artery",
+      "text": "Arterie ileocolica e colica destra, rami della mesenterica superiore."
+    }
+  ],
+  "clinical": [
+    {
+      "title": "Carcinoma del colon destro",
+      "text": "Dà spesso anemia da sanguinamento occulto più che occlusione, perché il lume è ampio e il contenuto liquido."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

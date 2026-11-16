@@ -1,0 +1,62 @@
+{
+  "id": "intraparietal-sulcus",
+  "names": {
+    "it": "Solco intraparietale",
+    "la": "Sulcus intraparietalis",
+    "en": "Intraparietal sulcus",
+    "synonyms": [
+      "solco interparietale"
+    ]
+  },
+  "parent": "parietal-lobe",
+  "layer": "sulci",
+  "side": "bilateral",
+  "level": 2,
+  "location": "Solco che decorre all'indietro dal solco postcentrale sulla faccia laterale del lobo parietale, separando il lobulo parietale superiore da quello inferiore.",
+  "relations": [
+    {
+      "direction": "superiore",
+      "structureId": "superior-parietal-lobule",
+      "text": "Lobulo parietale superiore."
+    },
+    {
+      "direction": "inferiore",
+      "structureId": "supramarginal-gyrus",
+      "text": "Giri sopramarginale e angolare."
+    }
+  ],
+  "function": "Le sue pareti contengono aree che trasformano l'informazione visiva in programmi motori: controllo dei movimenti oculari e dell'attenzione spaziale, raggiungimento e prensione; partecipa all'elaborazione delle quantità numeriche.",
+  "connections": [
+    {
+      "type": "reciprocal",
+      "targetId": "posterior-part-of-middle-frontal-gyrus",
+      "via": "fascicolo longitudinale superiore",
+      "text": "Con le cortecce premotorie e il campo oculare frontale."
+    }
+  ],
+  "bloodSupply": [
+    {
+      "arteryId": "posterior-parietal-artery",
+      "text": "Rami parietali dell'arteria cerebrale media."
+    }
+  ],
+  "clinical": [
+    {
+      "title": "Negligenza spaziale e atassia ottica",
+      "text": "Lesioni delle aree attorno al solco."
+    },
+    {
+      "title": "Discalculia",
+      "text": "Lesioni parietali sinistre possono compromettere il senso del numero."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

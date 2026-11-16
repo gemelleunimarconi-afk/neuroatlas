@@ -1,0 +1,74 @@
+{
+  "id": "duodenum",
+  "names": {
+    "it": "Duodeno",
+    "la": "Duodenum",
+    "en": "Duodenum",
+    "synonyms": []
+  },
+  "parent": "small-intestine",
+  "layer": "body-digestive",
+  "side": "midline",
+  "level": 1,
+  "location": "Primo tratto dell'intestino tenue, a forma di C attorno alla testa del pancreas, in gran parte retroperitoneale. Ha quattro parti: superiore, discendente, orizzontale e ascendente; termina alla flessura duodenodigiunale.",
+  "relations": [
+    {
+      "direction": "mediale",
+      "structureId": "pancreas",
+      "text": "Testa del pancreas."
+    },
+    {
+      "direction": "anteriore",
+      "structureId": "liver",
+      "text": "Fegato e cistifellea."
+    },
+    {
+      "direction": "posteriore",
+      "structureId": "inferior-vena-cava",
+      "text": "Rene destro, vena cava inferiore e aorta."
+    }
+  ],
+  "function": "Riceve il chimo acido dallo stomaco e, nella parte discendente, bile e succo pancreatico attraverso la papilla duodenale maggiore. Le ghiandole di Brunner secernono muco alcalino. La mucosa libera secretina (stimola il bicarbonato pancreatico) e colecistochinina (contrae la cistifellea e stimola gli enzimi pancreatici). Vi si assorbono ferro e calcio.",
+  "connections": [
+    {
+      "type": "afferent",
+      "targetId": "stomach",
+      "text": "Dallo stomaco, attraverso il piloro."
+    },
+    {
+      "type": "afferent",
+      "targetId": "pancreatic-duct",
+      "text": "Dotto pancreatico e coledoco."
+    },
+    {
+      "type": "efferent",
+      "targetId": "middle-part-of-jejunum",
+      "text": "Al digiuno."
+    }
+  ],
+  "bloodSupply": [
+    {
+      "arteryId": "superior-mesenteric-artery",
+      "text": "Arterie pancreaticoduodenali, dal tronco celiaco (superiori) e dalla mesenterica superiore (inferiori)."
+    }
+  ],
+  "clinical": [
+    {
+      "title": "Ulcera duodenale",
+      "text": "Tipica della prima parte; se perfora la parete posteriore può erodere l'arteria gastroduodenale."
+    },
+    {
+      "title": "Celiachia",
+      "text": "L'atrofia dei villi riduce l'assorbimento, in particolare del ferro."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

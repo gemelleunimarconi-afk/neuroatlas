@@ -1,0 +1,65 @@
+{
+  "id": "transverse-colon",
+  "names": {
+    "it": "Colon trasverso",
+    "la": "Colon transversum",
+    "en": "Transverse colon",
+    "synonyms": []
+  },
+  "parent": "large-intestine",
+  "layer": "body-digestive",
+  "side": "midline",
+  "level": 2,
+  "location": "Tratto mobile del colon che attraversa l'addome dalla flessura colica destra alla sinistra (splenica), sospeso dal mesocolon trasverso; vi si attacca il grande omento.",
+  "relations": [
+    {
+      "direction": "superiore",
+      "structureId": "stomach",
+      "text": "Stomaco e fegato."
+    },
+    {
+      "direction": "posteriore",
+      "structureId": "pancreas",
+      "text": "Pancreas e duodeno."
+    },
+    {
+      "direction": "inferiore",
+      "structureId": "middle-part-of-jejunum",
+      "text": "Anse del tenue."
+    }
+  ],
+  "function": "Assorbimento di acqua ed elettroliti. Al confine tra i suoi due terzi destri e il terzo sinistro cambiano sia l'irrorazione (dalla mesenterica superiore alla inferiore) sia l'innervazione parasimpatica (dal nervo vago ai nervi pelvici).",
+  "connections": [
+    {
+      "type": "afferent",
+      "targetId": "ascending-colon",
+      "text": "Dal colon ascendente."
+    },
+    {
+      "type": "efferent",
+      "targetId": "descending-colon",
+      "text": "Al colon discendente."
+    }
+  ],
+  "bloodSupply": [
+    {
+      "arteryId": "superior-mesenteric-artery",
+      "text": "Arteria colica media (mesenterica superiore) e colica sinistra (mesenterica inferiore), unite dall'arcata marginale."
+    }
+  ],
+  "clinical": [
+    {
+      "title": "Colite ischemica",
+      "text": "La flessura splenica è una zona di confine tra due territori arteriosi, vulnerabile all'ipoperfusione."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

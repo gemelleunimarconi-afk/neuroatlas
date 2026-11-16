@@ -1,0 +1,51 @@
+{
+  "id": "cingulate-sulcus",
+  "names": {
+    "it": "Solco del cingolo",
+    "la": "Sulcus cinguli",
+    "en": "Cingulate sulcus",
+    "synonyms": [
+      "solco callosomarginale"
+    ]
+  },
+  "parent": "cerebral-hemisphere",
+  "layer": "sulci",
+  "side": "bilateral",
+  "level": 2,
+  "location": "Solco della faccia mediale dell'emisfero, parallelo al corpo calloso, sopra il giro del cingolo. Dietro piega verso l'alto con il ramo marginale, che raggiunge il margine superiore subito dietro il solco centrale.",
+  "relations": [
+    {
+      "direction": "inferiore",
+      "structureId": "caudal-part-of-anterior-cingulate-gyrus",
+      "text": "Giro del cingolo."
+    },
+    {
+      "direction": "superiore",
+      "structureId": "superior-frontal-gyrus",
+      "text": "Giro frontale superiore (faccia mediale) e lobulo paracentrale."
+    }
+  ],
+  "function": "Separa il giro del cingolo dalla corteccia frontale mediale. Nelle sue pareti si trovano le aree motorie cingolate.",
+  "connections": [],
+  "bloodSupply": [
+    {
+      "arteryId": "callosomarginal-artery",
+      "text": "Arteria callosomarginale, che vi decorre."
+    }
+  ],
+  "clinical": [
+    {
+      "title": "Repere",
+      "text": "Il ramo marginale indica il limite posteriore del lobulo paracentrale e quindi la posizione del solco centrale sulla faccia mediale."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

@@ -1,0 +1,76 @@
+{
+  "id": "main-bronchus",
+  "names": {
+    "it": "Bronco principale",
+    "la": "Bronchi principales",
+    "en": "Main bronchi",
+    "synonyms": [
+      "bronchi principali",
+      "bronco destro",
+      "bronco sinistro"
+    ]
+  },
+  "parent": "respiratory-system",
+  "layer": "body-respiratory",
+  "side": "midline",
+  "level": 1,
+  "location": "I due rami di divisione della trachea, diretti agli ili polmonari. Il destro è più corto, più largo e più verticale; il sinistro è più lungo e più orizzontale e passa sotto l'arco aortico. La scheda descrive entrambi; in questo atlante il modello con questo nome è il bronco sinistro.",
+  "relations": [
+    {
+      "direction": "superiore",
+      "structureId": "trachea",
+      "text": "Trachea."
+    },
+    {
+      "direction": "anteriore",
+      "structureId": "pulmonary-trunk",
+      "text": "Arterie polmonari."
+    },
+    {
+      "direction": "inferiore",
+      "structureId": "lower-lobe-of-lung",
+      "text": "Bronchi lobari e polmoni."
+    }
+  ],
+  "function": "Vie aeree di conduzione. Si dividono nei bronchi lobari (tre a destra, due a sinistra) e poi nei bronchi segmentali, uno per ogni segmento broncopolmonare. Scendendo lungo l'albero la cartilagine si riduce e aumenta il muscolo liscio: i bronchioli ne sono privi e il loro calibro è regolato dal sistema autonomo (il vago costringe, la stimolazione beta-adrenergica dilata).",
+  "connections": [
+    {
+      "type": "afferent",
+      "targetId": "trachea",
+      "text": "Dalla trachea."
+    },
+    {
+      "type": "efferent",
+      "targetId": "upper-lobe-of-lung",
+      "text": "Bronchi lobari."
+    }
+  ],
+  "bloodSupply": [
+    {
+      "text": "Arterie bronchiali, rami dell'aorta toracica."
+    }
+  ],
+  "clinical": [
+    {
+      "title": "Corpi estranei",
+      "text": "Entrano più spesso nel bronco destro, più verticale."
+    },
+    {
+      "title": "Asma",
+      "text": "Broncocostrizione reversibile dei bronchi e dei bronchioli."
+    },
+    {
+      "title": "Carcinoma broncogeno",
+      "text": "Può ostruire un bronco, con atelettasia del territorio a valle."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

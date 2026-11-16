@@ -1,0 +1,64 @@
+{
+  "id": "ascending-aorta",
+  "names": {
+    "it": "Aorta ascendente",
+    "la": "Aorta ascendens",
+    "en": "Ascending aorta",
+    "synonyms": []
+  },
+  "parent": "aorta",
+  "layer": "body-arteries",
+  "side": "midline",
+  "level": 1,
+  "location": "Primo tratto dell'aorta, dentro il pericardio: dalla valvola aortica sale in avanti e a destra fino all'altezza dell'angolo sternale, dove continua nell'arco.",
+  "relations": [
+    {
+      "direction": "anteriore",
+      "structureId": "pulmonary-trunk",
+      "text": "Tronco polmonare, a sinistra e in avanti."
+    },
+    {
+      "direction": "destra",
+      "structureId": "superior-vena-cava",
+      "text": "Vena cava superiore."
+    },
+    {
+      "direction": "superiore",
+      "structureId": "arch-of-aorta",
+      "text": "Arco aortico."
+    }
+  ],
+  "function": "Riceve la gittata del ventricolo sinistro. La sua parete elastica si distende in sistole e ritorna in diastole, rendendo più continuo il flusso (effetto mantice). All'origine presenta i seni aortici, da cui nascono le coronarie.",
+  "connections": [
+    {
+      "type": "afferent",
+      "targetId": "wall-of-ventricle",
+      "text": "Dal ventricolo sinistro."
+    },
+    {
+      "type": "efferent",
+      "targetId": "trunk-of-coronary-artery",
+      "text": "Arterie coronarie, uniche collaterali."
+    }
+  ],
+  "bloodSupply": [],
+  "clinical": [
+    {
+      "title": "Dissezione aortica",
+      "text": "Lacerazione dell'intima con dolore toracico lacerante; se interessa l'aorta ascendente è un'emergenza chirurgica."
+    },
+    {
+      "title": "Aneurisma",
+      "text": "Dilatazione, favorita da ipertensione e malattie del connettivo come la sindrome di Marfan."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

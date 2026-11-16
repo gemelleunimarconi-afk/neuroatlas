@@ -1,0 +1,76 @@
+{
+  "id": "adrenal-gland",
+  "names": {
+    "it": "Ghiandola surrenale",
+    "la": "Glandula suprarenalis",
+    "en": "Adrenal gland",
+    "synonyms": [
+      "surrene",
+      "ghiandola surrenalica"
+    ]
+  },
+  "parent": "endocrine-system",
+  "layer": "body-endocrine",
+  "side": "bilateral",
+  "level": 1,
+  "location": "Ghiandola endocrina pari, retroperitoneale, appoggiata sul polo superiore del rene dentro la fascia renale. La destra è piramidale, dietro la vena cava inferiore; la sinistra è a semiluna.",
+  "relations": [
+    {
+      "direction": "inferiore",
+      "structureId": "kidney",
+      "text": "Rene."
+    },
+    {
+      "direction": "superiore",
+      "structureId": "diaphragm",
+      "text": "Diaframma."
+    }
+  ],
+  "function": "La corticale produce ormoni steroidei in tre zone: glomerulare (aldosterone, regolato da angiotensina II e potassio), fascicolata (cortisolo, regolato dall'ACTH) e reticolare (androgeni). La midollare, formata da cellule cromaffini che equivalgono a neuroni simpatici postgangliari, secerne adrenalina e noradrenalina.",
+  "connections": [
+    {
+      "type": "afferent",
+      "targetId": "sympathetic-trunk",
+      "via": "nervi splancnici",
+      "text": "Fibre simpatiche pregangliari colinergiche alla midollare."
+    },
+    {
+      "type": "afferent",
+      "targetId": "adenohypophysis",
+      "text": "ACTH, attraverso il sangue."
+    }
+  ],
+  "bloodSupply": [
+    {
+      "arteryId": "abdominal-aorta",
+      "text": "Tre gruppi di arterie surrenali: dall'arteria frenica inferiore, dall'aorta e dall'arteria renale."
+    }
+  ],
+  "clinical": [
+    {
+      "title": "Sindrome di Cushing",
+      "text": "Eccesso di cortisolo."
+    },
+    {
+      "title": "Malattia di Addison",
+      "text": "Insufficienza della corticale: ipotensione, iperpigmentazione, iponatriemia e iperkaliemia."
+    },
+    {
+      "title": "Iperaldosteronismo primario (di Conn)",
+      "text": "Ipertensione con ipokaliemia."
+    },
+    {
+      "title": "Feocromocitoma",
+      "text": "Tumore della midollare con crisi ipertensive, palpitazioni e sudorazione."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

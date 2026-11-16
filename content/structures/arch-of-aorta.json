@@ -1,0 +1,75 @@
+{
+  "id": "arch-of-aorta",
+  "names": {
+    "it": "Arco aortico",
+    "la": "Arcus aortae",
+    "en": "Arch of aorta",
+    "synonyms": [
+      "arco dell'aorta"
+    ]
+  },
+  "parent": "aorta",
+  "layer": "body-arteries",
+  "side": "midline",
+  "level": 1,
+  "location": "Tratto dell'aorta che, nel mediastino superiore, si incurva all'indietro e a sinistra sopra la radice del polmone sinistro, davanti alla trachea e poi a sinistra di trachea ed esofago.",
+  "relations": [
+    {
+      "direction": "inferiore",
+      "structureId": "pulmonary-trunk",
+      "text": "Biforcazione del tronco polmonare, a cui è unito dal legamento arterioso."
+    },
+    {
+      "direction": "posteriore",
+      "structureId": "trachea",
+      "text": "Trachea ed esofago."
+    }
+  ],
+  "function": "Dà le arterie per testa, collo e arti superiori. Nella sua parete e nel vicino seno carotideo si trovano barocettori, che informano il bulbo sulla pressione attraverso il nervo vago e il glossofaringeo; i glomi aortici sono chemocettori.",
+  "connections": [
+    {
+      "type": "efferent",
+      "targetId": "brachiocephalic-artery",
+      "text": "Tronco brachiocefalico."
+    },
+    {
+      "type": "efferent",
+      "targetId": "common-carotid-artery",
+      "text": "Arteria carotide comune sinistra."
+    },
+    {
+      "type": "efferent",
+      "targetId": "subclavian-artery",
+      "text": "Arteria succlavia sinistra."
+    },
+    {
+      "type": "efferent",
+      "targetId": "descending-thoracic-aorta",
+      "text": "Aorta toracica discendente."
+    }
+  ],
+  "bloodSupply": [],
+  "clinical": [
+    {
+      "title": "Coartazione aortica",
+      "text": "Restringimento vicino al legamento arterioso: ipertensione agli arti superiori e polsi femorali deboli."
+    },
+    {
+      "title": "Dotto arterioso pervio",
+      "text": "Persistenza della comunicazione fetale con l'arteria polmonare."
+    },
+    {
+      "title": "Nervo laringeo ricorrente sinistro",
+      "text": "Gira sotto l'arco: un aneurisma può dare voce rauca."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

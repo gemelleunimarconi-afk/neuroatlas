@@ -1,0 +1,98 @@
+{
+  "id": "wall-of-ventricle",
+  "names": {
+    "it": "Ventricoli del cuore (parete)",
+    "la": "Ventriculus cordis dexter et sinister",
+    "en": "Ventricles of heart",
+    "synonyms": [
+      "ventricolo sinistro",
+      "ventricolo destro",
+      "miocardio ventricolare",
+      "setto interventricolare"
+    ]
+  },
+  "parent": "heart",
+  "layer": "body-heart",
+  "side": "midline",
+  "level": 1,
+  "location": "I due ventricoli formano la maggior parte del cuore. Il destro costituisce gran parte della faccia anteriore (sternocostale); il sinistro forma l'apice, il margine sinistro e gran parte della faccia diaframmatica. Sono separati dal setto interventricolare. In questo atlante la parete dei due ventricoli è un'unica struttura.",
+  "relations": [
+    {
+      "direction": "superiore",
+      "structureId": "wall-of-atrium",
+      "text": "Atri, oltre il solco coronario."
+    },
+    {
+      "direction": "inferiore",
+      "structureId": "diaphragm",
+      "text": "Diaframma."
+    },
+    {
+      "direction": "laterale",
+      "structureId": "lower-lobe-of-lung",
+      "text": "Polmoni, oltre pericardio e pleure."
+    }
+  ],
+  "function": "Il ventricolo destro spinge il sangue venoso nel tronco polmonare (circolo a bassa pressione); il sinistro spinge il sangue ossigenato nell'aorta (circolo sistemico). La parete del ventricolo sinistro è circa tre volte più spessa perché lavora contro una pressione molto più alta. All'interno si trovano le trabecole carnee, i muscoli papillari e, a destra, la trabecola settomarginale con la branca destra del fascio di His.",
+  "connections": [
+    {
+      "type": "afferent",
+      "targetId": "wall-of-atrium",
+      "via": "valvole atrioventricolari",
+      "text": "Dagli atri, attraverso la tricuspide (a destra) e la mitrale (a sinistra)."
+    },
+    {
+      "type": "efferent",
+      "targetId": "pulmonary-trunk",
+      "via": "valvola polmonare",
+      "text": "Dal ventricolo destro."
+    },
+    {
+      "type": "efferent",
+      "targetId": "ascending-aorta",
+      "via": "valvola aortica",
+      "text": "Dal ventricolo sinistro."
+    }
+  ],
+  "bloodSupply": [
+    {
+      "arteryId": "trunk-of-anterior-interventricular-branch-of-coronary-artery",
+      "text": "Ramo interventricolare anteriore: parete anteriore del ventricolo sinistro, apice e due terzi anteriori del setto."
+    },
+    {
+      "arteryId": "circumflex-branch-of-coronary-artery",
+      "text": "Ramo circonflesso: parete laterale e posteriore del ventricolo sinistro."
+    },
+    {
+      "arteryId": "trunk-of-coronary-artery",
+      "text": "Coronaria destra: ventricolo destro e, di solito, parete inferiore e terzo posteriore del setto."
+    }
+  ],
+  "clinical": [
+    {
+      "title": "Infarto del miocardio",
+      "text": "Necrosi per occlusione di un ramo coronarico; la sede dipende dall'arteria colpita."
+    },
+    {
+      "title": "Ipertrofia ventricolare sinistra",
+      "text": "Risposta a ipertensione o stenosi aortica."
+    },
+    {
+      "title": "Insufficienza cardiaca",
+      "text": "Il ventricolo non mantiene una portata adeguata: congestione polmonare se cede il sinistro, edemi periferici se cede il destro."
+    },
+    {
+      "title": "Difetto interventricolare",
+      "text": "La più comune cardiopatia congenita."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

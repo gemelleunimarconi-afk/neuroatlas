@@ -1,0 +1,57 @@
+{
+  "id": "circumflex-branch-of-coronary-artery",
+  "names": {
+    "it": "Ramo circonflesso dell'arteria coronaria",
+    "la": "Ramus circumflexus",
+    "en": "Circumflex branch of left coronary artery",
+    "synonyms": [
+      "arteria circonflessa"
+    ]
+  },
+  "parent": "heart",
+  "layer": "body-heart",
+  "side": "midline",
+  "level": 2,
+  "location": "Ramo della coronaria sinistra che percorre il solco coronario verso sinistra e all'indietro, tra atrio e ventricolo sinistro.",
+  "relations": [
+    {
+      "direction": "superiore",
+      "structureId": "wall-of-atrium",
+      "text": "Atrio sinistro."
+    },
+    {
+      "direction": "inferiore",
+      "structureId": "wall-of-ventricle",
+      "text": "Ventricolo sinistro."
+    }
+  ],
+  "function": "Irrora la parete laterale e posteriore del ventricolo sinistro e l'atrio sinistro, con i rami marginali; in una minoranza di persone dà anche il ramo interventricolare posteriore (dominanza sinistra).",
+  "connections": [
+    {
+      "type": "afferent",
+      "targetId": "trunk-of-coronary-artery",
+      "text": "Dalla coronaria sinistra."
+    },
+    {
+      "type": "efferent",
+      "targetId": "marginal-branch-of-coronary-artery",
+      "text": "Rami marginali."
+    }
+  ],
+  "bloodSupply": [],
+  "clinical": [
+    {
+      "title": "Infarto laterale",
+      "text": "L'occlusione dà un infarto della parete laterale, talvolta poco evidente all'elettrocardiogramma."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

@@ -1,0 +1,62 @@
+{
+  "id": "brachia-of-superior-colliculus",
+  "names": {
+    "it": "Braccio del collicolo superiore",
+    "la": "Brachium colliculi superioris",
+    "en": "Brachium of superior colliculus",
+    "synonyms": [
+      "braccio congiuntivo superiore"
+    ]
+  },
+  "parent": "midbrain",
+  "layer": "brainstem",
+  "side": "bilateral",
+  "level": 3,
+  "location": "Fascio che dal collicolo superiore si dirige lateralmente e in avanti, passando tra pulvinar e corpo genicolato mediale, verso il corpo genicolato laterale e il tratto ottico.",
+  "relations": [
+    {
+      "direction": "mediale",
+      "structureId": "superior-colliculus",
+      "text": "Collicolo superiore."
+    },
+    {
+      "direction": "laterale",
+      "structureId": "lateral-geniculate-body",
+      "text": "Corpo genicolato laterale."
+    }
+  ],
+  "function": "Porta al collicolo superiore e all'area pretettale le fibre retiniche che non fanno sinapsi nel corpo genicolato laterale: è la via afferente del riflesso pupillare alla luce e dei riflessi di orientamento visivo.",
+  "connections": [
+    {
+      "type": "afferent",
+      "targetId": "optic-tract",
+      "text": "Dal tratto ottico."
+    },
+    {
+      "type": "efferent",
+      "targetId": "superior-colliculus",
+      "text": "Al collicolo superiore e all'area pretettale."
+    }
+  ],
+  "bloodSupply": [
+    {
+      "arteryId": "posterior-medial-choroidal-artery",
+      "text": "Rami dell'arteria cerebrale posteriore."
+    }
+  ],
+  "clinical": [
+    {
+      "title": "Lesione",
+      "text": "Difetto pupillare afferente senza perdita della visione, perché la via per la corteccia è risparmiata."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

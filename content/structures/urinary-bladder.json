@@ -1,0 +1,71 @@
+{
+  "id": "urinary-bladder",
+  "names": {
+    "it": "Vescica urinaria",
+    "la": "Vesica urinaria",
+    "en": "Urinary bladder",
+    "synonyms": []
+  },
+  "parent": "urinary-system",
+  "layer": "body-urogenital",
+  "side": "midline",
+  "level": 1,
+  "location": "Organo cavo muscolare nella piccola pelvi, dietro la sinfisi pubica; quando è piena risale nell'addome. Sul fondo, il trigono è delimitato dai due orifizi ureterali e dall'orifizio uretrale interno.",
+  "relations": [
+    {
+      "direction": "anteriore",
+      "text": "Sinfisi pubica."
+    },
+    {
+      "direction": "posteriore",
+      "structureId": "rectum",
+      "text": "Retto nell'uomo, con le vescichette seminali; utero e vagina nella donna."
+    },
+    {
+      "direction": "inferiore",
+      "structureId": "prostate",
+      "text": "Prostata, nell'uomo."
+    }
+  ],
+  "function": "Raccoglie l'urina e la espelle con la minzione. Il parasimpatico sacrale (nervi pelvici, S2-S4) contrae il muscolo detrusore; il simpatico (T11-L2) rilascia il detrusore e contrae il collo vescicale durante il riempimento; il nervo pudendo comanda lo sfintere esterno, volontario. La coordinazione dipende dal centro pontino della minzione.",
+  "connections": [
+    {
+      "type": "afferent",
+      "targetId": "ureter",
+      "text": "Dagli ureteri."
+    },
+    {
+      "type": "efferent",
+      "targetId": "urethra",
+      "text": "All'uretra."
+    }
+  ],
+  "bloodSupply": [
+    {
+      "text": "Arterie vescicali superiori e inferiori, rami dell'arteria iliaca interna."
+    }
+  ],
+  "clinical": [
+    {
+      "title": "Vescica neurologica",
+      "text": "Lesioni sopra il midollo sacrale danno una vescica iperattiva e mal coordinata con lo sfintere; lesioni del midollo sacrale o della cauda equina danno una vescica flaccida con ritenzione."
+    },
+    {
+      "title": "Cistite",
+      "text": "Infezione, più frequente nella donna."
+    },
+    {
+      "title": "Ritenzione urinaria",
+      "text": "Nell'uomo anziano spesso per ipertrofia prostatica."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

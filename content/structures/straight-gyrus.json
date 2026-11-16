@@ -1,0 +1,62 @@
+{
+  "id": "straight-gyrus",
+  "names": {
+    "it": "Giro retto",
+    "la": "Gyrus rectus",
+    "en": "Gyrus rectus",
+    "synonyms": [
+      "giro retto"
+    ]
+  },
+  "parent": "frontal-lobe",
+  "layer": "cortex",
+  "side": "bilateral",
+  "level": 3,
+  "location": "Faccia orbitaria del lobo frontale, lungo il margine mediale, medialmente al solco olfattivo.",
+  "relations": [
+    {
+      "direction": "laterale",
+      "structureId": "olfactory-nerve-i",
+      "text": "Solco olfattivo, con bulbo e tratto olfattivo, e giri orbitari."
+    },
+    {
+      "direction": "mediale",
+      "text": "Fessura longitudinale e giro retto controlaterale."
+    }
+  ],
+  "function": "Parte mediale della corteccia orbitofrontale (area 11): valutazione della ricompensa e regolazione del comportamento emotivo.",
+  "connections": [
+    {
+      "type": "reciprocal",
+      "targetId": "amygdala",
+      "text": "Con amigdala, ipotalamo e corteccia cingolata anteriore."
+    }
+  ],
+  "bloodSupply": [
+    {
+      "arteryId": "medial-frontobasal-artery",
+      "text": "Arteria frontobasale mediale, ramo dell'arteria cerebrale anteriore."
+    }
+  ],
+  "clinical": [
+    {
+      "title": "Aneurisma dell'arteria comunicante anteriore",
+      "text": "La rottura può dare un ematoma nel giro retto; nell'intervento ne è talvolta rimossa una piccola parte per raggiungere l'aneurisma."
+    },
+    {
+      "title": "Meningioma del solco olfattivo",
+      "text": "Comprime il giro retto e il nervo olfattivo."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [
+    11
+  ],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

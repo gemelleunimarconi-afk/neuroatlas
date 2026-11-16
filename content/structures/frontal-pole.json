@@ -1,0 +1,59 @@
+{
+  "id": "frontal-pole",
+  "names": {
+    "it": "Polo frontale",
+    "la": "Polus frontalis",
+    "en": "Frontal pole",
+    "synonyms": [
+      "corteccia frontopolare"
+    ]
+  },
+  "parent": "frontal-lobe",
+  "layer": "cortex",
+  "side": "bilateral",
+  "level": 3,
+  "location": "Estremità anteriore del lobo frontale, dietro la squama dell'osso frontale.",
+  "relations": [
+    {
+      "direction": "posteriore",
+      "structureId": "superior-frontal-gyrus",
+      "text": "Giri frontali superiore e medio."
+    },
+    {
+      "direction": "inferiore",
+      "structureId": "lateral-orbital-gyrus",
+      "text": "Giri orbitari."
+    }
+  ],
+  "function": "Area 10, la più estesa area prefrontale nell'uomo: coordinamento di più compiti, pianificazione a lungo termine, memoria prospettica.",
+  "connections": [
+    {
+      "type": "reciprocal",
+      "targetId": "dorsomedial-thalamic-nucleus",
+      "text": "Con il nucleo dorsomediale del talamo e le altre aree prefrontali."
+    }
+  ],
+  "bloodSupply": [
+    {
+      "arteryId": "anterior-cerebral-artery",
+      "text": "Arteria frontopolare (cerebrale anteriore) e rami dell'arteria cerebrale media."
+    }
+  ],
+  "clinical": [
+    {
+      "title": "Trauma cranico",
+      "text": "Sede frequente di contusioni da contraccolpo, con disturbi dell'organizzazione del comportamento."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [
+    10
+  ],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

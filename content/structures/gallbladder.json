@@ -1,0 +1,72 @@
+{
+  "id": "gallbladder",
+  "names": {
+    "it": "Cistifellea (colecisti)",
+    "la": "Vesica biliaris",
+    "en": "Gallbladder",
+    "synonyms": [
+      "colecisti",
+      "cistifellea"
+    ]
+  },
+  "parent": "biliary-system",
+  "layer": "body-digestive",
+  "side": "midline",
+  "level": 1,
+  "location": "Sacca piriforme adagiata in una fossetta sulla faccia inferiore del fegato; il fondo sporge dal margine epatico all'altezza della nona cartilagine costale destra. Continua nel dotto cistico, che si unisce al dotto epatico comune formando il coledoco.",
+  "relations": [
+    {
+      "direction": "superiore",
+      "structureId": "liver",
+      "text": "Fegato."
+    },
+    {
+      "direction": "inferiore",
+      "structureId": "duodenum",
+      "text": "Duodeno e colon trasverso."
+    }
+  ],
+  "function": "Accumula e concentra la bile tra i pasti, riassorbendo acqua ed elettroliti. Dopo un pasto grasso la colecistochinina la fa contrarre e rilascia lo sfintere di Oddi: la bile raggiunge il duodeno, dove emulsiona i grassi.",
+  "connections": [
+    {
+      "type": "afferent",
+      "targetId": "common-hepatic-duct",
+      "via": "dotto cistico",
+      "text": "Bile dal fegato."
+    },
+    {
+      "type": "efferent",
+      "targetId": "cystic-duct",
+      "text": "Al dotto cistico e al coledoco."
+    }
+  ],
+  "bloodSupply": [
+    {
+      "arteryId": "hepatic-artery-proper",
+      "text": "Arteria cistica, di solito ramo dell'arteria epatica destra."
+    }
+  ],
+  "clinical": [
+    {
+      "title": "Calcolosi biliare",
+      "text": "I calcoli possono dare colica biliare, colecistite o, se migrano nel coledoco, ittero ostruttivo e pancreatite."
+    },
+    {
+      "title": "Colecistite acuta",
+      "text": "Dolore all'ipocondrio destro, che può irradiarsi alla spalla destra."
+    },
+    {
+      "title": "Colecistectomia",
+      "text": "L'arteria cistica si cerca nel triangolo di Calot."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

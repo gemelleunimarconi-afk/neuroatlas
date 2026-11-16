@@ -1,0 +1,62 @@
+{
+  "id": "cochlear-nerve",
+  "names": {
+    "it": "Nervo cocleare",
+    "la": "Nervus cochlearis",
+    "en": "Cochlear nerve",
+    "synonyms": [
+      "nervo acustico"
+    ]
+  },
+  "parent": "vestibulocochlear-nerve",
+  "layer": "cranial-nerves",
+  "side": "bilateral",
+  "level": 2,
+  "location": "Componente uditiva dell'ottavo nervo cranico: dal ganglio spirale della coclea percorre il meato acustico interno e raggiunge i nuclei cocleari, alla giunzione tra bulbo e ponte.",
+  "relations": [
+    {
+      "direction": "posteriore",
+      "structureId": "vestibular-nerve",
+      "text": "Nervo vestibolare."
+    },
+    {
+      "direction": "superiore",
+      "structureId": "facial-nerve-vii",
+      "text": "Nervo facciale, nel meato acustico interno."
+    }
+  ],
+  "function": "Porta l'informazione uditiva: i neuroni bipolari del ganglio spirale collegano le cellule ciliate dell'organo del Corti ai nuclei cocleari dorsale e ventrale, con organizzazione tonotopica.",
+  "connections": [
+    {
+      "type": "efferent",
+      "targetId": "inferior-colliculus",
+      "via": "lemnisco laterale",
+      "text": "Dai nuclei cocleari, con incrocio parziale nel corpo trapezoide."
+    }
+  ],
+  "bloodSupply": [
+    {
+      "arteryId": "anterior-inferior-cerebellar-artery",
+      "text": "Arteria labirintica."
+    }
+  ],
+  "clinical": [
+    {
+      "title": "Ipoacusia neurosensoriale",
+      "text": "Lesione della coclea o del nervo: nella prova di Weber il suono è percepito dal lato sano."
+    },
+    {
+      "title": "Schwannoma vestibolare",
+      "text": "Comprime il nervo cocleare dando ipoacusia monolaterale e acufene."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

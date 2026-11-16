@@ -1,0 +1,58 @@
+{
+  "id": "ambiens-gyrus",
+  "names": {
+    "it": "Giro ambiens",
+    "la": "Gyrus ambiens",
+    "en": "Ambient gyrus",
+    "synonyms": [
+      "giro ambiens"
+    ]
+  },
+  "parent": "limbic-lobe",
+  "layer": "cortex",
+  "side": "bilateral",
+  "level": 3,
+  "location": "Piccolo rilievo della parte mediale dell'uncus, nel lobo temporale anteromediale, rivolto verso la cisterna ambiens e il mesencefalo.",
+  "relations": [
+    {
+      "direction": "laterale",
+      "structureId": "parahippocampal-gyrus",
+      "text": "Giro paraippocampale e corteccia entorinale."
+    },
+    {
+      "direction": "superiore",
+      "structureId": "amygdala",
+      "text": "Amigdala."
+    }
+  ],
+  "function": "Fa parte della corteccia olfattiva primaria (corteccia periamigdaloidea e piriforme) e della corteccia entorinale anteriore.",
+  "connections": [
+    {
+      "type": "afferent",
+      "targetId": "olfactory-nerve-i",
+      "via": "stria olfattiva laterale",
+      "text": "Dal bulbo olfattivo."
+    }
+  ],
+  "bloodSupply": [
+    {
+      "arteryId": "anterior-choroidal-artery",
+      "text": "Arteria corioidea anteriore."
+    }
+  ],
+  "clinical": [
+    {
+      "title": "Crisi uncinate",
+      "text": "Crisi temporali mesiali precedute da allucinazioni olfattive, spesso sgradevoli."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

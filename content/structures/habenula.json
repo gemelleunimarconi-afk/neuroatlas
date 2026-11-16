@@ -1,0 +1,63 @@
+{
+  "id": "habenula",
+  "names": {
+    "it": "Abenula",
+    "la": "Habenula",
+    "en": "Habenula",
+    "synonyms": [
+      "nuclei abenulari"
+    ]
+  },
+  "parent": "epithalamus",
+  "layer": "white-matter",
+  "side": "midline",
+  "level": 3,
+  "location": "Piccolo rilievo dell'epitalamo, sulla parete dorsomediale del talamo posteriore, davanti alla ghiandola pineale; le due abenule sono unite dalla commessura abenulare.",
+  "relations": [
+    {
+      "direction": "posteriore",
+      "structureId": "pineal-body",
+      "text": "Ghiandola pineale."
+    },
+    {
+      "direction": "mediale",
+      "structureId": "third-ventricle",
+      "text": "Terzo ventricolo."
+    }
+  ],
+  "function": "Collega il prosencefalo limbico ai sistemi monoaminergici del tronco. L'abenula laterale si attiva quando una ricompensa attesa manca e inibisce i neuroni dopaminergici.",
+  "connections": [
+    {
+      "type": "afferent",
+      "via": "stria midollare del talamo",
+      "text": "Dai nuclei del setto, dall'ipotalamo e dal globo pallido."
+    },
+    {
+      "type": "efferent",
+      "targetId": "part-of-midbrain",
+      "via": "fascicolo retroflesso",
+      "text": "Al nucleo interpeduncolare, all'area tegmentale ventrale e ai nuclei del rafe."
+    }
+  ],
+  "bloodSupply": [
+    {
+      "arteryId": "posterior-medial-choroidal-artery",
+      "text": "Arterie corioidee posteriori mediali."
+    }
+  ],
+  "clinical": [
+    {
+      "title": "Depressione",
+      "text": "Un'iperattività dell'abenula laterale è stata descritta nella depressione; è un bersaglio sperimentale di stimolazione."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

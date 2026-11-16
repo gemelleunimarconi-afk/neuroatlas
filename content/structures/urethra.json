@@ -1,0 +1,62 @@
+{
+  "id": "urethra",
+  "names": {
+    "it": "Uretra",
+    "la": "Urethra",
+    "en": "Urethra",
+    "synonyms": []
+  },
+  "parent": "urinary-system",
+  "layer": "body-urogenital",
+  "side": "midline",
+  "level": 2,
+  "location": "Condotto che porta l'urina dalla vescica all'esterno. In questo atlante il corpo è maschile: l'uretra è lunga circa 20 cm e comprende le parti prostatica, membranosa e spongiosa; nella donna è lunga pochi centimetri.",
+  "relations": [
+    {
+      "direction": "superiore",
+      "structureId": "urinary-bladder",
+      "text": "Vescica urinaria."
+    },
+    {
+      "direction": "laterale",
+      "structureId": "prostate",
+      "text": "Prostata, che circonda il primo tratto."
+    }
+  ],
+  "function": "Via di eliminazione dell'urina e, nell'uomo, anche del liquido seminale. Lo sfintere interno (muscolo liscio, simpatico) è al collo vescicale; lo sfintere esterno (muscolo striato, nervo pudendo) circonda la parte membranosa.",
+  "connections": [
+    {
+      "type": "afferent",
+      "targetId": "urinary-bladder",
+      "text": "Dalla vescica."
+    }
+  ],
+  "bloodSupply": [
+    {
+      "text": "Rami delle arterie vescicale inferiore e pudenda interna."
+    }
+  ],
+  "clinical": [
+    {
+      "title": "Infezioni urinarie",
+      "text": "Più frequenti nella donna per la brevità dell'uretra."
+    },
+    {
+      "title": "Ipertrofia prostatica",
+      "text": "Comprime l'uretra prostatica: getto debole e svuotamento incompleto."
+    },
+    {
+      "title": "Cateterismo",
+      "text": "Nell'uomo le curve e il tratto membranoso sono i punti di maggiore resistenza."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

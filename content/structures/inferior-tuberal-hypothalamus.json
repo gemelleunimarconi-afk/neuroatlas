@@ -1,0 +1,72 @@
+{
+  "id": "inferior-tuberal-hypothalamus",
+  "names": {
+    "it": "Ipotalamo tuberale inferiore",
+    "la": "Hypothalamus, pars tuberalis inferior",
+    "en": "Inferior tuberal hypothalamus",
+    "synonyms": [
+      "ipotalamo tuberale ventrale",
+      "tuber cinereum"
+    ]
+  },
+  "parent": "hypothalamus",
+  "layer": "diencephalon",
+  "side": "bilateral",
+  "level": 2,
+  "location": "Parte intermedia e inferiore dell'ipotalamo, corrispondente al tuber cinereum, da cui origina l'infundibolo. L'attribuzione dei nuclei alle zone dell'atlante è indicativa.",
+  "relations": [
+    {
+      "direction": "inferiore",
+      "structureId": "infundibulum-of-neurohypophysis",
+      "text": "Infundibolo ed eminenza mediana."
+    },
+    {
+      "direction": "anteriore",
+      "structureId": "optic-chiasm",
+      "text": "Chiasma ottico."
+    },
+    {
+      "direction": "posteriore",
+      "structureId": "mammillary-body",
+      "text": "Corpi mammillari."
+    }
+  ],
+  "function": "Contiene il nucleo arcuato (infundibolare), che regola fame e sazietà rispondendo a leptina e grelina e controlla l'adenoipofisi con gli ormoni di rilascio e la dopamina, e il nucleo ventromediale, coinvolto nella sazietà.",
+  "connections": [
+    {
+      "type": "efferent",
+      "targetId": "adenohypophysis",
+      "via": "sistema portale ipofisario",
+      "text": "Ormoni di rilascio e di inibizione, liberati nell'eminenza mediana."
+    },
+    {
+      "type": "afferent",
+      "text": "Segnali ormonali dal sangue: l'eminenza mediana non ha barriera ematoencefalica."
+    }
+  ],
+  "bloodSupply": [
+    {
+      "arteryId": "internal-carotid-artery",
+      "text": "Arterie ipofisarie superiori e rami della comunicante posteriore."
+    }
+  ],
+  "clinical": [
+    {
+      "title": "Obesità ipotalamica",
+      "text": "Lesioni ventromediali, per esempio da craniofaringioma, causano iperfagia."
+    },
+    {
+      "title": "Iperprolattinemia",
+      "text": "L'interruzione del peduncolo ipofisario toglie l'inibizione dopaminergica sulla prolattina."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

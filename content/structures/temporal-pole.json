@@ -1,0 +1,71 @@
+{
+  "id": "temporal-pole",
+  "names": {
+    "it": "Polo temporale",
+    "la": "Polus temporalis",
+    "en": "Temporal pole",
+    "synonyms": []
+  },
+  "parent": "temporal-lobe",
+  "layer": "cortex",
+  "side": "bilateral",
+  "level": 2,
+  "location": "Estremità anteriore del lobo temporale, nella fossa cranica media, dietro la grande ala dello sfenoide.",
+  "relations": [
+    {
+      "direction": "posteriore",
+      "structureId": "superior-temporal-gyrus",
+      "text": "Giri temporali superiore, medio e inferiore."
+    },
+    {
+      "direction": "mediale",
+      "structureId": "amygdala",
+      "text": "Uncus e amigdala."
+    }
+  ],
+  "function": "Corteccia associativa multimodale (area 38) con strette connessioni limbiche: memoria semantica, riconoscimento di persone e nomi propri, elaborazione sociale ed emotiva.",
+  "connections": [
+    {
+      "type": "reciprocal",
+      "targetId": "lateral-orbital-gyrus",
+      "via": "fascicolo uncinato",
+      "text": "Con la corteccia orbitofrontale."
+    },
+    {
+      "type": "reciprocal",
+      "targetId": "amygdala",
+      "text": "Con amigdala e ippocampo."
+    }
+  ],
+  "bloodSupply": [
+    {
+      "arteryId": "polar-temporal-artery",
+      "text": "Arteria temporale polare, ramo dell'arteria cerebrale media."
+    }
+  ],
+  "clinical": [
+    {
+      "title": "Demenza semantica",
+      "text": "L'atrofia dei poli temporali, variante della degenerazione frontotemporale, causa perdita progressiva delle conoscenze su parole, oggetti e persone."
+    },
+    {
+      "title": "Encefalite erpetica",
+      "text": "Colpisce di preferenza i lobi temporali anteriori e mediali."
+    },
+    {
+      "title": "Trauma cranico",
+      "text": "Sede tipica di contusioni."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [
+    38
+  ],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

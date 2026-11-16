@@ -1,0 +1,49 @@
+{
+  "id": "inferior-frontal-sulcus",
+  "names": {
+    "it": "Solco frontale inferiore",
+    "la": "Sulcus frontalis inferior",
+    "en": "Inferior frontal sulcus",
+    "synonyms": []
+  },
+  "parent": "frontal-lobe",
+  "layer": "sulci",
+  "side": "bilateral",
+  "level": 3,
+  "location": "Solco sagittale della faccia laterale del lobo frontale, tra i giri frontali medio e inferiore.",
+  "relations": [
+    {
+      "direction": "superiore",
+      "structureId": "anterior-part-of-middle-frontal-gyrus",
+      "text": "Giro frontale medio."
+    },
+    {
+      "direction": "inferiore",
+      "structureId": "triangular-part-of-inferior-frontal-gyrus",
+      "text": "Giro frontale inferiore."
+    }
+  ],
+  "function": "Separa il giro frontale medio dal giro frontale inferiore, sede dell'area di Broca nell'emisfero dominante.",
+  "connections": [],
+  "bloodSupply": [
+    {
+      "arteryId": "prefrontal-artery",
+      "text": "Rami dell'arteria cerebrale media."
+    }
+  ],
+  "clinical": [
+    {
+      "title": "Repere",
+      "text": "Delimita superiormente l'area di Broca."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

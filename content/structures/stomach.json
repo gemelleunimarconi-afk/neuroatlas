@@ -1,0 +1,85 @@
+{
+  "id": "stomach",
+  "names": {
+    "it": "Stomaco",
+    "la": "Gaster",
+    "en": "Stomach",
+    "synonyms": [
+      "ventricolo"
+    ]
+  },
+  "parent": "digestive-system",
+  "layer": "body-digestive",
+  "side": "midline",
+  "level": 1,
+  "location": "Tratto dilatato del tubo digerente, nell'addome superiore sinistro, tra cardias e piloro. Comprende fondo, corpo, antro e canale pilorico, con una piccola curvatura a destra e una grande curvatura a sinistra.",
+  "relations": [
+    {
+      "direction": "superiore",
+      "structureId": "diaphragm",
+      "text": "Diaframma e lobo sinistro del fegato."
+    },
+    {
+      "direction": "posteriore",
+      "structureId": "pancreas",
+      "text": "Pancreas, oltre la borsa omentale, e milza."
+    },
+    {
+      "direction": "inferiore",
+      "structureId": "transverse-colon",
+      "text": "Colon trasverso."
+    }
+  ],
+  "function": "Accumula il cibo, lo mescola e avvia la digestione delle proteine. Le ghiandole del fondo e del corpo contengono cellule parietali (acido cloridrico e fattore intrinseco), cellule principali (pepsinogeno) e cellule mucose; l'antro contiene le cellule G, che secernono gastrina. La secrezione acida è stimolata da acetilcolina (vago), gastrina e istamina e inibita dalla somatostatina.",
+  "connections": [
+    {
+      "type": "afferent",
+      "targetId": "esophagus",
+      "text": "Dall'esofago."
+    },
+    {
+      "type": "efferent",
+      "targetId": "duodenum",
+      "via": "piloro",
+      "text": "Lo svuotamento è regolato dallo sfintere pilorico e da segnali duodenali."
+    },
+    {
+      "type": "afferent",
+      "targetId": "vagus-nerve-x",
+      "text": "Fibre parasimpatiche dei tronchi vagali."
+    }
+  ],
+  "bloodSupply": [
+    {
+      "arteryId": "celiac-trunk",
+      "text": "Rami del tronco celiaco: arterie gastriche sinistra e destra lungo la piccola curvatura, gastroepiploiche lungo la grande curvatura."
+    }
+  ],
+  "clinical": [
+    {
+      "title": "Ulcera peptica",
+      "text": "Legata a Helicobacter pylori e ai farmaci antinfiammatori."
+    },
+    {
+      "title": "Gastrite atrofica",
+      "text": "La perdita delle cellule parietali toglie il fattore intrinseco: carenza di vitamina B12 e anemia perniciosa."
+    },
+    {
+      "title": "Carcinoma gastrico",
+      "text": "Più frequente nell'antro e sulla piccola curvatura."
+    },
+    {
+      "title": "Stenosi ipertrofica del piloro",
+      "text": "Nel lattante, con vomito a getto."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

@@ -1,0 +1,55 @@
+{
+  "id": "coronary-sinus",
+  "names": {
+    "it": "Seno coronario",
+    "la": "Sinus coronarius",
+    "en": "Coronary sinus",
+    "synonyms": []
+  },
+  "parent": "heart",
+  "layer": "body-heart",
+  "side": "midline",
+  "level": 2,
+  "location": "Grossa vena nella parte posteriore del solco coronario, tra atrio e ventricolo sinistro; sbocca nell'atrio destro, tra lo sbocco della vena cava inferiore e l'orifizio tricuspidale.",
+  "relations": [
+    {
+      "direction": "superiore",
+      "structureId": "wall-of-atrium",
+      "text": "Atrio sinistro."
+    },
+    {
+      "direction": "inferiore",
+      "structureId": "wall-of-ventricle",
+      "text": "Ventricolo sinistro."
+    }
+  ],
+  "function": "Raccoglie la maggior parte del sangue venoso del miocardio.",
+  "connections": [
+    {
+      "type": "afferent",
+      "targetId": "great-cardiac-vein",
+      "text": "Vena cardiaca magna, vena cardiaca media e vena cardiaca parva."
+    },
+    {
+      "type": "efferent",
+      "targetId": "wall-of-atrium",
+      "text": "All'atrio destro."
+    }
+  ],
+  "bloodSupply": [],
+  "clinical": [
+    {
+      "title": "Cardiologia interventistica",
+      "text": "Attraverso il seno coronario si posiziona l'elettrocatetere per il ventricolo sinistro nella terapia di resincronizzazione."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

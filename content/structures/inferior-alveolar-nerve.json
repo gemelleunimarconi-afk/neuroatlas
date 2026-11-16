@@ -1,0 +1,65 @@
+{
+  "id": "inferior-alveolar-nerve",
+  "names": {
+    "it": "Nervo alveolare inferiore",
+    "la": "Nervus alveolaris inferior",
+    "en": "Inferior alveolar nerve",
+    "synonyms": [
+      "nervo dentario inferiore"
+    ]
+  },
+  "parent": "trigeminal-nerve",
+  "layer": "cranial-nerves",
+  "side": "bilateral",
+  "level": 3,
+  "location": "Ramo del nervo mandibolare (V3). Entra nel canale della mandibola dal forame mandibolare e lo percorre; termina con il nervo mentale, che emerge dal forame mentale.",
+  "relations": [
+    {
+      "direction": "anteriore",
+      "structureId": "lingual-nerve",
+      "text": "Nervo linguale."
+    },
+    {
+      "direction": "inferiore",
+      "structureId": "mental-nerve",
+      "text": "Nervo mentale."
+    }
+  ],
+  "function": "Sensibilità dei denti e delle gengive dell'arcata inferiore e, con il nervo mentale, del mento e del labbro inferiore. Prima di entrare nel canale dà il nervo miloioideo, motorio.",
+  "connections": [
+    {
+      "type": "efferent",
+      "targetId": "mental-nerve",
+      "text": "Nervo mentale."
+    },
+    {
+      "type": "efferent",
+      "targetId": "nerve-to-mylohyoid-muscle",
+      "text": "Nervo miloioideo."
+    }
+  ],
+  "bloodSupply": [
+    {
+      "text": "Arteria alveolare inferiore, che lo accompagna nel canale."
+    }
+  ],
+  "clinical": [
+    {
+      "title": "Anestesia tronculare",
+      "text": "L'anestetico iniettato vicino al forame mandibolare addormenta tutti i denti inferiori di un lato e spesso anche la lingua, per la vicinanza del nervo linguale."
+    },
+    {
+      "title": "Segno del mento intorpidito",
+      "text": "Può indicare una lesione della mandibola o una metastasi."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

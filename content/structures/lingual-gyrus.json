@@ -1,0 +1,75 @@
+{
+  "id": "lingual-gyrus",
+  "names": {
+    "it": "Giro linguale (occipitotemporale mediale)",
+    "la": "Gyrus lingualis",
+    "en": "Lingual gyrus",
+    "synonyms": [
+      "giro occipitotemporale mediale"
+    ]
+  },
+  "parent": "occipital-lobe",
+  "layer": "cortex",
+  "side": "bilateral",
+  "level": 2,
+  "location": "Faccia inferomediale del lobo occipitale, sotto il solco calcarino e medialmente al solco collaterale; in avanti continua con il giro paraippocampale.",
+  "relations": [
+    {
+      "direction": "superiore",
+      "structureId": "calcarine-sulcus",
+      "text": "Solco calcarino e cuneo."
+    },
+    {
+      "direction": "laterale",
+      "structureId": "collateral-sulcus",
+      "text": "Solco collaterale e giro fusiforme."
+    },
+    {
+      "direction": "anteriore",
+      "structureId": "parahippocampal-gyrus",
+      "text": "Giro paraippocampale."
+    }
+  ],
+  "function": "Il suo margine superiore forma il labbro inferiore del solco calcarino, che rappresenta il quadrante superiore del campo visivo controlaterale; il resto è corteccia visiva associativa, coinvolta nella percezione del colore insieme al giro fusiforme.",
+  "connections": [
+    {
+      "type": "afferent",
+      "targetId": "lateral-geniculate-body",
+      "via": "radiazione ottica",
+      "text": "Le fibre inferiori della radiazione ottica, che passano nel lobo temporale (ansa di Meyer)."
+    },
+    {
+      "type": "efferent",
+      "targetId": "fusiform-gyrus",
+      "text": "Alla via visiva ventrale."
+    }
+  ],
+  "bloodSupply": [
+    {
+      "arteryId": "medial-occipital-artery",
+      "text": "Arteria cerebrale posteriore (rami calcarino e temporali posteriori)."
+    }
+  ],
+  "clinical": [
+    {
+      "title": "Quadrantanopsia superiore",
+      "text": "Lesione del giro linguale o dell'ansa di Meyer."
+    },
+    {
+      "title": "Acromatopsia cerebrale",
+      "text": "Lesioni occipitotemporali inferiori: perdita della visione dei colori nell'emicampo controlaterale."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [
+    18,
+    19
+  ],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

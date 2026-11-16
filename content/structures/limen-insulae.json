@@ -1,0 +1,51 @@
+{
+  "id": "limen-insulae",
+  "names": {
+    "it": "Limen dell'insula",
+    "la": "Limen insulae",
+    "en": "Limen insulae",
+    "synonyms": [
+      "soglia dell'insula"
+    ]
+  },
+  "parent": "cerebral-hemisphere",
+  "layer": "cortex",
+  "side": "bilateral",
+  "level": 3,
+  "location": "Margine anteroinferiore dell'insula, dove la corteccia insulare continua con la sostanza perforata anteriore, in fondo al tratto iniziale del solco laterale.",
+  "relations": [
+    {
+      "direction": "superiore",
+      "structureId": "insula",
+      "text": "Giri dell'insula."
+    },
+    {
+      "direction": "mediale",
+      "structureId": "sphenoid-part-of-middle-cerebral-artery",
+      "text": "Arteria cerebrale media, che qui si biforca."
+    }
+  ],
+  "function": "Zona di transizione tra insula e corteccia olfattiva; è soprattutto un repere anatomico e chirurgico.",
+  "connections": [],
+  "bloodSupply": [
+    {
+      "arteryId": "insular-part-of-middle-cerebral-artery",
+      "text": "Arteria cerebrale media."
+    }
+  ],
+  "clinical": [
+    {
+      "title": "Repere chirurgico",
+      "text": "Indica il punto in cui il tratto M1 dell'arteria cerebrale media diventa M2 e si divide; è la sede più frequente degli aneurismi di questa arteria."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

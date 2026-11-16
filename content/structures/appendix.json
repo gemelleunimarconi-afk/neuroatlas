@@ -1,0 +1,51 @@
+{
+  "id": "appendix",
+  "names": {
+    "it": "Appendice vermiforme",
+    "la": "Appendix vermiformis",
+    "en": "Vermiform appendix",
+    "synonyms": [
+      "appendice"
+    ]
+  },
+  "parent": "large-intestine",
+  "layer": "body-digestive",
+  "side": "midline",
+  "level": 2,
+  "location": "Diverticolo sottile a fondo cieco che origina dalla parete posteromediale del cieco, dove convergono le tre tenie; la posizione della punta è variabile, più spesso dietro il cieco.",
+  "relations": [
+    {
+      "direction": "superiore",
+      "structureId": "ileocecal-junction",
+      "text": "Cieco e giunzione ileocecale."
+    },
+    {
+      "direction": "mediale",
+      "structureId": "mesoappendix",
+      "text": "Mesoappendice, con l'arteria appendicolare."
+    }
+  ],
+  "function": "Contiene abbondante tessuto linfoide; potrebbe fungere da riserva della flora batterica intestinale.",
+  "connections": [],
+  "bloodSupply": [
+    {
+      "arteryId": "superior-mesenteric-artery",
+      "text": "Arteria appendicolare, ramo dell'arteria ileocolica; è terminale."
+    }
+  ],
+  "clinical": [
+    {
+      "title": "Appendicite acuta",
+      "text": "Dolore che inizia attorno all'ombelico (dolore viscerale riferito a T10) e poi si localizza nella fossa iliaca destra, nel punto di McBurney, quando si infiamma il peritoneo parietale; l'ostruzione del lume può portare a perforazione."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

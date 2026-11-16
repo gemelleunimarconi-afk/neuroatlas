@@ -1,0 +1,60 @@
+{
+  "id": "hepatic-portal-vein",
+  "names": {
+    "it": "Vena porta epatica",
+    "la": "Vena portae hepatis",
+    "en": "Hepatic portal vein",
+    "synonyms": [
+      "vena porta"
+    ]
+  },
+  "parent": "portal-system",
+  "layer": "body-veins",
+  "side": "midline",
+  "level": 1,
+  "location": "Si forma dietro il collo del pancreas dall'unione della vena mesenterica superiore e della vena lienale, sale nel legamento epatoduodenale dietro il coledoco e l'arteria epatica e, all'ilo del fegato, si divide nei rami destro e sinistro.",
+  "relations": [
+    {
+      "direction": "anteriore",
+      "structureId": "pancreas",
+      "text": "Collo del pancreas e duodeno."
+    },
+    {
+      "direction": "superiore",
+      "structureId": "liver",
+      "text": "Ilo del fegato."
+    }
+  ],
+  "function": "Porta al fegato il sangue proveniente da stomaco, intestino, pancreas e milza, ricco delle sostanze assorbite: fornisce circa tre quarti del flusso epatico. È un sistema portale: sta tra due letti capillari.",
+  "connections": [
+    {
+      "type": "afferent",
+      "text": "Vene mesenterica superiore, lienale e mesenterica inferiore."
+    },
+    {
+      "type": "efferent",
+      "targetId": "liver",
+      "text": "Ai sinusoidi epatici; il sangue lascia il fegato con le vene epatiche."
+    }
+  ],
+  "bloodSupply": [],
+  "clinical": [
+    {
+      "title": "Ipertensione portale",
+      "text": "Nella cirrosi il sangue cerca vie alternative verso il circolo sistemico: varici esofagee, emorroidi, circoli della parete addominale (caput medusae), con splenomegalia e ascite."
+    },
+    {
+      "title": "Effetto di primo passaggio",
+      "text": "I farmaci assorbiti dall'intestino attraversano il fegato prima di raggiungere il circolo."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

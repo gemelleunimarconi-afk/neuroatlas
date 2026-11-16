@@ -1,0 +1,65 @@
+{
+  "id": "orbital-part-of-inferior-frontal-gyrus",
+  "names": {
+    "it": "Giro frontale inferiore, parte orbitaria",
+    "la": "Pars orbitalis gyri frontalis inferioris",
+    "en": "Orbital part of inferior frontal gyrus",
+    "synonyms": [
+      "pars orbitalis"
+    ]
+  },
+  "parent": "frontal-lobe",
+  "layer": "cortex",
+  "side": "bilateral",
+  "level": 3,
+  "location": "Parte anteriore del giro frontale inferiore, sotto il ramo anteriore del solco laterale; continua sulla faccia orbitaria del lobo frontale.",
+  "relations": [
+    {
+      "direction": "posteriore",
+      "structureId": "triangular-part-of-inferior-frontal-gyrus",
+      "text": "Parte triangolare."
+    },
+    {
+      "direction": "inferiore",
+      "structureId": "lateral-orbital-gyrus",
+      "text": "Giri orbitari."
+    }
+  ],
+  "function": "Area 47: elaborazione semantica del linguaggio e controllo inibitorio; è zona di passaggio tra le aree del linguaggio e la corteccia orbitofrontale.",
+  "connections": [
+    {
+      "type": "reciprocal",
+      "targetId": "temporal-pole",
+      "via": "fascicolo uncinato",
+      "text": "Con il polo temporale."
+    },
+    {
+      "type": "reciprocal",
+      "targetId": "triangular-part-of-inferior-frontal-gyrus",
+      "text": "Con le altre parti del giro frontale inferiore."
+    }
+  ],
+  "bloodSupply": [
+    {
+      "arteryId": "lateral-frontobasal-artery",
+      "text": "Arteria frontobasale laterale, ramo dell'arteria cerebrale media."
+    }
+  ],
+  "clinical": [
+    {
+      "title": "Disturbi semantici",
+      "text": "Lesioni sinistre possono compromettere il recupero del significato delle parole."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [
+    47
+  ],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

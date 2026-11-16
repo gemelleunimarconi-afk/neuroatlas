@@ -1,0 +1,71 @@
+{
+  "id": "white-matter-of-cerebral-hemisphere",
+  "names": {
+    "it": "Sostanza bianca dell'emisfero cerebrale",
+    "la": "Substantia alba hemispherii cerebri",
+    "en": "Cerebral white matter",
+    "synonyms": [
+      "centro semiovale",
+      "corona radiata"
+    ]
+  },
+  "parent": "cerebral-white-matter",
+  "layer": "white-matter",
+  "side": "bilateral",
+  "level": 2,
+  "location": "Massa di sostanza bianca sotto la corteccia di ciascun emisfero. Nelle sezioni orizzontali sopra il corpo calloso forma il centro semiovale; più in basso le fibre convergono nella corona radiata e nella capsula interna.",
+  "relations": [
+    {
+      "direction": "laterale",
+      "structureId": "insula",
+      "text": "Corteccia cerebrale."
+    },
+    {
+      "direction": "mediale",
+      "structureId": "corpus-callosum",
+      "text": "Corpo calloso e ventricoli laterali."
+    },
+    {
+      "direction": "inferiore",
+      "structureId": "internal-capsule",
+      "text": "Capsula interna."
+    }
+  ],
+  "function": "Contiene tre tipi di fibre: di associazione (tra aree dello stesso emisfero, come i fascicoli longitudinale superiore, arcuato, uncinato e il cingolo), commissurali (tra i due emisferi) e di proiezione (tra corteccia e strutture sottocorticali).",
+  "connections": [
+    {
+      "type": "reciprocal",
+      "targetId": "precentral-gyrus",
+      "text": "Fibre di proiezione, di associazione e commissurali."
+    }
+  ],
+  "bloodSupply": [
+    {
+      "arteryId": "sphenoid-part-of-middle-cerebral-artery",
+      "text": "Rami perforanti midollari delle arterie corticali; le zone profonde, al confine tra territori, sono vulnerabili all'ipoperfusione."
+    }
+  ],
+  "clinical": [
+    {
+      "title": "Sclerosi multipla",
+      "text": "Placche di demielinizzazione, tipicamente periventricolari."
+    },
+    {
+      "title": "Leucoaraiosi",
+      "text": "Sofferenza cronica dei piccoli vasi, legata a ipertensione ed età, con declino cognitivo e disturbi della marcia."
+    },
+    {
+      "title": "Infarti di confine",
+      "text": "Nel centro semiovale, in caso di ipotensione grave o stenosi carotidea."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

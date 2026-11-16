@@ -1,0 +1,57 @@
+{
+  "id": "anterior-cusp-of-pulmonary-valve",
+  "names": {
+    "it": "Cuspide anteriore della valvola polmonare",
+    "la": "Valva trunci pulmonalis",
+    "en": "Pulmonary valve",
+    "synonyms": [
+      "valvola polmonare"
+    ]
+  },
+  "parent": "heart",
+  "layer": "body-heart",
+  "side": "bilateral",
+  "level": 2,
+  "location": "Valvola all'origine del tronco polmonare, all'uscita del cono arterioso del ventricolo destro; è la più anteriore e superiore delle valvole cardiache. Ha tre cuspidi semilunari. La scheda descrive l'intera valvola.",
+  "relations": [
+    {
+      "direction": "superiore",
+      "structureId": "pulmonary-trunk",
+      "text": "Tronco polmonare."
+    },
+    {
+      "direction": "posteriore",
+      "structureId": "posterior-cusp-of-aortic-valve",
+      "text": "Valvola aortica."
+    }
+  ],
+  "function": "Impedisce il reflusso del sangue dal tronco polmonare al ventricolo destro in diastole; la sua chiusura è la seconda componente del secondo tono, che si separa da quella aortica durante l'inspirazione.",
+  "connections": [
+    {
+      "type": "afferent",
+      "targetId": "wall-of-ventricle",
+      "text": "Dal ventricolo destro."
+    },
+    {
+      "type": "efferent",
+      "targetId": "pulmonary-trunk",
+      "text": "Al tronco polmonare."
+    }
+  ],
+  "bloodSupply": [],
+  "clinical": [
+    {
+      "title": "Stenosi polmonare",
+      "text": "Di solito congenita; è una componente della tetralogia di Fallot."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

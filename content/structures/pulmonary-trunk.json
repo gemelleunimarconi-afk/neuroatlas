@@ -1,0 +1,61 @@
+{
+  "id": "pulmonary-trunk",
+  "names": {
+    "it": "Tronco polmonare",
+    "la": "Truncus pulmonalis",
+    "en": "Pulmonary trunk",
+    "synonyms": [
+      "arteria polmonare comune"
+    ]
+  },
+  "parent": "pulmonary-circulation",
+  "layer": "body-arteries",
+  "side": "midline",
+  "level": 1,
+  "location": "Nasce dal cono arterioso del ventricolo destro, sale all'indietro e a sinistra davanti all'aorta ascendente e, sotto l'arco aortico, si divide nelle arterie polmonari destra e sinistra.",
+  "relations": [
+    {
+      "direction": "posteriore",
+      "structureId": "ascending-aorta",
+      "text": "Aorta ascendente."
+    },
+    {
+      "direction": "superiore",
+      "structureId": "arch-of-aorta",
+      "text": "Arco aortico, a cui è unito dal legamento arterioso."
+    }
+  ],
+  "function": "Porta il sangue venoso dal ventricolo destro ai polmoni. Il circolo polmonare ha bassa pressione e bassa resistenza; diversamente dai vasi sistemici, le arteriole polmonari si costringono in risposta all'ipossia, deviando il sangue verso gli alveoli meglio ventilati.",
+  "connections": [
+    {
+      "type": "afferent",
+      "targetId": "wall-of-ventricle",
+      "text": "Dal ventricolo destro."
+    },
+    {
+      "type": "efferent",
+      "targetId": "pulmonary-artery",
+      "text": "Arterie polmonari destra e sinistra."
+    }
+  ],
+  "bloodSupply": [],
+  "clinical": [
+    {
+      "title": "Embolia polmonare",
+      "text": "Un trombo proveniente dalle vene profonde degli arti inferiori occlude l'arteria polmonare o i suoi rami: dispnea improvvisa, dolore toracico, ipossia; se massiva, insufficienza acuta del ventricolo destro."
+    },
+    {
+      "title": "Ipertensione polmonare",
+      "text": "Sovraccarica il ventricolo destro (cuore polmonare)."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

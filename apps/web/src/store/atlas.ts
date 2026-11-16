@@ -141,11 +141,15 @@ export const useAtlas = create<AtlasState>((set, get) => ({
       return; // durante una domanda la selezione non deve rivelare il nome
     }
     // Una struttura dell'encefalo scelta mentre si guarda il corpo porta nell'ambito Encefalo, altrimenti resterebbe nascosta dal cranio.
-    const toBrain = get().scope === 'body' && LAYERS.find((l) => l.id === entry.layer)!.group === 'brain';
-    const layers = toBrain ? defaultLayers('brain') : get().layers;
+    // Vale anche al contrario: un organo scelto mentre si guarda l'encefalo riporta al corpo.
+    const group = LAYERS.find((l) => l.id === entry.layer)!.group;
+    const toBrain = group !== get().scope; // nome storico: indica un cambio di ambito
+    const layers = toBrain ? defaultLayers(group) : get().layers;
     set({
-      scope: toBrain ? 'brain' : get().scope,
+      scope: group,
       isolated: toBrain ? false : get().isolated,
+      pathwayId: toBrain ? null : get().pathwayId,
+      layersBeforePathway: toBrain ? null : get().layersBeforePathway,
       selection: { structureId, meshId },
       layers: layers[entry.layer].visible ? layers : { ...layers, [entry.layer]: { ...layers[entry.layer], visible: true } },
     });

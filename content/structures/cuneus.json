@@ -1,0 +1,64 @@
+{
+  "id": "cuneus",
+  "names": {
+    "it": "Cuneo",
+    "la": "Cuneus",
+    "en": "Cuneus",
+    "synonyms": []
+  },
+  "parent": "occipital-lobe",
+  "layer": "cortex",
+  "side": "bilateral",
+  "level": 2,
+  "location": "Lobulo a forma di cuneo sulla faccia mediale del lobo occipitale, tra il solco parieto-occipitale (davanti e sopra) e il solco calcarino (sotto).",
+  "relations": [
+    {
+      "direction": "inferiore",
+      "structureId": "calcarine-sulcus",
+      "text": "Solco calcarino e giro linguale."
+    },
+    {
+      "direction": "anteriore",
+      "structureId": "parieto-occipital-sulcus",
+      "text": "Solco parieto-occipitale e precuneo."
+    }
+  ],
+  "function": "Il suo margine inferiore forma il labbro superiore del solco calcarino e contiene la parte di corteccia visiva primaria che rappresenta il quadrante inferiore del campo visivo controlaterale; il resto è corteccia visiva associativa (aree 18 e 19).",
+  "connections": [
+    {
+      "type": "afferent",
+      "targetId": "lateral-geniculate-body",
+      "via": "radiazione ottica",
+      "text": "Le fibre superiori della radiazione ottica, che decorrono nel lobo parietale."
+    },
+    {
+      "type": "efferent",
+      "targetId": "superior-parietal-lobule",
+      "text": "Alla via visiva dorsale."
+    }
+  ],
+  "bloodSupply": [
+    {
+      "arteryId": "medial-occipital-artery",
+      "text": "Rami calcarino e parieto-occipitale dell'arteria cerebrale posteriore."
+    }
+  ],
+  "clinical": [
+    {
+      "title": "Quadrantanopsia inferiore",
+      "text": "Una lesione del cuneo o delle fibre parietali della radiazione ottica causa la perdita del quadrante inferiore omonimo controlaterale."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [
+    18,
+    19
+  ],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

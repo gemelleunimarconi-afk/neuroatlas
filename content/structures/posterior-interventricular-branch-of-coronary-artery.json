@@ -1,0 +1,52 @@
+{
+  "id": "posterior-interventricular-branch-of-coronary-artery",
+  "names": {
+    "it": "Ramo interventricolare posteriore dell'arteria coronaria",
+    "la": "Ramus interventricularis posterior",
+    "en": "Posterior interventricular branch",
+    "synonyms": [
+      "discendente posteriore"
+    ]
+  },
+  "parent": "heart",
+  "layer": "body-heart",
+  "side": "midline",
+  "level": 2,
+  "location": "Decorre nel solco interventricolare posteriore, sulla faccia diaframmatica del cuore, verso l'apice.",
+  "relations": [
+    {
+      "direction": "superiore",
+      "structureId": "coronary-sinus",
+      "text": "Seno coronario e solco coronario."
+    },
+    {
+      "direction": "laterale",
+      "structureId": "wall-of-ventricle",
+      "text": "Faccia diaframmatica dei ventricoli."
+    }
+  ],
+  "function": "Irrora la parete inferiore dei ventricoli e il terzo posteriore del setto interventricolare; l'arteria da cui nasce irrora di solito anche il nodo atrioventricolare.",
+  "connections": [
+    {
+      "type": "afferent",
+      "targetId": "trunk-of-coronary-artery",
+      "text": "Dalla coronaria destra nella maggior parte delle persone; dal ramo circonflesso nella dominanza sinistra."
+    }
+  ],
+  "bloodSupply": [],
+  "clinical": [
+    {
+      "title": "Infarto inferiore",
+      "text": "Per occlusione della coronaria destra: può associarsi a bradicardia e blocco atrioventricolare, perché l'arteria irrora i nodi."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

@@ -1,0 +1,73 @@
+{
+  "id": "spleen",
+  "names": {
+    "it": "Milza",
+    "la": "Splen",
+    "en": "Spleen",
+    "synonyms": []
+  },
+  "parent": "lymphoid-organs",
+  "layer": "body-endocrine",
+  "side": "midline",
+  "level": 1,
+  "location": "Organo linfoide intraperitoneale, nell'ipocondrio sinistro, tra il fondo dello stomaco e il diaframma, protetto dalle coste dalla nona all'undicesima.",
+  "relations": [
+    {
+      "direction": "superiore",
+      "structureId": "diaphragm",
+      "text": "Diaframma."
+    },
+    {
+      "direction": "anteriore",
+      "structureId": "stomach",
+      "text": "Stomaco."
+    },
+    {
+      "direction": "mediale",
+      "structureId": "kidney",
+      "text": "Rene sinistro e coda del pancreas."
+    }
+  ],
+  "function": "La polpa rossa filtra il sangue ed elimina i globuli rossi invecchiati e i batteri capsulati; la polpa bianca è tessuto linfoide che organizza le risposte immunitarie. È anche una riserva di piastrine.",
+  "connections": [
+    {
+      "type": "afferent",
+      "targetId": "splenic-artery",
+      "text": "Arteria lienale."
+    },
+    {
+      "type": "efferent",
+      "targetId": "hepatic-portal-vein",
+      "text": "La vena lienale confluisce nella vena porta."
+    }
+  ],
+  "bloodSupply": [
+    {
+      "arteryId": "splenic-artery",
+      "text": "Arteria lienale, ramo del tronco celiaco."
+    }
+  ],
+  "clinical": [
+    {
+      "title": "Rottura traumatica",
+      "text": "È l'organo addominale più spesso leso nei traumi chiusi; può dare emorragia e dolore riferito alla spalla sinistra."
+    },
+    {
+      "title": "Splenomegalia",
+      "text": "Nell'ipertensione portale, nelle infezioni e nelle malattie del sangue."
+    },
+    {
+      "title": "Splenectomia",
+      "text": "Aumenta il rischio di infezioni gravi da batteri capsulati: sono indicate le vaccinazioni."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

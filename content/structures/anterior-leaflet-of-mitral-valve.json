@@ -1,0 +1,58 @@
+{
+  "id": "anterior-leaflet-of-mitral-valve",
+  "names": {
+    "it": "Lembo anteriore della valvola mitrale",
+    "la": "Valva mitralis",
+    "en": "Mitral valve",
+    "synonyms": [
+      "valvola mitrale",
+      "valvola bicuspide"
+    ]
+  },
+  "parent": "heart",
+  "layer": "body-heart",
+  "side": "midline",
+  "level": 1,
+  "location": "Valvola dell'orifizio atrioventricolare sinistro, tra atrio e ventricolo sinistro. Ha due lembi, anteriore (aortico) e posteriore. La scheda descrive l'intera valvola; il modello selezionato è il lembo anteriore.",
+  "relations": [
+    {
+      "direction": "posteriore",
+      "structureId": "posterior-leaflet-of-mitral-valve",
+      "text": "Lembo posteriore."
+    },
+    {
+      "direction": "anteriore",
+      "structureId": "posterior-cusp-of-aortic-valve",
+      "text": "Valvola aortica, in continuità fibrosa con il lembo anteriore."
+    }
+  ],
+  "function": "Si apre in diastole lasciando riempire il ventricolo sinistro e si chiude in sistole impedendo il reflusso nell'atrio. I lembi sono trattenuti dalle corde tendinee, ancorate ai muscoli papillari anteriore e posteriore. La sua chiusura contribuisce al primo tono cardiaco.",
+  "connections": [
+    {
+      "type": "reciprocal",
+      "targetId": "anterior-papillary-muscle-of-ventricle",
+      "via": "corde tendinee",
+      "text": "Ai muscoli papillari del ventricolo sinistro."
+    }
+  ],
+  "bloodSupply": [],
+  "clinical": [
+    {
+      "title": "Insufficienza mitralica",
+      "text": "Reflusso sistolico in atrio, con soffio olosistolico; può derivare da prolasso, rottura delle corde o di un muscolo papillare dopo infarto, o dilatazione del ventricolo."
+    },
+    {
+      "title": "Stenosi mitralica",
+      "text": "Di solito esito di malattia reumatica; l'atrio sinistro si dilata e compare spesso fibrillazione atriale."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}

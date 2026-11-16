@@ -1,0 +1,64 @@
+{
+  "id": "trunk-of-anterior-interventricular-branch-of-coronary-artery",
+  "names": {
+    "it": "Tronco del ramo interventricolare anteriore dell'arteria coronaria",
+    "la": "Ramus interventricularis anterior",
+    "en": "Anterior interventricular branch (left anterior descending artery)",
+    "synonyms": [
+      "discendente anteriore",
+      "IVA",
+      "LAD"
+    ]
+  },
+  "parent": "heart",
+  "layer": "body-heart",
+  "side": "midline",
+  "level": 1,
+  "location": "Ramo della coronaria sinistra che scende nel solco interventricolare anteriore fino all'apice del cuore, che spesso aggira.",
+  "relations": [
+    {
+      "direction": "laterale",
+      "structureId": "wall-of-ventricle",
+      "text": "Parete anteriore dei ventricoli."
+    },
+    {
+      "direction": "superiore",
+      "structureId": "trunk-of-coronary-artery",
+      "text": "Tronco comune."
+    }
+  ],
+  "function": "Irrora la parete anteriore del ventricolo sinistro, l'apice, i due terzi anteriori del setto interventricolare (con i rami settali) e le branche del fascio di His; dà i rami diagonali alla parete anterolaterale.",
+  "connections": [
+    {
+      "type": "afferent",
+      "targetId": "trunk-of-coronary-artery",
+      "text": "Dalla coronaria sinistra."
+    },
+    {
+      "type": "efferent",
+      "targetId": "septal-branch-of-anterior-interventricular-artery",
+      "text": "Rami settali."
+    },
+    {
+      "type": "efferent",
+      "targetId": "diagonal-branch-of-anterior-descending-branch-of-coronary-artery",
+      "text": "Rami diagonali."
+    }
+  ],
+  "bloodSupply": [],
+  "clinical": [
+    {
+      "title": "Infarto anteriore",
+      "text": "È l'arteria più spesso occlusa: infarto esteso della parete anteriore e del setto, con rischio di insufficienza cardiaca e blocchi di branca."
+    }
+  ],
+  "pathways": [],
+  "brodmann": [],
+  "tags": [],
+  "sources": [
+    "standring",
+    "kandel",
+    "blumenfeld"
+  ],
+  "review": "draft"
+}
