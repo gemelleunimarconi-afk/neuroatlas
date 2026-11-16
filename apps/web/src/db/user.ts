@@ -4,16 +4,21 @@ import { create } from 'zustand';
 /** Dati personali dello studente, salvati solo in questo browser (IndexedDB). */
 export interface Note { structureId: string; text: string; updatedAt: number }
 export interface Bookmark { structureId: string; createdAt: number }
+/** Una sessione di studio conclusa, per lo storico. */
+export interface StudySession { id?: number; mode: string; region: string; startedAt: number; total: number; correct: number }
 
 class UserDb extends Dexie {
   notes!: Table<Note, string>;
   bookmarks!: Table<Bookmark, string>;
+  srs!: Table<import('@/study/sm2').SrsItem, string>;
+  sessions!: Table<StudySession, number>;
   constructor() {
     super('neuroatlas-user');
     this.version(1).stores({ notes: 'structureId, updatedAt', bookmarks: 'structureId, createdAt' });
+    this.version(2).stores({ srs: 'structureId, due', sessions: '++id, startedAt' });
   }
 }
-const db = new UserDb();
+export const db = new UserDb();
 
 interface UserState {
   notes: Record<string, Note>;

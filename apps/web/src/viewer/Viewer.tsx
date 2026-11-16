@@ -10,15 +10,6 @@ import { Labels } from './Labels';
 import { PathwayView } from './PathwayView';
 import { updateSectionPlane } from './section';
 
-/** Livello di dettaglio: `?lod=lod0|lod1|lod2` lo forza; altrimenti medio, leggero sui dispositivi con poca memoria. */
-function pickLod(): string {
-  const forced = new URLSearchParams(location.search).get('lod');
-  if (forced && /^lod[012]$/.test(forced)) return forced;
-  const mem = (navigator as Navigator & { deviceMemory?: number }).deviceMemory;
-  return mem !== undefined && mem <= 2 ? 'lod2' : 'lod1';
-}
-const LOD = pickLod();
-
 /** Luce solidale alla camera: la struttura che guardi è sempre illuminata. */
 function Headlight() {
   const ref = useRef<THREE.DirectionalLight>(null);
@@ -52,13 +43,14 @@ function Loading() {
 export function Viewer() {
   const layers = useAtlas((s) => s.layers);
   const theme = useAtlas((s) => s.theme);
+  const lod = useAtlas((s) => s.lod);
   const clearSelection = useAtlas((s) => s.clearSelection);
   const labelRoot = useRef<HTMLDivElement>(null);
   return (
     <div className="absolute inset-0 touch-none" data-testid="viewer">
       <Canvas
         frameloop="demand"
-        dpr={[1, 2]}
+        dpr={[1, lod === 'lod2' ? 1.5 : 2]}
         camera={{ fov: 32, near: 0.01, far: 20, position: [0, 0.9, 4] }}
         raycaster={{ firstHitOnly: true } as Partial<THREE.Raycaster>}
         onPointerMissed={(e) => { if (e.type === 'click') clearSelection(); }}
@@ -70,8 +62,8 @@ export function Viewer() {
         <ambientLight intensity={0.35} />
         <Headlight />
         {LAYERS.filter((l) => layers[l.id].visible).map((l) => (
-          <Suspense key={l.id} fallback={null}>
-            <LayerModel layer={l.id} lod={LOD} />
+          <Suspense key={`${l.id}:${lod}`} fallback={null}>
+            <LayerModel layer={l.id} lod={lod} />
           </Suspense>
         ))}
         <OrbitControls makeDefault enableDamping dampingFactor={0.12} minDistance={0.04} maxDistance={8} rotateSpeed={0.9} />

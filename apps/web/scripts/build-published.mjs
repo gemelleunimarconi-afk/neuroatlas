@@ -16,6 +16,7 @@ for (const f of readdirSync(out + 'models')) {
 }
 const html = readFileSync(out + 'index.html', 'utf8');
 const js = /src="\.\/(assets\/[^"]+\.js)"/.exec(html)[1];
+if (readdirSync(out + 'assets').filter((f) => f.endsWith('.js')).length !== 1) throw new Error('la build pubblicata deve avere un solo file JavaScript');
 const css = /href="\.\/(assets\/[^"]+\.css)"/.exec(html)[1];
 files[js] = js;
 writeFileSync(out + 'neuroatlas.html', `<title>NeuroAtlas</title>\n<meta name="theme-color" content="#0f172a">\n<style>${readFileSync(out + css, 'utf8')}</style>\n<div id="root"></div>\n<script type="module" src="${js}"></script>\n`);

@@ -19,6 +19,7 @@ export interface SampleResult { text: string; truncated: boolean; modelTierAppli
 export interface SampleFn {
   (input: string | SampleMessage[], options?: SampleOptions): Promise<SampleResult>;
   limits(): Promise<{ tools?: { maxCount: number } }>;
+  json<T = unknown>(input: string | SampleMessage[], options?: SampleOptions): Promise<T>;
 }
 export interface SampleError { code: string; message: string; text?: string }
 
@@ -56,7 +57,7 @@ Puoi comandare il visualizzatore 3D. Usalo quando mostrare aiuta davvero: eviden
 - Dopo aver usato uno strumento, di' in una frase che cosa lo studente sta vedendo.
 - Non usare più di tre strumenti per risposta.`;
 
-function cardText(e: StructureEntry): string {
+export function cardText(e: StructureEntry): string {
   const c = e.card;
   if (!c) return `[${e.id}] ${e.names.it}${e.names.la ? ` (${e.names.la})` : ''} — nessuna scheda: solo nomenclatura e modello.`;
   return [

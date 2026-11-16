@@ -5,7 +5,8 @@ import { useAtlas } from '@/store/atlas';
 export function LayersPanel() {
   const catalog = useAtlas((s) => s.catalog)!;
   const layers = useAtlas((s) => s.layers);
-  const selection = useAtlas((s) => s.selection);
+  // durante una domanda l'elenco non deve rivelare la struttura evidenziata
+  const selection = useAtlas((s) => (s.quiz && !s.quiz.reveal ? null : s.selection));
   const { setLayerVisible, setLayerOpacity, select, focusSelection, resetLayers } = useAtlas.getState();
 
   return (

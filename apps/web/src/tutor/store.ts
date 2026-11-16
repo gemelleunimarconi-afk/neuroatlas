@@ -11,6 +11,8 @@ export interface ChatMessage {
   pending?: boolean;
   error?: string;
   note?: string;
+  /** modello o fascia che ha risposto davvero */
+  model?: string;
 }
 
 interface TutorState {
@@ -97,7 +99,8 @@ export const useTutor = create<TutorState>((set, get) => {
         if (result.truncated) notes.push('Risposta interrotta per lunghezza: chiedi di continuare.');
         if (tier.options.model && !result.modelApplied) notes.push('Ha risposto un modello diverso da quello richiesto, il più vicino disponibile per il tuo account.');
         if (!tools) notes.push('In questa vista il tutor non può comandare il modello 3D.');
-        patch(reply.id, { content: result.text, pending: false, note: notes.join(' ') || undefined });
+        const fascia = { complex: 'fascia più capace', default: 'fascia equilibrata', quick: 'fascia rapida' }[result.modelTierApplied] ?? result.modelTierApplied;
+        patch(reply.id, { content: result.text, pending: false, note: notes.join(' ') || undefined, model: result.modelApplied ?? fascia });
       } catch (err) {
         const e = err as SampleError;
         if (e.code === 'cancelled') patch(reply.id, { content: e.text ?? '', pending: false, note: 'Risposta fermata.' });

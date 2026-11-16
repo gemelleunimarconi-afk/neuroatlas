@@ -20,7 +20,7 @@ function textWidth(text: string, px: number): number {
   let w = widths.get(key);
   if (w === undefined) {
     if (measure) measure.font = `600 ${px}px ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif`;
-    w = (measure ? measure.measureText(text).width : text.length * px * 0.58) + 18;
+    w = (measure ? measure.measureText(text).width * 1.06 : text.length * px * 0.6) + 18;
     widths.set(key, w);
   }
   return w;
@@ -38,7 +38,7 @@ export function Labels({ container }: { container: RefObject<HTMLDivElement | nu
   const selection = useAtlas((s) => s.selection);
   const isolated = useAtlas((s) => s.isolated);
   const explode = useAtlas((s) => s.explode);
-  const enabled = useAtlas((s) => s.labels);
+  const enabled = useAtlas((s) => s.labels && !(s.quiz && !s.quiz.reveal));
   const pathwayId = useAtlas((s) => s.pathwayId);
   const section = useAtlas((s) => s.section);
   const invalidate = useThree((s) => s.invalidate);

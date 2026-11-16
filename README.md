@@ -6,7 +6,15 @@ Due ambiti, scelti con i pulsanti in alto a sinistra: **Corpo** (scheletro, musc
 
 Strumenti (scheda "Strumenti"): piano di sezione sagittale, coronale o assiale; vista esplosa; etichette senza sovrapposizioni; aree di Brodmann (corrispondenza approssimata); nove vie nervose animate (schemi didattici); segnalibri e note personali salvati sul dispositivo.
 
-Stato: **M3** completata. Prossime: M4 quiz e ripetizione dilazionata, M5 PWA e offline.
+Stato: tutte le milestone (M0–M5) completate.
+
+## Studio (M4)
+
+Scheda "Studio": riconosci la struttura evidenziata, trova una struttura sul modello, nomi latini, funzioni, dieci casi clinici con localizzazione della lesione (`content/cases.json`), ripasso programmato con l'algoritmo SM-2 (`apps/web/src/study/sm2.ts`), progressi per regione, punti deboli e storico delle sessioni. Funziona senza connessione e senza tutor; le domande aperte corrette dal tutor richiedono la versione dentro Claude. I progressi restano sul dispositivo (IndexedDB).
+
+## App installabile e offline (M5)
+
+`npm run build` genera anche il service worker (Workbox, `scripts/build-sw.mjs`): l'interfaccia è in precache, i modelli 3D entrano in cache alla prima apertura, e da Strumenti → Dispositivo si possono scaricare tutti per l'uso offline. Sempre lì si sceglie la qualità dei modelli (leggera, media, alta); la scelta iniziale è leggera su telefoni e dispositivi con poca memoria. Il motore 3D, il tutor e lo studio sono caricati a parte dall'interfaccia.
 
 ## Tutor AI
 
@@ -29,7 +37,8 @@ Altri comandi, sempre in `apps/web`:
 
 ```bash
 npm test              # valida le schede e la ricerca
-npm run build         # controllo dei tipi + build di produzione in dist/
+npm run build         # controllo dei tipi + build di produzione in dist/ + service worker
+npm run build:published  # versione in un solo file per la pagina dentro Claude
 npm run preview       # serve dist/ su http://localhost:4173
 ```
 

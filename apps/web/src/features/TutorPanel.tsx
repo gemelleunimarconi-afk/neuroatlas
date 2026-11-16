@@ -119,6 +119,7 @@ export function TutorPanel() {
               )}
               {m.content ? (m.role === 'user' ? <p className="whitespace-pre-wrap">{m.content}</p> : <Markdown text={m.content} />)
                 : m.pending ? <p className="text-slate-600 dark:text-slate-300">Sto pensando…</p> : null}
+              {m.model && <p className="text-xs text-slate-600 dark:text-slate-400">Ha risposto: {m.model}</p>}
               {m.note && <p className="text-xs text-slate-600 dark:text-slate-400">{m.note}</p>}
               {m.error && <p role="alert" className="text-sm font-medium text-red-700 dark:text-red-300">{m.error}</p>}
             </div>

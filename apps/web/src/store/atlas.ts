@@ -8,6 +8,7 @@ export type CameraRequest =
   | { kind: 'focus'; target: [number, number, number]; radius: number; seq: number };
 export interface Selection { structureId: string; meshId: string | null }
 export type Theme = 'light' | 'dark';
+export type Lod = 'lod0' | 'lod1' | 'lod2';
 export type SectionAxis = 'sagittal' | 'coronal' | 'axial';
 /** Piano di sezione: `position` va da 0 a 1 lungo l'asse; `flip` inverte la metà mostrata. */
 export interface Section { axis: SectionAxis; position: number; flip: boolean }
@@ -21,6 +22,9 @@ interface AtlasState {
   isolated: boolean;
   cameraRequest: CameraRequest | null;
   theme: Theme;
+  /** Livello di dettaglio dei modelli: lod2 leggero, lod1 medio, lod0 massimo. */
+  lod: Lod;
+  setLod: (l: Lod) => void;
   /** Frazione inferiore dello schermo coperta dal pannello mobile: il modello viene spostato in alto di conseguenza. */
   section: Section | null;
   /** Vista esplosa: 0 = strutture al loro posto, 1 = massima separazione. */
@@ -36,6 +40,10 @@ interface AtlasState {
   showPathway: (id: string | null, layerIds?: LayerId[]) => void;
   setLabels: (on: boolean) => void;
   setBrodmann: (on: boolean) => void;
+  /** Quiz sul modello: finché `reveal` è falso nomi ed etichette restano nascosti; in `locate` il tocco è una risposta. */
+  quiz: { mode: 'identify' | 'locate'; reveal: boolean } | null;
+  quizTap: { structureId: string; seq: number } | null;
+  setQuiz: (q: AtlasState['quiz']) => void;
   coveredBottom: number;
   setCoveredBottom: (f: number) => void;
   setCatalog: (c: Catalog) => void;
@@ -64,6 +72,20 @@ function initialTheme(): Theme {
   return typeof matchMedia !== 'undefined' && matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
 }
 
+/** Scelta iniziale: quella salvata, `?lod=` nell'URL, altrimenti leggera su telefoni e dispositivi con poca memoria. */
+function initialLod(): Lod {
+  if (typeof window === 'undefined') return 'lod1';
+  const forced = new URLSearchParams(location.search).get('lod');
+  if (forced === 'lod0' || forced === 'lod1' || forced === 'lod2') return forced;
+  try {
+    const saved = localStorage.getItem('neuroatlas-lod');
+    if (saved === 'lod0' || saved === 'lod1' || saved === 'lod2') return saved;
+  } catch { /* ignora */ }
+  const mem = (navigator as Navigator & { deviceMemory?: number }).deviceMemory;
+  const phone = matchMedia('(pointer: coarse)').matches && Math.min(screen.width, screen.height) < 600;
+  return (mem !== undefined && mem <= 4) || phone ? 'lod2' : 'lod1';
+}
+
 let seq = 0;
 
 export const useAtlas = create<AtlasState>((set, get) => ({
@@ -74,6 +96,8 @@ export const useAtlas = create<AtlasState>((set, get) => ({
   isolated: false,
   cameraRequest: null,
   theme: initialTheme(),
+  lod: initialLod(),
+  setLod: (lod) => { try { localStorage.setItem('neuroatlas-lod', lod); } catch { /* ignora */ } set({ lod }); },
   section: null,
   explode: 0,
   pathwayId: null,
@@ -98,13 +122,21 @@ export const useAtlas = create<AtlasState>((set, get) => ({
   },
   setLabels: (labels) => set({ labels }),
   setBrodmann: (brodmann) => set({ brodmann }),
+  quiz: null,
+  quizTap: null,
+  setQuiz: (quiz) => set({ quiz }),
   coveredBottom: 0,
   setCoveredBottom: (coveredBottom) => set({ coveredBottom }),
   setCatalog: (catalog) => set({ catalog }),
-  setScope: (scope) => set({ scope, layers: defaultLayers(scope), selection: null, isolated: false, pathwayId: null, layersBeforePathway: null, section: null, explode: 0, cameraRequest: { kind: 'view', view: scope === 'body' ? 'anterior' : 'lateral-left', seq: ++seq } }),
+  setScope: (scope) => set({ quiz: null, scope, layers: defaultLayers(scope), selection: null, isolated: false, pathwayId: null, layersBeforePathway: null, section: null, explode: 0, cameraRequest: { kind: 'view', view: scope === 'body' ? 'anterior' : 'lateral-left', seq: ++seq } }),
   select: (structureId, meshId = null) => {
     const entry = get().catalog?.byId.get(structureId);
     if (!entry) return;
+    const quiz = get().quiz;
+    if (quiz && !quiz.reveal) {
+      if (quiz.mode === 'locate') set({ quizTap: { structureId, seq: ++seq } });
+      return; // durante una domanda la selezione non deve rivelare il nome
+    }
     // Una struttura dell'encefalo scelta mentre si guarda il corpo porta nell'ambito Encefalo, altrimenti resterebbe nascosta dal cranio.
     const toBrain = get().scope === 'body' && LAYERS.find((l) => l.id === entry.layer)!.group === 'brain';
     const layers = toBrain ? defaultLayers('brain') : get().layers;
@@ -115,7 +147,7 @@ export const useAtlas = create<AtlasState>((set, get) => ({
       layers: layers[entry.layer].visible ? layers : { ...layers, [entry.layer]: { ...layers[entry.layer], visible: true } },
     });
   },
-  clearSelection: () => set({ selection: null, isolated: false }),
+  clearSelection: () => { if (!get().quiz) set({ selection: null, isolated: false }); },
   setLayerVisible: (id, visible) => set((s) => ({ layers: { ...s.layers, [id]: { ...s.layers[id], visible } } })),
   setLayerOpacity: (id, opacity) => set((s) => ({ layers: { ...s.layers, [id]: { ...s.layers[id], opacity } } })),
   setIsolated: (isolated) => set({ isolated }),

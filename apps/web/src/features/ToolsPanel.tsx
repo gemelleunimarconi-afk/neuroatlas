@@ -1,7 +1,9 @@
-import type { ReactNode } from 'react';
+import { useEffect, useState, type ReactNode } from 'react';
+import { LAYERS } from '@/content/catalog';
+import { modelUrl } from '@/viewer/modelUrl';
 import { PATHWAYS } from '@/content/load';
 import { useUser } from '@/db/user';
-import { useAtlas, type SectionAxis } from '@/store/atlas';
+import { useAtlas, type Lod, type SectionAxis } from '@/store/atlas';
 import { openPathway } from '@/tutor/actions';
 import { RichText, btn, btnOn } from './util';
 
@@ -16,6 +18,58 @@ function Block({ title, children }: { title: string; children: ReactNode }) {
   );
 }
 const toggleRow = 'flex min-h-11 cursor-pointer items-center gap-2.5 text-sm text-slate-900 dark:text-slate-100';
+
+const QUALITY: [Lod, string][] = [['lod2', 'Leggera'], ['lod1', 'Media'], ['lod0', 'Alta']];
+
+/** Qualità dei modelli e download per l'uso senza connessione (solo dove il service worker è attivo). */
+function DeviceBlock() {
+  const lod = useAtlas((s) => s.lod);
+  const manifest = useAtlas((s) => s.catalog)!.manifest;
+  const [offline, setOffline] = useState(false);
+  const [state, setState] = useState<{ done: number; total: number; error?: boolean } | null>(null);
+  useEffect(() => {
+    if (!('serviceWorker' in navigator)) return;
+    void navigator.serviceWorker.getRegistration().then((r) => setOffline(!!r));
+  }, []);
+  const mb = Object.values(manifest.layers).reduce((sum, l) => sum + (l.files[lod]?.bytes ?? 0), 0) / 1048576;
+  const download = async () => {
+    setState({ done: 0, total: LAYERS.length });
+    let done = 0, error = false;
+    for (const l of LAYERS) {
+      try { const r = await fetch(modelUrl(l.id, lod)); if (!r.ok) error = true; await r.arrayBuffer(); } catch { error = true; }
+      setState({ done: ++done, total: LAYERS.length, error });
+    }
+  };
+  return (
+    <Block title="Dispositivo">
+      <p className="mb-1 text-xs font-medium text-slate-700 dark:text-slate-300">Qualità dei modelli</p>
+      <div role="group" aria-label="Qualità dei modelli" className="flex gap-1">
+        {QUALITY.map(([id, label]) => (
+          <button key={id} type="button" className={`${btn} flex-1 ${lod === id ? btnOn : ''}`} aria-pressed={lod === id}
+            onClick={() => { useAtlas.getState().setLod(id); setState(null); }}>{label}</button>
+        ))}
+      </div>
+      <p className="mt-1 text-xs text-slate-700 dark:text-slate-300">Se il modello va a scatti scegli Leggera. Tutti i livelli a questa qualità: {mb.toFixed(0)} MB.</p>
+      {offline ? (
+        <div className="mt-3">
+          <button type="button" className={`${btn} w-full`} disabled={!!state && state.done < state.total} onClick={() => void download()}>
+            Scarica tutto per l'uso offline ({mb.toFixed(0)} MB)
+          </button>
+          {state && (
+            <p role="status" className="mt-1 text-xs text-slate-800 dark:text-slate-200">
+              {state.done < state.total ? `Download: ${state.done} di ${state.total} livelli…`
+                : state.error ? 'Alcuni livelli non sono stati scaricati: controlla la connessione e riprova.'
+                : 'Fatto: atlante, schede, quiz e note funzionano anche senza connessione. Il tutor richiede sempre internet.'}
+            </p>
+          )}
+          {!state && <p className="mt-1 text-xs text-slate-700 dark:text-slate-300">I livelli già aperti restano disponibili offline anche senza questo download.</p>}
+        </div>
+      ) : (
+        <p className="mt-2 text-xs text-slate-700 dark:text-slate-300">L'uso senza connessione è disponibile sul sito installabile, non dentro Claude.</p>
+      )}
+    </Block>
+  );
+}
 
 /** Strumenti di studio: piano di sezione, vista esplosa, etichette, aree di Brodmann, vie, segnalibri. */
 export function ToolsPanel() {
@@ -114,6 +168,8 @@ export function ToolsPanel() {
           </div>
         )}
       </Block>
+
+      <DeviceBlock />
 
       <Block title="Segnalibri e note">
         {!persistent && <p className="mb-2 text-xs text-amber-800 dark:text-amber-200">Questo browser non permette il salvataggio: segnalibri e note restano solo finché la pagina è aperta.</p>}

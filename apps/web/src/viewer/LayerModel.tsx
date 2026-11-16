@@ -10,6 +10,7 @@ import { LAYERS } from '@/content/catalog';
 import type { LayerId } from '@/content/schema';
 import { useAtlas } from '@/store/atlas';
 import { explodeOffset, sectionPlane } from './section';
+import { WRAPPED, modelUrl } from './modelUrl';
 
 const HIGHLIGHT = new THREE.Color('#ffb020');
 const noRaycast = () => {};
@@ -29,11 +30,6 @@ function flatBackfaces(shader: { fragmentShader: string }) {
     '#include <opaque_fragment>\n\tif ( ! gl_FrontFacing ) gl_FragColor = vec4( diffuse * 0.78, diffuseColor.a );',
   );
 }
-
-// Dove l'hosting non serve file .glb (anteprima pubblicata) i modelli sono incapsulati in JSON: { "glb": "<base64>" }.
-const WRAPPED = import.meta.env.VITE_MODEL_FORMAT === 'json';
-export const modelUrl = (layer: LayerId, lod: string) =>
-  `${import.meta.env.BASE_URL}models/${layer}.${lod}.${WRAPPED ? 'json' : 'glb'}`;
 
 async function loadWrapped(url: string): Promise<THREE.Group> {
   const res = await fetch(url);
